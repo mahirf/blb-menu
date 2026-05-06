@@ -1,0 +1,3367 @@
+ {
+  "schema_version": "1.0.0",
+  "restaurant_id": "rest-blb-001",
+  "generated_at": "2026-04-30T18:46:36.726Z",
+  "option_groups": [
+    {
+      "id": "og-extras",
+      "name": {
+        "en": "Extras",
+        "ar": "إضافات"
+      },
+      "min_select": 0,
+      "max_select": 5,
+      "selection_type": "multiple",
+      "is_active": true,
+      "options": [
+        {
+          "id": "o-extra-egg",
+          "name": {
+            "en": "Extra Egg",
+            "ar": "بيضة إضافية"
+          },
+          "price_delta": 3,
+          "kcal_delta": 0,
+          "is_default": false,
+          "is_active": true,
+          "sort_order": 30
+        },
+        {
+          "id": "o-extra-rice",
+          "name": {
+            "en": "Extra Rice",
+            "ar": "أرز إضافي"
+          },
+          "price_delta": 5,
+          "kcal_delta": 0,
+          "is_default": false,
+          "is_active": true,
+          "sort_order": 40
+        }
+      ]
+    },
+    {
+      "id": "og-spice-level",
+      "name": {
+        "en": "Spice Level",
+        "ar": "مستوى التوابل"
+      },
+      "min_select": 1,
+      "max_select": 1,
+      "selection_type": "single",
+      "is_active": true,
+      "options": [
+        {
+          "id": "o-spicy",
+          "name": {
+            "en": "Spicy",
+            "ar": "حار"
+          },
+          "price_delta": 0,
+          "kcal_delta": 2,
+          "is_default": true,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "o-non-spicy",
+          "name": {
+            "en": "Non Spicy",
+            "ar": "غير حار"
+          },
+          "price_delta": 0,
+          "kcal_delta": 0,
+          "is_default": false,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-soups",
+      "name": {
+        "en": "Soups",
+        "ar": "الشوربات"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "id": "cat-biryani",
+      "name": {
+        "en": "Biryani",
+        "ar": "دام برياني"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "id": "cat-tea-and-snacks",
+      "name": {
+        "en": "Tea And Snacks",
+        "ar": "شاي و وجبات خفيفة"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "id": "cat-beverages",
+      "name": {
+        "en": "Beverages",
+        "ar": "المشروبات"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 40,
+      "is_active": true
+    },
+    {
+      "id": "cat-sweets",
+      "name": {
+        "en": "Sweets",
+        "ar": "الحـلــويــات"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 50,
+      "is_active": true
+    },
+    {
+      "id": "cat-broasted",
+      "name": {
+        "en": "Broasted",
+        "ar": "بروستد"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 60,
+      "is_active": true
+    },
+    {
+      "id": "cat-fresh-fruit-juices",
+      "name": {
+        "en": "Fresh Fruit Juices",
+        "ar": "عصائر الفاكهة الطازجة"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 70,
+      "is_active": true
+    },
+    {
+      "id": "cat-roti-parota-chapati",
+      "name": {
+        "en": "Roti Parota Chapati",
+        "ar": "روتي، باروتا، تشاباتي"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 80,
+      "is_active": true
+    },
+    {
+      "id": "cat-arabic-dishes",
+      "name": {
+        "en": "Arabic Dishes",
+        "ar": "أطباق عربية"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 90,
+      "is_active": true
+    },
+    {
+      "id": "cat-set-meals-lunch-dinner",
+      "name": {
+        "en": "Set Meals Lunch Dinner",
+        "ar": "وجبات محددة (غداء - عشاء)"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 100,
+      "is_active": true
+    },
+    {
+      "id": "cat-south-indian",
+      "name": {
+        "en": "South Indian",
+        "ar": "جنوب الهند"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 110,
+      "is_active": true
+    },
+    {
+      "id": "cat-north-indian",
+      "name": {
+        "en": "North Indian",
+        "ar": "شمال الهند"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 120,
+      "is_active": true
+    },
+    {
+      "id": "cat-mutton-dishes",
+      "name": {
+        "en": "Mutton Dishes",
+        "ar": "أطباق لحم الضأن"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 130,
+      "is_active": true
+    },
+    {
+      "id": "cat-egg-dishes",
+      "name": {
+        "en": "Egg Dishes",
+        "ar": "أطباق البيض"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 140,
+      "is_active": true
+    },
+    {
+      "id": "cat-chicken-dishes",
+      "name": {
+        "en": "Chicken Dishes",
+        "ar": "أطباق الدجاج"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 150,
+      "is_active": true
+    },
+    {
+      "id": "cat-beef-dishes",
+      "name": {
+        "en": "Beef Dishes",
+        "ar": "أطباق لحم البقر"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 160,
+      "is_active": true
+    },
+    {
+      "id": "cat-seafood-dishes",
+      "name": {
+        "en": "Seafood Dishes",
+        "ar": "أطباق المأكولات البحرية"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 170,
+      "is_active": true
+    },
+    {
+      "id": "cat-sri-lankan",
+      "name": {
+        "en": "Sri Lankan",
+        "ar": "السريلانكية"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 180,
+      "is_active": true
+    },
+    {
+      "id": "cat-kottu",
+      "name": {
+        "en": "Kottu",
+        "ar": "كوتو"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 190,
+      "is_active": true
+    },
+    {
+      "id": "cat-our-recommendations",
+      "name": {
+        "en": "Our Recommendations",
+        "ar": "توصياتنا"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 200,
+      "is_active": true
+    },
+    {
+      "id": "cat-fried-rice-noodles",
+      "name": {
+        "en": "Fried Rice Noodles",
+        "ar": "أرز مقلي-نودلز"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 210,
+      "is_active": true
+    },
+    {
+      "id": "cat-new-items",
+      "name": {
+        "en": "New Items",
+        "ar": "عناصر جديدة"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 220,
+      "is_active": true
+    },
+    {
+      "id": "cat-ramadan-specials",
+      "name": {
+        "en": "Ramadan Specials",
+        "ar": "رمضانيات"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 230,
+      "is_active": true
+    },
+    {
+      "id": "cat-m41",
+      "name": {
+        "en": "M41",
+        "ar": "وجبة شخص واحد"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 240,
+      "is_active": true
+    },
+    {
+      "id": "cat-specials",
+      "name": {
+        "en": "Specials",
+        "ar": ""
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 250,
+      "is_active": true
+    },
+    {
+      "id": "cat-combo",
+      "name": {
+        "en": "Combo",
+        "ar": ""
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 260,
+      "is_active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-chicken-dum-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Chicken Dum Biryani",
+        "ar": "برياني الدجاج"
+      },
+      "description": {
+        "en": "Long-grain basmati rice is slow-cooked to perfection with tender marinated meat choice of meat layered with fragrant spices caramelized onions and fresh herbs sealed and cooked in the traditional dum style served with salad raita and a side of spicy salan for the ultimate biryani experience",
+        "ar": "يُطهى أرز بسمتي طويل الحبة على نار هادئة حتى ينضج تمامًا، مع لحم طري متبل، أو لحم من اختيارك، مُغطى بطبقات من التوابل العطرية والبصل المكرمل والأعشاب الطازجة، ويُطهى على طريقة الدَم التقليدية. يُقدم مع سلطة الرايتا وطبق جانبي من صلصة السالان الحارة لتجربة برياني لا تُنسى."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani",
+      "is_active": true,
+      "sort_order": 10,
+      "variations": [
+        {
+          "id": "v-chicken-dum-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 13,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-chicken-dum-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 22,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "image-1",
+          "url": "/assets/images/img-chicken-dum-biryani",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": [
+        {
+          "id": "og-spice-level",
+          "name": {
+            "en": "Spice Level",
+            "ar": "مستوى التوابل"
+          },
+          "min_select": 1,
+          "max_select": 1,
+          "selection_type": "single",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-spicy",
+              "name": {
+                "en": "Spicy",
+                "ar": "حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 2,
+              "is_default": true,
+              "is_active": true,
+              "sort_order": 10
+            },
+            {
+              "id": "o-non-spicy",
+              "name": {
+                "en": "Non Spicy",
+                "ar": "غير حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 20
+            }
+          ],
+          "is_required": true,
+          "sort_order": 10
+        },
+        {
+          "id": "og-extras",
+          "name": {
+            "en": "Extras",
+            "ar": "إضافات"
+          },
+          "min_select": 0,
+          "max_select": 5,
+          "selection_type": "multiple",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-extra-egg",
+              "name": {
+                "en": "Extra Egg",
+                "ar": "بيضة إضافية"
+              },
+              "price_delta": 3,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 30
+            },
+            {
+              "id": "o-extra-rice",
+              "name": {
+                "en": "Extra Rice",
+                "ar": "أرز إضافي"
+              },
+              "price_delta": 5,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 40
+            }
+          ],
+          "is_required": false,
+          "sort_order": 20
+        }
+      ]
+    },
+    {
+      "id": "prod-beef-dum-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Beef Dum Biryani",
+        "ar": "برياني لحم بقري"
+      },
+      "description": {
+        "en": "Long-grain basmati rice is slow-cooked to perfection with tender marinated meat choice of meat layered with fragrant spices caramelized onions and fresh herbs sealed and cooked in the traditional dum style served with salad raita and a side of spicy salan for the ultimate biryani experience",
+        "ar": "يُطهى أرز بسمتي طويل الحبة على نار هادئة حتى ينضج تمامًا، مع لحم طري متبل، أو لحم من اختيارك، مُغطى بطبقات من التوابل العطرية والبصل المكرمل والأعشاب الطازجة، ويُطهى على طريقة الدَم التقليدية. يُقدم مع سلطة الرايتا وطبق جانبي من صلصة السالان الحارة لتجربة برياني لا تُنسى."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani",
+      "is_active": true,
+      "sort_order": 20,
+      "variations": [
+        {
+          "id": "v-beef-dum-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-beef-dum-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 24,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "image-2",
+          "url": "/assets/images/img-beef-dum-biryani",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 20,
+          "is_primary": true
+        }
+      ],
+      "option_groups": [
+        {
+          "id": "og-spice-level",
+          "name": {
+            "en": "Spice Level",
+            "ar": "مستوى التوابل"
+          },
+          "min_select": 1,
+          "max_select": 1,
+          "selection_type": "single",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-spicy",
+              "name": {
+                "en": "Spicy",
+                "ar": "حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 2,
+              "is_default": true,
+              "is_active": true,
+              "sort_order": 10
+            },
+            {
+              "id": "o-non-spicy",
+              "name": {
+                "en": "Non Spicy",
+                "ar": "غير حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 20
+            }
+          ],
+          "is_required": true,
+          "sort_order": 30
+        },
+        {
+          "id": "og-extras",
+          "name": {
+            "en": "Extras",
+            "ar": "إضافات"
+          },
+          "min_select": 0,
+          "max_select": 5,
+          "selection_type": "multiple",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-extra-egg",
+              "name": {
+                "en": "Extra Egg",
+                "ar": "بيضة إضافية"
+              },
+              "price_delta": 3,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 30
+            },
+            {
+              "id": "o-extra-rice",
+              "name": {
+                "en": "Extra Rice",
+                "ar": "أرز إضافي"
+              },
+              "price_delta": 5,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 40
+            }
+          ],
+          "is_required": false,
+          "sort_order": 40
+        }
+      ]
+    },
+    {
+      "id": "prod-fish-dum-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Fish Dum Biryani",
+        "ar": "برياني السمك"
+      },
+      "description": {
+        "en": "Long-grain basmati rice is slow-cooked to perfection with tender marinated meat choice of meat layered with fragrant spices caramelized onions and fresh herbs sealed and cooked in the traditional dum style served with salad raita and a side of spicy salan for the ultimate biryani experience",
+        "ar": "يُطهى أرز بسمتي طويل الحبة على نار هادئة حتى ينضج تمامًا، مع لحم طري متبل، أو لحم من اختيارك، مُغطى بطبقات من التوابل العطرية والبصل المكرمل والأعشاب الطازجة، ويُطهى على طريقة الدَم التقليدية. يُقدم مع سلطة الرايتا وطبق جانبي من صلصة السالان الحارة لتجربة برياني لا تُنسى."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani",
+      "is_active": true,
+      "sort_order": 30,
+      "variations": [
+        {
+          "id": "v-fish-dum-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-fish-dum-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 24,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "image-3",
+          "url": "/assets/images/img-fish-dum-biryani",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 30,
+          "is_primary": true
+        }
+      ],
+      "option_groups": [
+        {
+          "id": "og-spice-level",
+          "name": {
+            "en": "Spice Level",
+            "ar": "مستوى التوابل"
+          },
+          "min_select": 1,
+          "max_select": 1,
+          "selection_type": "single",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-spicy",
+              "name": {
+                "en": "Spicy",
+                "ar": "حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 2,
+              "is_default": true,
+              "is_active": true,
+              "sort_order": 10
+            },
+            {
+              "id": "o-non-spicy",
+              "name": {
+                "en": "Non Spicy",
+                "ar": "غير حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 20
+            }
+          ],
+          "is_required": true,
+          "sort_order": 50
+        },
+        {
+          "id": "og-extras",
+          "name": {
+            "en": "Extras",
+            "ar": "إضافات"
+          },
+          "min_select": 0,
+          "max_select": 5,
+          "selection_type": "multiple",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-extra-egg",
+              "name": {
+                "en": "Extra Egg",
+                "ar": "بيضة إضافية"
+              },
+              "price_delta": 3,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 30
+            },
+            {
+              "id": "o-extra-rice",
+              "name": {
+                "en": "Extra Rice",
+                "ar": "أرز إضافي"
+              },
+              "price_delta": 5,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 40
+            }
+          ],
+          "is_required": false,
+          "sort_order": 60
+        }
+      ]
+    },
+    {
+      "id": "prod-mutton-dum-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Mutton Dum Biryani",
+        "ar": "برياني لحم الضأن"
+      },
+      "description": {
+        "en": "Long-grain basmati rice is slow-cooked to perfection with tender marinated meat choice of meat layered with fragrant spices caramelized onions and fresh herbs sealed and cooked in the traditional dum style served with salad raita and a side of spicy salan for the ultimate biryani experience",
+        "ar": "يُطهى أرز بسمتي طويل الحبة على نار هادئة حتى ينضج تمامًا، مع لحم طري متبل، أو لحم من اختيارك، مُغطى بطبقات من التوابل العطرية والبصل المكرمل والأعشاب الطازجة، ويُطهى على طريقة الدَم التقليدية. يُقدم مع سلطة الرايتا وطبق جانبي من صلصة السالان الحارة لتجربة برياني لا تُنسى."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani",
+      "is_active": true,
+      "sort_order": 40,
+      "variations": [
+        {
+          "id": "v-mutton-dum-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 17,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-mutton-dum-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 26,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "image-4",
+          "url": "/assets/images/img-mutton-dum-biryani",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 40,
+          "is_primary": true
+        }
+      ],
+      "option_groups": [
+        {
+          "id": "og-spice-level",
+          "name": {
+            "en": "Spice Level",
+            "ar": "مستوى التوابل"
+          },
+          "min_select": 1,
+          "max_select": 1,
+          "selection_type": "single",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-spicy",
+              "name": {
+                "en": "Spicy",
+                "ar": "حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 2,
+              "is_default": true,
+              "is_active": true,
+              "sort_order": 10
+            },
+            {
+              "id": "o-non-spicy",
+              "name": {
+                "en": "Non Spicy",
+                "ar": "غير حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 20
+            }
+          ],
+          "is_required": true,
+          "sort_order": 70
+        },
+        {
+          "id": "og-extras",
+          "name": {
+            "en": "Extras",
+            "ar": "إضافات"
+          },
+          "min_select": 0,
+          "max_select": 5,
+          "selection_type": "multiple",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-extra-egg",
+              "name": {
+                "en": "Extra Egg",
+                "ar": "بيضة إضافية"
+              },
+              "price_delta": 3,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 30
+            },
+            {
+              "id": "o-extra-rice",
+              "name": {
+                "en": "Extra Rice",
+                "ar": "أرز إضافي"
+              },
+              "price_delta": 5,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 40
+            }
+          ],
+          "is_required": false,
+          "sort_order": 80
+        }
+      ]
+    },
+    {
+      "id": "prod-shrimp-dum-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Shrimp Dum Biryani",
+        "ar": "برياني الروبيان"
+      },
+      "description": {
+        "en": "Long-grain basmati rice is slow-cooked to perfection with tender marinated meat choice of meat layered with fragrant spices caramelized onions and fresh herbs sealed and cooked in the traditional dum style served with salad raita and a side of spicy salan for the ultimate biryani experience",
+        "ar": "يُطهى أرز بسمتي طويل الحبة على نار هادئة حتى ينضج تمامًا، مع لحم طري متبل، أو لحم من اختيارك، مُغطى بطبقات من التوابل العطرية والبصل المكرمل والأعشاب الطازجة، ويُطهى على طريقة الدَم التقليدية. يُقدم مع سلطة الرايتا وطبق جانبي من صلصة السالان الحارة لتجربة برياني لا تُنسى."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani",
+      "is_active": true,
+      "sort_order": 50,
+      "variations": [
+        {
+          "id": "v-shrimp-dum-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 19,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-shrimp-dum-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 28,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "image-5",
+          "url": "/assets/images/img-shrimp-dum-biryani",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 50,
+          "is_primary": true
+        }
+      ],
+      "option_groups": [
+        {
+          "id": "og-spice-level",
+          "name": {
+            "en": "Spice Level",
+            "ar": "مستوى التوابل"
+          },
+          "min_select": 1,
+          "max_select": 1,
+          "selection_type": "single",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-spicy",
+              "name": {
+                "en": "Spicy",
+                "ar": "حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 2,
+              "is_default": true,
+              "is_active": true,
+              "sort_order": 10
+            },
+            {
+              "id": "o-non-spicy",
+              "name": {
+                "en": "Non Spicy",
+                "ar": "غير حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 20
+            }
+          ],
+          "is_required": true,
+          "sort_order": 90
+        },
+        {
+          "id": "og-extras",
+          "name": {
+            "en": "Extras",
+            "ar": "إضافات"
+          },
+          "min_select": 0,
+          "max_select": 5,
+          "selection_type": "multiple",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-extra-egg",
+              "name": {
+                "en": "Extra Egg",
+                "ar": "بيضة إضافية"
+              },
+              "price_delta": 3,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 30
+            },
+            {
+              "id": "o-extra-rice",
+              "name": {
+                "en": "Extra Rice",
+                "ar": "أرز إضافي"
+              },
+              "price_delta": 5,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 40
+            }
+          ],
+          "is_required": false,
+          "sort_order": 100
+        }
+      ]
+    },
+    {
+      "id": "prod-tamil-nadu-chicken-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Tamil Nadu Chicken Biryani",
+        "ar": "برياني الدجاج من تاميل نادو"
+      },
+      "description": {
+        "en": "This regional favorite from the state of Tamil Nadu. This biryani is served with kathrikkai thokku, onion raita, dessert, an egg & a pappadam.",
+        "ar": "هذا الطبق الإقليمي المفضل من ولاية تاميل نادو. يُقدم هذا البرياني مع كاتريكاي ثوكو، ورايتا البصل، وحلوى، وبيضة، وبابادام."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani",
+      "is_active": true,
+      "sort_order": 60,
+      "variations": [
+        {
+          "id": "v-tamil-nadu-chicken-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-tamil-nadu-chicken-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 24,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-tamil-nadu-chicken-biryani",
+          "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": [
+        {
+          "id": "og-spice-level",
+          "name": {
+            "en": "Spice Level",
+            "ar": "مستوى التوابل"
+          },
+          "min_select": 1,
+          "max_select": 1,
+          "selection_type": "single",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-spicy",
+              "name": {
+                "en": "Spicy",
+                "ar": "حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 2,
+              "is_default": true,
+              "is_active": true,
+              "sort_order": 10
+            },
+            {
+              "id": "o-non-spicy",
+              "name": {
+                "en": "Non Spicy",
+                "ar": "غير حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 20
+            }
+          ],
+          "is_required": true,
+          "sort_order": 10
+        },
+        {
+          "id": "og-extras",
+          "name": {
+            "en": "Extras",
+            "ar": "إضافات"
+          },
+          "min_select": 0,
+          "max_select": 5,
+          "selection_type": "multiple",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-extra-egg",
+              "name": {
+                "en": "Extra Egg",
+                "ar": "بيضة إضافية"
+              },
+              "price_delta": 3,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 30
+            },
+            {
+              "id": "o-extra-rice",
+              "name": {
+                "en": "Extra Rice",
+                "ar": "أرز إضافي"
+              },
+              "price_delta": 5,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 40
+            }
+          ],
+          "is_required": false,
+          "sort_order": 20
+        }
+      ]
+    },
+    {
+      "id": "prod-tamil-nadu-beef-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Tamil Nadu Beef Biryani",
+        "ar": "برياني لحم بقري من تاميل نادو"
+      },
+      "description": {
+        "en": "This regional favorite from the state of Tamil Nadu. This biryani is served with kathrikkai thokku, onion raita, dessert, an egg & a pappadam.",
+        "ar": "هذا الطبق الإقليمي المفضل من ولاية تاميل نادو. يُقدم هذا البرياني مع كاتريكاي ثوكو، ورايتا البصل، وحلوى، وبيضة، وبابادام."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani",
+      "is_active": true,
+      "sort_order": 70,
+      "variations": [
+        {
+          "id": "v-tamil-nadu-beef-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 17,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-tamil-nadu-beef-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 26,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-tamil-nadu-beef-biryani",
+          "url": "/assets/images/img-tamil-nadu-beef-biryani.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": [
+        {
+          "id": "og-spice-level",
+          "name": {
+            "en": "Spice Level",
+            "ar": "مستوى التوابل"
+          },
+          "min_select": 1,
+          "max_select": 1,
+          "selection_type": "single",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-spicy",
+              "name": {
+                "en": "Spicy",
+                "ar": "حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 2,
+              "is_default": true,
+              "is_active": true,
+              "sort_order": 10
+            },
+            {
+              "id": "o-non-spicy",
+              "name": {
+                "en": "Non Spicy",
+                "ar": "غير حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 20
+            }
+          ],
+          "is_required": true,
+          "sort_order": 30
+        },
+        {
+          "id": "og-extras",
+          "name": {
+            "en": "Extras",
+            "ar": "إضافات"
+          },
+          "min_select": 0,
+          "max_select": 5,
+          "selection_type": "multiple",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-extra-egg",
+              "name": {
+                "en": "Extra Egg",
+                "ar": "بيضة إضافية"
+              },
+              "price_delta": 3,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 30
+            },
+            {
+              "id": "o-extra-rice",
+              "name": {
+                "en": "Extra Rice",
+                "ar": "أرز إضافي"
+              },
+              "price_delta": 5,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 40
+            }
+          ],
+          "is_required": false,
+          "sort_order": 40
+        }
+      ]
+    },
+    {
+      "id": "prod-tamil-nadu-fish-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Tamil Nadu Fish Biryani",
+        "ar": "برياني السمك من تاميل نادو"
+      },
+      "description": {
+        "en": "This regional favorite from the state of Tamil Nadu. This biryani is served with kathrikkai thokku, onion raita, dessert, an egg & a pappadam.",
+        "ar": "هذا الطبق الإقليمي المفضل من ولاية تاميل نادو. يُقدم هذا البرياني مع كاتريكاي ثوكو، ورايتا البصل، وحلوى، وبيضة، وبابادام."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani",
+      "is_active": true,
+      "sort_order": 80,
+      "variations": [
+        {
+          "id": "v-tamil-nadu-fish-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 17,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-tamil-nadu-fish-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 26,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-tamil-nadu-fish-biryani",
+          "url": "/assets/images/img-tamil-nadu-fish-biryani.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": [
+        {
+          "id": "og-spice-level",
+          "name": {
+            "en": "Spice Level",
+            "ar": "مستوى التوابل"
+          },
+          "min_select": 1,
+          "max_select": 1,
+          "selection_type": "single",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-spicy",
+              "name": {
+                "en": "Spicy",
+                "ar": "حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 2,
+              "is_default": true,
+              "is_active": true,
+              "sort_order": 10
+            },
+            {
+              "id": "o-non-spicy",
+              "name": {
+                "en": "Non Spicy",
+                "ar": "غير حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 20
+            }
+          ],
+          "is_required": true,
+          "sort_order": 50
+        },
+        {
+          "id": "og-extras",
+          "name": {
+            "en": "Extras",
+            "ar": "إضافات"
+          },
+          "min_select": 0,
+          "max_select": 5,
+          "selection_type": "multiple",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-extra-egg",
+              "name": {
+                "en": "Extra Egg",
+                "ar": "بيضة إضافية"
+              },
+              "price_delta": 3,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 30
+            },
+            {
+              "id": "o-extra-rice",
+              "name": {
+                "en": "Extra Rice",
+                "ar": "أرز إضافي"
+              },
+              "price_delta": 5,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 40
+            }
+          ],
+          "is_required": false,
+          "sort_order": 60
+        }
+      ]
+    },
+    {
+      "id": "prod-tamil-nadu-mutton-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Tamil Nadu Mutton Biryani",
+        "ar": "برياني لحم الضأن من تاميل نادو"
+      },
+      "description": {
+        "en": "This regional favorite from the state of Tamil Nadu. This biryani is served with kathrikkai thokku, onion raita, dessert, an egg & a pappadam.",
+        "ar": "هذا الطبق الإقليمي المفضل من ولاية تاميل نادو. يُقدم هذا البرياني مع كاتريكاي ثوكو، ورايتا البصل، وحلوى، وبيضة، وبابادام."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani",
+      "is_active": true,
+      "sort_order": 90,
+      "variations": [
+        {
+          "id": "v-tamil-nadu-mutton-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 19,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-tamil-nadu-mutton-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 28,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-tamil-nadu-mutton-biryani",
+          "url": "/assets/images/img-tamil-nadu-mutton-biryani.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": [
+        {
+          "id": "og-spice-level",
+          "name": {
+            "en": "Spice Level",
+            "ar": "مستوى التوابل"
+          },
+          "min_select": 1,
+          "max_select": 1,
+          "selection_type": "single",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-spicy",
+              "name": {
+                "en": "Spicy",
+                "ar": "حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 2,
+              "is_default": true,
+              "is_active": true,
+              "sort_order": 10
+            },
+            {
+              "id": "o-non-spicy",
+              "name": {
+                "en": "Non Spicy",
+                "ar": "غير حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 20
+            }
+          ],
+          "is_required": true,
+          "sort_order": 70
+        },
+        {
+          "id": "og-extras",
+          "name": {
+            "en": "Extras",
+            "ar": "إضافات"
+          },
+          "min_select": 0,
+          "max_select": 5,
+          "selection_type": "multiple",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-extra-egg",
+              "name": {
+                "en": "Extra Egg",
+                "ar": "بيضة إضافية"
+              },
+              "price_delta": 3,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 30
+            },
+            {
+              "id": "o-extra-rice",
+              "name": {
+                "en": "Extra Rice",
+                "ar": "أرز إضافي"
+              },
+              "price_delta": 5,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 40
+            }
+          ],
+          "is_required": false,
+          "sort_order": 80
+        }
+      ]
+    },
+    {
+      "id": "prod-tamil-nadu-shrimp-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Tamil Nadu Shrimp Biryani",
+        "ar": "برياني الروبيان من تاميل نادو"
+      },
+      "description": {
+        "en": "This regional favorite from the state of Tamil Nadu. This biryani is served with kathrikkai thokku, onion raita, dessert, an egg & a pappadam.",
+        "ar": "هذا الطبق الإقليمي المفضل من ولاية تاميل نادو. يُقدم هذا البرياني مع كاتريكاي ثوكو، ورايتا البصل، وحلوى، وبيضة، وبابادام."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani",
+      "is_active": true,
+      "sort_order": 100,
+      "variations": [
+        {
+          "id": "v-tamil-nadu-shrimp-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 21,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-tamil-nadu-shrimp-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 30,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-tamil-nadu-shrimp-biryani",
+          "url": "/assets/images/img-tamil-nadu-shrimp-biryani.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": [
+        {
+          "id": "og-spice-level",
+          "name": {
+            "en": "Spice Level",
+            "ar": "مستوى التوابل"
+          },
+          "min_select": 1,
+          "max_select": 1,
+          "selection_type": "single",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-spicy",
+              "name": {
+                "en": "Spicy",
+                "ar": "حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 2,
+              "is_default": true,
+              "is_active": true,
+              "sort_order": 10
+            },
+            {
+              "id": "o-non-spicy",
+              "name": {
+                "en": "Non Spicy",
+                "ar": "غير حار"
+              },
+              "price_delta": 0,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 20
+            }
+          ],
+          "is_required": true,
+          "sort_order": 90
+        },
+        {
+          "id": "og-extras",
+          "name": {
+            "en": "Extras",
+            "ar": "إضافات"
+          },
+          "min_select": 0,
+          "max_select": 5,
+          "selection_type": "multiple",
+          "is_active": true,
+          "options": [
+            {
+              "id": "o-extra-egg",
+              "name": {
+                "en": "Extra Egg",
+                "ar": "بيضة إضافية"
+              },
+              "price_delta": 3,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 30
+            },
+            {
+              "id": "o-extra-rice",
+              "name": {
+                "en": "Extra Rice",
+                "ar": "أرز إضافي"
+              },
+              "price_delta": 5,
+              "kcal_delta": 0,
+              "is_default": false,
+              "is_active": true,
+              "sort_order": 40
+            }
+          ],
+          "is_required": false,
+          "sort_order": 100
+        }
+      ]
+    },
+    {
+      "id": "prod-kankung-beef-with-fried-rice",
+      "category_id": "cat-fried-rice-noodles",
+      "name": {
+        "en": "Kankung Beef with Fried Rice",
+        "ar": "لحم كانكونج مع أرز مقلي"
+      },
+      "description": {
+        "en": "A wholesome meal featuring fried rice served with our signature Kankung Beef—tender beef (cooked medium well) stir-fried with fresh kankung (water spinach), garlic, soy sauce, and a touch of chili for that perfect balance of flavor. A satisfying Chinese style combo for a hearty lunch.",
+        "ar": "وجبة متكاملة تضم أرزًا مقليًا مع طبق لحم الكانكونغ المميز لدينا - لحم بقري طري (مطبوخ جيدًا) مقلي مع الكانكونغ الطازج (سبانخ الماء)، والثوم، وصلصة الصويا، ولمسة من الفلفل الحار لتحقيق توازن مثالي في النكهة. مزيج صيني شهي لوجبة غداء دسمة."
+      },
+      "has_variants": false,
+      "base_price": 29,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 110,
+      "variations": [],
+      "images": [
+        {
+          "id": "img-prod-kankung-beef-with-fried-rice",
+          "url": "/assets/images/img-kankung-beef-with-fried-rice.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kankung-beef-with-white-rice",
+      "category_id": "cat-fried-rice-noodles",
+      "name": {
+        "en": "Kankung Beef with White Rice",
+        "ar": "لحم كانكونج مع أرز أبيض"
+      },
+      "description": {
+        "en": "A wholesome meal featuring freshly steamed plain rice served with our signature Kankung Beef—tender beef (cooked medium well) stir-fried with fresh kankung (water spinach), garlic, soy sauce, and a touch of chili for that perfect balance of flavor. A satisfying Chinese style combo for a hearty lunch.",
+        "ar": "وجبة متكاملة تتكون من أرز أبيض مطهو على البخار يُقدم مع طبق لحم كانكونغ المميز لدينا - لحم بقري طري (مطهو جيداً) مقلي مع كانكونغ طازج (سبانخ الماء)، ثوم، صلصة الصويا، ولمسة من الفلفل الحار لتحقيق توازن مثالي في النكهة. مزيج صيني شهي يُرضي جميع الأذواق، مثالي لغداء دسم."
+      },
+      "has_variants": false,
+      "base_price": 27,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 120,
+      "variations": [],
+      "images": [
+        {
+          "id": "img-prod-kankung-beef-with-white-rice",
+          "url": "/assets/images/img-kankung-beef-with-white-rice.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kottu-roti-egg",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Kottu Roti Egg",
+        "ar": "كوتو روتي بالبيض"
+      },
+      "description": {
+        "en": "Shredded flatbread stir-fried with eggs, fresh vegetables, and aromatic Sri Lankan spices.",
+        "ar": "خبز مسطح مقطع مقلي مع البيض والخضروات الطازجة والتوابل السريلانكية العطرية."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 130,
+      "variations": [
+        {
+          "id": "v-kottu-roti-egg-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 14,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-kottu-roti-egg-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 23,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-kottu-roti-egg",
+          "url": "/assets/images/img-kottu-roti-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kottu-roti-veg-mushroom",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Kottu Roti Veg & Mushroom",
+        "ar": "كوتو روتي بالخضار والمشروم"
+      },
+      "description": {
+        "en": "A vegetarian delight of shredded flatbread mixed with mushrooms and garden vegetables.",
+        "ar": "مزيج نباتي من الخبز المقطع مع المشروم وخضروات الطازجة."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 140,
+      "variations": [
+        {
+          "id": "v-kottu-roti-veg-mushroom-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 16,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-kottu-roti-veg-mushroom-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-kottu-roti-veg-mushroom",
+          "url": "/assets/images/img-kottu-roti-veg-mushroom.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kottu-roti-chicken",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Kottu Roti Chicken",
+        "ar": "كوتو روتي بالدجاج"
+      },
+      "description": {
+        "en": "Popular Sri Lankan street food featuring shredded roti stir-fried with tender chicken and eggs.",
+        "ar": "أكلة شعبية سريلانكية تتكون من روتي مقطع مقلي مع قطع الدجاج الطرية والبيض."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 150,
+      "variations": [
+        {
+          "id": "v-kottu-roti-chicken-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 18,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-kottu-roti-chicken-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-kottu-roti-chicken",
+          "url": "/assets/images/img-kottu-roti-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kottu-roti-beef",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Kottu Roti Beef",
+        "ar": "كوتو روتي باللحم البقري"
+      },
+      "description": {
+        "en": "Savory shredded flatbread stir-fried with seasoned beef chunks, eggs, and vegetables.",
+        "ar": "خبز مسطح مقطع مقلي مع قطع لحم بقري متبلة والبيض والخضروات."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 160,
+      "variations": [
+        {
+          "id": "v-kottu-roti-beef-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 20,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-kottu-roti-beef-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-kottu-roti-beef",
+          "url": "/assets/images/img-kottu-roti-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kottu-roti-chicken-beef",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Kottu Roti Chicken & Beef",
+        "ar": "كوتو روتي بالدجاج واللحم"
+      },
+      "description": {
+        "en": "A powerful combination of chicken and beef stir-fried with shredded roti and spices.",
+        "ar": "مزيج قوي من الدجاج واللحم البقري المقلي مع الروتي المقطع والتوابل."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 170,
+      "variations": [
+        {
+          "id": "v-kottu-roti-chicken-beef-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-kottu-roti-chicken-beef-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 35,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-kottu-roti-chicken-beef",
+          "url": "/assets/images/img-kottu-roti-chicken-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mixed-kottu-chick-beef-shrimp",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Mixed Kottu (Chick, Beef, Shrimp)",
+        "ar": "كوتو مشكل (دجاج، لحم، روبيان)"
+      },
+      "description": {
+        "en": "The ultimate kottu mix featuring chicken, beef, and shrimp for a complete flavor experience.",
+        "ar": "مزيج الكوتو المثالي الذي يحتوي على الدجاج واللحم البقري والروبيان لتجربة نكهة كاملة."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 180,
+      "variations": [
+        {
+          "id": "v-mixed-kottu-chick-beef-shrimp-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 32,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-mixed-kottu-chick-beef-shrimp-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 45,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-mixed-kottu-chick-beef-shrimp",
+          "url": "/assets/images/img-mixed-kottu-chick-beef-shrimp.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kottu-idiappam-egg",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Kottu Idiappam Egg",
+        "ar": "كوتو إديايام بالبيض"
+      },
+      "description": {
+        "en": "Finely shredded string hoppers (Idiappam) stir-fried with eggs, vegetables, and aromatic spices.",
+        "ar": "إديايام (نودلز الأرز السريلانكية) مقطعة ومقلية مع البيض والخضروات والتوابل العطرية."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 190,
+      "variations": [
+        {
+          "id": "v-kottu-idiappam-egg-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 16,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-kottu-idiappam-egg-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-kottu-idiappam-egg",
+          "url": "/assets/images/img-kottu-idiappam-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kottu-idiappam-veg-mushroom",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Kottu Idiappam Veg & Mushroom",
+        "ar": "كوتو إديايام بالخضار والمشروم"
+      },
+      "description": {
+        "en": "Delicate string hoppers stir-fried with fresh garden vegetables and mushrooms.",
+        "ar": "إديايام طرية مقلية مع خضروات الطازجة والمشروم."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 200,
+      "variations": [
+        {
+          "id": "v-kottu-idiappam-veg-mushroom-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 18,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-kottu-idiappam-veg-mushroom-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-kottu-idiappam-veg-mushroom",
+          "url": "/assets/images/img-kottu-idiappam-veg-mushroom.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kottu-idiappam-chicken",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Kottu Idiappam Chicken",
+        "ar": "كوتو إديايام بالدجاج"
+      },
+      "description": {
+        "en": "Shredded string hoppers tossed with tender seasoned chicken pieces and eggs.",
+        "ar": "إديايام مقطعة مقلية مع قطع دجاج متبلة طرية وبيض."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 210,
+      "variations": [
+        {
+          "id": "v-kottu-idiappam-chicken-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 19,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-kottu-idiappam-chicken-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-kottu-idiappam-chicken",
+          "url": "/assets/images/img-kottu-idiappam-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kottu-idiappam-beef",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Kottu Idiappam Beef",
+        "ar": "كوتو إديايام باللحم البقري"
+      },
+      "description": {
+        "en": "Savory stir-fried string hoppers with flavorful beef chunks and spices.",
+        "ar": "إديايام شهية مقلية مع قطع لحم بقري غنية بالنكهة والتوابل."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 220,
+      "variations": [
+        {
+          "id": "v-kottu-idiappam-beef-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 20,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-kottu-idiappam-beef-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 31,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-kottu-idiappam-beef",
+          "url": "/assets/images/img-kottu-idiappam-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kottu-idiappam-chicken-beef",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Kottu Idiappam Chicken & Beef",
+        "ar": "كوتو إديايام بالدجاج واللحم"
+      },
+      "description": {
+        "en": "A premium mix of chicken and beef stir-fried with traditional Sri Lankan string hoppers.",
+        "ar": "مزيج فاخر من الدجاج واللحم البقري المقلي مع الإديايام السريلانكية التقليدية."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 230,
+      "variations": [
+        {
+          "id": "v-kottu-idiappam-chicken-beef-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-kottu-idiappam-chicken-beef-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 37,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-kottu-idiappam-chicken-beef",
+          "url": "/assets/images/img-kottu-idiappam-chicken-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mixed-kottu-idiappam-chick-beef-shrimp",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Mixed Kottu Idiappam (Chick, Beef, Shrimp)",
+        "ar": "كوتو إديايام مشكل (دجاج، لحم، روبيان)"
+      },
+      "description": {
+        "en": "The ultimate seafood and meat string hopper mix for a full flavor profile.",
+        "ar": "المزيج النهائي من المأكولات البحرية واللحوم مع الإديايام لتجربة نكهة متكاملة."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 240,
+      "variations": [
+        {
+          "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 34,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 47,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-mixed-kottu-idiappam-chick-beef-shrimp",
+          "url": "/assets/images/img-mixed-kottu-idiappam-chick-beef-shrimp.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sri-lanka-chicken-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Sri Lanka Chicken Biryani",
+        "ar": "برياني الدجاج السريلانكي"
+      },
+      "description": {
+        "en": "Fragrant yellow rice served with tender chicken, accompanied by Pineapple Chutney, Green Peas Curry, and Onion Raitha.",
+        "ar": "أرز أصفر عطري يقدم مع دجاج طري، يقدم مع شتني الأناناس، كاري البازلاء الخضراء، ورايتا البصل."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani, sl-special",
+      "is_active": true,
+      "sort_order": 250,
+      "variations": [
+        {
+          "id": "v-sri-lanka-chicken-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-sri-lanka-chicken-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 39,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-chicken-biryani",
+          "url": "/assets/images/img-sri-lanka-chicken-biryani.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sri-lanka-beef-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Sri Lanka Beef Biryani",
+        "ar": "برياني لحم بقري سريلانكي"
+      },
+      "description": {
+        "en": "Savory Sri Lankan style yellow rice with beef chunks, served with Pineapple Chutney, Green Peas Curry, and Onion Raitha.",
+        "ar": "أرز أصفر على الطريقة السريلانكية مع قطع لحم بقري، يقدم مع شتني الأناناس، كاري البازلاء الخضراء، ورايتا البصل."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani, sl-special",
+      "is_active": true,
+      "sort_order": 260,
+      "variations": [
+        {
+          "id": "v-sri-lanka-beef-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-sri-lanka-beef-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 41,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-beef-biryani",
+          "url": "/assets/images/img-sri-lanka-beef-biryani.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sri-lanka-fish-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Sri Lanka Fish Biryani",
+        "ar": "برياني السمك السريلانكي"
+      },
+      "description": {
+        "en": "Traditional yellow rice with spiced fish, served with Pineapple Chutney, Green Peas Curry, and Onion Raitha.",
+        "ar": "أرز أصفر تقليدي مع سمك متبل، يقدم مع شتني الأناناس، كاري البازلاء الخضراء، ورايتا البصل."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani, sl-special",
+      "is_active": true,
+      "sort_order": 270,
+      "variations": [
+        {
+          "id": "v-sri-lanka-fish-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-sri-lanka-fish-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 41,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-fish-biryani",
+          "url": "/assets/images/img-sri-lanka-fish-biryani.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sri-lanka-mutton-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Sri Lanka Mutton Biryani",
+        "ar": "برياني لحم الضأن السريلانكي"
+      },
+      "description": {
+        "en": "Premium mutton served with aromatic yellow rice, Pineapple Chutney, Green Peas Curry, and Onion Raitha.",
+        "ar": "لحم ضأن فاخر يقدم مع أرز أصفر عطري، شتني الأناناس، كاري البازلاء الخضراء، ورايتا البصل."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani, sl-special",
+      "is_active": true,
+      "sort_order": 280,
+      "variations": [
+        {
+          "id": "v-sri-lanka-mutton-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-sri-lanka-mutton-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 43,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-mutton-biryani",
+          "url": "/assets/images/img-sri-lanka-mutton-biryani.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sri-lanka-shrimp-biryani",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Sri Lanka Shrimp Biryani",
+        "ar": "برياني الروبيان السريلانكي"
+      },
+      "description": {
+        "en": "Flavorful shrimp with traditional yellow rice, served with Pineapple Chutney, Green Peas Curry, and Onion Raitha.",
+        "ar": "روبيان لذيذ مع أرز أصفر تقليدي، يقدم مع شتني الأناناس، كاري البازلاء الخضراء، ورايتا البصل."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani, sl-special",
+      "is_active": true,
+      "sort_order": 290,
+      "variations": [
+        {
+          "id": "v-sri-lanka-shrimp-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 31,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-sri-lanka-shrimp-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 45,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-shrimp-biryani",
+          "url": "/assets/images/img-sri-lanka-shrimp-biryani.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sri-lanka-idiappam-biryani-chicken",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Sri Lanka Idiappam Biryani Chicken",
+        "ar": "برياني إديايام بالدجاج السريلانكي"
+      },
+      "description": {
+        "en": "Traditional shredded string hoppers (Idiappam) served with tender chicken, Pineapple Chutney, Green Peas Curry, and Onion Raitha.",
+        "ar": "إديايام (نودلز الأرز) مقطعة وتقدم مع دجاج طري، شتني الأناناس، كاري البازلاء الخضراء، ورايتا البصل."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani, sl-special",
+      "is_active": true,
+      "sort_order": 300,
+      "variations": [
+        {
+          "id": "v-sri-lanka-idiappam-biryani-chicken-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 23,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-sri-lanka-idiappam-biryani-chicken-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 37,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-idiappam-biryani-chicken",
+          "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sri-lanka-idiappam-biryani-beef",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Sri Lanka Idiappam Biryani Beef",
+        "ar": "برياني إديايام باللحم البقري السريلانكي"
+      },
+      "description": {
+        "en": "Savory shredded string hoppers with flavorful beef chunks, Pineapple Chutney, Green Peas Curry, and Onion Raitha.",
+        "ar": "إديايام مقطعة مع قطع لحم بقري غنية بالنكهة، تقدم مع شتني الأناناس، كاري البازلاء الخضراء، ورايتا البصل."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani, sl-special",
+      "is_active": true,
+      "sort_order": 310,
+      "variations": [
+        {
+          "id": "v-sri-lanka-idiappam-biryani-beef-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-sri-lanka-idiappam-biryani-beef-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 39,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-idiappam-biryani-beef",
+          "url": "/assets/images/img-sri-lanka-idiappam-biryani-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sri-lanka-idiappam-biryani-fish",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Sri Lanka Idiappam Biryani Fish",
+        "ar": "برياني إديايام بالسمك السريلانكي"
+      },
+      "description": {
+        "en": "Spiced fish served over delicate shredded string hoppers with Pineapple Chutney, Green Peas Curry, and Onion Raitha.",
+        "ar": "سمك متبل يقدم مع إديايام مقطعة، بالإضافة إلى شتني الأناناس، كاري البازلاء الخضراء، ورايتا البصل."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani, sl-special",
+      "is_active": true,
+      "sort_order": 320,
+      "variations": [
+        {
+          "id": "v-sri-lanka-idiappam-biryani-fish-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-sri-lanka-idiappam-biryani-fish-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 39,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-idiappam-biryani-fish",
+          "url": "/assets/images/img-sri-lanka-idiappam-biryani-fish.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sri-lanka-idiappam-biryani-mutton",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Sri Lanka Idiappam Biryani Mutton",
+        "ar": "برياني إديايام بلحم الضأن السريلانكي"
+      },
+      "description": {
+        "en": "Premium mutton chunks served with shredded string hoppers, Pineapple Chutney, Green Peas Curry, and Onion Raitha.",
+        "ar": "قطع لحم ضأن فاخرة تقدم مع إديايام مقطعة، شتني الأناناس، كاري البازلاء الخضراء، ورايتا البصل."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani, sl-special",
+      "is_active": true,
+      "sort_order": 330,
+      "variations": [
+        {
+          "id": "v-sri-lanka-idiappam-biryani-mutton-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-sri-lanka-idiappam-biryani-mutton-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 41,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-idiappam-biryani-mutton",
+          "url": "/assets/images/img-sri-lanka-idiappam-biryani-mutton.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sri-lanka-idiappam-biryani-shrimp",
+      "category_id": "cat-biryani",
+      "name": {
+        "en": "Sri Lanka Idiappam Biryani Shrimp",
+        "ar": "برياني إديايام بالروبيان السريلانكي"
+      },
+      "description": {
+        "en": "Flavorful shrimp tossed with shredded string hoppers, served with Pineapple Chutney, Green Peas Curry, and Onion Raitha.",
+        "ar": "روبيان لذيذ مع إديايام مقطعة، يقدم مع شتني الأناناس، كاري البازلاء الخضراء، ورايتا البصل."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "biryani, sl-special",
+      "is_active": true,
+      "sort_order": 340,
+      "variations": [
+        {
+          "id": "v-sri-lanka-idiappam-biryani-shrimp-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-sri-lanka-idiappam-biryani-shrimp-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 43,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-idiappam-biryani-shrimp",
+          "url": "/assets/images/img-sri-lanka-idiappam-biryani-shrimp.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-puttu-kottu-egg",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Puttu Kottu Egg",
+        "ar": "كوتو بوتو بالبيض"
+      },
+      "description": {
+        "en": "Steamed rice and coconut (Puttu) crumbled and stir-fried with eggs, vegetables, and Sri Lankan spices.",
+        "ar": "بوتو (أرز مطهو على البخار مع جوز الهند) مقطع ومقلي مع البيض والخضروات والتوابل السريلانكية."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 350,
+      "variations": [
+        {
+          "id": "v-puttu-kottu-egg-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 16,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-puttu-kottu-egg-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-puttu-kottu-egg",
+          "url": "/assets/images/img-puttu-kottu-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-puttu-kottu-veg-mushroom",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Puttu Kottu Veg & Mushroom",
+        "ar": "كوتو بوتو بالخضار والمشروم"
+      },
+      "description": {
+        "en": "Crumbled Puttu stir-fried with fresh garden vegetables and savory mushrooms.",
+        "ar": "بوتو مقطع ومقلي مع خضروات الطازجة والمشروم اللذيذ."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 360,
+      "variations": [
+        {
+          "id": "v-puttu-kottu-veg-mushroom-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 18,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-puttu-kottu-veg-mushroom-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-puttu-kottu-veg-mushroom",
+          "url": "/assets/images/img-puttu-kottu-veg-mushroom.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-puttu-kottu-chicken",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Puttu Kottu Chicken",
+        "ar": "كوتو بوتو بالدجاج"
+      },
+      "description": {
+        "en": "A hearty mix of crumbled Puttu, tender seasoned chicken, eggs, and aromatic spices.",
+        "ar": "مزيج مشبع من البوتو المقطع مع الدجاج المتبل الطري والبيض والتوابل العطرية."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 370,
+      "variations": [
+        {
+          "id": "v-puttu-kottu-chicken-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 19,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-puttu-kottu-chicken-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-puttu-kottu-chicken",
+          "url": "/assets/images/img-puttu-kottu-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-puttu-kottu-beef",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Puttu Kottu Beef",
+        "ar": "كوتو بوتو باللحم البقري"
+      },
+      "description": {
+        "en": "Traditional Sri Lankan Puttu stir-fried with flavorful beef chunks and vegetables.",
+        "ar": "بوتو سريلانكي تقليدي مقلي مع قطع لحم بقري غنية بالنكهة والخضروات."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 380,
+      "variations": [
+        {
+          "id": "v-puttu-kottu-beef-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 20,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-puttu-kottu-beef-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 31,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-puttu-kottu-beef",
+          "url": "/assets/images/img-puttu-kottu-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-puttu-kottu-chicken-beef",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Puttu Kottu Chicken & Beef",
+        "ar": "كوتو بوتو بالدجاج واللحم"
+      },
+      "description": {
+        "en": "A double-protein delight featuring chicken and beef stir-fried with steamed Puttu.",
+        "ar": "وجبة غنية بالبروتين تحتوي على الدجاج واللحم البقري المقلي مع البوتو المطهو على البخار."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 390,
+      "variations": [
+        {
+          "id": "v-puttu-kottu-chicken-beef-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-puttu-kottu-chicken-beef-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 37,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-puttu-kottu-chicken-beef",
+          "url": "/assets/images/img-puttu-kottu-chicken-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mixed-puttu-kottu-chick-beef-shrimp",
+      "category_id": "cat-kottu",
+      "name": {
+        "en": "Mixed Puttu Kottu (Chick, Beef, Shrimp)",
+        "ar": "كوتو بوتو مشكل (دجاج، لحم، روبيان)"
+      },
+      "description": {
+        "en": "The ultimate Puttu experience with a mix of chicken, beef, and shrimp.",
+        "ar": "تجربة البوتو المثالية مع مزيج من الدجاج واللحم البقري والروبيان."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "kottu",
+      "is_active": true,
+      "sort_order": 400,
+      "variations": [
+        {
+          "id": "v-mixed-puttu-kottu-chick-beef-shrimp-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 34,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10
+        },
+        {
+          "id": "v-mixed-puttu-kottu-chick-beef-shrimp-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 47,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "images": [
+        {
+          "id": "img-prod-mixed-puttu-kottu-chick-beef-shrimp",
+          "url": "/assets/images/img-mixed-puttu-kottu-chick-beef-shrimp.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    }
+  ]
+}

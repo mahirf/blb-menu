@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-05-08T12:59:25.184Z",
+  "generated_at": "2026-05-08T14:35:43.646Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -90,59 +90,141 @@
         "ar": null
       },
       "sort_order": 10,
-      "is_active": true
+      "is_active": true,
+      "subcategories": []
     },
     {
-      "id": "cat-biryani",
+      "id": "cat-appetizers",
       "name": {
-        "en": "Biryani",
-        "ar": "دام برياني"
+        "en": "Appetizers",
+        "ar": "المقبلات"
       },
       "description": {
         "en": null,
         "ar": null
       },
       "sort_order": 20,
-      "is_active": true
+      "is_active": true,
+      "subcategories": []
     },
     {
-      "id": "cat-tea-and-snacks",
+      "id": "cat-biryani",
       "name": {
-        "en": "Tea And Snacks",
-        "ar": "شاي و وجبات خفيفة"
+        "en": "Biryani",
+        "ar": "برياني"
       },
       "description": {
         "en": null,
         "ar": null
       },
       "sort_order": 30,
-      "is_active": true
+      "is_active": true,
+      "subcategories": [
+        {
+          "id": "sub-indian-biryani",
+          "category_id": "cat-biryani",
+          "name": {
+            "en": "Indian Biryani",
+            "ar": "البرياني الهندي"
+          },
+          "sort_order": 10,
+          "is_active": true
+        },
+        {
+          "id": "sub-srilankan-biryani",
+          "category_id": "cat-biryani",
+          "name": {
+            "en": "Srilankan Biryani",
+            "ar": "برياني سريلانكي"
+          },
+          "sort_order": 20,
+          "is_active": true
+        },
+        {
+          "id": "sub-tamil-nadu-biryani",
+          "category_id": "cat-biryani",
+          "name": {
+            "en": "Tamil Nadu Biryani",
+            "ar": "برياني تاميل نادو"
+          },
+          "sort_order": 30,
+          "is_active": true
+        }
+      ]
     },
     {
-      "id": "cat-beverages",
+      "id": "cat-rice,-noodles-and-kottu",
       "name": {
-        "en": "Beverages",
-        "ar": "المشروبات"
+        "en": "Rice, Noodles and Kottu",
+        "ar": "أرز، نودلز، وكوتو"
       },
       "description": {
         "en": null,
         "ar": null
       },
       "sort_order": 40,
-      "is_active": true
+      "is_active": true,
+      "subcategories": [
+        {
+          "id": "sub-fried-rice",
+          "category_id": "cat-rice,-noodles-and-kottu",
+          "name": {
+            "en": "Fried Rice",
+            "ar": "أرز مقلي"
+          },
+          "sort_order": 40,
+          "is_active": true
+        },
+        {
+          "id": "sub-kottu",
+          "category_id": "cat-rice,-noodles-and-kottu",
+          "name": {
+            "en": "Kottu",
+            "ar": "كوتو"
+          },
+          "sort_order": 50,
+          "is_active": true
+        }
+      ]
     },
     {
-      "id": "cat-sweets",
+      "id": "cat-curries",
       "name": {
-        "en": "Sweets",
-        "ar": "الحـلــويــات"
+        "en": "Curries",
+        "ar": "الكاري"
       },
       "description": {
         "en": null,
         "ar": null
       },
       "sort_order": 50,
-      "is_active": true
+      "is_active": true,
+      "subcategories": [
+        {
+          "id": "sub-curries",
+          "category_id": "cat-curries",
+          "name": {
+            "en": "Curries",
+            "ar": "الكاري"
+          },
+          "sort_order": 60,
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "id": "cat-arabic-dishes",
+      "name": {
+        "en": "Arabic Dishes",
+        "ar": "الأطباق العربية"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 60,
+      "is_active": true,
+      "subcategories": []
     },
     {
       "id": "cat-broasted",
@@ -154,138 +236,23 @@
         "en": null,
         "ar": null
       },
-      "sort_order": 60,
-      "is_active": true
-    },
-    {
-      "id": "cat-fresh-fruit-juices",
-      "name": {
-        "en": "Fresh Fruit Juices",
-        "ar": "عصائر الفاكهة الطازجة"
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
       "sort_order": 70,
-      "is_active": true
+      "is_active": true,
+      "subcategories": []
     },
     {
-      "id": "cat-roti-parota-chapati",
+      "id": "cat-set-meals",
       "name": {
-        "en": "Roti Parota Chapati",
-        "ar": "روتي، باروتا، تشاباتي"
+        "en": "Set Meals",
+        "ar": "وجبات محددة"
       },
       "description": {
         "en": null,
         "ar": null
       },
       "sort_order": 80,
-      "is_active": true
-    },
-    {
-      "id": "cat-arabic-dishes",
-      "name": {
-        "en": "Arabic Dishes",
-        "ar": "أطباق عربية"
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 90,
-      "is_active": true
-    },
-    {
-      "id": "cat-set-meals-lunch-dinner",
-      "name": {
-        "en": "Set Meals Lunch Dinner",
-        "ar": "وجبات محددة (غداء - عشاء)"
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 100,
-      "is_active": true
-    },
-    {
-      "id": "cat-south-indian",
-      "name": {
-        "en": "South Indian",
-        "ar": "جنوب الهند"
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 110,
-      "is_active": true
-    },
-    {
-      "id": "cat-north-indian",
-      "name": {
-        "en": "North Indian",
-        "ar": "شمال الهند"
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 120,
-      "is_active": true
-    },
-    {
-      "id": "cat-mutton-dishes",
-      "name": {
-        "en": "Mutton Dishes",
-        "ar": "أطباق لحم الضأن"
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 130,
-      "is_active": true
-    },
-    {
-      "id": "cat-egg-dishes",
-      "name": {
-        "en": "Egg Dishes",
-        "ar": "أطباق البيض"
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 140,
-      "is_active": true
-    },
-    {
-      "id": "cat-chicken-dishes",
-      "name": {
-        "en": "Chicken Dishes",
-        "ar": "أطباق الدجاج"
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 150,
-      "is_active": true
-    },
-    {
-      "id": "cat-beef-dishes",
-      "name": {
-        "en": "Beef Dishes",
-        "ar": "أطباق لحم البقر"
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 160,
-      "is_active": true
+      "is_active": true,
+      "subcategories": []
     },
     {
       "id": "cat-seafood-dishes",
@@ -297,133 +264,60 @@
         "en": null,
         "ar": null
       },
-      "sort_order": 170,
-      "is_active": true
+      "sort_order": 90,
+      "is_active": true,
+      "subcategories": []
     },
     {
-      "id": "cat-sri-lankan",
+      "id": "cat-breads",
       "name": {
-        "en": "Sri Lankan",
-        "ar": "السريلانكية"
+        "en": "Breads",
+        "ar": "الخبز"
       },
       "description": {
         "en": null,
         "ar": null
       },
-      "sort_order": 180,
-      "is_active": true
+      "sort_order": 100,
+      "is_active": true,
+      "subcategories": []
     },
     {
-      "id": "cat-kottu",
+      "id": "cat-desserts",
       "name": {
-        "en": "Kottu",
-        "ar": "كوتو"
+        "en": "Desserts",
+        "ar": "الحلويات"
       },
       "description": {
         "en": null,
         "ar": null
       },
-      "sort_order": 190,
-      "is_active": true
+      "sort_order": 110,
+      "is_active": true,
+      "subcategories": []
     },
     {
-      "id": "cat-our-recommendations",
+      "id": "cat-drinks",
       "name": {
-        "en": "Our Recommendations",
-        "ar": "توصياتنا"
+        "en": "Drinks",
+        "ar": "مشروبات"
       },
       "description": {
         "en": null,
         "ar": null
       },
-      "sort_order": 200,
-      "is_active": true
-    },
-    {
-      "id": "cat-fried-rice-noodles",
-      "name": {
-        "en": "Fried Rice Noodles",
-        "ar": "أرز مقلي-نودلز"
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 210,
-      "is_active": true
-    },
-    {
-      "id": "cat-new-items",
-      "name": {
-        "en": "New Items",
-        "ar": "عناصر جديدة"
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 220,
-      "is_active": true
-    },
-    {
-      "id": "cat-ramadan-specials",
-      "name": {
-        "en": "Ramadan Specials",
-        "ar": "رمضانيات"
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 230,
-      "is_active": true
-    },
-    {
-      "id": "cat-m41",
-      "name": {
-        "en": "M41",
-        "ar": "وجبة شخص واحد"
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 240,
-      "is_active": true
-    },
-    {
-      "id": "cat-specials",
-      "name": {
-        "en": "Specials",
-        "ar": ""
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 250,
-      "is_active": true
-    },
-    {
-      "id": "cat-combo",
-      "name": {
-        "en": "Combo",
-        "ar": ""
-      },
-      "description": {
-        "en": null,
-        "ar": null
-      },
-      "sort_order": 260,
-      "is_active": true
+      "sort_order": 120,
+      "is_active": true,
+      "subcategories": []
     }
   ],
   "products": [
     {
-      "id": "prod-kala-chana",
-      "category_id": "cat-north-indian",
+      "id": "",
+      "category_id": "",
+      "subcategory_id": null,
       "name": {
-        "en": "butter chicken",
+        "en": "",
         "ar": ""
       },
       "description": {
@@ -437,12 +331,24 @@
       "is_active": false,
       "sort_order": 0,
       "variations": [],
-      "images": [],
+      "images": [
+        {
+          "id": "img-",
+          "url": "/assets/images/img-kala-chana.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
       "option_groups": []
     },
     {
       "id": "prod-chicken-dum-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-indian-biryani",
       "name": {
         "en": "Chicken Dum Biryani",
         "ar": "برياني الدجاج"
@@ -577,6 +483,7 @@
     {
       "id": "prod-beef-dum-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-indian-biryani",
       "name": {
         "en": "Beef Dum Biryani",
         "ar": "برياني لحم بقري"
@@ -711,6 +618,7 @@
     {
       "id": "prod-fish-dum-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-indian-biryani",
       "name": {
         "en": "Fish Dum Biryani",
         "ar": "برياني السمك"
@@ -845,6 +753,7 @@
     {
       "id": "prod-mutton-dum-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-indian-biryani",
       "name": {
         "en": "Mutton Dum Biryani",
         "ar": "برياني لحم الضأن"
@@ -979,6 +888,7 @@
     {
       "id": "prod-shrimp-dum-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-indian-biryani",
       "name": {
         "en": "Shrimp Dum Biryani",
         "ar": "برياني الروبيان"
@@ -1113,6 +1023,7 @@
     {
       "id": "prod-tamil-nadu-chicken-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-tamil-nadu-biryani",
       "name": {
         "en": "Tamil Nadu Chicken Biryani",
         "ar": "برياني الدجاج من تاميل نادو"
@@ -1247,6 +1158,7 @@
     {
       "id": "prod-tamil-nadu-beef-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-tamil-nadu-biryani",
       "name": {
         "en": "Tamil Nadu Beef Biryani",
         "ar": "برياني لحم بقري من تاميل نادو"
@@ -1381,6 +1293,7 @@
     {
       "id": "prod-tamil-nadu-fish-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-tamil-nadu-biryani",
       "name": {
         "en": "Tamil Nadu Fish Biryani",
         "ar": "برياني السمك من تاميل نادو"
@@ -1515,6 +1428,7 @@
     {
       "id": "prod-tamil-nadu-mutton-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-tamil-nadu-biryani",
       "name": {
         "en": "Tamil Nadu Mutton Biryani",
         "ar": "برياني لحم الضأن من تاميل نادو"
@@ -1649,6 +1563,7 @@
     {
       "id": "prod-tamil-nadu-shrimp-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-tamil-nadu-biryani",
       "name": {
         "en": "Tamil Nadu Shrimp Biryani",
         "ar": "برياني الروبيان من تاميل نادو"
@@ -1781,136 +1696,9 @@
       ]
     },
     {
-      "id": "prod-test3",
-      "category_id": "cat-kottu",
-      "name": {
-        "en": "test3",
-        "ar": ""
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": true,
-      "base_price": 0,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 100,
-      "variations": [],
-      "images": [
-        {
-          "id": "img-prod-test3",
-          "url": "/assets/images/img-test3.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "option_groups": []
-    },
-    {
-      "id": "prod-aloo-paratha",
-      "category_id": "cat-north-indian",
-      "name": {
-        "en": "Aloo Paratha",
-        "ar": ""
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": false,
-      "base_price": 5,
-      "base_kcal": 180,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 100,
-      "variations": [],
-      "images": [
-        {
-          "id": "img-prod-aloo-paratha",
-          "url": "/assets/images/img-aloo-paratha.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "option_groups": []
-    },
-    {
-      "id": "prod-dal-chana",
-      "category_id": "cat-north-indian",
-      "name": {
-        "en": "Dal Chana",
-        "ar": ""
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": true,
-      "base_price": 4,
-      "base_kcal": 370,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 100,
-      "variations": [],
-      "images": [
-        {
-          "id": "img-prod-dal-chana",
-          "url": "/assets/images/img-dal-chana.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "option_groups": []
-    },
-    {
-      "id": "prod-kala-chana",
-      "category_id": "cat-kottu",
-      "name": {
-        "en": "Kala Chana",
-        "ar": ""
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": true,
-      "base_price": 4,
-      "base_kcal": 280,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 100,
-      "variations": [],
-      "images": [
-        {
-          "id": "img-prod-kala-chana",
-          "url": "/assets/images/img-kala-chana.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "option_groups": []
-    },
-    {
       "id": "prod-kankung-beef-with-fried-rice",
-      "category_id": "cat-fried-rice-noodles",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-fried-rice",
       "name": {
         "en": "Kankung Beef with Fried Rice",
         "ar": "لحم كانكونج مع أرز مقلي"
@@ -1942,7 +1730,8 @@
     },
     {
       "id": "prod-kankung-beef-with-white-rice",
-      "category_id": "cat-fried-rice-noodles",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-fried-rice",
       "name": {
         "en": "Kankung Beef with White Rice",
         "ar": "لحم كانكونج مع أرز أبيض"
@@ -1974,7 +1763,8 @@
     },
     {
       "id": "prod-kottu-roti-egg",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Roti Egg",
         "ar": "كوتو روتي بالبيض"
@@ -2029,7 +1819,8 @@
     },
     {
       "id": "prod-kottu-roti-veg-mushroom",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Roti Veg & Mushroom",
         "ar": "كوتو روتي بالخضار والمشروم"
@@ -2084,7 +1875,8 @@
     },
     {
       "id": "prod-kottu-roti-chicken",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Roti Chicken",
         "ar": "كوتو روتي بالدجاج"
@@ -2139,7 +1931,8 @@
     },
     {
       "id": "prod-kottu-roti-beef",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Roti Beef",
         "ar": "كوتو روتي باللحم البقري"
@@ -2194,7 +1987,8 @@
     },
     {
       "id": "prod-kottu-roti-chicken-beef",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Roti Chicken & Beef",
         "ar": "كوتو روتي بالدجاج واللحم"
@@ -2249,7 +2043,8 @@
     },
     {
       "id": "prod-mixed-kottu-chick-beef-shrimp",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Mixed Kottu (Chick, Beef, Shrimp)",
         "ar": "كوتو مشكل (دجاج، لحم، روبيان)"
@@ -2304,7 +2099,8 @@
     },
     {
       "id": "prod-kottu-idiappam-egg",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Idiappam Egg",
         "ar": "كوتو إديايام بالبيض"
@@ -2359,7 +2155,8 @@
     },
     {
       "id": "prod-kottu-idiappam-veg-mushroom",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Idiappam Veg & Mushroom",
         "ar": "كوتو إديايام بالخضار والمشروم"
@@ -2414,7 +2211,8 @@
     },
     {
       "id": "prod-kottu-idiappam-chicken",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Idiappam Chicken",
         "ar": "كوتو إديايام بالدجاج"
@@ -2469,7 +2267,8 @@
     },
     {
       "id": "prod-kottu-idiappam-beef",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Idiappam Beef",
         "ar": "كوتو إديايام باللحم البقري"
@@ -2524,7 +2323,8 @@
     },
     {
       "id": "prod-kottu-idiappam-chicken-beef",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Idiappam Chicken & Beef",
         "ar": "كوتو إديايام بالدجاج واللحم"
@@ -2579,7 +2379,8 @@
     },
     {
       "id": "prod-mixed-kottu-idiappam-chick-beef-shrimp",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Mixed Kottu Idiappam (Chick, Beef, Shrimp)",
         "ar": "كوتو إديايام مشكل (دجاج، لحم، روبيان)"
@@ -2635,6 +2436,7 @@
     {
       "id": "prod-sri-lanka-chicken-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Chicken Biryani",
         "ar": "برياني الدجاج السريلانكي"
@@ -2690,6 +2492,7 @@
     {
       "id": "prod-sri-lanka-beef-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Beef Biryani",
         "ar": "برياني لحم بقري سريلانكي"
@@ -2745,6 +2548,7 @@
     {
       "id": "prod-sri-lanka-fish-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Fish Biryani",
         "ar": "برياني السمك السريلانكي"
@@ -2800,6 +2604,7 @@
     {
       "id": "prod-sri-lanka-mutton-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Mutton Biryani",
         "ar": "برياني لحم الضأن السريلانكي"
@@ -2855,6 +2660,7 @@
     {
       "id": "prod-sri-lanka-shrimp-biryani",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Shrimp Biryani",
         "ar": "برياني الروبيان السريلانكي"
@@ -2910,6 +2716,7 @@
     {
       "id": "prod-sri-lanka-idiappam-biryani-chicken",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Chicken",
         "ar": "برياني إديايام بالدجاج السريلانكي"
@@ -2965,6 +2772,7 @@
     {
       "id": "prod-sri-lanka-idiappam-biryani-beef",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Beef",
         "ar": "برياني إديايام باللحم البقري السريلانكي"
@@ -3020,6 +2828,7 @@
     {
       "id": "prod-sri-lanka-idiappam-biryani-fish",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Fish",
         "ar": "برياني إديايام بالسمك السريلانكي"
@@ -3075,6 +2884,7 @@
     {
       "id": "prod-sri-lanka-idiappam-biryani-mutton",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Mutton",
         "ar": "برياني إديايام بلحم الضأن السريلانكي"
@@ -3130,6 +2940,7 @@
     {
       "id": "prod-sri-lanka-idiappam-biryani-shrimp",
       "category_id": "cat-biryani",
+      "subcategory_id": "sub-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Shrimp",
         "ar": "برياني إديايام بالروبيان السريلانكي"
@@ -3184,7 +2995,8 @@
     },
     {
       "id": "prod-puttu-kottu-egg",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Puttu Kottu Egg",
         "ar": "كوتو بوتو بالبيض"
@@ -3239,7 +3051,8 @@
     },
     {
       "id": "prod-puttu-kottu-veg-mushroom",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Puttu Kottu Veg & Mushroom",
         "ar": "كوتو بوتو بالخضار والمشروم"
@@ -3294,7 +3107,8 @@
     },
     {
       "id": "prod-puttu-kottu-chicken",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Puttu Kottu Chicken",
         "ar": "كوتو بوتو بالدجاج"
@@ -3349,7 +3163,8 @@
     },
     {
       "id": "prod-puttu-kottu-beef",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Puttu Kottu Beef",
         "ar": "كوتو بوتو باللحم البقري"
@@ -3404,7 +3219,8 @@
     },
     {
       "id": "prod-puttu-kottu-chicken-beef",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Puttu Kottu Chicken & Beef",
         "ar": "كوتو بوتو بالدجاج واللحم"
@@ -3459,7 +3275,8 @@
     },
     {
       "id": "prod-mixed-puttu-kottu-chick-beef-shrimp",
-      "category_id": "cat-kottu",
+      "category_id": "cat-rice,-noodles-and-kottu",
+      "subcategory_id": "sub-kottu",
       "name": {
         "en": "Mixed Puttu Kottu (Chick, Beef, Shrimp)",
         "ar": "كوتو بوتو مشكل (دجاج، لحم، روبيان)"
@@ -3502,6 +3319,138 @@
         {
           "id": "img-prod-mixed-puttu-kottu-chick-beef-shrimp",
           "url": "/assets/images/img-mixed-puttu-kottu-chick-beef-shrimp.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-aloo-paratha",
+      "category_id": "cat-breads",
+      "subcategory_id": null,
+      "name": {
+        "en": "Aloo Paratha",
+        "ar": "ألو باراثا"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 5,
+      "base_kcal": 180,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 410,
+      "variations": [],
+      "images": [
+        {
+          "id": "img-prod-aloo-paratha",
+          "url": "/assets/images/img-aloo-paratha.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-dal-chana",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries",
+      "name": {
+        "en": "Dal Chana",
+        "ar": "دال تشانا"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 4,
+      "base_kcal": 370,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 420,
+      "variations": [],
+      "images": [
+        {
+          "id": "img-prod-dal-chana",
+          "url": "/assets/images/img-dal-chana.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kala-chana",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries",
+      "name": {
+        "en": "Kala Chana",
+        "ar": "كالا تشانا"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 4,
+      "base_kcal": 280,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 430,
+      "variations": [],
+      "images": [
+        {
+          "id": "img-prod-kala-chana",
+          "url": "/assets/images/img-kala-chana.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kala-chana",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries",
+      "name": {
+        "en": "butter chicken",
+        "ar": "دجاج بالزبدة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 440,
+      "variations": [],
+      "images": [
+        {
+          "id": "img-prod-kala-chana",
+          "url": "/assets/images/img-kala-chana.webp",
           "alt_text": {
             "en": null,
             "ar": null

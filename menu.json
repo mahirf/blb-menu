@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-05-09T16:22:22.572Z",
+  "generated_at": "2026-05-09T16:56:21.503Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -309,31 +309,45 @@
       "sort_order": 120,
       "is_active": true,
       "subcategories": []
+    },
+    {
+      "id": "cat-offers",
+      "name": {
+        "en": "Offers",
+        "ar": "عروض"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 130,
+      "is_active": true,
+      "subcategories": []
     }
   ],
   "products": [
     {
-      "id": "",
-      "category_id": "",
+      "id": "prod-an-offer-item",
+      "category_id": "cat-offers",
       "subcategory_id": null,
       "name": {
-        "en": "",
-        "ar": ""
+        "en": "An offer item",
+        "ar": "عنصر معروض"
       },
       "description": {
         "en": "",
         "ar": ""
       },
-      "has_variants": false,
-      "base_price": 0,
+      "has_variants": true,
+      "base_price": 12,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": 0,
       "variations": [],
       "images": [
         {
-          "id": "img-",
+          "id": "img-prod-an-offer-item",
           "url": "/assets/images/img-kala-chana.webp",
           "alt_text": {
             "en": null,
@@ -3429,7 +3443,7 @@
       "option_groups": []
     },
     {
-      "id": "prod-kala-chana",
+      "id": "prod-butter-chicken",
       "category_id": "cat-curries",
       "subcategory_id": "sub-curries",
       "name": {
@@ -3440,7 +3454,7 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": false,
+      "has_variants": true,
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
@@ -3449,7 +3463,7 @@
       "variations": [],
       "images": [
         {
-          "id": "img-prod-kala-chana",
+          "id": "img-prod-butter-chicken",
           "url": "/assets/images/img-kala-chana.webp",
           "alt_text": {
             "en": null,

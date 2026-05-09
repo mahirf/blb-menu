@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-05-08T15:11:33.850Z",
+  "generated_at": "2026-05-09T16:19:59.177Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "id": "cat-rice,-noodles-and-kottu",
+      "id": "cat-rice-noodles-and-kottu",
       "name": {
         "en": "Rice, Noodles and Kottu",
         "ar": "أرز، نودلز، وكوتو"
@@ -164,28 +164,7 @@
       },
       "sort_order": 40,
       "is_active": true,
-      "subcategories": [
-        {
-          "id": "sub-fried-rice",
-          "category_id": "cat-rice,-noodles-and-kottu",
-          "name": {
-            "en": "Fried Rice",
-            "ar": "أرز مقلي"
-          },
-          "sort_order": 40,
-          "is_active": true
-        },
-        {
-          "id": "sub-kottu",
-          "category_id": "cat-rice,-noodles-and-kottu",
-          "name": {
-            "en": "Kottu",
-            "ar": "كوتو"
-          },
-          "sort_order": 50,
-          "is_active": true
-        }
-      ]
+      "subcategories": []
     },
     {
       "id": "cat-curries",

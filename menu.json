@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-05-09T16:56:21.503Z",
+  "generated_at": "2026-05-09T16:57:15.119Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -321,7 +321,7 @@
         "ar": null
       },
       "sort_order": 130,
-      "is_active": true,
+      "is_active": false,
       "subcategories": []
     }
   ],

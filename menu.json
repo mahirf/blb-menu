@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-05-09T16:19:59.177Z",
+  "generated_at": "2026-05-09T16:21:33.952Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -1676,7 +1676,7 @@
     },
     {
       "id": "prod-kankung-beef-with-fried-rice",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-fried-rice",
       "name": {
         "en": "Kankung Beef with Fried Rice",
@@ -1709,7 +1709,7 @@
     },
     {
       "id": "prod-kankung-beef-with-white-rice",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-fried-rice",
       "name": {
         "en": "Kankung Beef with White Rice",
@@ -1742,7 +1742,7 @@
     },
     {
       "id": "prod-kottu-roti-egg",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Roti Egg",
@@ -1798,7 +1798,7 @@
     },
     {
       "id": "prod-kottu-roti-veg-mushroom",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Roti Veg & Mushroom",
@@ -1854,7 +1854,7 @@
     },
     {
       "id": "prod-kottu-roti-chicken",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Roti Chicken",
@@ -1910,7 +1910,7 @@
     },
     {
       "id": "prod-kottu-roti-beef",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Roti Beef",
@@ -1966,7 +1966,7 @@
     },
     {
       "id": "prod-kottu-roti-chicken-beef",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Roti Chicken & Beef",
@@ -2022,7 +2022,7 @@
     },
     {
       "id": "prod-mixed-kottu-chick-beef-shrimp",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Mixed Kottu (Chick, Beef, Shrimp)",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "prod-kottu-idiappam-egg",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Idiappam Egg",
@@ -2134,7 +2134,7 @@
     },
     {
       "id": "prod-kottu-idiappam-veg-mushroom",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Idiappam Veg & Mushroom",
@@ -2190,7 +2190,7 @@
     },
     {
       "id": "prod-kottu-idiappam-chicken",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Idiappam Chicken",
@@ -2246,7 +2246,7 @@
     },
     {
       "id": "prod-kottu-idiappam-beef",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Idiappam Beef",
@@ -2302,7 +2302,7 @@
     },
     {
       "id": "prod-kottu-idiappam-chicken-beef",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Kottu Idiappam Chicken & Beef",
@@ -2358,7 +2358,7 @@
     },
     {
       "id": "prod-mixed-kottu-idiappam-chick-beef-shrimp",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Mixed Kottu Idiappam (Chick, Beef, Shrimp)",
@@ -2974,7 +2974,7 @@
     },
     {
       "id": "prod-puttu-kottu-egg",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Puttu Kottu Egg",
@@ -3030,7 +3030,7 @@
     },
     {
       "id": "prod-puttu-kottu-veg-mushroom",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Puttu Kottu Veg & Mushroom",
@@ -3086,7 +3086,7 @@
     },
     {
       "id": "prod-puttu-kottu-chicken",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Puttu Kottu Chicken",
@@ -3142,7 +3142,7 @@
     },
     {
       "id": "prod-puttu-kottu-beef",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Puttu Kottu Beef",
@@ -3198,7 +3198,7 @@
     },
     {
       "id": "prod-puttu-kottu-chicken-beef",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Puttu Kottu Chicken & Beef",
@@ -3254,7 +3254,7 @@
     },
     {
       "id": "prod-mixed-puttu-kottu-chick-beef-shrimp",
-      "category_id": "cat-rice,-noodles-and-kottu",
+      "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-kottu",
       "name": {
         "en": "Mixed Puttu Kottu (Chick, Beef, Shrimp)",

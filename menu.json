@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-05-09T18:54:26.572Z",
+  "generated_at": "2026-05-11T19:44:31.050Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -12,6 +12,7 @@
       "min_select": 0,
       "max_select": 5,
       "selection_type": "multiple",
+      "sort_order": 20,
       "is_active": true,
       "options": [
         {
@@ -49,6 +50,7 @@
       "min_select": 1,
       "max_select": 1,
       "selection_type": "single",
+      "sort_order": 10,
       "is_active": true,
       "options": [
         {
@@ -91,6 +93,7 @@
       },
       "sort_order": 10,
       "is_active": true,
+      "is_hidden": false,
       "subcategories": []
     },
     {
@@ -105,6 +108,7 @@
       },
       "sort_order": 20,
       "is_active": true,
+      "is_hidden": false,
       "subcategories": []
     },
     {
@@ -119,6 +123,7 @@
       },
       "sort_order": 30,
       "is_active": true,
+      "is_hidden": false,
       "subcategories": [
         {
           "id": "sub-indian-biryani",
@@ -164,6 +169,7 @@
       },
       "sort_order": 40,
       "is_active": true,
+      "is_hidden": false,
       "subcategories": [
         {
           "id": "sub-fried-rice",
@@ -199,6 +205,7 @@
       },
       "sort_order": 50,
       "is_active": true,
+      "is_hidden": false,
       "subcategories": [
         {
           "id": "sub-curries",
@@ -224,6 +231,7 @@
       },
       "sort_order": 60,
       "is_active": true,
+      "is_hidden": false,
       "subcategories": []
     },
     {
@@ -238,6 +246,7 @@
       },
       "sort_order": 70,
       "is_active": true,
+      "is_hidden": false,
       "subcategories": []
     },
     {
@@ -252,6 +261,7 @@
       },
       "sort_order": 80,
       "is_active": true,
+      "is_hidden": false,
       "subcategories": []
     },
     {
@@ -266,6 +276,7 @@
       },
       "sort_order": 90,
       "is_active": true,
+      "is_hidden": false,
       "subcategories": []
     },
     {
@@ -280,6 +291,7 @@
       },
       "sort_order": 100,
       "is_active": true,
+      "is_hidden": false,
       "subcategories": []
     },
     {
@@ -294,6 +306,7 @@
       },
       "sort_order": 110,
       "is_active": true,
+      "is_hidden": false,
       "subcategories": []
     },
     {
@@ -308,6 +321,7 @@
       },
       "sort_order": 120,
       "is_active": true,
+      "is_hidden": false,
       "subcategories": []
     },
     {
@@ -317,11 +331,12 @@
         "ar": "عروض"
       },
       "description": {
-        "en": null,
+        "en": "Special offers and discounts",
         "ar": null
       },
       "sort_order": 130,
-      "is_active": false,
+      "is_active": true,
+      "is_hidden": true,
       "subcategories": []
     }
   ],
@@ -344,11 +359,10 @@
       "tags": null,
       "is_active": true,
       "sort_order": 0,
-      "variations": [],
       "images": [
         {
           "id": "img-prod-an-offer-item",
-          "url": "/assets/images/img-kala-chana.webp",
+          "url": "/assets/images/img-an-offer-item.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -357,6 +371,8 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [],
       "option_groups": []
     },
     {
@@ -377,30 +393,6 @@
       "tags": "biryani",
       "is_active": true,
       "sort_order": 10,
-      "variations": [
-        {
-          "id": "v-chicken-dum-biryani-single",
-          "name": {
-            "en": "Single",
-            "ar": "مفردة"
-          },
-          "base_price": 13,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-chicken-dum-biryani-full",
-          "name": {
-            "en": "Full",
-            "ar": "كاملة"
-          },
-          "base_price": 22,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "image-1",
@@ -413,6 +405,33 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-chicken-dum-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 13,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-chicken-dum-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 22,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": [
         {
           "id": "og-spice-level",
@@ -423,6 +442,7 @@
           "min_select": 1,
           "max_select": 1,
           "selection_type": "single",
+          "sort_order": 10,
           "is_active": true,
           "options": [
             {
@@ -450,8 +470,7 @@
               "sort_order": 20
             }
           ],
-          "is_required": true,
-          "sort_order": 10
+          "is_required": true
         },
         {
           "id": "og-extras",
@@ -462,6 +481,7 @@
           "min_select": 0,
           "max_select": 5,
           "selection_type": "multiple",
+          "sort_order": 20,
           "is_active": true,
           "options": [
             {
@@ -489,8 +509,7 @@
               "sort_order": 40
             }
           ],
-          "is_required": false,
-          "sort_order": 20
+          "is_required": false
         }
       ]
     },
@@ -512,30 +531,6 @@
       "tags": "biryani",
       "is_active": true,
       "sort_order": 20,
-      "variations": [
-        {
-          "id": "v-beef-dum-biryani-single",
-          "name": {
-            "en": "Single",
-            "ar": "مفردة"
-          },
-          "base_price": 15,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-beef-dum-biryani-full",
-          "name": {
-            "en": "Full",
-            "ar": "كاملة"
-          },
-          "base_price": 24,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "image-2",
@@ -548,6 +543,33 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-beef-dum-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-beef-dum-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 24,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": [
         {
           "id": "og-spice-level",
@@ -558,6 +580,7 @@
           "min_select": 1,
           "max_select": 1,
           "selection_type": "single",
+          "sort_order": 30,
           "is_active": true,
           "options": [
             {
@@ -585,8 +608,7 @@
               "sort_order": 20
             }
           ],
-          "is_required": true,
-          "sort_order": 30
+          "is_required": true
         },
         {
           "id": "og-extras",
@@ -597,6 +619,7 @@
           "min_select": 0,
           "max_select": 5,
           "selection_type": "multiple",
+          "sort_order": 40,
           "is_active": true,
           "options": [
             {
@@ -624,8 +647,7 @@
               "sort_order": 40
             }
           ],
-          "is_required": false,
-          "sort_order": 40
+          "is_required": false
         }
       ]
     },
@@ -647,30 +669,6 @@
       "tags": "biryani",
       "is_active": true,
       "sort_order": 30,
-      "variations": [
-        {
-          "id": "v-fish-dum-biryani-single",
-          "name": {
-            "en": "Single",
-            "ar": "مفردة"
-          },
-          "base_price": 15,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-fish-dum-biryani-full",
-          "name": {
-            "en": "Full",
-            "ar": "كاملة"
-          },
-          "base_price": 24,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "image-3",
@@ -683,6 +681,33 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fish-dum-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fish-dum-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 24,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": [
         {
           "id": "og-spice-level",
@@ -693,6 +718,7 @@
           "min_select": 1,
           "max_select": 1,
           "selection_type": "single",
+          "sort_order": 50,
           "is_active": true,
           "options": [
             {
@@ -720,8 +746,7 @@
               "sort_order": 20
             }
           ],
-          "is_required": true,
-          "sort_order": 50
+          "is_required": true
         },
         {
           "id": "og-extras",
@@ -732,6 +757,7 @@
           "min_select": 0,
           "max_select": 5,
           "selection_type": "multiple",
+          "sort_order": 60,
           "is_active": true,
           "options": [
             {
@@ -759,8 +785,7 @@
               "sort_order": 40
             }
           ],
-          "is_required": false,
-          "sort_order": 60
+          "is_required": false
         }
       ]
     },
@@ -782,30 +807,6 @@
       "tags": "biryani",
       "is_active": true,
       "sort_order": 40,
-      "variations": [
-        {
-          "id": "v-mutton-dum-biryani-single",
-          "name": {
-            "en": "Single",
-            "ar": "مفردة"
-          },
-          "base_price": 17,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-mutton-dum-biryani-full",
-          "name": {
-            "en": "Full",
-            "ar": "كاملة"
-          },
-          "base_price": 26,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "image-4",
@@ -818,6 +819,33 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-mutton-dum-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 17,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-mutton-dum-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 26,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": [
         {
           "id": "og-spice-level",
@@ -828,6 +856,7 @@
           "min_select": 1,
           "max_select": 1,
           "selection_type": "single",
+          "sort_order": 70,
           "is_active": true,
           "options": [
             {
@@ -855,8 +884,7 @@
               "sort_order": 20
             }
           ],
-          "is_required": true,
-          "sort_order": 70
+          "is_required": true
         },
         {
           "id": "og-extras",
@@ -867,6 +895,7 @@
           "min_select": 0,
           "max_select": 5,
           "selection_type": "multiple",
+          "sort_order": 80,
           "is_active": true,
           "options": [
             {
@@ -894,8 +923,7 @@
               "sort_order": 40
             }
           ],
-          "is_required": false,
-          "sort_order": 80
+          "is_required": false
         }
       ]
     },
@@ -917,30 +945,6 @@
       "tags": "biryani",
       "is_active": true,
       "sort_order": 50,
-      "variations": [
-        {
-          "id": "v-shrimp-dum-biryani-single",
-          "name": {
-            "en": "Single",
-            "ar": "مفردة"
-          },
-          "base_price": 19,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-shrimp-dum-biryani-full",
-          "name": {
-            "en": "Full",
-            "ar": "كاملة"
-          },
-          "base_price": 28,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "image-5",
@@ -953,6 +957,33 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-shrimp-dum-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 19,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-shrimp-dum-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 28,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": [
         {
           "id": "og-spice-level",
@@ -963,6 +994,7 @@
           "min_select": 1,
           "max_select": 1,
           "selection_type": "single",
+          "sort_order": 90,
           "is_active": true,
           "options": [
             {
@@ -990,8 +1022,7 @@
               "sort_order": 20
             }
           ],
-          "is_required": true,
-          "sort_order": 90
+          "is_required": true
         },
         {
           "id": "og-extras",
@@ -1002,6 +1033,7 @@
           "min_select": 0,
           "max_select": 5,
           "selection_type": "multiple",
+          "sort_order": 100,
           "is_active": true,
           "options": [
             {
@@ -1029,8 +1061,7 @@
               "sort_order": 40
             }
           ],
-          "is_required": false,
-          "sort_order": 100
+          "is_required": false
         }
       ]
     },
@@ -1052,30 +1083,6 @@
       "tags": "biryani",
       "is_active": true,
       "sort_order": 60,
-      "variations": [
-        {
-          "id": "v-tamil-nadu-chicken-biryani-single",
-          "name": {
-            "en": "Single",
-            "ar": "مفردة"
-          },
-          "base_price": 15,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-tamil-nadu-chicken-biryani-full",
-          "name": {
-            "en": "Full",
-            "ar": "كاملة"
-          },
-          "base_price": 24,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-tamil-nadu-chicken-biryani",
@@ -1088,6 +1095,33 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-tamil-nadu-chicken-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-tamil-nadu-chicken-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 24,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": [
         {
           "id": "og-spice-level",
@@ -1098,6 +1132,7 @@
           "min_select": 1,
           "max_select": 1,
           "selection_type": "single",
+          "sort_order": 10,
           "is_active": true,
           "options": [
             {
@@ -1125,8 +1160,7 @@
               "sort_order": 20
             }
           ],
-          "is_required": true,
-          "sort_order": 10
+          "is_required": true
         },
         {
           "id": "og-extras",
@@ -1137,6 +1171,7 @@
           "min_select": 0,
           "max_select": 5,
           "selection_type": "multiple",
+          "sort_order": 20,
           "is_active": true,
           "options": [
             {
@@ -1164,8 +1199,7 @@
               "sort_order": 40
             }
           ],
-          "is_required": false,
-          "sort_order": 20
+          "is_required": false
         }
       ]
     },
@@ -1187,6 +1221,19 @@
       "tags": "biryani",
       "is_active": true,
       "sort_order": 70,
+      "images": [
+        {
+          "id": "img-prod-tamil-nadu-beef-biryani",
+          "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-tamil-nadu-beef-biryani-single",
@@ -1197,7 +1244,8 @@
           "base_price": 17,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-tamil-nadu-beef-biryani-full",
@@ -1208,19 +1256,8 @@
           "base_price": 26,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-tamil-nadu-beef-biryani",
-          "url": "/assets/images/img-tamil-nadu-beef-biryani.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": [
@@ -1233,6 +1270,7 @@
           "min_select": 1,
           "max_select": 1,
           "selection_type": "single",
+          "sort_order": 30,
           "is_active": true,
           "options": [
             {
@@ -1260,8 +1298,7 @@
               "sort_order": 20
             }
           ],
-          "is_required": true,
-          "sort_order": 30
+          "is_required": true
         },
         {
           "id": "og-extras",
@@ -1272,6 +1309,7 @@
           "min_select": 0,
           "max_select": 5,
           "selection_type": "multiple",
+          "sort_order": 40,
           "is_active": true,
           "options": [
             {
@@ -1299,8 +1337,7 @@
               "sort_order": 40
             }
           ],
-          "is_required": false,
-          "sort_order": 40
+          "is_required": false
         }
       ]
     },
@@ -1322,30 +1359,6 @@
       "tags": "biryani",
       "is_active": true,
       "sort_order": 80,
-      "variations": [
-        {
-          "id": "v-tamil-nadu-fish-biryani-single",
-          "name": {
-            "en": "Single",
-            "ar": "مفردة"
-          },
-          "base_price": 17,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-tamil-nadu-fish-biryani-full",
-          "name": {
-            "en": "Full",
-            "ar": "كاملة"
-          },
-          "base_price": 26,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-tamil-nadu-fish-biryani",
@@ -1358,6 +1371,33 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-tamil-nadu-fish-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 17,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-tamil-nadu-fish-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 26,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": [
         {
           "id": "og-spice-level",
@@ -1368,6 +1408,7 @@
           "min_select": 1,
           "max_select": 1,
           "selection_type": "single",
+          "sort_order": 50,
           "is_active": true,
           "options": [
             {
@@ -1395,8 +1436,7 @@
               "sort_order": 20
             }
           ],
-          "is_required": true,
-          "sort_order": 50
+          "is_required": true
         },
         {
           "id": "og-extras",
@@ -1407,6 +1447,7 @@
           "min_select": 0,
           "max_select": 5,
           "selection_type": "multiple",
+          "sort_order": 60,
           "is_active": true,
           "options": [
             {
@@ -1434,8 +1475,7 @@
               "sort_order": 40
             }
           ],
-          "is_required": false,
-          "sort_order": 60
+          "is_required": false
         }
       ]
     },
@@ -1457,6 +1497,19 @@
       "tags": "biryani",
       "is_active": true,
       "sort_order": 90,
+      "images": [
+        {
+          "id": "img-prod-tamil-nadu-mutton-biryani",
+          "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-tamil-nadu-mutton-biryani-single",
@@ -1467,7 +1520,8 @@
           "base_price": 19,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-tamil-nadu-mutton-biryani-full",
@@ -1478,19 +1532,8 @@
           "base_price": 28,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-tamil-nadu-mutton-biryani",
-          "url": "/assets/images/img-tamil-nadu-mutton-biryani.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": [
@@ -1503,6 +1546,7 @@
           "min_select": 1,
           "max_select": 1,
           "selection_type": "single",
+          "sort_order": 70,
           "is_active": true,
           "options": [
             {
@@ -1530,8 +1574,7 @@
               "sort_order": 20
             }
           ],
-          "is_required": true,
-          "sort_order": 70
+          "is_required": true
         },
         {
           "id": "og-extras",
@@ -1542,6 +1585,7 @@
           "min_select": 0,
           "max_select": 5,
           "selection_type": "multiple",
+          "sort_order": 80,
           "is_active": true,
           "options": [
             {
@@ -1569,8 +1613,7 @@
               "sort_order": 40
             }
           ],
-          "is_required": false,
-          "sort_order": 80
+          "is_required": false
         }
       ]
     },
@@ -1592,6 +1635,19 @@
       "tags": "biryani",
       "is_active": true,
       "sort_order": 100,
+      "images": [
+        {
+          "id": "img-prod-tamil-nadu-shrimp-biryani",
+          "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-tamil-nadu-shrimp-biryani-single",
@@ -1602,7 +1658,8 @@
           "base_price": 21,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-tamil-nadu-shrimp-biryani-full",
@@ -1613,19 +1670,8 @@
           "base_price": 30,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-tamil-nadu-shrimp-biryani",
-          "url": "/assets/images/img-tamil-nadu-shrimp-biryani.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": [
@@ -1638,6 +1684,7 @@
           "min_select": 1,
           "max_select": 1,
           "selection_type": "single",
+          "sort_order": 90,
           "is_active": true,
           "options": [
             {
@@ -1665,8 +1712,7 @@
               "sort_order": 20
             }
           ],
-          "is_required": true,
-          "sort_order": 90
+          "is_required": true
         },
         {
           "id": "og-extras",
@@ -1677,6 +1723,7 @@
           "min_select": 0,
           "max_select": 5,
           "selection_type": "multiple",
+          "sort_order": 100,
           "is_active": true,
           "options": [
             {
@@ -1704,8 +1751,7 @@
               "sort_order": 40
             }
           ],
-          "is_required": false,
-          "sort_order": 100
+          "is_required": false
         }
       ]
     },
@@ -1727,7 +1773,6 @@
       "tags": null,
       "is_active": true,
       "sort_order": 110,
-      "variations": [],
       "images": [
         {
           "id": "img-prod-kankung-beef-with-fried-rice",
@@ -1740,6 +1785,8 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [],
       "option_groups": []
     },
     {
@@ -1760,7 +1807,6 @@
       "tags": null,
       "is_active": true,
       "sort_order": 120,
-      "variations": [],
       "images": [
         {
           "id": "img-prod-kankung-beef-with-white-rice",
@@ -1773,6 +1819,8 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [],
       "option_groups": []
     },
     {
@@ -1793,30 +1841,6 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 130,
-      "variations": [
-        {
-          "id": "v-kottu-roti-egg-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 14,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-kottu-roti-egg-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 23,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-kottu-roti-egg",
@@ -1827,6 +1851,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-kottu-roti-egg-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 14,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-kottu-roti-egg-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 23,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -1849,6 +1900,19 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 140,
+      "images": [
+        {
+          "id": "img-prod-kottu-roti-veg-mushroom",
+          "url": "/assets/images/img-kottu-roti-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-kottu-roti-veg-mushroom-single",
@@ -1859,7 +1923,8 @@
           "base_price": 16,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-kottu-roti-veg-mushroom-full",
@@ -1870,19 +1935,8 @@
           "base_price": 25,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-kottu-roti-veg-mushroom",
-          "url": "/assets/images/img-kottu-roti-veg-mushroom.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -1905,6 +1959,19 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 150,
+      "images": [
+        {
+          "id": "img-prod-kottu-roti-chicken",
+          "url": "/assets/images/img-kottu-roti-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-kottu-roti-chicken-single",
@@ -1915,7 +1982,8 @@
           "base_price": 18,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-kottu-roti-chicken-full",
@@ -1926,19 +1994,8 @@
           "base_price": 27,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-kottu-roti-chicken",
-          "url": "/assets/images/img-kottu-roti-chicken.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -1961,30 +2018,6 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 160,
-      "variations": [
-        {
-          "id": "v-kottu-roti-beef-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 20,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-kottu-roti-beef-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 29,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-kottu-roti-beef",
@@ -1995,6 +2028,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-kottu-roti-beef-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 20,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-kottu-roti-beef-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2017,6 +2077,19 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 170,
+      "images": [
+        {
+          "id": "img-prod-kottu-roti-chicken-beef",
+          "url": "/assets/images/img-kottu-roti-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-kottu-roti-chicken-beef-single",
@@ -2027,7 +2100,8 @@
           "base_price": 25,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-kottu-roti-chicken-beef-full",
@@ -2038,19 +2112,8 @@
           "base_price": 35,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-kottu-roti-chicken-beef",
-          "url": "/assets/images/img-kottu-roti-chicken-beef.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2073,6 +2136,19 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 180,
+      "images": [
+        {
+          "id": "img-prod-mixed-kottu-chick-beef-shrimp",
+          "url": "/assets/images/img-kottu-roti-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-mixed-kottu-chick-beef-shrimp-single",
@@ -2083,7 +2159,8 @@
           "base_price": 32,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-mixed-kottu-chick-beef-shrimp-full",
@@ -2094,19 +2171,8 @@
           "base_price": 45,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-mixed-kottu-chick-beef-shrimp",
-          "url": "/assets/images/img-mixed-kottu-chick-beef-shrimp.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2129,30 +2195,6 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 190,
-      "variations": [
-        {
-          "id": "v-kottu-idiappam-egg-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 16,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-kottu-idiappam-egg-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 25,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-kottu-idiappam-egg",
@@ -2163,6 +2205,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-kottu-idiappam-egg-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 16,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-kottu-idiappam-egg-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2185,30 +2254,6 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 200,
-      "variations": [
-        {
-          "id": "v-kottu-idiappam-veg-mushroom-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 18,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-kottu-idiappam-veg-mushroom-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 27,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-kottu-idiappam-veg-mushroom",
@@ -2219,6 +2264,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-kottu-idiappam-veg-mushroom-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 18,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-kottu-idiappam-veg-mushroom-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2241,30 +2313,6 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 210,
-      "variations": [
-        {
-          "id": "v-kottu-idiappam-chicken-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 19,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-kottu-idiappam-chicken-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 29,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-kottu-idiappam-chicken",
@@ -2275,6 +2323,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-kottu-idiappam-chicken-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 19,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-kottu-idiappam-chicken-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2297,30 +2372,6 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 220,
-      "variations": [
-        {
-          "id": "v-kottu-idiappam-beef-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 20,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-kottu-idiappam-beef-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 31,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-kottu-idiappam-beef",
@@ -2331,6 +2382,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-kottu-idiappam-beef-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 20,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-kottu-idiappam-beef-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 31,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2353,30 +2431,6 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 230,
-      "variations": [
-        {
-          "id": "v-kottu-idiappam-chicken-beef-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 27,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-kottu-idiappam-chicken-beef-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 37,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-kottu-idiappam-chicken-beef",
@@ -2387,6 +2441,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-kottu-idiappam-chicken-beef-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-kottu-idiappam-chicken-beef-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 37,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2409,30 +2490,6 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 240,
-      "variations": [
-        {
-          "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 34,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 47,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-mixed-kottu-idiappam-chick-beef-shrimp",
@@ -2443,6 +2500,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 34,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 47,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2465,30 +2549,6 @@
       "tags": "biryani, sl-special",
       "is_active": true,
       "sort_order": 250,
-      "variations": [
-        {
-          "id": "v-sri-lanka-chicken-biryani-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 25,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-sri-lanka-chicken-biryani-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 39,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-sri-lanka-chicken-biryani",
@@ -2499,6 +2559,57 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [
+        {
+          "id": "offer-chicken-biryani-offer",
+          "name": {
+            "en": "Chicken Biryani Offer",
+            "ar": "عرض برياني دجاج"
+          },
+          "target": {
+            "type": "product",
+            "id": "prod-sri-lanka-chicken-biryani"
+          },
+          "discount": {
+            "type": "percentage",
+            "value": 20
+          },
+          "conditions": {
+            "min_quantity": 3,
+            "max_quantity": 3
+          },
+          "starts_at": null,
+          "ends_at": null,
+          "is_active": true,
+          "sort_order": 10
+        }
+      ],
+      "variations": [
+        {
+          "id": "v-sri-lanka-chicken-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-sri-lanka-chicken-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 39,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2521,30 +2632,6 @@
       "tags": "biryani, sl-special",
       "is_active": true,
       "sort_order": 260,
-      "variations": [
-        {
-          "id": "v-sri-lanka-beef-biryani-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 27,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-sri-lanka-beef-biryani-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 41,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-sri-lanka-beef-biryani",
@@ -2555,6 +2642,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-sri-lanka-beef-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-sri-lanka-beef-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 41,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2577,30 +2691,6 @@
       "tags": "biryani, sl-special",
       "is_active": true,
       "sort_order": 270,
-      "variations": [
-        {
-          "id": "v-sri-lanka-fish-biryani-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 27,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-sri-lanka-fish-biryani-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 41,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-sri-lanka-fish-biryani",
@@ -2611,6 +2701,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-sri-lanka-fish-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-sri-lanka-fish-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 41,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2633,30 +2750,6 @@
       "tags": "biryani, sl-special",
       "is_active": true,
       "sort_order": 280,
-      "variations": [
-        {
-          "id": "v-sri-lanka-mutton-biryani-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 29,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-sri-lanka-mutton-biryani-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 43,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-sri-lanka-mutton-biryani",
@@ -2667,6 +2760,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-sri-lanka-mutton-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-sri-lanka-mutton-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 43,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2689,30 +2809,6 @@
       "tags": "biryani, sl-special",
       "is_active": true,
       "sort_order": 290,
-      "variations": [
-        {
-          "id": "v-sri-lanka-shrimp-biryani-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 31,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-sri-lanka-shrimp-biryani-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 45,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-sri-lanka-shrimp-biryani",
@@ -2723,6 +2819,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-sri-lanka-shrimp-biryani-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 31,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-sri-lanka-shrimp-biryani-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 45,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2745,30 +2868,6 @@
       "tags": "biryani, sl-special",
       "is_active": true,
       "sort_order": 300,
-      "variations": [
-        {
-          "id": "v-sri-lanka-idiappam-biryani-chicken-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 23,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-sri-lanka-idiappam-biryani-chicken-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 37,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-sri-lanka-idiappam-biryani-chicken",
@@ -2779,6 +2878,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-sri-lanka-idiappam-biryani-chicken-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 23,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-sri-lanka-idiappam-biryani-chicken-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 37,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2801,6 +2927,19 @@
       "tags": "biryani, sl-special",
       "is_active": true,
       "sort_order": 310,
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-idiappam-biryani-beef",
+          "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-sri-lanka-idiappam-biryani-beef-single",
@@ -2811,7 +2950,8 @@
           "base_price": 25,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-sri-lanka-idiappam-biryani-beef-full",
@@ -2822,19 +2962,8 @@
           "base_price": 39,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-sri-lanka-idiappam-biryani-beef",
-          "url": "/assets/images/img-sri-lanka-idiappam-biryani-beef.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2857,6 +2986,19 @@
       "tags": "biryani, sl-special",
       "is_active": true,
       "sort_order": 320,
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-idiappam-biryani-fish",
+          "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-sri-lanka-idiappam-biryani-fish-single",
@@ -2867,7 +3009,8 @@
           "base_price": 25,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-sri-lanka-idiappam-biryani-fish-full",
@@ -2878,19 +3021,8 @@
           "base_price": 39,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-sri-lanka-idiappam-biryani-fish",
-          "url": "/assets/images/img-sri-lanka-idiappam-biryani-fish.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2913,6 +3045,19 @@
       "tags": "biryani, sl-special",
       "is_active": true,
       "sort_order": 330,
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-idiappam-biryani-mutton",
+          "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-sri-lanka-idiappam-biryani-mutton-single",
@@ -2923,7 +3068,8 @@
           "base_price": 27,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-sri-lanka-idiappam-biryani-mutton-full",
@@ -2934,19 +3080,8 @@
           "base_price": 41,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-sri-lanka-idiappam-biryani-mutton",
-          "url": "/assets/images/img-sri-lanka-idiappam-biryani-mutton.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -2969,6 +3104,19 @@
       "tags": "biryani, sl-special",
       "is_active": true,
       "sort_order": 340,
+      "images": [
+        {
+          "id": "img-prod-sri-lanka-idiappam-biryani-shrimp",
+          "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-sri-lanka-idiappam-biryani-shrimp-single",
@@ -2979,7 +3127,8 @@
           "base_price": 29,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-sri-lanka-idiappam-biryani-shrimp-full",
@@ -2990,19 +3139,8 @@
           "base_price": 43,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-sri-lanka-idiappam-biryani-shrimp",
-          "url": "/assets/images/img-sri-lanka-idiappam-biryani-shrimp.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -3025,30 +3163,6 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 350,
-      "variations": [
-        {
-          "id": "v-puttu-kottu-egg-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 16,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10
-        },
-        {
-          "id": "v-puttu-kottu-egg-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 25,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20
-        }
-      ],
       "images": [
         {
           "id": "img-prod-puttu-kottu-egg",
@@ -3059,6 +3173,33 @@
           },
           "sort_order": 10,
           "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-puttu-kottu-egg-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 16,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-puttu-kottu-egg-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -3081,6 +3222,19 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 360,
+      "images": [
+        {
+          "id": "img-prod-puttu-kottu-veg-mushroom",
+          "url": "/assets/images/img-puttu-kottu-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-puttu-kottu-veg-mushroom-single",
@@ -3091,7 +3245,8 @@
           "base_price": 18,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-puttu-kottu-veg-mushroom-full",
@@ -3102,19 +3257,8 @@
           "base_price": 27,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-puttu-kottu-veg-mushroom",
-          "url": "/assets/images/img-puttu-kottu-veg-mushroom.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -3137,6 +3281,19 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 370,
+      "images": [
+        {
+          "id": "img-prod-puttu-kottu-chicken",
+          "url": "/assets/images/img-puttu-kottu-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-puttu-kottu-chicken-single",
@@ -3147,7 +3304,8 @@
           "base_price": 19,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-puttu-kottu-chicken-full",
@@ -3158,19 +3316,8 @@
           "base_price": 29,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-puttu-kottu-chicken",
-          "url": "/assets/images/img-puttu-kottu-chicken.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -3193,6 +3340,19 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 380,
+      "images": [
+        {
+          "id": "img-prod-puttu-kottu-beef",
+          "url": "/assets/images/img-puttu-kottu-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-puttu-kottu-beef-single",
@@ -3203,7 +3363,8 @@
           "base_price": 20,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-puttu-kottu-beef-full",
@@ -3214,19 +3375,8 @@
           "base_price": 31,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-puttu-kottu-beef",
-          "url": "/assets/images/img-puttu-kottu-beef.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -3249,6 +3399,19 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 390,
+      "images": [
+        {
+          "id": "img-prod-puttu-kottu-chicken-beef",
+          "url": "/assets/images/img-puttu-kottu-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-puttu-kottu-chicken-beef-single",
@@ -3259,7 +3422,8 @@
           "base_price": 27,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-puttu-kottu-chicken-beef-full",
@@ -3270,19 +3434,8 @@
           "base_price": 37,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-puttu-kottu-chicken-beef",
-          "url": "/assets/images/img-puttu-kottu-chicken-beef.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -3305,6 +3458,19 @@
       "tags": "kottu",
       "is_active": true,
       "sort_order": 400,
+      "images": [
+        {
+          "id": "img-prod-mixed-puttu-kottu-chick-beef-shrimp",
+          "url": "/assets/images/img-puttu-kottu-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [
         {
           "id": "v-mixed-puttu-kottu-chick-beef-shrimp-single",
@@ -3315,7 +3481,8 @@
           "base_price": 34,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 10
+          "sort_order": 10,
+          "offers": []
         },
         {
           "id": "v-mixed-puttu-kottu-chick-beef-shrimp-full",
@@ -3326,19 +3493,8 @@
           "base_price": 47,
           "base_kcal": 0,
           "is_active": true,
-          "sort_order": 20
-        }
-      ],
-      "images": [
-        {
-          "id": "img-prod-mixed-puttu-kottu-chick-beef-shrimp",
-          "url": "/assets/images/img-mixed-puttu-kottu-chick-beef-shrimp.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
+          "sort_order": 20,
+          "offers": []
         }
       ],
       "option_groups": []
@@ -3361,7 +3517,6 @@
       "tags": null,
       "is_active": true,
       "sort_order": 410,
-      "variations": [],
       "images": [
         {
           "id": "img-prod-aloo-paratha",
@@ -3374,6 +3529,8 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [],
       "option_groups": []
     },
     {
@@ -3394,7 +3551,6 @@
       "tags": null,
       "is_active": true,
       "sort_order": 420,
-      "variations": [],
       "images": [
         {
           "id": "img-prod-dal-chana",
@@ -3407,6 +3563,8 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [],
       "option_groups": []
     },
     {
@@ -3427,7 +3585,6 @@
       "tags": null,
       "is_active": true,
       "sort_order": 430,
-      "variations": [],
       "images": [
         {
           "id": "img-prod-kala-chana",
@@ -3440,6 +3597,8 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [],
       "option_groups": []
     },
     {
@@ -3460,11 +3619,10 @@
       "tags": null,
       "is_active": true,
       "sort_order": 440,
-      "variations": [],
       "images": [
         {
           "id": "img-prod-butter-chicken",
-          "url": "/assets/images/img-kala-chana.webp",
+          "url": "/assets/images/img-butter-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3473,7 +3631,57 @@
           "is_primary": true
         }
       ],
+      "offers": [],
+      "variations": [],
       "option_groups": []
+    }
+  ],
+  "offers": [
+    {
+      "id": "offer-chicken-biryani-offer",
+      "name": {
+        "en": "Chicken Biryani Offer",
+        "ar": "عرض برياني دجاج"
+      },
+      "target": {
+        "type": "product",
+        "id": "prod-sri-lanka-chicken-biryani"
+      },
+      "discount": {
+        "type": "percentage",
+        "value": 20
+      },
+      "conditions": {
+        "min_quantity": 3,
+        "max_quantity": 3
+      },
+      "starts_at": null,
+      "ends_at": null,
+      "is_active": true,
+      "sort_order": 10
+    },
+    {
+      "id": "offer-large-family-offer",
+      "name": {
+        "en": "Large Family Offer",
+        "ar": "عرض العائلة"
+      },
+      "target": {
+        "type": "variation",
+        "id": "prod-mixed-kottu-idiappam-chick-beef-shrimp"
+      },
+      "discount": {
+        "type": "fixed",
+        "value": 5
+      },
+      "conditions": {
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      "starts_at": null,
+      "ends_at": null,
+      "is_active": true,
+      "sort_order": 20
     }
   ]
 }

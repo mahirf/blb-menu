@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-05-11T20:18:14.754Z",
+  "generated_at": "2026-05-11T20:21:31.482Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -351,40 +351,6 @@
     }
   ],
   "products": [
-    {
-      "id": "prod-an-offer-item",
-      "category_id": "cat-offers",
-      "subcategory_id": null,
-      "name": {
-        "en": "An offer item",
-        "ar": "عنصر معروض"
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": true,
-      "base_price": 12,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 0,
-      "images": [
-        {
-          "id": "img-prod-an-offer-item",
-          "url": "/assets/images/img-an-offer-item.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
     {
       "id": "prod-chicken-dum-biryani",
       "category_id": "cat-biryani",
@@ -1371,13 +1337,13 @@
       "sort_order": 80,
       "images": [
         {
-          "id": "img-prod-tamil-nadu-fish-biryani",
-          "url": "/assets/images/img-tamil-nadu-fish-biryani.webp",
+          "id": "img-prod-tamil-nadu-fish-biryani-alternate",
+          "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -2524,7 +2490,31 @@
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 10,
-          "offers": []
+          "offers": [
+            {
+              "id": "offer-large-family-offer",
+              "name": {
+                "en": "Large Family Offer",
+                "ar": "عرض العائلة"
+              },
+              "target": {
+                "type": "variation",
+                "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-single"
+              },
+              "discount": {
+                "type": "fixed",
+                "value": 5
+              },
+              "conditions": {
+                "min_quantity": 1,
+                "max_quantity": 1
+              },
+              "starts_at": null,
+              "ends_at": null,
+              "is_active": true,
+              "sort_order": 20
+            }
+          ]
         },
         {
           "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-full",
@@ -3555,7 +3545,7 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 4,
       "base_kcal": 370,
       "tags": null,
@@ -3589,7 +3579,7 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 4,
       "base_kcal": 280,
       "tags": null,
@@ -3623,7 +3613,7 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
@@ -3678,7 +3668,7 @@
       },
       "target": {
         "type": "variation",
-        "id": "prod-mixed-kottu-idiappam-chick-beef-shrimp"
+        "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-single"
       },
       "discount": {
         "type": "fixed",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-05-11T19:57:10.441Z",
+  "generated_at": "2026-05-11T20:18:14.754Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -153,6 +153,16 @@
             "ar": "برياني تاميل نادو"
           },
           "sort_order": 30,
+          "is_active": true
+        },
+        {
+          "id": "sub-idiappam-biryani",
+          "category_id": "cat-biryani",
+          "name": {
+            "en": "Idiappam Biryani",
+            "ar": "إيديابام برياني"
+          },
+          "sort_order": 70,
           "is_active": true
         }
       ]
@@ -2634,13 +2644,13 @@
       "sort_order": 260,
       "images": [
         {
-          "id": "img-prod-sri-lanka-beef-biryani",
-          "url": "/assets/images/img-sri-lanka-beef-biryani.webp",
+          "id": "img-prod-sri-lanka-beef-biryani-alternate",
+          "url": "/assets/images/img-sri-lanka-chicken-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -2693,13 +2703,13 @@
       "sort_order": 270,
       "images": [
         {
-          "id": "img-prod-sri-lanka-fish-biryani",
-          "url": "/assets/images/img-sri-lanka-fish-biryani.webp",
+          "id": "img-prod-sri-lanka-fish-biryani-alternate",
+          "url": "/assets/images/img-sri-lanka-chicken-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -2752,13 +2762,13 @@
       "sort_order": 280,
       "images": [
         {
-          "id": "img-prod-sri-lanka-mutton-biryani",
-          "url": "/assets/images/img-sri-lanka-mutton-biryani.webp",
+          "id": "img-prod-sri-lanka-mutton-biryani-alternate",
+          "url": "/assets/images/img-sri-lanka-chicken-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -2811,13 +2821,13 @@
       "sort_order": 290,
       "images": [
         {
-          "id": "img-prod-sri-lanka-shrimp-biryani",
-          "url": "/assets/images/img-sri-lanka-shrimp-biryani.webp",
+          "id": "img-prod-sri-lanka-shrimp-biryani-alternate",
+          "url": "/assets/images/img-sri-lanka-chicken-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -2853,7 +2863,7 @@
     {
       "id": "prod-sri-lanka-idiappam-biryani-chicken",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-srilankan-biryani",
+      "subcategory_id": "sub-idiappam-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Chicken",
         "ar": "برياني إديايام بالدجاج السريلانكي"
@@ -2912,7 +2922,7 @@
     {
       "id": "prod-sri-lanka-idiappam-biryani-beef",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-srilankan-biryani",
+      "subcategory_id": "sub-idiappam-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Beef",
         "ar": "برياني إديايام باللحم البقري السريلانكي"
@@ -2971,7 +2981,7 @@
     {
       "id": "prod-sri-lanka-idiappam-biryani-fish",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-srilankan-biryani",
+      "subcategory_id": "sub-idiappam-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Fish",
         "ar": "برياني إديايام بالسمك السريلانكي"
@@ -3030,7 +3040,7 @@
     {
       "id": "prod-sri-lanka-idiappam-biryani-mutton",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-srilankan-biryani",
+      "subcategory_id": "sub-idiappam-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Mutton",
         "ar": "برياني إديايام بلحم الضأن السريلانكي"
@@ -3089,7 +3099,7 @@
     {
       "id": "prod-sri-lanka-idiappam-biryani-shrimp",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-srilankan-biryani",
+      "subcategory_id": "sub-idiappam-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Shrimp",
         "ar": "برياني إديايام بالروبيان السريلانكي"
@@ -3606,7 +3616,7 @@
       "category_id": "cat-curries",
       "subcategory_id": "sub-curries",
       "name": {
-        "en": "butter chicken",
+        "en": "Butter Chicken",
         "ar": "دجاج بالزبدة"
       },
       "description": {

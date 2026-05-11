@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-05-11T19:44:31.050Z",
+  "generated_at": "2026-05-11T19:57:10.441Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -533,13 +533,13 @@
       "sort_order": 20,
       "images": [
         {
-          "id": "image-2",
-          "url": "/assets/images/img-beef-dum-biryani",
+          "id": "img-prod-beef-dum-biryani-alternate",
+          "url": "/assets/images/img-chicken-dum-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 20,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -671,13 +671,13 @@
       "sort_order": 30,
       "images": [
         {
-          "id": "image-3",
-          "url": "/assets/images/img-fish-dum-biryani",
+          "id": "img-prod-fish-dum-biryani-alternate",
+          "url": "/assets/images/img-chicken-dum-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 30,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -809,13 +809,13 @@
       "sort_order": 40,
       "images": [
         {
-          "id": "image-4",
-          "url": "/assets/images/img-mutton-dum-biryani",
+          "id": "img-prod-mutton-dum-biryani-alternate",
+          "url": "/assets/images/img-chicken-dum-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 40,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -947,13 +947,13 @@
       "sort_order": 50,
       "images": [
         {
-          "id": "image-5",
-          "url": "/assets/images/img-shrimp-dum-biryani",
+          "id": "img-prod-shrimp-dum-biryani-alternate",
+          "url": "/assets/images/img-chicken-dum-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 50,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -1223,13 +1223,13 @@
       "sort_order": 70,
       "images": [
         {
-          "id": "img-prod-tamil-nadu-beef-biryani",
+          "id": "img-prod-tamil-nadu-beef-biryani-alternate",
           "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -1499,13 +1499,13 @@
       "sort_order": 90,
       "images": [
         {
-          "id": "img-prod-tamil-nadu-mutton-biryani",
+          "id": "img-prod-tamil-nadu-mutton-biryani-alternate",
           "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -1637,13 +1637,13 @@
       "sort_order": 100,
       "images": [
         {
-          "id": "img-prod-tamil-nadu-shrimp-biryani",
+          "id": "img-prod-tamil-nadu-shrimp-biryani-alternate",
           "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -1902,13 +1902,13 @@
       "sort_order": 140,
       "images": [
         {
-          "id": "img-prod-kottu-roti-veg-mushroom",
+          "id": "img-prod-kottu-roti-veg-mushroom-alternate",
           "url": "/assets/images/img-kottu-roti-egg.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -1961,13 +1961,13 @@
       "sort_order": 150,
       "images": [
         {
-          "id": "img-prod-kottu-roti-chicken",
+          "id": "img-prod-kottu-roti-chicken-alternate",
           "url": "/assets/images/img-kottu-roti-egg.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -2079,13 +2079,13 @@
       "sort_order": 170,
       "images": [
         {
-          "id": "img-prod-kottu-roti-chicken-beef",
+          "id": "img-prod-kottu-roti-chicken-beef-alternate",
           "url": "/assets/images/img-kottu-roti-egg.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -2138,13 +2138,13 @@
       "sort_order": 180,
       "images": [
         {
-          "id": "img-prod-mixed-kottu-chick-beef-shrimp",
+          "id": "img-prod-mixed-kottu-chick-beef-shrimp-alternate",
           "url": "/assets/images/img-kottu-roti-egg.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -2929,13 +2929,13 @@
       "sort_order": 310,
       "images": [
         {
-          "id": "img-prod-sri-lanka-idiappam-biryani-beef",
+          "id": "img-prod-sri-lanka-idiappam-biryani-beef-alternate",
           "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -2988,13 +2988,13 @@
       "sort_order": 320,
       "images": [
         {
-          "id": "img-prod-sri-lanka-idiappam-biryani-fish",
+          "id": "img-prod-sri-lanka-idiappam-biryani-fish-alternate",
           "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -3047,13 +3047,13 @@
       "sort_order": 330,
       "images": [
         {
-          "id": "img-prod-sri-lanka-idiappam-biryani-mutton",
+          "id": "img-prod-sri-lanka-idiappam-biryani-mutton-alternate",
           "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -3106,13 +3106,13 @@
       "sort_order": 340,
       "images": [
         {
-          "id": "img-prod-sri-lanka-idiappam-biryani-shrimp",
+          "id": "img-prod-sri-lanka-idiappam-biryani-shrimp-alternate",
           "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -3224,13 +3224,13 @@
       "sort_order": 360,
       "images": [
         {
-          "id": "img-prod-puttu-kottu-veg-mushroom",
+          "id": "img-prod-puttu-kottu-veg-mushroom-alternate",
           "url": "/assets/images/img-puttu-kottu-egg.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -3283,13 +3283,13 @@
       "sort_order": 370,
       "images": [
         {
-          "id": "img-prod-puttu-kottu-chicken",
+          "id": "img-prod-puttu-kottu-chicken-alternate",
           "url": "/assets/images/img-puttu-kottu-egg.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -3342,13 +3342,13 @@
       "sort_order": 380,
       "images": [
         {
-          "id": "img-prod-puttu-kottu-beef",
+          "id": "img-prod-puttu-kottu-beef-alternate",
           "url": "/assets/images/img-puttu-kottu-egg.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -3401,13 +3401,13 @@
       "sort_order": 390,
       "images": [
         {
-          "id": "img-prod-puttu-kottu-chicken-beef",
+          "id": "img-prod-puttu-kottu-chicken-beef-alternate",
           "url": "/assets/images/img-puttu-kottu-egg.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -3460,13 +3460,13 @@
       "sort_order": 400,
       "images": [
         {
-          "id": "img-prod-mixed-puttu-kottu-chick-beef-shrimp",
+          "id": "img-prod-mixed-puttu-kottu-chick-beef-shrimp-alternate",
           "url": "/assets/images/img-puttu-kottu-egg.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],

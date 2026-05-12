@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-05-11T20:21:31.482Z",
+  "generated_at": "2026-05-12T13:11:50.061Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -345,6 +345,21 @@
         "ar": null
       },
       "sort_order": 130,
+      "is_active": true,
+      "is_hidden": true,
+      "subcategories": []
+    },
+    {
+      "id": "cat-specials",
+      "name": {
+        "en": "Specials",
+        "ar": "عروض خاصة"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 140,
       "is_active": true,
       "is_hidden": true,
       "subcategories": []
@@ -3614,7 +3629,7 @@
         "ar": ""
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 25,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -3623,6 +3638,40 @@
         {
           "id": "img-prod-butter-chicken",
           "url": "/assets/images/img-butter-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-lal-peri-test",
+      "category_id": "cat-specials",
+      "subcategory_id": null,
+      "name": {
+        "en": "Lal Peri (Test)",
+        "ar": "لال بيري (اختبار)"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 28,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 450,
+      "images": [
+        {
+          "id": "img-prod-lal-peri-test",
+          "url": "/assets/images/img-lal-peri-test.webp",
           "alt_text": {
             "en": null,
             "ar": null

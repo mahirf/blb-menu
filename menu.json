@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-05-12T13:11:50.061Z",
+  "generated_at": "2026-05-20T05:26:18.857Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -83,6 +83,8 @@
   "categories": [
     {
       "id": "cat-soups",
+      "slug": "soups",
+      "path": "/menu/soups/",
       "name": {
         "en": "Soups",
         "ar": "الشوربات"
@@ -98,6 +100,8 @@
     },
     {
       "id": "cat-appetizers",
+      "slug": "appetizers",
+      "path": "/menu/appetizers/",
       "name": {
         "en": "Appetizers",
         "ar": "المقبلات"
@@ -113,6 +117,8 @@
     },
     {
       "id": "cat-biryani",
+      "slug": "biryani",
+      "path": "/menu/biryani/",
       "name": {
         "en": "Biryani",
         "ar": "برياني"
@@ -126,8 +132,10 @@
       "is_hidden": false,
       "subcategories": [
         {
-          "id": "sub-indian-biryani",
+          "id": "sub-biryani-indian-biryani",
           "category_id": "cat-biryani",
+          "slug": "indian-biryani",
+          "path": "/menu/biryani/indian-biryani/",
           "name": {
             "en": "Indian Biryani",
             "ar": "البرياني الهندي"
@@ -136,8 +144,10 @@
           "is_active": true
         },
         {
-          "id": "sub-srilankan-biryani",
+          "id": "sub-biryani-srilankan-biryani",
           "category_id": "cat-biryani",
+          "slug": "srilankan-biryani",
+          "path": "/menu/biryani/srilankan-biryani/",
           "name": {
             "en": "Srilankan Biryani",
             "ar": "برياني سريلانكي"
@@ -146,8 +156,10 @@
           "is_active": true
         },
         {
-          "id": "sub-tamil-nadu-biryani",
+          "id": "sub-biryani-tamil-nadu-biryani",
           "category_id": "cat-biryani",
+          "slug": "tamil-nadu-biryani",
+          "path": "/menu/biryani/tamil-nadu-biryani/",
           "name": {
             "en": "Tamil Nadu Biryani",
             "ar": "برياني تاميل نادو"
@@ -156,8 +168,10 @@
           "is_active": true
         },
         {
-          "id": "sub-idiappam-biryani",
+          "id": "sub-biryani-idiappam-biryani",
           "category_id": "cat-biryani",
+          "slug": "idiappam-biryani",
+          "path": "/menu/biryani/idiappam-biryani/",
           "name": {
             "en": "Idiappam Biryani",
             "ar": "إيديابام برياني"
@@ -169,6 +183,8 @@
     },
     {
       "id": "cat-rice-noodles-and-kottu",
+      "slug": "rice-noodles-and-kottu",
+      "path": "/menu/rice-noodles-and-kottu/",
       "name": {
         "en": "Rice, Noodles and Kottu",
         "ar": "أرز، نودلز، وكوتو"
@@ -182,8 +198,10 @@
       "is_hidden": false,
       "subcategories": [
         {
-          "id": "sub-fried-rice",
+          "id": "sub-rice-noodles-and-kottu-fried-rice",
           "category_id": "cat-rice-noodles-and-kottu",
+          "slug": "fried-rice",
+          "path": "/menu/rice-noodles-and-kottu/fried-rice/",
           "name": {
             "en": "Fried Rice",
             "ar": "أرز مقلي"
@@ -192,19 +210,35 @@
           "is_active": true
         },
         {
-          "id": "sub-kottu",
+          "id": "sub-rice-noodles-and-kottu-kottu",
           "category_id": "cat-rice-noodles-and-kottu",
+          "slug": "kottu",
+          "path": "/menu/rice-noodles-and-kottu/kottu/",
           "name": {
             "en": "Kottu",
             "ar": "كوتو"
           },
           "sort_order": 50,
           "is_active": true
+        },
+        {
+          "id": "sub-rice-noodles-and-kottu-chinese-noodles",
+          "category_id": "cat-rice-noodles-and-kottu",
+          "slug": "chinese-noodles",
+          "path": "/menu/rice-noodles-and-kottu/chinese-noodles/",
+          "name": {
+            "en": "Chinese Noodles",
+            "ar": "نودلز صينية"
+          },
+          "sort_order": 120,
+          "is_active": true
         }
       ]
     },
     {
       "id": "cat-curries",
+      "slug": "curries",
+      "path": "/menu/curries/",
       "name": {
         "en": "Curries",
         "ar": "الكاري"
@@ -218,19 +252,47 @@
       "is_hidden": false,
       "subcategories": [
         {
-          "id": "sub-curries",
+          "id": "sub-curries-curries",
           "category_id": "cat-curries",
+          "slug": "curries",
+          "path": "/menu/curries/curries/",
           "name": {
             "en": "Curries",
             "ar": "الكاري"
           },
           "sort_order": 60,
           "is_active": true
+        },
+        {
+          "id": "sub-curries-south-indian",
+          "category_id": "cat-curries",
+          "slug": "south-indian",
+          "path": "/menu/curries/south-indian/",
+          "name": {
+            "en": "South Indian",
+            "ar": "جنوب الهند"
+          },
+          "sort_order": 90,
+          "is_active": true
+        },
+        {
+          "id": "sub-curries-north-indian",
+          "category_id": "cat-curries",
+          "slug": "north-indian",
+          "path": "/menu/curries/north-indian/",
+          "name": {
+            "en": "North Indian",
+            "ar": "شمال الهند"
+          },
+          "sort_order": 100,
+          "is_active": true
         }
       ]
     },
     {
       "id": "cat-arabic-dishes",
+      "slug": "arabic-dishes",
+      "path": "/menu/arabic-dishes/",
       "name": {
         "en": "Arabic Dishes",
         "ar": "الأطباق العربية"
@@ -246,6 +308,8 @@
     },
     {
       "id": "cat-broasted",
+      "slug": "broasted",
+      "path": "/menu/broasted/",
       "name": {
         "en": "Broasted",
         "ar": "بروستد"
@@ -261,6 +325,8 @@
     },
     {
       "id": "cat-set-meals",
+      "slug": "set-meals",
+      "path": "/menu/set-meals/",
       "name": {
         "en": "Set Meals",
         "ar": "وجبات محددة"
@@ -276,6 +342,8 @@
     },
     {
       "id": "cat-seafood-dishes",
+      "slug": "seafood-dishes",
+      "path": "/menu/seafood-dishes/",
       "name": {
         "en": "Seafood Dishes",
         "ar": "أطباق المأكولات البحرية"
@@ -291,6 +359,8 @@
     },
     {
       "id": "cat-breads",
+      "slug": "breads",
+      "path": "/menu/breads/",
       "name": {
         "en": "Breads",
         "ar": "الخبز"
@@ -306,6 +376,8 @@
     },
     {
       "id": "cat-desserts",
+      "slug": "desserts",
+      "path": "/menu/desserts/",
       "name": {
         "en": "Desserts",
         "ar": "الحلويات"
@@ -321,6 +393,8 @@
     },
     {
       "id": "cat-drinks",
+      "slug": "drinks",
+      "path": "/menu/drinks/",
       "name": {
         "en": "Drinks",
         "ar": "مشروبات"
@@ -336,6 +410,8 @@
     },
     {
       "id": "cat-offers",
+      "slug": "offers",
+      "path": "/menu/offers/",
       "name": {
         "en": "Offers",
         "ar": "عروض"
@@ -351,6 +427,8 @@
     },
     {
       "id": "cat-specials",
+      "slug": "specials",
+      "path": "/menu/specials/",
       "name": {
         "en": "Specials",
         "ar": "عروض خاصة"
@@ -363,13 +441,62 @@
       "is_active": true,
       "is_hidden": true,
       "subcategories": []
+    },
+    {
+      "id": "cat-south-indian",
+      "slug": "south-indian",
+      "path": "/menu/south-indian/",
+      "name": {
+        "en": "South Indian",
+        "ar": "جنوب الهند"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 150,
+      "is_active": true,
+      "is_hidden": false,
+      "subcategories": []
+    },
+    {
+      "id": "cat-breakfast",
+      "slug": "breakfast",
+      "path": "/menu/breakfast/",
+      "name": {
+        "en": "Breakfast",
+        "ar": "إفطار"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 160,
+      "is_active": true,
+      "is_hidden": false,
+      "subcategories": [
+        {
+          "id": "sub-breakfast-south-indian-breakfast",
+          "category_id": "cat-breakfast",
+          "slug": "south-indian-breakfast",
+          "path": "/menu/breakfast/south-indian-breakfast/",
+          "name": {
+            "en": "South Indian Breakfast",
+            "ar": "فطور جنوب هندي"
+          },
+          "sort_order": 80,
+          "is_active": true
+        }
+      ]
     }
   ],
   "products": [
     {
       "id": "prod-chicken-dum-biryani",
+      "slug": "chicken-dum-biryani",
+      "path": "/menu/chicken-dum-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-indian-biryani",
+      "subcategory_id": "sub-biryani-indian-biryani",
       "name": {
         "en": "Chicken Dum Biryani",
         "ar": "برياني الدجاج"
@@ -506,8 +633,10 @@
     },
     {
       "id": "prod-beef-dum-biryani",
+      "slug": "beef-dum-biryani",
+      "path": "/menu/beef-dum-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-indian-biryani",
+      "subcategory_id": "sub-biryani-indian-biryani",
       "name": {
         "en": "Beef Dum Biryani",
         "ar": "برياني لحم بقري"
@@ -644,8 +773,10 @@
     },
     {
       "id": "prod-fish-dum-biryani",
+      "slug": "fish-dum-biryani",
+      "path": "/menu/fish-dum-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-indian-biryani",
+      "subcategory_id": "sub-biryani-indian-biryani",
       "name": {
         "en": "Fish Dum Biryani",
         "ar": "برياني السمك"
@@ -782,8 +913,10 @@
     },
     {
       "id": "prod-mutton-dum-biryani",
+      "slug": "mutton-dum-biryani",
+      "path": "/menu/mutton-dum-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-indian-biryani",
+      "subcategory_id": "sub-biryani-indian-biryani",
       "name": {
         "en": "Mutton Dum Biryani",
         "ar": "برياني لحم الضأن"
@@ -920,8 +1053,10 @@
     },
     {
       "id": "prod-shrimp-dum-biryani",
+      "slug": "shrimp-dum-biryani",
+      "path": "/menu/shrimp-dum-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-indian-biryani",
+      "subcategory_id": "sub-biryani-indian-biryani",
       "name": {
         "en": "Shrimp Dum Biryani",
         "ar": "برياني الروبيان"
@@ -1058,8 +1193,10 @@
     },
     {
       "id": "prod-tamil-nadu-chicken-biryani",
+      "slug": "tamil-nadu-chicken-biryani",
+      "path": "/menu/tamil-nadu-chicken-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-tamil-nadu-biryani",
+      "subcategory_id": "sub-biryani-tamil-nadu-biryani",
       "name": {
         "en": "Tamil Nadu Chicken Biryani",
         "ar": "برياني الدجاج من تاميل نادو"
@@ -1077,7 +1214,7 @@
       "images": [
         {
           "id": "img-prod-tamil-nadu-chicken-biryani",
-          "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
+          "url": "/assets/images/img-tamil-nadu-chicken-biryani",
           "alt_text": {
             "en": null,
             "ar": null
@@ -1196,8 +1333,10 @@
     },
     {
       "id": "prod-tamil-nadu-beef-biryani",
+      "slug": "tamil-nadu-beef-biryani",
+      "path": "/menu/tamil-nadu-beef-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-tamil-nadu-biryani",
+      "subcategory_id": "sub-biryani-tamil-nadu-biryani",
       "name": {
         "en": "Tamil Nadu Beef Biryani",
         "ar": "برياني لحم بقري من تاميل نادو"
@@ -1334,8 +1473,10 @@
     },
     {
       "id": "prod-tamil-nadu-fish-biryani",
+      "slug": "tamil-nadu-fish-biryani",
+      "path": "/menu/tamil-nadu-fish-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-tamil-nadu-biryani",
+      "subcategory_id": "sub-biryani-tamil-nadu-biryani",
       "name": {
         "en": "Tamil Nadu Fish Biryani",
         "ar": "برياني السمك من تاميل نادو"
@@ -1472,8 +1613,10 @@
     },
     {
       "id": "prod-tamil-nadu-mutton-biryani",
+      "slug": "tamil-nadu-mutton-biryani",
+      "path": "/menu/tamil-nadu-mutton-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-tamil-nadu-biryani",
+      "subcategory_id": "sub-biryani-tamil-nadu-biryani",
       "name": {
         "en": "Tamil Nadu Mutton Biryani",
         "ar": "برياني لحم الضأن من تاميل نادو"
@@ -1610,8 +1753,10 @@
     },
     {
       "id": "prod-tamil-nadu-shrimp-biryani",
+      "slug": "tamil-nadu-shrimp-biryani",
+      "path": "/menu/tamil-nadu-shrimp-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-tamil-nadu-biryani",
+      "subcategory_id": "sub-biryani-tamil-nadu-biryani",
       "name": {
         "en": "Tamil Nadu Shrimp Biryani",
         "ar": "برياني الروبيان من تاميل نادو"
@@ -1748,8 +1893,10 @@
     },
     {
       "id": "prod-kankung-beef-with-fried-rice",
+      "slug": "kankung-beef-with-fried-rice",
+      "path": "/menu/kankung-beef-with-fried-rice/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-fried-rice",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
       "name": {
         "en": "Kankung Beef with Fried Rice",
         "ar": "لحم كانكونج مع أرز مقلي"
@@ -1767,7 +1914,7 @@
       "images": [
         {
           "id": "img-prod-kankung-beef-with-fried-rice",
-          "url": "/assets/images/img-kankung-beef-with-fried-rice.webp",
+          "url": "/assets/images/img-kankung-beef-with-fried-rice",
           "alt_text": {
             "en": null,
             "ar": null
@@ -1782,8 +1929,10 @@
     },
     {
       "id": "prod-kankung-beef-with-white-rice",
+      "slug": "kankung-beef-with-white-rice",
+      "path": "/menu/kankung-beef-with-white-rice/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-fried-rice",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
       "name": {
         "en": "Kankung Beef with White Rice",
         "ar": "لحم كانكونج مع أرز أبيض"
@@ -1801,7 +1950,7 @@
       "images": [
         {
           "id": "img-prod-kankung-beef-with-white-rice",
-          "url": "/assets/images/img-kankung-beef-with-white-rice.webp",
+          "url": "/assets/images/img-kankung-beef-with-white-rice",
           "alt_text": {
             "en": null,
             "ar": null
@@ -1816,8 +1965,10 @@
     },
     {
       "id": "prod-kottu-roti-egg",
+      "slug": "kottu-roti-egg",
+      "path": "/menu/kottu-roti-egg/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
       "name": {
         "en": "Kottu Roti Egg",
         "ar": "كوتو روتي بالبيض"
@@ -1835,7 +1986,7 @@
       "images": [
         {
           "id": "img-prod-kottu-roti-egg",
-          "url": "/assets/images/img-kottu-roti-egg.webp",
+          "url": "/assets/images/img-kottu-roti-egg",
           "alt_text": {
             "en": null,
             "ar": null
@@ -1875,8 +2026,10 @@
     },
     {
       "id": "prod-kottu-roti-veg-mushroom",
+      "slug": "kottu-roti-veg-mushroom",
+      "path": "/menu/kottu-roti-veg-mushroom/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
       "name": {
         "en": "Kottu Roti Veg & Mushroom",
         "ar": "كوتو روتي بالخضار والمشروم"
@@ -1934,8 +2087,10 @@
     },
     {
       "id": "prod-kottu-roti-chicken",
+      "slug": "kottu-roti-chicken",
+      "path": "/menu/kottu-roti-chicken/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
       "name": {
         "en": "Kottu Roti Chicken",
         "ar": "كوتو روتي بالدجاج"
@@ -1993,8 +2148,10 @@
     },
     {
       "id": "prod-kottu-roti-beef",
+      "slug": "kottu-roti-beef",
+      "path": "/menu/kottu-roti-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
       "name": {
         "en": "Kottu Roti Beef",
         "ar": "كوتو روتي باللحم البقري"
@@ -2012,7 +2169,7 @@
       "images": [
         {
           "id": "img-prod-kottu-roti-beef",
-          "url": "/assets/images/img-kottu-roti-beef.webp",
+          "url": "/assets/images/img-kottu-roti-beef",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2052,8 +2209,10 @@
     },
     {
       "id": "prod-kottu-roti-chicken-beef",
+      "slug": "kottu-roti-chicken-beef",
+      "path": "/menu/kottu-roti-chicken-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
       "name": {
         "en": "Kottu Roti Chicken & Beef",
         "ar": "كوتو روتي بالدجاج واللحم"
@@ -2111,8 +2270,10 @@
     },
     {
       "id": "prod-mixed-kottu-chick-beef-shrimp",
+      "slug": "mixed-kottu-chick-beef-shrimp",
+      "path": "/menu/mixed-kottu-chick-beef-shrimp/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
       "name": {
         "en": "Mixed Kottu (Chick, Beef, Shrimp)",
         "ar": "كوتو مشكل (دجاج، لحم، روبيان)"
@@ -2170,8 +2331,10 @@
     },
     {
       "id": "prod-kottu-idiappam-egg",
+      "slug": "kottu-idiappam-egg",
+      "path": "/menu/kottu-idiappam-egg/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
       "name": {
         "en": "Kottu Idiappam Egg",
         "ar": "كوتو إديايام بالبيض"
@@ -2189,7 +2352,7 @@
       "images": [
         {
           "id": "img-prod-kottu-idiappam-egg",
-          "url": "/assets/images/img-kottu-idiappam-egg.webp",
+          "url": "/assets/images/img-kottu-idiappam-egg",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2229,8 +2392,10 @@
     },
     {
       "id": "prod-kottu-idiappam-veg-mushroom",
+      "slug": "kottu-idiappam-veg-mushroom",
+      "path": "/menu/kottu-idiappam-veg-mushroom/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
       "name": {
         "en": "Kottu Idiappam Veg & Mushroom",
         "ar": "كوتو إديايام بالخضار والمشروم"
@@ -2248,7 +2413,7 @@
       "images": [
         {
           "id": "img-prod-kottu-idiappam-veg-mushroom",
-          "url": "/assets/images/img-kottu-idiappam-veg-mushroom.webp",
+          "url": "/assets/images/img-kottu-idiappam-veg-mushroom",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2288,8 +2453,10 @@
     },
     {
       "id": "prod-kottu-idiappam-chicken",
+      "slug": "kottu-idiappam-chicken",
+      "path": "/menu/kottu-idiappam-chicken/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
       "name": {
         "en": "Kottu Idiappam Chicken",
         "ar": "كوتو إديايام بالدجاج"
@@ -2307,7 +2474,7 @@
       "images": [
         {
           "id": "img-prod-kottu-idiappam-chicken",
-          "url": "/assets/images/img-kottu-idiappam-chicken.webp",
+          "url": "/assets/images/img-kottu-idiappam-chicken",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2347,8 +2514,10 @@
     },
     {
       "id": "prod-kottu-idiappam-beef",
+      "slug": "kottu-idiappam-beef",
+      "path": "/menu/kottu-idiappam-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
       "name": {
         "en": "Kottu Idiappam Beef",
         "ar": "كوتو إديايام باللحم البقري"
@@ -2366,7 +2535,7 @@
       "images": [
         {
           "id": "img-prod-kottu-idiappam-beef",
-          "url": "/assets/images/img-kottu-idiappam-beef.webp",
+          "url": "/assets/images/img-kottu-idiappam-beef",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2406,8 +2575,10 @@
     },
     {
       "id": "prod-kottu-idiappam-chicken-beef",
+      "slug": "kottu-idiappam-chicken-beef",
+      "path": "/menu/kottu-idiappam-chicken-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
       "name": {
         "en": "Kottu Idiappam Chicken & Beef",
         "ar": "كوتو إديايام بالدجاج واللحم"
@@ -2425,7 +2596,7 @@
       "images": [
         {
           "id": "img-prod-kottu-idiappam-chicken-beef",
-          "url": "/assets/images/img-kottu-idiappam-chicken-beef.webp",
+          "url": "/assets/images/img-kottu-idiappam-chicken-beef",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2465,8 +2636,10 @@
     },
     {
       "id": "prod-mixed-kottu-idiappam-chick-beef-shrimp",
+      "slug": "mixed-kottu-idiappam-chick-beef-shrimp",
+      "path": "/menu/mixed-kottu-idiappam-chick-beef-shrimp/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
       "name": {
         "en": "Mixed Kottu Idiappam (Chick, Beef, Shrimp)",
         "ar": "كوتو إديايام مشكل (دجاج، لحم، روبيان)"
@@ -2484,7 +2657,7 @@
       "images": [
         {
           "id": "img-prod-mixed-kottu-idiappam-chick-beef-shrimp",
-          "url": "/assets/images/img-mixed-kottu-idiappam-chick-beef-shrimp.webp",
+          "url": "/assets/images/img-mixed-kottu-idiappam-chick-beef-shrimp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2548,8 +2721,10 @@
     },
     {
       "id": "prod-sri-lanka-chicken-biryani",
+      "slug": "sri-lanka-chicken-biryani",
+      "path": "/menu/sri-lanka-chicken-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-srilankan-biryani",
+      "subcategory_id": "sub-biryani-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Chicken Biryani",
         "ar": "برياني الدجاج السريلانكي"
@@ -2567,7 +2742,7 @@
       "images": [
         {
           "id": "img-prod-sri-lanka-chicken-biryani",
-          "url": "/assets/images/img-sri-lanka-chicken-biryani.webp",
+          "url": "/assets/images/img-sri-lanka-chicken-biryani",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2631,8 +2806,10 @@
     },
     {
       "id": "prod-sri-lanka-beef-biryani",
+      "slug": "sri-lanka-beef-biryani",
+      "path": "/menu/sri-lanka-beef-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-srilankan-biryani",
+      "subcategory_id": "sub-biryani-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Beef Biryani",
         "ar": "برياني لحم بقري سريلانكي"
@@ -2690,8 +2867,10 @@
     },
     {
       "id": "prod-sri-lanka-fish-biryani",
+      "slug": "sri-lanka-fish-biryani",
+      "path": "/menu/sri-lanka-fish-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-srilankan-biryani",
+      "subcategory_id": "sub-biryani-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Fish Biryani",
         "ar": "برياني السمك السريلانكي"
@@ -2749,8 +2928,10 @@
     },
     {
       "id": "prod-sri-lanka-mutton-biryani",
+      "slug": "sri-lanka-mutton-biryani",
+      "path": "/menu/sri-lanka-mutton-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-srilankan-biryani",
+      "subcategory_id": "sub-biryani-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Mutton Biryani",
         "ar": "برياني لحم الضأن السريلانكي"
@@ -2808,8 +2989,10 @@
     },
     {
       "id": "prod-sri-lanka-shrimp-biryani",
+      "slug": "sri-lanka-shrimp-biryani",
+      "path": "/menu/sri-lanka-shrimp-biryani/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-srilankan-biryani",
+      "subcategory_id": "sub-biryani-srilankan-biryani",
       "name": {
         "en": "Sri Lanka Shrimp Biryani",
         "ar": "برياني الروبيان السريلانكي"
@@ -2867,8 +3050,10 @@
     },
     {
       "id": "prod-sri-lanka-idiappam-biryani-chicken",
+      "slug": "sri-lanka-idiappam-biryani-chicken",
+      "path": "/menu/sri-lanka-idiappam-biryani-chicken/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-idiappam-biryani",
+      "subcategory_id": "sub-biryani-idiappam-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Chicken",
         "ar": "برياني إديايام بالدجاج السريلانكي"
@@ -2886,7 +3071,7 @@
       "images": [
         {
           "id": "img-prod-sri-lanka-idiappam-biryani-chicken",
-          "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
+          "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2926,8 +3111,10 @@
     },
     {
       "id": "prod-sri-lanka-idiappam-biryani-beef",
+      "slug": "sri-lanka-idiappam-biryani-beef",
+      "path": "/menu/sri-lanka-idiappam-biryani-beef/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-idiappam-biryani",
+      "subcategory_id": "sub-biryani-idiappam-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Beef",
         "ar": "برياني إديايام باللحم البقري السريلانكي"
@@ -2985,8 +3172,10 @@
     },
     {
       "id": "prod-sri-lanka-idiappam-biryani-fish",
+      "slug": "sri-lanka-idiappam-biryani-fish",
+      "path": "/menu/sri-lanka-idiappam-biryani-fish/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-idiappam-biryani",
+      "subcategory_id": "sub-biryani-idiappam-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Fish",
         "ar": "برياني إديايام بالسمك السريلانكي"
@@ -3044,8 +3233,10 @@
     },
     {
       "id": "prod-sri-lanka-idiappam-biryani-mutton",
+      "slug": "sri-lanka-idiappam-biryani-mutton",
+      "path": "/menu/sri-lanka-idiappam-biryani-mutton/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-idiappam-biryani",
+      "subcategory_id": "sub-biryani-idiappam-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Mutton",
         "ar": "برياني إديايام بلحم الضأن السريلانكي"
@@ -3103,8 +3294,10 @@
     },
     {
       "id": "prod-sri-lanka-idiappam-biryani-shrimp",
+      "slug": "sri-lanka-idiappam-biryani-shrimp",
+      "path": "/menu/sri-lanka-idiappam-biryani-shrimp/",
       "category_id": "cat-biryani",
-      "subcategory_id": "sub-idiappam-biryani",
+      "subcategory_id": "sub-biryani-idiappam-biryani",
       "name": {
         "en": "Sri Lanka Idiappam Biryani Shrimp",
         "ar": "برياني إديايام بالروبيان السريلانكي"
@@ -3162,8 +3355,10 @@
     },
     {
       "id": "prod-puttu-kottu-egg",
+      "slug": "puttu-kottu-egg",
+      "path": "/menu/puttu-kottu-egg/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
       "name": {
         "en": "Puttu Kottu Egg",
         "ar": "كوتو بوتو بالبيض"
@@ -3181,7 +3376,7 @@
       "images": [
         {
           "id": "img-prod-puttu-kottu-egg",
-          "url": "/assets/images/img-puttu-kottu-egg.webp",
+          "url": "/assets/images/img-puttu-kottu-egg",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3221,8 +3416,10 @@
     },
     {
       "id": "prod-puttu-kottu-veg-mushroom",
+      "slug": "puttu-kottu-veg-mushroom",
+      "path": "/menu/puttu-kottu-veg-mushroom/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
       "name": {
         "en": "Puttu Kottu Veg & Mushroom",
         "ar": "كوتو بوتو بالخضار والمشروم"
@@ -3280,8 +3477,10 @@
     },
     {
       "id": "prod-puttu-kottu-chicken",
+      "slug": "puttu-kottu-chicken",
+      "path": "/menu/puttu-kottu-chicken/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
       "name": {
         "en": "Puttu Kottu Chicken",
         "ar": "كوتو بوتو بالدجاج"
@@ -3339,8 +3538,10 @@
     },
     {
       "id": "prod-puttu-kottu-beef",
+      "slug": "puttu-kottu-beef",
+      "path": "/menu/puttu-kottu-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
       "name": {
         "en": "Puttu Kottu Beef",
         "ar": "كوتو بوتو باللحم البقري"
@@ -3398,8 +3599,10 @@
     },
     {
       "id": "prod-puttu-kottu-chicken-beef",
+      "slug": "puttu-kottu-chicken-beef",
+      "path": "/menu/puttu-kottu-chicken-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
       "name": {
         "en": "Puttu Kottu Chicken & Beef",
         "ar": "كوتو بوتو بالدجاج واللحم"
@@ -3457,8 +3660,10 @@
     },
     {
       "id": "prod-mixed-puttu-kottu-chick-beef-shrimp",
+      "slug": "mixed-puttu-kottu-chick-beef-shrimp",
+      "path": "/menu/mixed-puttu-kottu-chick-beef-shrimp/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
       "name": {
         "en": "Mixed Puttu Kottu (Chick, Beef, Shrimp)",
         "ar": "كوتو بوتو مشكل (دجاج، لحم، روبيان)"
@@ -3516,6 +3721,8 @@
     },
     {
       "id": "prod-aloo-paratha",
+      "slug": "aloo-paratha",
+      "path": "/menu/aloo-paratha/",
       "category_id": "cat-breads",
       "subcategory_id": null,
       "name": {
@@ -3535,7 +3742,7 @@
       "images": [
         {
           "id": "img-prod-aloo-paratha",
-          "url": "/assets/images/img-aloo-paratha.webp",
+          "url": "/assets/images/img-aloo-paratha",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3550,8 +3757,10 @@
     },
     {
       "id": "prod-dal-chana",
+      "slug": "dal-chana",
+      "path": "/menu/dal-chana/",
       "category_id": "cat-curries",
-      "subcategory_id": "sub-curries",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
       "name": {
         "en": "Dal Chana",
         "ar": "دال تشانا"
@@ -3569,7 +3778,7 @@
       "images": [
         {
           "id": "img-prod-dal-chana",
-          "url": "/assets/images/img-dal-chana.webp",
+          "url": "/assets/images/img-dal-chana",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3584,8 +3793,10 @@
     },
     {
       "id": "prod-kala-chana",
+      "slug": "kala-chana",
+      "path": "/menu/kala-chana/",
       "category_id": "cat-curries",
-      "subcategory_id": "sub-curries",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
       "name": {
         "en": "Kala Chana",
         "ar": "كالا تشانا"
@@ -3603,7 +3814,7 @@
       "images": [
         {
           "id": "img-prod-kala-chana",
-          "url": "/assets/images/img-kala-chana.webp",
+          "url": "/assets/images/img-kala-chana",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3618,8 +3829,10 @@
     },
     {
       "id": "prod-butter-chicken",
+      "slug": "butter-chicken",
+      "path": "/menu/butter-chicken/",
       "category_id": "cat-curries",
-      "subcategory_id": "sub-curries",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
       "name": {
         "en": "Butter Chicken",
         "ar": "دجاج بالزبدة"
@@ -3637,7 +3850,7 @@
       "images": [
         {
           "id": "img-prod-butter-chicken",
-          "url": "/assets/images/img-butter-chicken.webp",
+          "url": "/assets/images/img-butter-chicken",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3651,27 +3864,29 @@
       "option_groups": []
     },
     {
-      "id": "prod-lal-peri-test",
-      "category_id": "cat-specials",
+      "id": "prod-creamy-chicken-mushroom-soup",
+      "slug": "creamy-chicken-mushroom-soup",
+      "path": "/menu/creamy-chicken-mushroom-soup/",
+      "category_id": "cat-soups",
       "subcategory_id": null,
       "name": {
-        "en": "Lal Peri (Test)",
-        "ar": "لال بيري (اختبار)"
+        "en": "Creamy Chicken & Mushroom Soup",
+        "ar": "شوربة الدجاج والفطر الكريمية"
       },
       "description": {
         "en": "",
         "ar": ""
       },
       "has_variants": false,
-      "base_price": 28,
+      "base_price": 24,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
       "sort_order": 450,
       "images": [
         {
-          "id": "img-prod-lal-peri-test",
-          "url": "/assets/images/img-lal-peri-test.webp",
+          "id": "img-prod-creamy-chicken-mushroom-soup",
+          "url": "/assets/images/img-creamy-chicken-mushroom-soup",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3682,6 +3897,3609 @@
       ],
       "offers": [],
       "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-spiced-tomato-orzo-soup",
+      "slug": "spiced-tomato-orzo-soup",
+      "path": "/menu/spiced-tomato-orzo-soup/",
+      "category_id": "cat-soups",
+      "subcategory_id": null,
+      "name": {
+        "en": "Spiced Tomato & Orzo Soup",
+        "ar": "شوربة الطماطم المتبلة مع الأورزو"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 18,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 460,
+      "images": [
+        {
+          "id": "img-prod-spiced-tomato-orzo-soup",
+          "url": "/assets/images/img-spiced-tomato-orzo-soup",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mushroom-soup",
+      "slug": "mushroom-soup",
+      "path": "/menu/mushroom-soup/",
+      "category_id": "cat-soups",
+      "subcategory_id": null,
+      "name": {
+        "en": "Mushroom Soup",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 12,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": 470,
+      "images": [
+        {
+          "id": "img-prod-mushroom-soup",
+          "url": "/assets/images/img-mushroom-soup",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-lentil-soup",
+      "slug": "lentil-soup",
+      "path": "/menu/lentil-soup/",
+      "category_id": "cat-soups",
+      "subcategory_id": null,
+      "name": {
+        "en": "Lentil Soup",
+        "ar": "شوربة العدس"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 18,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 480,
+      "images": [
+        {
+          "id": "img-prod-lentil-soup",
+          "url": "/assets/images/img-lentil-soup.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-tom-yum-soup-shrimp",
+      "slug": "tom-yum-soup-shrimp",
+      "path": "/menu/tom-yum-soup-shrimp/",
+      "category_id": "cat-soups",
+      "subcategory_id": null,
+      "name": {
+        "en": "Tom Yum Soup (Shrimp)",
+        "ar": "حساء توم يام (بالروبيان)"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 24,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 490,
+      "images": [
+        {
+          "id": "img-prod-tom-yum-soup-shrimp",
+          "url": "/assets/images/img-tom-yum-soup-shrimp.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-seafood-soup-shrimp-cuttlefish-fish",
+      "slug": "seafood-soup-shrimp-cuttlefish-fish",
+      "path": "/menu/seafood-soup-shrimp-cuttlefish-fish/",
+      "category_id": "cat-soups",
+      "subcategory_id": null,
+      "name": {
+        "en": "Seafood Soup (Shrimp/Cuttlefish/Fish)",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 29,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": 500,
+      "images": [
+        {
+          "id": "img-prod-seafood-soup-shrimp-cuttlefish-fish",
+          "url": "/assets/images/img-seafood-soup-shrimp-cuttlefish-fish.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-hot-sour-vegetable",
+      "slug": "hot-sour-vegetable",
+      "path": "/menu/hot-sour-vegetable/",
+      "category_id": "cat-soups",
+      "subcategory_id": null,
+      "name": {
+        "en": "Hot & Sour Vegetable",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 11,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": 510,
+      "images": [
+        {
+          "id": "img-prod-hot-sour-vegetable",
+          "url": "/assets/images/img-hot-sour-vegetable.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-hot-sour-chicken",
+      "slug": "hot-sour-chicken",
+      "path": "/menu/hot-sour-chicken/",
+      "category_id": "cat-soups",
+      "subcategory_id": null,
+      "name": {
+        "en": "Hot & Sour Chicken",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 14,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": 520,
+      "images": [
+        {
+          "id": "img-prod-hot-sour-chicken",
+          "url": "/assets/images/img-hot-sour-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-madghout-chicken",
+      "slug": "madghout-chicken",
+      "path": "/menu/madghout-chicken/",
+      "category_id": "cat-arabic-dishes",
+      "subcategory_id": null,
+      "name": {
+        "en": "Madghout Chicken",
+        "ar": "مضغوط دجاج"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 530,
+      "images": [
+        {
+          "id": "img-prod-madghout-chicken",
+          "url": "/assets/images/img-madghout-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-madghout-chicken-quarter",
+          "name": {
+            "en": "Quarter",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 13,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-madghout-chicken-half",
+          "name": {
+            "en": "Half",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 24,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chicken-mandi",
+      "slug": "chicken-mandi",
+      "path": "/menu/chicken-mandi/",
+      "category_id": "cat-arabic-dishes",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chicken Mandi",
+        "ar": "مندي دجاج"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 540,
+      "images": [
+        {
+          "id": "img-prod-chicken-mandi",
+          "url": "/assets/images/img-chicken-mandi.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-chicken-mandi-quarter",
+          "name": {
+            "en": "Quarter",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 13,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-chicken-mandi-half",
+          "name": {
+            "en": "Half",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 24,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-cinnamon-rice",
+      "slug": "cinnamon-rice",
+      "path": "/menu/cinnamon-rice/",
+      "category_id": "cat-arabic-dishes",
+      "subcategory_id": null,
+      "name": {
+        "en": "Cinnamon Rice",
+        "ar": "أرز بالقرفة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 550,
+      "images": [
+        {
+          "id": "img-prod-cinnamon-rice",
+          "url": "/assets/images/img-cinnamon-rice.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-cinnamon-rice-quarter",
+          "name": {
+            "en": "Quarter",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 13,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-cinnamon-rice-half",
+          "name": {
+            "en": "Half",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 24,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chicken-kabsa",
+      "slug": "chicken-kabsa",
+      "path": "/menu/chicken-kabsa/",
+      "category_id": "cat-arabic-dishes",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chicken Kabsa",
+        "ar": "كبسة دجاج"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 560,
+      "images": [
+        {
+          "id": "img-prod-chicken-kabsa",
+          "url": "/assets/images/img-chicken-kabsa.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kunafa",
+      "slug": "kunafa",
+      "path": "/menu/kunafa/",
+      "category_id": "cat-desserts",
+      "subcategory_id": null,
+      "name": {
+        "en": "Kunafa",
+        "ar": "كنافة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 9,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 570,
+      "images": [
+        {
+          "id": "img-prod-kunafa",
+          "url": "/assets/images/img-kunafa.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-saffron-cardamom-mahalabiya",
+      "slug": "saffron-cardamom-mahalabiya",
+      "path": "/menu/saffron-cardamom-mahalabiya/",
+      "category_id": "cat-desserts",
+      "subcategory_id": null,
+      "name": {
+        "en": "Saffron & Cardamom ‎Mahalabiya",
+        "ar": "‎مهلبية بالزعفران والهيل"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 12,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 580,
+      "images": [
+        {
+          "id": "img-prod-saffron-cardamom-mahalabiya",
+          "url": "/assets/images/img-saffron-cardamom-mahalabiya.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-smoky-eggplant-fattoush",
+      "slug": "smoky-eggplant-fattoush",
+      "path": "/menu/smoky-eggplant-fattoush/",
+      "category_id": "cat-appetizers",
+      "subcategory_id": null,
+      "name": {
+        "en": "Smoky Eggplant Fattoush",
+        "ar": "فتوش بالباذنجان المدخن"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 15,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 590,
+      "images": [
+        {
+          "id": "img-prod-smoky-eggplant-fattoush",
+          "url": "/assets/images/img-smoky-eggplant-fattoush.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-masala-chickpea-tabbouleh",
+      "slug": "masala-chickpea-tabbouleh",
+      "path": "/menu/masala-chickpea-tabbouleh/",
+      "category_id": "cat-appetizers",
+      "subcategory_id": null,
+      "name": {
+        "en": "Masala Chickpea Tabbouleh",
+        "ar": "تبولة بالحمص والبهارات"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 18,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 600,
+      "images": [
+        {
+          "id": "img-prod-masala-chickpea-tabbouleh",
+          "url": "/assets/images/img-masala-chickpea-tabbouleh.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-cumin-roasted-beetroot-labne",
+      "slug": "cumin-roasted-beetroot-labne",
+      "path": "/menu/cumin-roasted-beetroot-labne/",
+      "category_id": "cat-appetizers",
+      "subcategory_id": null,
+      "name": {
+        "en": "Cumin-Roasted Beetroot & ‎Labne",
+        "ar": "شمندر محمص بالكمون مع اللبنة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 25,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 610,
+      "images": [
+        {
+          "id": "img-prod-cumin-roasted-beetroot-labne",
+          "url": "/assets/images/img-cumin-roasted-beetroot-labne.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-tabbouleh",
+      "slug": "tabbouleh",
+      "path": "/menu/tabbouleh/",
+      "category_id": "cat-appetizers",
+      "subcategory_id": null,
+      "name": {
+        "en": "Tabbouleh",
+        "ar": "تبولة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 8,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 620,
+      "images": [
+        {
+          "id": "img-prod-tabbouleh",
+          "url": "/assets/images/img-tabbouleh.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-hummus",
+      "slug": "hummus",
+      "path": "/menu/hummus/",
+      "category_id": "cat-appetizers",
+      "subcategory_id": null,
+      "name": {
+        "en": "Hummus",
+        "ar": "حمص"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 8,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 630,
+      "images": [
+        {
+          "id": "img-prod-hummus",
+          "url": "/assets/images/img-hummus.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mixed-salad-with-hummus-tabbouleh",
+      "slug": "mixed-salad-with-hummus-tabbouleh",
+      "path": "/menu/mixed-salad-with-hummus-tabbouleh/",
+      "category_id": "cat-appetizers",
+      "subcategory_id": null,
+      "name": {
+        "en": "Mixed Salad with Hummus & ‎Tabbouleh",
+        "ar": "سلطة مشكلة مع حمص وتبولة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 640,
+      "images": [
+        {
+          "id": "img-prod-mixed-salad-with-hummus-tabbouleh",
+          "url": "/assets/images/img-mixed-salad-with-hummus-tabbouleh.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-mixed-salad-with-hummus-tabbouleh-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-mixed-salad-with-hummus-tabbouleh-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mini-tiffin",
+      "slug": "mini-tiffin",
+      "path": "/menu/mini-tiffin/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Mini Tiffin",
+        "ar": "طبق إفطار جنوب هندي مشكل"
+      },
+      "description": {
+        "en": "Masala Dosa, 1 Vada, 2 Kallu Dosas, 3 Sambar Idlis",
+        "ar": "ماسالا دوسا، 1 فادا، 2 كالو دوساس، 3 سامبار إيدليس"
+      },
+      "has_variants": false,
+      "base_price": 15,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 650,
+      "images": [
+        {
+          "id": "img-prod-mini-tiffin",
+          "url": "/assets/images/img-mini-tiffin.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mutton-kheema",
+      "slug": "mutton-kheema",
+      "path": "/menu/mutton-kheema/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Mutton Kheema",
+        "ar": "كيما لحم غنم"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 18,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 660,
+      "images": [
+        {
+          "id": "img-prod-mutton-kheema",
+          "url": "/assets/images/img-mutton-kheema.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-beef-kheema",
+      "slug": "beef-kheema",
+      "path": "/menu/beef-kheema/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Beef Kheema",
+        "ar": "كيما لحم بقري"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 10,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 670,
+      "images": [
+        {
+          "id": "img-prod-beef-kheema",
+          "url": "/assets/images/img-beef-kheema.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-liver-roast",
+      "slug": "liver-roast",
+      "path": "/menu/liver-roast/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Liver Roast",
+        "ar": "كبدة مقلية جافة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 15,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 680,
+      "images": [
+        {
+          "id": "img-prod-liver-roast",
+          "url": "/assets/images/img-liver-roast.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-lemon-rice",
+      "slug": "lemon-rice",
+      "path": "/menu/lemon-rice/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Lemon Rice",
+        "ar": "أرز بالليمون"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 690,
+      "images": [
+        {
+          "id": "img-prod-lemon-rice",
+          "url": "/assets/images/img-lemon-rice.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-tomato-rice",
+      "slug": "tomato-rice",
+      "path": "/menu/tomato-rice/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Tomato Rice",
+        "ar": "أرز بالطماطم"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 700,
+      "images": [
+        {
+          "id": "img-prod-tomato-rice",
+          "url": "/assets/images/img-tomato-rice.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-puttu-steamed-rice-cake-with-kadala-curry",
+      "slug": "puttu-steamed-rice-cake-with-kadala-curry",
+      "path": "/menu/puttu-steamed-rice-cake-with-kadala-curry/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Puttu (Steamed Rice Cake) with Kadala Curry",
+        "ar": "بوتو (كعكة أرز مطهوة بالبخار) مع صالونة الحمص"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 4,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 710,
+      "images": [
+        {
+          "id": "img-prod-puttu-steamed-rice-cake-with-kadala-curry",
+          "url": "/assets/images/img-puttu-steamed-rice-cake-with-kadala-curry.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-idiyappam-string-hoppers-3-pieces",
+      "slug": "idiyappam-string-hoppers-3-pieces",
+      "path": "/menu/idiyappam-string-hoppers-3-pieces/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Idiyappam (String Hoppers) - 3 Pieces",
+        "ar": "إديابام (نودلز رفيعة من دقيق الأرز مطهوة بالبخار) - 3 قطع"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 3,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 720,
+      "images": [
+        {
+          "id": "img-prod-idiyappam-string-hoppers-3-pieces",
+          "url": "/assets/images/img-idiyappam-string-hoppers-3-pieces.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-thenga-rotti-coconut-roti-1-piece",
+      "slug": "thenga-rotti-coconut-roti-1-piece",
+      "path": "/menu/thenga-rotti-coconut-roti-1-piece/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Thenga Rotti (Coconut Roti) - 1 Piece",
+        "ar": "ثينغا روتي (روتي بجوز الهند) - قطعة واحدة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 2.5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 730,
+      "images": [
+        {
+          "id": "img-prod-thenga-rotti-coconut-roti-1-piece",
+          "url": "/assets/images/img-thenga-rotti-coconut-roti-1-piece.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-thenga-sambal-coconut-sambal",
+      "slug": "thenga-sambal-coconut-sambal",
+      "path": "/menu/thenga-sambal-coconut-sambal/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Thenga Sambal (Coconut Sambal)",
+        "ar": "ثينغا سامبال (سامبال جوز الهند)"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 4,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 740,
+      "images": [
+        {
+          "id": "img-prod-thenga-sambal-coconut-sambal",
+          "url": "/assets/images/img-thenga-sambal-coconut-sambal.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-egg-kalaki-with-chicken-curry-1-egg",
+      "slug": "egg-kalaki-with-chicken-curry-1-egg",
+      "path": "/menu/egg-kalaki-with-chicken-curry-1-egg/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Egg Kalaki with Chicken Curry - 1 Egg",
+        "ar": "شكشوكة مع صالونة الدجاج - بيضة واحدة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 2.5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 750,
+      "images": [
+        {
+          "id": "img-prod-egg-kalaki-with-chicken-curry-1-egg",
+          "url": "/assets/images/img-egg-kalaki-with-chicken-curry-1-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-egg-korma",
+      "slug": "egg-korma",
+      "path": "/menu/egg-korma/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Egg Korma",
+        "ar": "كورما البيض"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 7,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 760,
+      "images": [
+        {
+          "id": "img-prod-egg-korma",
+          "url": "/assets/images/img-egg-korma.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-egg-curry",
+      "slug": "egg-curry",
+      "path": "/menu/egg-curry/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Egg Curry",
+        "ar": "صالونة البيض"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 6,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 770,
+      "images": [
+        {
+          "id": "img-prod-egg-curry",
+          "url": "/assets/images/img-egg-curry.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-omelette-1-egg",
+      "slug": "omelette-1-egg",
+      "path": "/menu/omelette-1-egg/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Omelette - 1 Egg",
+        "ar": "أومليت - بيضة واحدة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 2.5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 780,
+      "images": [
+        {
+          "id": "img-prod-omelette-1-egg",
+          "url": "/assets/images/img-omelette-1-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-egg-roast",
+      "slug": "egg-roast",
+      "path": "/menu/egg-roast/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Egg Roast",
+        "ar": "بيض مقلي جاف"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 3.5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 790,
+      "images": [
+        {
+          "id": "img-prod-egg-roast",
+          "url": "/assets/images/img-egg-roast.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-boiled-egg",
+      "slug": "boiled-egg",
+      "path": "/menu/boiled-egg/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Boiled Egg",
+        "ar": "بيض مسلوق"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 1.5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 800,
+      "images": [
+        {
+          "id": "img-prod-boiled-egg",
+          "url": "/assets/images/img-boiled-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-scrambled-egg-1-egg",
+      "slug": "scrambled-egg-1-egg",
+      "path": "/menu/scrambled-egg-1-egg/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Scrambled Egg - 1 Egg",
+        "ar": "شكشوكة - بيضة واحدة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 2.5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 810,
+      "images": [
+        {
+          "id": "img-prod-scrambled-egg-1-egg",
+          "url": "/assets/images/img-scrambled-egg-1-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-scrambled-egg-with-cheese-1-egg",
+      "slug": "scrambled-egg-with-cheese-1-egg",
+      "path": "/menu/scrambled-egg-with-cheese-1-egg/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Scrambled Egg with Cheese - 1 Egg",
+        "ar": "شكشوكة بالجبن - بيضة واحدة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 6,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 820,
+      "images": [
+        {
+          "id": "img-prod-scrambled-egg-with-cheese-1-egg",
+          "url": "/assets/images/img-scrambled-egg-with-cheese-1-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-upma",
+      "slug": "upma",
+      "path": "/menu/upma/",
+      "category_id": "cat-breakfast",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Upma",
+        "ar": "أبما"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 830,
+      "images": [
+        {
+          "id": "img-prod-upma",
+          "url": "/assets/images/img-upma.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-parotta",
+      "slug": "parotta",
+      "path": "/menu/parotta/",
+      "category_id": "cat-breads",
+      "subcategory_id": null,
+      "name": {
+        "en": "Parotta",
+        "ar": "باروتا"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 840,
+      "images": [
+        {
+          "id": "img-prod-parotta",
+          "url": "/assets/images/img-parotta.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-parotta-setof3",
+          "name": {
+            "en": "Set of 3",
+            "ar": "مجموعة من 3 قطع"
+          },
+          "base_price": 3,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-parotta-setof3",
+          "name": {
+            "en": "Set of 3",
+            "ar": "مجموعة من 3 قطع"
+          },
+          "base_price": 3,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-parotta-single",
+          "name": {
+            "en": "Single",
+            "ar": "أعزب"
+          },
+          "base_price": 1,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chapati",
+      "slug": "chapati",
+      "path": "/menu/chapati/",
+      "category_id": "cat-breads",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chapati",
+        "ar": "تشباتي"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 850,
+      "images": [
+        {
+          "id": "img-prod-chapati",
+          "url": "/assets/images/img-chapati.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-chapati-setof3",
+          "name": {
+            "en": "Set of 3",
+            "ar": "مجموعة من 3 قطع"
+          },
+          "base_price": 3,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-chapati-single",
+          "name": {
+            "en": "Single",
+            "ar": "أعزب"
+          },
+          "base_price": 1,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-atta-parotta",
+      "slug": "atta-parotta",
+      "path": "/menu/atta-parotta/",
+      "category_id": "cat-breads",
+      "subcategory_id": null,
+      "name": {
+        "en": "Atta Parotta",
+        "ar": "باروتا بالقمح"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 860,
+      "images": [
+        {
+          "id": "img-prod-atta-parotta",
+          "url": "/assets/images/img-atta-parotta.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-atta-parotta-single",
+          "name": {
+            "en": "Single",
+            "ar": "أعزب"
+          },
+          "base_price": 1,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-egg-roti",
+      "slug": "egg-roti",
+      "path": "/menu/egg-roti/",
+      "category_id": "cat-breads",
+      "subcategory_id": null,
+      "name": {
+        "en": "Egg Roti",
+        "ar": "روتي بالبيض"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 2.5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 870,
+      "images": [
+        {
+          "id": "img-prod-egg-roti",
+          "url": "/assets/images/img-egg-roti.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-stuffed-roti",
+      "slug": "stuffed-roti",
+      "path": "/menu/stuffed-roti/",
+      "category_id": "cat-breads",
+      "subcategory_id": null,
+      "name": {
+        "en": "Stuffed Roti",
+        "ar": "روتي محشي"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 880,
+      "images": [
+        {
+          "id": "img-prod-stuffed-roti",
+          "url": "/assets/images/img-stuffed-roti.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-stuffed-roti-sardine",
+          "name": {
+            "en": "Sardine",
+            "ar": "سمك السردين"
+          },
+          "base_price": 6,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-stuffed-roti-cheeseormushroom",
+          "name": {
+            "en": "Cheese or Mushroom",
+            "ar": "الجبن أو الفطر"
+          },
+          "base_price": 7,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        },
+        {
+          "id": "v-stuffed-roti-chicken",
+          "name": {
+            "en": "Chicken",
+            "ar": "فرخة"
+          },
+          "base_price": 7,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 30,
+          "offers": []
+        },
+        {
+          "id": "v-stuffed-roti-beef",
+          "name": {
+            "en": "Beef",
+            "ar": "لحم"
+          },
+          "base_price": 8,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 40,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-vada",
+      "slug": "vada",
+      "path": "/menu/vada/",
+      "category_id": "cat-south-indian",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Vada",
+        "ar": "فادا"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 890,
+      "images": [
+        {
+          "id": "img-prod-vada",
+          "url": "/assets/images/img-vada.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-vada-singlepiece",
+          "name": {
+            "en": "Single Piece",
+            "ar": "قطعة واحدة"
+          },
+          "base_price": 1,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-vada-setofthree",
+          "name": {
+            "en": "Set of Three",
+            "ar": "مجموعة من ثلاثة"
+          },
+          "base_price": 3,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-idli",
+      "slug": "idli",
+      "path": "/menu/idli/",
+      "category_id": "cat-south-indian",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Idli",
+        "ar": "إدلي"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 900,
+      "images": [
+        {
+          "id": "img-prod-idli",
+          "url": "/assets/images/img-idli.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-idli-setof3",
+          "name": {
+            "en": "Set of 3",
+            "ar": "مجموعة من 3 قطع"
+          },
+          "base_price": 4,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-idli-single",
+          "name": {
+            "en": "Single",
+            "ar": "أعزب"
+          },
+          "base_price": 1,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-poori-bhaji",
+      "slug": "poori-bhaji",
+      "path": "/menu/poori-bhaji/",
+      "category_id": "cat-south-indian",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Poori Bhaji",
+        "ar": "بوري باجي"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 910,
+      "images": [
+        {
+          "id": "img-prod-poori-bhaji",
+          "url": "/assets/images/img-poori-bhaji.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-poori-bhaji-setofthree",
+          "name": {
+            "en": "Set of Three",
+            "ar": "مجموعة من ثلاثة"
+          },
+          "base_price": 5,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-poori-bhaji-single",
+          "name": {
+            "en": "Single",
+            "ar": "أعزب"
+          },
+          "base_price": 1,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chole-bhature",
+      "slug": "chole-bhature",
+      "path": "/menu/chole-bhature/",
+      "category_id": "cat-south-indian",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Chole Bhature",
+        "ar": "تشولي باتوري"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 920,
+      "images": [
+        {
+          "id": "img-prod-chole-bhature",
+          "url": "/assets/images/img-chole-bhature.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-chole-bhature-setoftwo",
+          "name": {
+            "en": "Set of Two",
+            "ar": "مجموعة من قطعتين"
+          },
+          "base_price": 5,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-chole-bhature-single(extra)",
+          "name": {
+            "en": "Single (Extra)",
+            "ar": "فردي (إضافي)"
+          },
+          "base_price": 2,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-paper-dosa",
+      "slug": "paper-dosa",
+      "path": "/menu/paper-dosa/",
+      "category_id": "cat-south-indian",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Paper Dosa",
+        "ar": "دوسا ورقية"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 930,
+      "images": [
+        {
+          "id": "img-prod-paper-dosa",
+          "url": "/assets/images/img-paper-dosa.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-onion-uttapam",
+      "slug": "onion-uttapam",
+      "path": "/menu/onion-uttapam/",
+      "category_id": "cat-south-indian",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Onion Uttapam",
+        "ar": "أوتابام بالبصل"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 6,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 940,
+      "images": [
+        {
+          "id": "img-prod-onion-uttapam",
+          "url": "/assets/images/img-onion-uttapam.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-paneer-masala-dosa",
+      "slug": "paneer-masala-dosa",
+      "path": "/menu/paneer-masala-dosa/",
+      "category_id": "cat-south-indian",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Paneer Masala Dosa",
+        "ar": "دوسا ماسالا بالبانير"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 10,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 950,
+      "images": [
+        {
+          "id": "img-prod-paneer-masala-dosa",
+          "url": "/assets/images/img-paneer-masala-dosa.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sada-dosa",
+      "slug": "sada-dosa",
+      "path": "/menu/sada-dosa/",
+      "category_id": "cat-south-indian",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Sada Dosa",
+        "ar": "دوسا سادة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 3,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 960,
+      "images": [
+        {
+          "id": "img-prod-sada-dosa",
+          "url": "/assets/images/img-sada-dosa.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kallu-dosa",
+      "slug": "kallu-dosa",
+      "path": "/menu/kallu-dosa/",
+      "category_id": "cat-south-indian",
+      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "name": {
+        "en": "Kallu Dosa",
+        "ar": "دوسا كالو"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 4,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 970,
+      "images": [
+        {
+          "id": "img-prod-kallu-dosa",
+          "url": "/assets/images/img-kallu-dosa.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-manchurian-dry",
+      "slug": "manchurian-dry",
+      "path": "/menu/manchurian-dry/",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Manchurian Dry",
+        "ar": "مانشوريان جاف"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 14,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 980,
+      "images": [
+        {
+          "id": "img-prod-manchurian-dry",
+          "url": "/assets/images/img-manchurian-dry.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-manchurian-gravy",
+      "slug": "manchurian-gravy",
+      "path": "/menu/manchurian-gravy/",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Manchurian Gravy",
+        "ar": "مانشوريان بالصلصة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 12,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 990,
+      "images": [
+        {
+          "id": "img-prod-manchurian-gravy",
+          "url": "/assets/images/img-manchurian-gravy.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chilli-paneer-dry",
+      "slug": "chilli-paneer-dry",
+      "path": "/menu/chilli-paneer-dry/",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Chilli Paneer Dry",
+        "ar": "تشيلي بانير جاف"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 16,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1000,
+      "images": [
+        {
+          "id": "img-prod-chilli-paneer-dry",
+          "url": "/assets/images/img-chilli-paneer-dry.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chilli-paneer-gravy",
+      "slug": "chilli-paneer-gravy",
+      "path": "/menu/chilli-paneer-gravy/",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Chilli Paneer Gravy",
+        "ar": "تشيلي بانير بالصلصة"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 15,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1010,
+      "images": [
+        {
+          "id": "img-prod-chilli-paneer-gravy",
+          "url": "/assets/images/img-chilli-paneer-gravy.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-paneer-65",
+      "slug": "paneer-65",
+      "path": "/menu/paneer-65/",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Paneer 65",
+        "ar": "بانير 65"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 18,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1020,
+      "images": [
+        {
+          "id": "img-prod-paneer-65",
+          "url": "/assets/images/img-paneer-65.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-dal-tadka",
+      "slug": "dal-tadka",
+      "path": "/menu/dal-tadka/",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Dal Tadka",
+        "ar": "دال تادكا"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1030,
+      "images": [
+        {
+          "id": "img-prod-dal-tadka",
+          "url": "/assets/images/img-dal-tadka.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-bhindi-masala",
+      "slug": "bhindi-masala",
+      "path": "/menu/bhindi-masala/",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Bhindi Masala",
+        "ar": "بهندي ماسالا"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 8,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1040,
+      "images": [
+        {
+          "id": "img-prod-bhindi-masala",
+          "url": "/assets/images/img-bhindi-masala.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-bhindi-fry",
+      "slug": "bhindi-fry",
+      "path": "/menu/bhindi-fry/",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Bhindi Fry",
+        "ar": "بهندي مقلي"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 11,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1050,
+      "images": [
+        {
+          "id": "img-prod-bhindi-fry",
+          "url": "/assets/images/img-bhindi-fry.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-matar-paneer",
+      "slug": "matar-paneer",
+      "path": "/menu/matar-paneer/",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Matar Paneer",
+        "ar": "ماتر بانير"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 12,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1060,
+      "images": [
+        {
+          "id": "img-prod-matar-paneer",
+          "url": "/assets/images/img-matar-paneer.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kadai-paneer",
+      "slug": "kadai-paneer",
+      "path": "/menu/kadai-paneer/",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Kadai Paneer",
+        "ar": "كاداي بانير"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 12,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1070,
+      "images": [
+        {
+          "id": "img-prod-kadai-paneer",
+          "url": "/assets/images/img-kadai-paneer.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-paneer-masala",
+      "slug": "paneer-masala",
+      "path": "/menu/paneer-masala/",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Paneer Masala",
+        "ar": "بانير ماسالا"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 14,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1080,
+      "images": [
+        {
+          "id": "img-prod-paneer-masala",
+          "url": "/assets/images/img-paneer-masala.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-butter-paneer-masala",
+      "slug": "butter-paneer-masala",
+      "path": "/menu/butter-paneer-masala/",
+      "category_id": "cat-curries",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Butter Paneer Masala",
+        "ar": "بانير بالزبدة ماسالا"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 21,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1090,
+      "images": [
+        {
+          "id": "img-prod-butter-paneer-masala",
+          "url": "/assets/images/img-butter-paneer-masala.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-rice-double-egg",
+      "slug": "fried-rice-double-egg",
+      "path": "/menu/fried-rice-double-egg/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "name": {
+        "en": "Fried Rice - Double Egg",
+        "ar": "أرز مقلي - بيض دبل"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1100,
+      "images": [
+        {
+          "id": "img-prod-fried-rice-double-egg",
+          "url": "/assets/images/img-fried-rice-double-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-rice-double-egg-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-rice-double-egg-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-rice-veg-mushroom-no-egg",
+      "slug": "fried-rice-veg-mushroom-no-egg",
+      "path": "/menu/fried-rice-veg-mushroom-no-egg/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "name": {
+        "en": "Fried Rice - Veg & Mushroom (No Egg)",
+        "ar": "أرز مقلي - خضار وفطر (بدون بيض)"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1110,
+      "images": [
+        {
+          "id": "img-prod-fried-rice-veg-mushroom-no-egg",
+          "url": "/assets/images/img-fried-rice-veg-mushroom-no-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-rice-veg-mushroom-no-egg-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 17,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-rice-veg-mushroom-no-egg-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 19,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-rice-veg-mushroom-no-egg-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        },
+        {
+          "id": "v-fried-rice-veg-mushroom-no-egg-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-rice-chicken",
+      "slug": "fried-rice-chicken",
+      "path": "/menu/fried-rice-chicken/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "name": {
+        "en": "Fried Rice - Chicken",
+        "ar": "أرز مقلي - دجاج"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1120,
+      "images": [
+        {
+          "id": "img-prod-fried-rice-chicken",
+          "url": "/assets/images/img-fried-rice-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-rice-chicken-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 19,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-rice-chicken-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-rice-beef",
+      "slug": "fried-rice-beef",
+      "path": "/menu/fried-rice-beef/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "name": {
+        "en": "Fried Rice - Beef",
+        "ar": "أرز مقلي - لحم بقري"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1130,
+      "images": [
+        {
+          "id": "img-prod-fried-rice-beef",
+          "url": "/assets/images/img-fried-rice-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-rice-beef-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 20,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-rice-beef-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 31,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-rice-shrimp",
+      "slug": "fried-rice-shrimp",
+      "path": "/menu/fried-rice-shrimp/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "name": {
+        "en": "Fried Rice - Shrimp",
+        "ar": "أرز مقلي - روبيان"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1140,
+      "images": [
+        {
+          "id": "img-prod-fried-rice-shrimp",
+          "url": "/assets/images/img-fried-rice-shrimp.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-rice-shrimp-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 23,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-rice-shrimp-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 37,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-rice-chicken-beef",
+      "slug": "fried-rice-chicken-beef",
+      "path": "/menu/fried-rice-chicken-beef/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "name": {
+        "en": "Fried Rice - Chicken & Beef",
+        "ar": "أرز مقلي - دجاج ولحم بقري"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1150,
+      "images": [
+        {
+          "id": "img-prod-fried-rice-chicken-beef",
+          "url": "/assets/images/img-fried-rice-chicken-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-rice-chicken-beef-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-rice-chicken-beef-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 37,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-rice-seafood",
+      "slug": "fried-rice-seafood",
+      "path": "/menu/fried-rice-seafood/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "name": {
+        "en": "Fried Rice - Seafood",
+        "ar": "أرز مقلي - مأكولات بحرية"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1160,
+      "images": [
+        {
+          "id": "img-prod-fried-rice-seafood",
+          "url": "/assets/images/img-fried-rice-seafood.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-rice-seafood-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 32,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-rice-seafood-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 55,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-rice-mixed-chicken-beef-shrimp",
+      "slug": "fried-rice-mixed-chicken-beef-shrimp",
+      "path": "/menu/fried-rice-mixed-chicken-beef-shrimp/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "name": {
+        "en": "Fried Rice - Mixed (Chicken, Beef & Shrimp)",
+        "ar": "أرز مقلي - مشكل (دجاج، لحم بقري وروبيان)"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1170,
+      "images": [
+        {
+          "id": "img-prod-fried-rice-mixed-chicken-beef-shrimp",
+          "url": "/assets/images/img-fried-rice-mixed-chicken-beef-shrimp.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-rice-mixed-chicken-beef-shrimp-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 34,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-rice-mixed-chicken-beef-shrimp-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 47,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-noodles-double-egg",
+      "slug": "fried-noodles-double-egg",
+      "path": "/menu/fried-noodles-double-egg/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-chinese-noodles",
+      "name": {
+        "en": "Fried Noodles - Double Egg",
+        "ar": "نودلز مقلية - بيض دبل"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1180,
+      "images": [
+        {
+          "id": "img-prod-fried-noodles-double-egg",
+          "url": "/assets/images/img-fried-noodles-double-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-noodles-double-egg-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 17,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-noodles-double-egg-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-noodles-veg-mushroom-no-egg",
+      "slug": "fried-noodles-veg-mushroom-no-egg",
+      "path": "/menu/fried-noodles-veg-mushroom-no-egg/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-chinese-noodles",
+      "name": {
+        "en": "Fried Noodles - Veg & Mushroom (No Egg)",
+        "ar": "نودلز مقلية - خضار وفطر (بدون بيض)"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1190,
+      "images": [
+        {
+          "id": "img-prod-fried-noodles-veg-mushroom-no-egg",
+          "url": "/assets/images/img-fried-noodles-veg-mushroom-no-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-noodles-chicken",
+      "slug": "fried-noodles-chicken",
+      "path": "/menu/fried-noodles-chicken/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-chinese-noodles",
+      "name": {
+        "en": "Fried Noodles - Chicken",
+        "ar": "نودلز مقلية - دجاج"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1200,
+      "images": [
+        {
+          "id": "img-prod-fried-noodles-chicken",
+          "url": "/assets/images/img-fried-noodles-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-noodles-chicken-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 21,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-noodles-chicken-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 31,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-noodles-beef",
+      "slug": "fried-noodles-beef",
+      "path": "/menu/fried-noodles-beef/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-chinese-noodles",
+      "name": {
+        "en": "Fried Noodles - Beef",
+        "ar": "نودلز مقلية - لحم بقري"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1210,
+      "images": [
+        {
+          "id": "img-prod-fried-noodles-beef",
+          "url": "/assets/images/img-fried-noodles-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-noodles-beef-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 23,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-noodles-beef-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 33,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-noodles-shrimp",
+      "slug": "fried-noodles-shrimp",
+      "path": "/menu/fried-noodles-shrimp/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-chinese-noodles",
+      "name": {
+        "en": "Fried Noodles - Shrimp",
+        "ar": "نودلز مقلية - روبيان"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1220,
+      "images": [
+        {
+          "id": "img-prod-fried-noodles-shrimp",
+          "url": "/assets/images/img-fried-noodles-shrimp.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-noodles-shrimp-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-noodles-shrimp-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 39,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-noodles-chicken-beef",
+      "slug": "fried-noodles-chicken-beef",
+      "path": "/menu/fried-noodles-chicken-beef/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-chinese-noodles",
+      "name": {
+        "en": "Fried Noodles - Chicken & Beef",
+        "ar": "نودلز مقلية - دجاج ولحم بقري"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1230,
+      "images": [
+        {
+          "id": "img-prod-fried-noodles-chicken-beef",
+          "url": "/assets/images/img-fried-noodles-chicken-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-noodles-chicken-beef-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-noodles-chicken-beef-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 39,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-noodles-seafood",
+      "slug": "fried-noodles-seafood",
+      "path": "/menu/fried-noodles-seafood/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-chinese-noodles",
+      "name": {
+        "en": "Fried Noodles - Seafood",
+        "ar": "نودلز مقلية - مأكولات بحرية"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1240,
+      "images": [
+        {
+          "id": "img-prod-fried-noodles-seafood",
+          "url": "/assets/images/img-fried-noodles-seafood.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-noodles-seafood-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 34,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-noodles-seafood-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 57,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fried-noodles-mixed-chicken-beef-shrimp",
+      "slug": "fried-noodles-mixed-chicken-beef-shrimp",
+      "path": "/menu/fried-noodles-mixed-chicken-beef-shrimp/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-chinese-noodles",
+      "name": {
+        "en": "Fried Noodles - Mixed (Chicken, Beef & Shrimp)",
+        "ar": "نودلز مقلية - مشكل (دجاج، لحم بقري وروبيان)"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 1250,
+      "images": [
+        {
+          "id": "img-prod-fried-noodles-mixed-chicken-beef-shrimp",
+          "url": "/assets/images/img-fried-noodles-mixed-chicken-beef-shrimp.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-fried-noodles-mixed-chicken-beef-shrimp-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 36,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-noodles-mixed-chicken-beef-shrimp-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 49,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     }
   ],

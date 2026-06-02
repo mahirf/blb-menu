@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-02T07:36:46.671Z",
+  "generated_at": "2026-06-02T07:39:33.630Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -3935,7 +3935,7 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 12,
       "base_kcal": 0,
       "tags": null,
@@ -4043,7 +4043,7 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 29,
       "base_kcal": 0,
       "tags": null,
@@ -4079,7 +4079,7 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 11,
       "base_kcal": 0,
       "tags": null,
@@ -4115,7 +4115,7 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 14,
       "base_kcal": 0,
       "tags": null,
@@ -7630,7 +7630,7 @@
       "base_price": 19,
       "base_kcal": 1050,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -7662,11 +7662,11 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 21,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -7698,11 +7698,11 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 22,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -7738,7 +7738,7 @@
       "base_price": 0,
       "base_kcal": 1050,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -7774,7 +7774,7 @@
       "base_price": 0,
       "base_kcal": 1150,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -7810,7 +7810,7 @@
       "base_price": 0,
       "base_kcal": 930,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -7846,7 +7846,7 @@
       "base_price": 0,
       "base_kcal": 875,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -7882,7 +7882,7 @@
       "base_price": 0,
       "base_kcal": 900,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -7914,11 +7914,11 @@
         "en": "Thayir vada - soft, fluffy lentil vada (fritters soaked in smooth, chilled yogurt and topped with a tempering of mustard seeds, curry leaves, and a sprinkle of spice. this south indian favorite is cooling, tangy, and absolutely refreshing - perfect as a light snack or side.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 2,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -7950,11 +7950,11 @@
         "en": "Medu vadai - crispy on the outside soft and fluffy on the inside - this delicious snack from south india is made from urad lentil batter marinated with spices and fried until golden brown - served with coconut chutney and sambar",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 1,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -7986,11 +7986,11 @@
         "en": "Idiappam (string hopper) - soft, delicate rice noodles steamed into lacy discs, a traditional south indian and sri lankan favorite. light and fluffy, it pairs beautifully with coconut milk, kurma, or spicy curries - perfect for breakfast, dinner, or a light meal. simple, wholesome, and naturally gluten-free.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 1,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8022,11 +8022,11 @@
         "en": "A crispy south indian dosa cooked to golden perfection and enriched with a generous drizzle of aromatic ghee. light, flavorful, and best enjoyed with sambar and fresh coconut chutney",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8058,11 +8058,11 @@
         "en": "A beloved sri lankan breakfast or snack featuring coconut roti - a flatbread made with freshly grated coconut and flour, pan-toasted for a slightly crisp edge and soft center. served with a fiery relish made from red chili, onion, lime, and maldive fish.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 220,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8094,11 +8094,11 @@
         "en": "A thin, crispy dosa topped with finely chopped onions and green chilies, adding a sweet crunch and mild spice. served hot with sambar and coconut chutney for a flavorful south indian experience.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8130,11 +8130,11 @@
         "en": "Idiyappam (string hoppers) - soft, delicate rice noodles steamed into lacy discs, a traditional south indian and sri lankan favorite. light and fluffy, idiyappam pairs beautifully with coconut milk, kurma, or spicy curries - perfect for breakfast, dinner, or a light meal. simple, wholesome, and naturally gluten-free.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 200,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8166,11 +8166,11 @@
         "en": "Egg dosa - a delicious twist on the classic dosa. this crispy south indian crepe is topped with a freshly cracked egg, cooked right on the griddle. served with chutney and sambar, its a protein-packed, flavorful choice for any time of day",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 480,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8202,11 +8202,11 @@
         "en": "A fiery and flavorful sri lankan coconut relish made with freshly grated coconut, red chili, onion, lime juice, and a hint of maldive fish. bursting with spice and tang, pol sambol is the perfect sidekick to string hoppers, rice, or curries - a true island favorite.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 480,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8238,11 +8238,11 @@
         "en": "A sweet, tangy, and spicy eggplant pickle. sliced brinjal is deep-fried and then marinated in a blend of vinegar, mustard seeds, onions, green chilies, and subtle spices. this flavorful condiment adds a delicious punch to rice and curry meals - a true island favorite.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 320,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8274,11 +8274,11 @@
         "en": "Masala dosa - a crispy, golden south indian crepe made from fermented rice and lentil batter, filled with a flavorful spiced potato masala. served with coconut chutney and sambar, this iconic dish is a perfect blend of crunch and comfort in every bite",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8310,11 +8310,11 @@
         "en": "Idli set - soft, fluffy steamed rice cakes served with coconut chutney and flavorful sambar. this classic south indian breakfast is light, wholesome, and perfect for a comforting start to your day",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 180,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8346,11 +8346,11 @@
         "en": "Tender cauliflower florets coated in a seasoned chickpea flour batter, deep-fried lightly spiced.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 650,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8382,11 +8382,11 @@
         "en": "A popular appetizer featuring crispy, deep-fried cauliflower florets marinated in a spicy, vibrant red batter infused with ginger, garlic, and curry leaves.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 330,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8418,11 +8418,11 @@
         "en": "Crispy, batter fried vegetable or paneer tossed in a savory, tangy, and slightly spicy indo chinese sauce.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 15,
       "base_kcal": 260,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8454,11 +8454,11 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 21,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8490,11 +8490,11 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 15,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8526,11 +8526,11 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 24,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8562,11 +8562,11 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 26,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8598,11 +8598,11 @@
         "en": "A thin, masala-dosa with a twist - soft and crispy dosa layered with your choice of flavorful filling.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 360,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8634,11 +8634,11 @@
         "en": "A wholesome and protein-rich curry made with split mung beans simmered in a mildly spiced onion-tomato base, tempered with mustard seeds, curry leaves, and fragrant spices. light, nutritious, and perfect with rice or chapati.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 5,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8670,11 +8670,11 @@
         "en": "Paratha stuffed with crumbled paneer, herbs & mild spices. served with yoghurt & achar.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 7.5,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8706,11 +8706,11 @@
         "en": "A classic north indian dish featuring soft paneer cubes stir-fried with sweet peppers, onions, and tomatoes in a strong, aromatic masala kadai (wok-style), finished with a touch of cream.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 21,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8925,7 +8925,7 @@
         "en": "Boiled egg in a spiced onion-tomato gravy with garlic, ginger, and traditional indian masalas.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 5,
       "base_kcal": 0,
       "tags": null,
@@ -8961,7 +8961,7 @@
         "en": "One hard-boiled egg with onion tomato fry, infused with aromatic spices and curry leaves. this south indian-style dish is bold, hearty, and perfect with appam, dosa, or parotta. a must-try for egg lovers",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 3.5,
       "base_kcal": 0,
       "tags": null,
@@ -8997,7 +8997,7 @@
         "en": "A perfectly cooked single egg served sunny-side up, featuring a delicate white and a rich, golden runny yolk.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 2.5,
       "base_kcal": 0,
       "tags": null,
@@ -9376,7 +9376,7 @@
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -9437,7 +9437,7 @@
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -9494,11 +9494,11 @@
         "en": "A rich and creamy north indian classic made with tender chicken simmered in a velvety tomato butter gravy.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 24,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -9530,11 +9530,11 @@
         "en": "Our signature devilled chicken features succulent, crispy fried chicken pieces tossed in a bold, sweet",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 19,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -9566,11 +9566,11 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 24,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -9602,11 +9602,11 @@
         "en": "Juicy, bite-sized chicken pieces are stir-fried to perfection with a fiery blend of chili paste, soy sauce and aromatic spices. crunchy bell peppers, onions and a hint of garlic this dish delivers the perfect balance of heat and savouriness. a must try for those who love bold and vibrant flavors.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 18,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -9638,11 +9638,11 @@
         "en": "Crispy fried chicken pieces tossed in a rich, flavorful manchurian sauce made with garlic, ginger, soy sauce, and a hint of spice. cooked with onions and peppers, this indo-chinese favorite delivers a perfect balance of sweet, savory, and tangy flavors.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 18,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -9678,7 +9678,7 @@
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -9751,7 +9751,7 @@
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -9812,7 +9812,7 @@
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -9881,11 +9881,11 @@
         "en": "A flavorful stir fry of tender beef (cooked to medium well) with fresh kankung (water spinach), sautéed in a wok with garlic, soy sauce, and a hint of chili. this chinese fusion dish is smoky, savory, and slightly spicy perfect with fried rice or noodles.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 18,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -9917,11 +9917,11 @@
         "en": "Beef strips marinated and stir fried in chili sauce, dark soya sauce, tomato sauce, and chili flakes, garnished with sesame seeds, tossed with vibrant bell peppers, and fragrant spices.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 26,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -9953,11 +9953,11 @@
         "en": "Four medium crab halves simmered in a traditional blend of roasted spices, coconut, and tangy tamarind.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -9989,11 +9989,11 @@
         "en": "Plump shrimp cooked in a rich, spicy red curry base made with dried red chilies, onions, tomatoes, and aromatic spices, finished with a hint of coconut milk for balance. bold, flavorful, and perfect with steamed rice or roti.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10025,11 +10025,11 @@
         "en": "This rich and flavorful curry features fresh crab cooked in a fragrant blend of spices, coconut milk, and aromatic herbs, creating a perfect balance of heat and depth.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10061,11 +10061,11 @@
         "en": "Cuttle fish rings are stir-fried to perfection with a fiery blend of chili paste, soy sauce and spices.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 26,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10097,11 +10097,11 @@
         "en": "Farmed prawns are stir-fried to perfection with a fiery blend of chili paste, soy sauce and aromatic spices",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 32,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10133,11 +10133,11 @@
         "en": "Fish slices are stir-fried to perfection with a fiery blend of chili paste, soy sauce and aromatic spices.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 26,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10169,11 +10169,11 @@
         "en": "Crispy, golden-fried cuttlefish tossed in a rich, spicy, and buttery garlic sauce with fresh chillies and spring onions. this iconic sri lankan seafood dish offers the perfect fiery kick and satisfying crunch, making it an irresistible appetizer or side.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10209,7 +10209,7 @@
       "base_price": 14,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10245,7 +10245,7 @@
       "base_price": 14,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10281,7 +10281,7 @@
       "base_price": 19,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10317,7 +10317,7 @@
       "base_price": 21,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10353,7 +10353,7 @@
       "base_price": 23,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10389,7 +10389,7 @@
       "base_price": 25,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10425,7 +10425,7 @@
       "base_price": 27,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10461,7 +10461,7 @@
       "base_price": 28,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10493,11 +10493,11 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 3,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10529,11 +10529,11 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10565,11 +10565,11 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 15,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10601,11 +10601,11 @@
         "en": "",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 21,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10641,7 +10641,7 @@
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10677,7 +10677,7 @@
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10738,7 +10738,7 @@
       "base_price": 24,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -10774,7 +10774,7 @@
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {

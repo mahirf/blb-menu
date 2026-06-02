@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-05-20T05:26:18.857Z",
+  "generated_at": "2026-06-02T07:26:04.226Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -230,7 +230,7 @@
             "en": "Chinese Noodles",
             "ar": "نودلز صينية"
           },
-          "sort_order": 120,
+          "sort_order": 110,
           "is_active": true
         }
       ]
@@ -248,7 +248,7 @@
         "ar": null
       },
       "sort_order": 50,
-      "is_active": true,
+      "is_active": false,
       "is_hidden": false,
       "subcategories": [
         {
@@ -285,6 +285,18 @@
             "ar": "شمال الهند"
           },
           "sort_order": 100,
+          "is_active": true
+        },
+        {
+          "id": "sub-curries-chinese",
+          "category_id": "cat-curries",
+          "slug": "chinese",
+          "path": "/menu/curries/chinese/",
+          "name": {
+            "en": "Chinese",
+            "ar": "الصينية"
+          },
+          "sort_order": 120,
           "is_active": true
         }
       ]
@@ -455,17 +467,17 @@
         "ar": null
       },
       "sort_order": 150,
-      "is_active": true,
+      "is_active": false,
       "is_hidden": false,
       "subcategories": []
     },
     {
-      "id": "cat-breakfast",
-      "slug": "breakfast",
-      "path": "/menu/breakfast/",
+      "id": "cat-all-day-breakfast",
+      "slug": "all-day-breakfast",
+      "path": "/menu/all-day-breakfast/",
       "name": {
-        "en": "Breakfast",
-        "ar": "إفطار"
+        "en": "All Day Breakfast",
+        "ar": "إفطار طوال اليوم"
       },
       "description": {
         "en": null,
@@ -476,10 +488,10 @@
       "is_hidden": false,
       "subcategories": [
         {
-          "id": "sub-breakfast-south-indian-breakfast",
-          "category_id": "cat-breakfast",
+          "id": "sub-all-day-breakfast-south-indian-breakfast",
+          "category_id": "cat-all-day-breakfast",
           "slug": "south-indian-breakfast",
-          "path": "/menu/breakfast/south-indian-breakfast/",
+          "path": "/menu/all-day-breakfast/south-indian-breakfast/",
           "name": {
             "en": "South Indian Breakfast",
             "ar": "فطور جنوب هندي"
@@ -488,6 +500,40 @@
           "is_active": true
         }
       ]
+    },
+    {
+      "id": "cat-vegetarian",
+      "slug": "vegetarian",
+      "path": "/menu/vegetarian/",
+      "name": {
+        "en": "Vegetarian",
+        "ar": "نباتي"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 170,
+      "is_active": true,
+      "is_hidden": false,
+      "subcategories": []
+    },
+    {
+      "id": "cat-gravies-asian-sides",
+      "slug": "gravies-and-asian-sides",
+      "path": "/menu/gravies-and-asian-sides/",
+      "name": {
+        "en": "Gravies & Asian Sides",
+        "ar": "الصلصات والأطباق الجانبية الآسيوية"
+      },
+      "description": {
+        "en": null,
+        "ar": null
+      },
+      "sort_order": 180,
+      "is_active": true,
+      "is_hidden": false,
+      "subcategories": []
     }
   ],
   "products": [
@@ -666,7 +712,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-beef-dum-biryani-single",
+          "id": "v-beef-masala-dum-biryani-single",
           "name": {
             "en": "Single",
             "ar": "مفردة"
@@ -678,7 +724,7 @@
           "offers": []
         },
         {
-          "id": "v-beef-dum-biryani-full",
+          "id": "v-beef-masala-dum-biryani-full",
           "name": {
             "en": "Full",
             "ar": "كاملة"
@@ -1366,7 +1412,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-tamil-nadu-beef-biryani-single",
+          "id": "v-tamil-nadu-beef-masala-biryani-single",
           "name": {
             "en": "Single",
             "ar": "مفردة"
@@ -1378,7 +1424,7 @@
           "offers": []
         },
         {
-          "id": "v-tamil-nadu-beef-biryani-full",
+          "id": "v-tamil-nadu-beef-masala-biryani-full",
           "name": {
             "en": "Full",
             "ar": "كاملة"
@@ -1942,7 +1988,7 @@
         "ar": "وجبة متكاملة تتكون من أرز أبيض مطهو على البخار يُقدم مع طبق لحم كانكونغ المميز لدينا - لحم بقري طري (مطهو جيداً) مقلي مع كانكونغ طازج (سبانخ الماء)، ثوم، صلصة الصويا، ولمسة من الفلفل الحار لتحقيق توازن مثالي في النكهة. مزيج صيني شهي يُرضي جميع الأذواق، مثالي لغداء دسم."
       },
       "has_variants": false,
-      "base_price": 27,
+      "base_price": 21,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -2181,7 +2227,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-kottu-roti-beef-single",
+          "id": "v-kottu-roti-beef-masala-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2193,7 +2239,7 @@
           "offers": []
         },
         {
-          "id": "v-kottu-roti-beef-full",
+          "id": "v-kottu-roti-beef-masala-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -2242,7 +2288,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-kottu-roti-chicken-beef-single",
+          "id": "v-kottu-roti-chicken-beef-masala-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2254,7 +2300,7 @@
           "offers": []
         },
         {
-          "id": "v-kottu-roti-chicken-beef-full",
+          "id": "v-kottu-roti-chicken-beef-masala-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -2303,7 +2349,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-mixed-kottu-chick-beef-shrimp-single",
+          "id": "v-mixed-kottu-chick-beef-masala-shrimp-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2315,7 +2361,7 @@
           "offers": []
         },
         {
-          "id": "v-mixed-kottu-chick-beef-shrimp-full",
+          "id": "v-mixed-kottu-chick-beef-masala-shrimp-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -2547,7 +2593,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-kottu-idiappam-beef-single",
+          "id": "v-kottu-idiappam-beef-masala-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2559,7 +2605,7 @@
           "offers": []
         },
         {
-          "id": "v-kottu-idiappam-beef-full",
+          "id": "v-kottu-idiappam-beef-masala-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -2608,7 +2654,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-kottu-idiappam-chicken-beef-single",
+          "id": "v-kottu-idiappam-chicken-beef-masala-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2620,7 +2666,7 @@
           "offers": []
         },
         {
-          "id": "v-kottu-idiappam-chicken-beef-full",
+          "id": "v-kottu-idiappam-chicken-beef-masala-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -2669,7 +2715,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-single",
+          "id": "v-mixed-kottu-idiappam-chick-beef-masala-shrimp-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2680,14 +2726,14 @@
           "sort_order": 10,
           "offers": [
             {
-              "id": "offer-large-family-offer",
+              "id": "offer-0002-large-family-offer",
               "name": {
                 "en": "Large Family Offer",
                 "ar": "عرض العائلة"
               },
               "target": {
                 "type": "variation",
-                "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-single"
+                "id": "v-mixed-kottu-idiappam-chick-beef-masala-shrimp-single"
               },
               "discount": {
                 "type": "fixed",
@@ -2705,7 +2751,7 @@
           ]
         },
         {
-          "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-full",
+          "id": "v-mixed-kottu-idiappam-chick-beef-masala-shrimp-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -2753,7 +2799,7 @@
       ],
       "offers": [
         {
-          "id": "offer-chicken-biryani-offer",
+          "id": "offer-0001-chicken-biryani-offer",
           "name": {
             "en": "Chicken Biryani Offer",
             "ar": "عرض برياني دجاج"
@@ -2839,7 +2885,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-sri-lanka-beef-biryani-single",
+          "id": "v-sri-lanka-beef-masala-biryani-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2851,7 +2897,7 @@
           "offers": []
         },
         {
-          "id": "v-sri-lanka-beef-biryani-full",
+          "id": "v-sri-lanka-beef-masala-biryani-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -3144,7 +3190,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-sri-lanka-idiappam-biryani-beef-single",
+          "id": "v-sri-lanka-idiappam-biryani-beef-masala-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -3156,7 +3202,7 @@
           "offers": []
         },
         {
-          "id": "v-sri-lanka-idiappam-biryani-beef-full",
+          "id": "v-sri-lanka-idiappam-biryani-beef-masala-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -3571,7 +3617,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-puttu-kottu-beef-single",
+          "id": "v-puttu-kottu-beef-masala-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -3583,7 +3629,7 @@
           "offers": []
         },
         {
-          "id": "v-puttu-kottu-beef-full",
+          "id": "v-puttu-kottu-beef-masala-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -3632,7 +3678,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-puttu-kottu-chicken-beef-single",
+          "id": "v-puttu-kottu-chicken-beef-masala-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -3644,7 +3690,7 @@
           "offers": []
         },
         {
-          "id": "v-puttu-kottu-chicken-beef-full",
+          "id": "v-puttu-kottu-chicken-beef-masala-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -3693,7 +3739,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-mixed-puttu-kottu-chick-beef-shrimp-single",
+          "id": "v-mixed-puttu-kottu-chick-beef-masala-shrimp-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -3705,7 +3751,7 @@
           "offers": []
         },
         {
-          "id": "v-mixed-puttu-kottu-chick-beef-shrimp-full",
+          "id": "v-mixed-puttu-kottu-chick-beef-masala-shrimp-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -3730,7 +3776,7 @@
         "ar": "ألو باراثا"
       },
       "description": {
-        "en": "",
+        "en": "A beloved north indian classic. our aloo paratha is a soft, pan-toasted flatbread stuffed with a flavorful mix of spiced mashed potatoes, herbs, and onions. served hot with yogurt, pickle, or butter, its a comforting, hearty meal any time of day.",
         "ar": ""
       },
       "has_variants": false,
@@ -3756,17 +3802,17 @@
       "option_groups": []
     },
     {
-      "id": "prod-dal-chana",
-      "slug": "dal-chana",
-      "path": "/menu/dal-chana/",
-      "category_id": "cat-curries",
-      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "id": "prod-dal-chana-or-kala-chana-without-bread",
+      "slug": "dal-chana-or-kala-chana-without-bread",
+      "path": "/menu/dal-chana-or-kala-chana-without-bread/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": "sub-curries-north-indian",
       "name": {
-        "en": "Dal Chana",
-        "ar": "دال تشانا"
+        "en": "Dal Chana Or Kala Chana Without Bread",
+        "ar": "دال تشانا أو كالا تشانا بدون خبز"
       },
       "description": {
-        "en": "",
+        "en": "Hearty, rustic north indian classics featuring whole white or black chickpeas simmered in a robust, tangy gravy of tomatoes, ginger, and aromatic spices. known for their earthy flavor and slightly chewy texture, these nutrient-dense legumes are a protein powerhouse.",
         "ar": ""
       },
       "has_variants": false,
@@ -3777,8 +3823,8 @@
       "sort_order": 420,
       "images": [
         {
-          "id": "img-prod-dal-chana",
-          "url": "/assets/images/img-dal-chana",
+          "id": "img-prod-dal-chana-or-kala-chana-without-bread",
+          "url": "/assets/images/img-dal-chana-or-kala-chana-without-bread",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3795,8 +3841,8 @@
       "id": "prod-kala-chana",
       "slug": "kala-chana",
       "path": "/menu/kala-chana/",
-      "category_id": "cat-curries",
-      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
       "name": {
         "en": "Kala Chana",
         "ar": "كالا تشانا"
@@ -3828,42 +3874,6 @@
       "option_groups": []
     },
     {
-      "id": "prod-butter-chicken",
-      "slug": "butter-chicken",
-      "path": "/menu/butter-chicken/",
-      "category_id": "cat-curries",
-      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
-      "name": {
-        "en": "Butter Chicken",
-        "ar": "دجاج بالزبدة"
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": false,
-      "base_price": 25,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 440,
-      "images": [
-        {
-          "id": "img-prod-butter-chicken",
-          "url": "/assets/images/img-butter-chicken",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
       "id": "prod-creamy-chicken-mushroom-soup",
       "slug": "creamy-chicken-mushroom-soup",
       "path": "/menu/creamy-chicken-mushroom-soup/",
@@ -3882,7 +3892,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 450,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-creamy-chicken-mushroom-soup",
@@ -3918,7 +3928,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 460,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-spiced-tomato-orzo-soup",
@@ -3954,7 +3964,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": false,
-      "sort_order": 470,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-mushroom-soup",
@@ -3990,7 +4000,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 480,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-lentil-soup",
@@ -4026,7 +4036,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 490,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-tom-yum-soup-shrimp",
@@ -4062,7 +4072,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": false,
-      "sort_order": 500,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-seafood-soup-shrimp-cuttlefish-fish",
@@ -4098,7 +4108,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": false,
-      "sort_order": 510,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-hot-sour-vegetable",
@@ -4134,7 +4144,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": false,
-      "sort_order": 520,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-hot-sour-chicken",
@@ -4170,7 +4180,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 530,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-madghout-chicken",
@@ -4231,7 +4241,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 540,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-chicken-mandi",
@@ -4264,7 +4274,7 @@
             "en": "Half",
             "ar": "وجبة كاملة"
           },
-          "base_price": 24,
+          "base_price": 22,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 20,
@@ -4292,7 +4302,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 550,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-cinnamon-rice",
@@ -4353,7 +4363,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 560,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-chicken-kabsa",
@@ -4367,7 +4377,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-chicken-kabsa-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 13,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-chicken-kabsa-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 24,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -4389,7 +4424,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 570,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-kunafa",
@@ -4425,7 +4460,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 580,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-saffron-cardamom-mahalabiya",
@@ -4461,7 +4496,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 590,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-smoky-eggplant-fattoush",
@@ -4497,7 +4532,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 600,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-masala-chickpea-tabbouleh",
@@ -4533,7 +4568,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 610,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-cumin-roasted-beetroot-labne",
@@ -4561,7 +4596,7 @@
         "ar": "تبولة"
       },
       "description": {
-        "en": "",
+        "en": "A fresh and zesty small cup of traditional tabouleh made with finely chopped parsley, tomatoes, onions, and cracked bulgur, mixed with fresh lemon juice and premium olive oil.",
         "ar": ""
       },
       "has_variants": false,
@@ -4569,7 +4604,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 620,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-tabbouleh",
@@ -4597,7 +4632,7 @@
         "ar": "حمص"
       },
       "description": {
-        "en": "",
+        "en": "A creamy and smooth blend of mashed chickpeas mixed with tahini and fresh lemon, topped with a rich swirl of premium olive oil and a single olive.",
         "ar": ""
       },
       "has_variants": false,
@@ -4605,7 +4640,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 630,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-hummus",
@@ -4633,15 +4668,15 @@
         "ar": "سلطة مشكلة مع حمص وتبولة"
       },
       "description": {
-        "en": "",
+        "en": "A fresh and vibrant cup of mixed salad made with cucumber, carrots, baby corn with black & green olives, topped with a generous portion of creamy hummus & olive oil.",
         "ar": ""
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 640,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-mixed-salad-with-hummus-tabbouleh",
@@ -4687,8 +4722,8 @@
       "id": "prod-mini-tiffin",
       "slug": "mini-tiffin",
       "path": "/menu/mini-tiffin/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Mini Tiffin",
         "ar": "طبق إفطار جنوب هندي مشكل"
@@ -4702,7 +4737,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 650,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-mini-tiffin",
@@ -4723,8 +4758,8 @@
       "id": "prod-mutton-kheema",
       "slug": "mutton-kheema",
       "path": "/menu/mutton-kheema/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Mutton Kheema",
         "ar": "كيما لحم غنم"
@@ -4738,7 +4773,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 660,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-mutton-kheema",
@@ -4759,8 +4794,8 @@
       "id": "prod-beef-kheema",
       "slug": "beef-kheema",
       "path": "/menu/beef-kheema/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Beef Kheema",
         "ar": "كيما لحم بقري"
@@ -4774,7 +4809,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 670,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-beef-kheema",
@@ -4795,8 +4830,8 @@
       "id": "prod-liver-roast",
       "slug": "liver-roast",
       "path": "/menu/liver-roast/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Liver Roast",
         "ar": "كبدة مقلية جافة"
@@ -4810,7 +4845,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 680,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-liver-roast",
@@ -4831,8 +4866,8 @@
       "id": "prod-lemon-rice",
       "slug": "lemon-rice",
       "path": "/menu/lemon-rice/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Lemon Rice",
         "ar": "أرز بالليمون"
@@ -4846,7 +4881,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 690,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-lemon-rice",
@@ -4867,8 +4902,8 @@
       "id": "prod-tomato-rice",
       "slug": "tomato-rice",
       "path": "/menu/tomato-rice/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Tomato Rice",
         "ar": "أرز بالطماطم"
@@ -4882,7 +4917,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 700,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-tomato-rice",
@@ -4903,8 +4938,8 @@
       "id": "prod-puttu-steamed-rice-cake-with-kadala-curry",
       "slug": "puttu-steamed-rice-cake-with-kadala-curry",
       "path": "/menu/puttu-steamed-rice-cake-with-kadala-curry/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Puttu (Steamed Rice Cake) with Kadala Curry",
         "ar": "بوتو (كعكة أرز مطهوة بالبخار) مع صالونة الحمص"
@@ -4918,7 +4953,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 710,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-puttu-steamed-rice-cake-with-kadala-curry",
@@ -4939,8 +4974,8 @@
       "id": "prod-idiyappam-string-hoppers-3-pieces",
       "slug": "idiyappam-string-hoppers-3-pieces",
       "path": "/menu/idiyappam-string-hoppers-3-pieces/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Idiyappam (String Hoppers) - 3 Pieces",
         "ar": "إديابام (نودلز رفيعة من دقيق الأرز مطهوة بالبخار) - 3 قطع"
@@ -4954,7 +4989,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 720,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-idiyappam-string-hoppers-3-pieces",
@@ -4975,8 +5010,8 @@
       "id": "prod-thenga-rotti-coconut-roti-1-piece",
       "slug": "thenga-rotti-coconut-roti-1-piece",
       "path": "/menu/thenga-rotti-coconut-roti-1-piece/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Thenga Rotti (Coconut Roti) - 1 Piece",
         "ar": "ثينغا روتي (روتي بجوز الهند) - قطعة واحدة"
@@ -4990,7 +5025,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 730,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-thenga-rotti-coconut-roti-1-piece",
@@ -5011,8 +5046,8 @@
       "id": "prod-thenga-sambal-coconut-sambal",
       "slug": "thenga-sambal-coconut-sambal",
       "path": "/menu/thenga-sambal-coconut-sambal/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Thenga Sambal (Coconut Sambal)",
         "ar": "ثينغا سامبال (سامبال جوز الهند)"
@@ -5026,7 +5061,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 740,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-thenga-sambal-coconut-sambal",
@@ -5047,8 +5082,8 @@
       "id": "prod-egg-kalaki-with-chicken-curry-1-egg",
       "slug": "egg-kalaki-with-chicken-curry-1-egg",
       "path": "/menu/egg-kalaki-with-chicken-curry-1-egg/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Egg Kalaki with Chicken Curry - 1 Egg",
         "ar": "شكشوكة مع صالونة الدجاج - بيضة واحدة"
@@ -5062,7 +5097,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 750,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-egg-kalaki-with-chicken-curry-1-egg",
@@ -5083,8 +5118,8 @@
       "id": "prod-egg-korma",
       "slug": "egg-korma",
       "path": "/menu/egg-korma/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Egg Korma",
         "ar": "كورما البيض"
@@ -5098,7 +5133,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 760,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-egg-korma",
@@ -5119,8 +5154,8 @@
       "id": "prod-egg-curry",
       "slug": "egg-curry",
       "path": "/menu/egg-curry/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Egg Curry",
         "ar": "صالونة البيض"
@@ -5134,7 +5169,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 770,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-egg-curry",
@@ -5155,14 +5190,14 @@
       "id": "prod-omelette-1-egg",
       "slug": "omelette-1-egg",
       "path": "/menu/omelette-1-egg/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Omelette - 1 Egg",
         "ar": "أومليت - بيضة واحدة"
       },
       "description": {
-        "en": "",
+        "en": "Single egg omelet - a light and fluffy omelet made from one fresh egg, gently seasoned and cooked to perfection. simple, wholesome, and satisfying.",
         "ar": ""
       },
       "has_variants": false,
@@ -5170,7 +5205,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 780,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-omelette-1-egg",
@@ -5191,8 +5226,8 @@
       "id": "prod-egg-roast",
       "slug": "egg-roast",
       "path": "/menu/egg-roast/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Egg Roast",
         "ar": "بيض مقلي جاف"
@@ -5206,7 +5241,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 790,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-egg-roast",
@@ -5227,8 +5262,8 @@
       "id": "prod-boiled-egg",
       "slug": "boiled-egg",
       "path": "/menu/boiled-egg/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Boiled Egg",
         "ar": "بيض مسلوق"
@@ -5242,7 +5277,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 800,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-boiled-egg",
@@ -5263,8 +5298,8 @@
       "id": "prod-scrambled-egg-1-egg",
       "slug": "scrambled-egg-1-egg",
       "path": "/menu/scrambled-egg-1-egg/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Scrambled Egg - 1 Egg",
         "ar": "شكشوكة - بيضة واحدة"
@@ -5278,7 +5313,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 810,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-scrambled-egg-1-egg",
@@ -5299,8 +5334,8 @@
       "id": "prod-scrambled-egg-with-cheese-1-egg",
       "slug": "scrambled-egg-with-cheese-1-egg",
       "path": "/menu/scrambled-egg-with-cheese-1-egg/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Scrambled Egg with Cheese - 1 Egg",
         "ar": "شكشوكة بالجبن - بيضة واحدة"
@@ -5314,7 +5349,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 820,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-scrambled-egg-with-cheese-1-egg",
@@ -5335,14 +5370,14 @@
       "id": "prod-upma",
       "slug": "upma",
       "path": "/menu/upma/",
-      "category_id": "cat-breakfast",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Upma",
         "ar": "أبما"
       },
       "description": {
-        "en": "",
+        "en": "A warm and hearty south indian breakfast made with roasted semolina (rava), gently cooked with mustard seeds, curry leaves, green chilies, ginger, and vegetables. light, fluffy, and flavorful perfect for a wholesome start to your day",
         "ar": ""
       },
       "has_variants": false,
@@ -5350,7 +5385,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 830,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-upma",
@@ -5386,7 +5421,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 840,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-parotta",
@@ -5402,19 +5437,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-parotta-setof3",
-          "name": {
-            "en": "Set of 3",
-            "ar": "مجموعة من 3 قطع"
-          },
-          "base_price": 3,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-parotta-setof3",
+          "id": "v-parotta-set-of-3",
           "name": {
             "en": "Set of 3",
             "ar": "مجموعة من 3 قطع"
@@ -5459,7 +5482,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 850,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-chapati",
@@ -5475,12 +5498,12 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-chapati-setof3",
+          "id": "v-chapati-set-of-3",
           "name": {
             "en": "Set of 3",
             "ar": "مجموعة من 3 قطع"
           },
-          "base_price": 3,
+          "base_price": 2,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 10,
@@ -5520,7 +5543,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 860,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-atta-parotta",
@@ -5536,12 +5559,24 @@
       "offers": [],
       "variations": [
         {
+          "id": "v-atta-parotta-set-of-3",
+          "name": {
+            "en": "Set of 3",
+            "ar": "مجموعة من 3 قطع"
+          },
+          "base_price": 3.5,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
           "id": "v-atta-parotta-single",
           "name": {
             "en": "Single",
             "ar": "أعزب"
           },
-          "base_price": 1,
+          "base_price": 1.5,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 20,
@@ -5569,7 +5604,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 870,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-egg-roti",
@@ -5605,7 +5640,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 880,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-stuffed-roti",
@@ -5621,24 +5656,36 @@
       "offers": [],
       "variations": [
         {
+          "id": "v-stuffed-roti-cheese-or-mushroom",
+          "name": {
+            "en": "Mushroom",
+            "ar": "الجبن أو الفطر"
+          },
+          "base_price": 10,
+          "base_kcal": 0,
+          "is_active": false,
+          "sort_order": 0,
+          "offers": []
+        },
+        {
           "id": "v-stuffed-roti-sardine",
           "name": {
             "en": "Sardine",
             "ar": "سمك السردين"
           },
-          "base_price": 6,
+          "base_price": 8,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 10,
           "offers": []
         },
         {
-          "id": "v-stuffed-roti-cheeseormushroom",
+          "id": "v-stuffed-roti-cheese-or-mushroom",
           "name": {
-            "en": "Cheese or Mushroom",
+            "en": "Cheese",
             "ar": "الجبن أو الفطر"
           },
-          "base_price": 7,
+          "base_price": 8,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 20,
@@ -5650,19 +5697,19 @@
             "en": "Chicken",
             "ar": "فرخة"
           },
-          "base_price": 7,
+          "base_price": 12,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 30,
           "offers": []
         },
         {
-          "id": "v-stuffed-roti-beef",
+          "id": "v-stuffed-roti-beef-masala",
           "name": {
             "en": "Beef",
             "ar": "لحم"
           },
-          "base_price": 8,
+          "base_price": 15,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 40,
@@ -5675,8 +5722,8 @@
       "id": "prod-vada",
       "slug": "vada",
       "path": "/menu/vada/",
-      "category_id": "cat-south-indian",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Vada",
         "ar": "فادا"
@@ -5690,7 +5737,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 890,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-vada",
@@ -5706,7 +5753,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-vada-singlepiece",
+          "id": "v-vada-single-piece",
           "name": {
             "en": "Single Piece",
             "ar": "قطعة واحدة"
@@ -5718,7 +5765,7 @@
           "offers": []
         },
         {
-          "id": "v-vada-setofthree",
+          "id": "v-vada-set-of-three",
           "name": {
             "en": "Set of Three",
             "ar": "مجموعة من ثلاثة"
@@ -5736,8 +5783,8 @@
       "id": "prod-idli",
       "slug": "idli",
       "path": "/menu/idli/",
-      "category_id": "cat-south-indian",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Idli",
         "ar": "إدلي"
@@ -5751,7 +5798,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 900,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-idli",
@@ -5767,7 +5814,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-idli-setof3",
+          "id": "v-idli-set-of-3",
           "name": {
             "en": "Set of 3",
             "ar": "مجموعة من 3 قطع"
@@ -5794,17 +5841,17 @@
       "option_groups": []
     },
     {
-      "id": "prod-poori-bhaji",
-      "slug": "poori-bhaji",
-      "path": "/menu/poori-bhaji/",
-      "category_id": "cat-south-indian",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "id": "prod-poori-bhaji-set-of-three-pieces",
+      "slug": "poori-bhaji-set-of-three-pieces",
+      "path": "/menu/poori-bhaji-set-of-three-pieces/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
-        "en": "Poori Bhaji",
+        "en": "Poori Bhaji (Set Of Three Pieces)",
         "ar": "بوري باجي"
       },
       "description": {
-        "en": "",
+        "en": "A classic and comforting indian flat bread served with mildly spicy bahji and coconut chutney.",
         "ar": ""
       },
       "has_variants": true,
@@ -5812,11 +5859,11 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 910,
+      "sort_order": null,
       "images": [
         {
-          "id": "img-prod-poori-bhaji",
-          "url": "/assets/images/img-poori-bhaji.webp",
+          "id": "img-prod-poori-bhaji-set-of-three-pieces",
+          "url": "/assets/images/img-poori-bhaji-set-of-three-pieces.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -5828,7 +5875,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-poori-bhaji-setofthree",
+          "id": "v-poori-bhaji-set-of-three-pieces-set-of-three",
           "name": {
             "en": "Set of Three",
             "ar": "مجموعة من ثلاثة"
@@ -5840,7 +5887,7 @@
           "offers": []
         },
         {
-          "id": "v-poori-bhaji-single",
+          "id": "v-poori-bhaji-set-of-three-pieces-single",
           "name": {
             "en": "Single",
             "ar": "أعزب"
@@ -5858,14 +5905,14 @@
       "id": "prod-chole-bhature",
       "slug": "chole-bhature",
       "path": "/menu/chole-bhature/",
-      "category_id": "cat-south-indian",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Chole Bhature",
         "ar": "تشولي باتوري"
       },
       "description": {
-        "en": "",
+        "en": "A north indian classic. fluffy, deep-fried bhature served with spicy, tangy chickpea curry (chole) cooked with aromatic spices.",
         "ar": ""
       },
       "has_variants": true,
@@ -5873,7 +5920,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 920,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-chole-bhature",
@@ -5889,7 +5936,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-chole-bhature-setoftwo",
+          "id": "v-chole-bhature-set-of-two",
           "name": {
             "en": "Set of Two",
             "ar": "مجموعة من قطعتين"
@@ -5901,7 +5948,7 @@
           "offers": []
         },
         {
-          "id": "v-chole-bhature-single(extra)",
+          "id": "v-chole-bhature-single-extra",
           "name": {
             "en": "Single (Extra)",
             "ar": "فردي (إضافي)"
@@ -5919,8 +5966,8 @@
       "id": "prod-paper-dosa",
       "slug": "paper-dosa",
       "path": "/menu/paper-dosa/",
-      "category_id": "cat-south-indian",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Paper Dosa",
         "ar": "دوسا ورقية"
@@ -5934,7 +5981,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 930,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-paper-dosa",
@@ -5955,8 +6002,8 @@
       "id": "prod-onion-uttapam",
       "slug": "onion-uttapam",
       "path": "/menu/onion-uttapam/",
-      "category_id": "cat-south-indian",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Onion Uttapam",
         "ar": "أوتابام بالبصل"
@@ -5970,7 +6017,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 940,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-onion-uttapam",
@@ -5988,47 +6035,11 @@
       "option_groups": []
     },
     {
-      "id": "prod-paneer-masala-dosa",
-      "slug": "paneer-masala-dosa",
-      "path": "/menu/paneer-masala-dosa/",
-      "category_id": "cat-south-indian",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
-      "name": {
-        "en": "Paneer Masala Dosa",
-        "ar": "دوسا ماسالا بالبانير"
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": false,
-      "base_price": 10,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 950,
-      "images": [
-        {
-          "id": "img-prod-paneer-masala-dosa",
-          "url": "/assets/images/img-paneer-masala-dosa.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
       "id": "prod-sada-dosa",
       "slug": "sada-dosa",
       "path": "/menu/sada-dosa/",
-      "category_id": "cat-south-indian",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Sada Dosa",
         "ar": "دوسا سادة"
@@ -6042,7 +6053,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 960,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-sada-dosa",
@@ -6060,17 +6071,17 @@
       "option_groups": []
     },
     {
-      "id": "prod-kallu-dosa",
-      "slug": "kallu-dosa",
-      "path": "/menu/kallu-dosa/",
-      "category_id": "cat-south-indian",
-      "subcategory_id": "sub-breakfast-south-indian-breakfast",
+      "id": "prod-kallu-dosa-one-piece",
+      "slug": "kallu-dosa-one-piece",
+      "path": "/menu/kallu-dosa-one-piece/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
-        "en": "Kallu Dosa",
+        "en": "Kallu Dosa (One Piece)",
         "ar": "دوسا كالو"
       },
       "description": {
-        "en": "",
+        "en": "Kallu dosa - soft, thick, and fluffy south indian style dosa made from a fermented rice and urad dal batter.",
         "ar": ""
       },
       "has_variants": false,
@@ -6078,155 +6089,11 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 970,
+      "sort_order": null,
       "images": [
         {
-          "id": "img-prod-kallu-dosa",
-          "url": "/assets/images/img-kallu-dosa.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
-      "id": "prod-manchurian-dry",
-      "slug": "manchurian-dry",
-      "path": "/menu/manchurian-dry/",
-      "category_id": "cat-curries",
-      "subcategory_id": "sub-curries-north-indian",
-      "name": {
-        "en": "Manchurian Dry",
-        "ar": "مانشوريان جاف"
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": false,
-      "base_price": 14,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 980,
-      "images": [
-        {
-          "id": "img-prod-manchurian-dry",
-          "url": "/assets/images/img-manchurian-dry.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
-      "id": "prod-manchurian-gravy",
-      "slug": "manchurian-gravy",
-      "path": "/menu/manchurian-gravy/",
-      "category_id": "cat-curries",
-      "subcategory_id": "sub-curries-north-indian",
-      "name": {
-        "en": "Manchurian Gravy",
-        "ar": "مانشوريان بالصلصة"
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": false,
-      "base_price": 12,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 990,
-      "images": [
-        {
-          "id": "img-prod-manchurian-gravy",
-          "url": "/assets/images/img-manchurian-gravy.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
-      "id": "prod-chilli-paneer-dry",
-      "slug": "chilli-paneer-dry",
-      "path": "/menu/chilli-paneer-dry/",
-      "category_id": "cat-curries",
-      "subcategory_id": "sub-curries-north-indian",
-      "name": {
-        "en": "Chilli Paneer Dry",
-        "ar": "تشيلي بانير جاف"
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": false,
-      "base_price": 16,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 1000,
-      "images": [
-        {
-          "id": "img-prod-chilli-paneer-dry",
-          "url": "/assets/images/img-chilli-paneer-dry.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
-      "id": "prod-chilli-paneer-gravy",
-      "slug": "chilli-paneer-gravy",
-      "path": "/menu/chilli-paneer-gravy/",
-      "category_id": "cat-curries",
-      "subcategory_id": "sub-curries-north-indian",
-      "name": {
-        "en": "Chilli Paneer Gravy",
-        "ar": "تشيلي بانير بالصلصة"
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": false,
-      "base_price": 15,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 1010,
-      "images": [
-        {
-          "id": "img-prod-chilli-paneer-gravy",
-          "url": "/assets/images/img-chilli-paneer-gravy.webp",
+          "id": "img-prod-kallu-dosa-one-piece",
+          "url": "/assets/images/img-kallu-dosa-one-piece.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -6243,7 +6110,7 @@
       "id": "prod-paneer-65",
       "slug": "paneer-65",
       "path": "/menu/paneer-65/",
-      "category_id": "cat-curries",
+      "category_id": "cat-gravies-asian-sides",
       "subcategory_id": "sub-curries-north-indian",
       "name": {
         "en": "Paneer 65",
@@ -6254,11 +6121,11 @@
         "ar": ""
       },
       "has_variants": false,
-      "base_price": 18,
+      "base_price": 23,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1020,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-paneer-65",
@@ -6279,7 +6146,7 @@
       "id": "prod-dal-tadka",
       "slug": "dal-tadka",
       "path": "/menu/dal-tadka/",
-      "category_id": "cat-curries",
+      "category_id": "cat-gravies-asian-sides",
       "subcategory_id": "sub-curries-north-indian",
       "name": {
         "en": "Dal Tadka",
@@ -6294,7 +6161,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1030,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-dal-tadka",
@@ -6315,7 +6182,7 @@
       "id": "prod-bhindi-masala",
       "slug": "bhindi-masala",
       "path": "/menu/bhindi-masala/",
-      "category_id": "cat-curries",
+      "category_id": "cat-gravies-asian-sides",
       "subcategory_id": "sub-curries-north-indian",
       "name": {
         "en": "Bhindi Masala",
@@ -6330,7 +6197,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1040,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-bhindi-masala",
@@ -6351,7 +6218,7 @@
       "id": "prod-bhindi-fry",
       "slug": "bhindi-fry",
       "path": "/menu/bhindi-fry/",
-      "category_id": "cat-curries",
+      "category_id": "cat-gravies-asian-sides",
       "subcategory_id": "sub-curries-north-indian",
       "name": {
         "en": "Bhindi Fry",
@@ -6366,7 +6233,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1050,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-bhindi-fry",
@@ -6384,17 +6251,17 @@
       "option_groups": []
     },
     {
-      "id": "prod-matar-paneer",
-      "slug": "matar-paneer",
-      "path": "/menu/matar-paneer/",
-      "category_id": "cat-curries",
+      "id": "prod-matar-green-peas-paneer",
+      "slug": "matar-green-peas-paneer",
+      "path": "/menu/matar-green-peas-paneer/",
+      "category_id": "cat-gravies-asian-sides",
       "subcategory_id": "sub-curries-north-indian",
       "name": {
-        "en": "Matar Paneer",
+        "en": "Matar (Green Peas) Paneer",
         "ar": "ماتر بانير"
       },
       "description": {
-        "en": "",
+        "en": "A comforting north indian curry made with tender green peas and soft paneer cubes simmered in a mildly spiced tomato-onion gravy. rich, hearty, and full of flavor, this vegetarian favorite pairs perfectly with roti, naan, or steamed rice.",
         "ar": ""
       },
       "has_variants": false,
@@ -6402,83 +6269,11 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1060,
+      "sort_order": null,
       "images": [
         {
-          "id": "img-prod-matar-paneer",
-          "url": "/assets/images/img-matar-paneer.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
-      "id": "prod-kadai-paneer",
-      "slug": "kadai-paneer",
-      "path": "/menu/kadai-paneer/",
-      "category_id": "cat-curries",
-      "subcategory_id": "sub-curries-north-indian",
-      "name": {
-        "en": "Kadai Paneer",
-        "ar": "كاداي بانير"
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": false,
-      "base_price": 12,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 1070,
-      "images": [
-        {
-          "id": "img-prod-kadai-paneer",
-          "url": "/assets/images/img-kadai-paneer.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
-      "id": "prod-paneer-masala",
-      "slug": "paneer-masala",
-      "path": "/menu/paneer-masala/",
-      "category_id": "cat-curries",
-      "subcategory_id": "sub-curries-north-indian",
-      "name": {
-        "en": "Paneer Masala",
-        "ar": "بانير ماسالا"
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": false,
-      "base_price": 14,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 1080,
-      "images": [
-        {
-          "id": "img-prod-paneer-masala",
-          "url": "/assets/images/img-paneer-masala.webp",
+          "id": "img-prod-matar-green-peas-paneer",
+          "url": "/assets/images/img-matar-green-peas-paneer.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -6495,14 +6290,14 @@
       "id": "prod-butter-paneer-masala",
       "slug": "butter-paneer-masala",
       "path": "/menu/butter-paneer-masala/",
-      "category_id": "cat-curries",
+      "category_id": "cat-gravies-asian-sides",
       "subcategory_id": "sub-curries-north-indian",
       "name": {
         "en": "Butter Paneer Masala",
         "ar": "بانير بالزبدة ماسالا"
       },
       "description": {
-        "en": "",
+        "en": "A creamy and mildly sweet north indian curry featuring soft paneer cubes simmered in a rich, velvety tomato and butter-based gravy infused with aromatic spices",
         "ar": ""
       },
       "has_variants": false,
@@ -6510,7 +6305,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1090,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-butter-paneer-masala",
@@ -6546,7 +6341,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1100,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-rice-double-egg",
@@ -6567,7 +6362,7 @@
             "en": "Regular",
             "ar": "عادي"
           },
-          "base_price": 15,
+          "base_price": 14,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 10,
@@ -6607,7 +6402,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1110,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-rice-veg-mushroom-no-egg",
@@ -6623,39 +6418,15 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-rice-veg-mushroom-no-egg-single",
-          "name": {
-            "en": "Regular",
-            "ar": "عادي"
-          },
-          "base_price": 17,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
           "id": "v-fried-rice-veg-mushroom-no-egg-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
           },
-          "base_price": 19,
+          "base_price": 14,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-fried-rice-veg-mushroom-no-egg-full",
-          "name": {
-            "en": "Large",
-            "ar": "كبير"
-          },
-          "base_price": 27,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20,
           "offers": []
         },
         {
@@ -6664,7 +6435,7 @@
             "en": "Large",
             "ar": "كبير"
           },
-          "base_price": 29,
+          "base_price": 25,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 20,
@@ -6692,7 +6463,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1120,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-rice-chicken",
@@ -6708,24 +6479,24 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-rice-chicken-single",
+          "id": "v-fried-rice-chicken-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
           },
-          "base_price": 19,
+          "base_price": 18,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 10,
           "offers": []
         },
         {
-          "id": "v-fried-rice-chicken-full",
+          "id": "v-fried-rice-chicken-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
           },
-          "base_price": 29,
+          "base_price": 28,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 20,
@@ -6753,7 +6524,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1130,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-rice-beef",
@@ -6769,7 +6540,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-rice-beef-single",
+          "id": "v-fried-rice-beef-masala-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -6781,7 +6552,7 @@
           "offers": []
         },
         {
-          "id": "v-fried-rice-beef-full",
+          "id": "v-fried-rice-beef-masala-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -6814,7 +6585,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1140,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-rice-shrimp",
@@ -6875,7 +6646,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1150,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-rice-chicken-beef",
@@ -6891,7 +6662,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-rice-chicken-beef-regular",
+          "id": "v-fried-rice-chicken-beef-masala-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -6903,7 +6674,7 @@
           "offers": []
         },
         {
-          "id": "v-fried-rice-chicken-beef-large",
+          "id": "v-fried-rice-chicken-beef-masala-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -6936,7 +6707,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1160,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-rice-seafood",
@@ -6997,7 +6768,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1170,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-rice-mixed-chicken-beef-shrimp",
@@ -7013,7 +6784,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-rice-mixed-chicken-beef-shrimp-regular",
+          "id": "v-fried-rice-mixed-chicken-beef-masala-shrimp-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -7025,7 +6796,7 @@
           "offers": []
         },
         {
-          "id": "v-fried-rice-mixed-chicken-beef-shrimp-large",
+          "id": "v-fried-rice-mixed-chicken-beef-masala-shrimp-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -7050,7 +6821,7 @@
         "ar": "نودلز مقلية - بيض دبل"
       },
       "description": {
-        "en": "",
+        "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with egg or vegetable without egg.",
         "ar": ""
       },
       "has_variants": true,
@@ -7058,7 +6829,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1180,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-noodles-double-egg",
@@ -7111,7 +6882,7 @@
         "ar": "نودلز مقلية - خضار وفطر (بدون بيض)"
       },
       "description": {
-        "en": "",
+        "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with egg or vegetable without egg.",
         "ar": ""
       },
       "has_variants": true,
@@ -7119,7 +6890,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1190,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-noodles-veg-mushroom-no-egg",
@@ -7133,7 +6904,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-fried-rice-veg-mushroom-no-egg-regular",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 19,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-fried-rice-veg-mushroom-no-egg-large",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -7147,7 +6943,7 @@
         "ar": "نودلز مقلية - دجاج"
       },
       "description": {
-        "en": "",
+        "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with your choice of chicken, beef, seafood, or combination.",
         "ar": ""
       },
       "has_variants": true,
@@ -7155,7 +6951,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1200,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-noodles-chicken",
@@ -7208,7 +7004,7 @@
         "ar": "نودلز مقلية - لحم بقري"
       },
       "description": {
-        "en": "",
+        "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with your choice of chicken, beef, seafood, or combination.",
         "ar": ""
       },
       "has_variants": true,
@@ -7216,7 +7012,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1210,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-noodles-beef",
@@ -7232,7 +7028,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-noodles-beef-regular",
+          "id": "v-fried-noodles-beef-masala-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -7244,7 +7040,7 @@
           "offers": []
         },
         {
-          "id": "v-fried-noodles-beef-large",
+          "id": "v-fried-noodles-beef-masala-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -7269,7 +7065,7 @@
         "ar": "نودلز مقلية - روبيان"
       },
       "description": {
-        "en": "",
+        "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with your choice of chicken, beef, seafood, or combination.",
         "ar": ""
       },
       "has_variants": true,
@@ -7277,7 +7073,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1220,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-noodles-shrimp",
@@ -7330,7 +7126,7 @@
         "ar": "نودلز مقلية - دجاج ولحم بقري"
       },
       "description": {
-        "en": "",
+        "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with your choice of chicken, beef, seafood, or combination.",
         "ar": ""
       },
       "has_variants": true,
@@ -7338,7 +7134,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1230,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-noodles-chicken-beef",
@@ -7354,7 +7150,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-noodles-chicken-beef-regular",
+          "id": "v-fried-noodles-chicken-beef-masala-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -7366,7 +7162,7 @@
           "offers": []
         },
         {
-          "id": "v-fried-noodles-chicken-beef-large",
+          "id": "v-fried-noodles-chicken-beef-masala-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -7391,7 +7187,7 @@
         "ar": "نودلز مقلية - مأكولات بحرية"
       },
       "description": {
-        "en": "",
+        "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with your choice of chicken, beef, seafood, or combination.",
         "ar": ""
       },
       "has_variants": true,
@@ -7399,7 +7195,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1240,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-noodles-seafood",
@@ -7452,7 +7248,7 @@
         "ar": "نودلز مقلية - مشكل (دجاج، لحم بقري وروبيان)"
       },
       "description": {
-        "en": "",
+        "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with your choice of chicken, beef, seafood, or combination.",
         "ar": ""
       },
       "has_variants": true,
@@ -7460,7 +7256,7 @@
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
-      "sort_order": 1250,
+      "sort_order": null,
       "images": [
         {
           "id": "img-prod-fried-noodles-mixed-chicken-beef-shrimp",
@@ -7476,7 +7272,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-noodles-mixed-chicken-beef-shrimp-regular",
+          "id": "v-fried-noodles-mixed-chicken-beef-masala-shrimp-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -7488,7 +7284,7 @@
           "offers": []
         },
         {
-          "id": "v-fried-noodles-mixed-chicken-beef-shrimp-large",
+          "id": "v-fried-noodles-mixed-chicken-beef-masala-shrimp-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -7501,11 +7297,3614 @@
         }
       ],
       "option_groups": []
+    },
+    {
+      "id": "prod-chicken-nuggets-8-pieces",
+      "slug": "chicken-nuggets-8-pieces",
+      "path": "/menu/chicken-nuggets-8-pieces/",
+      "category_id": "cat-broasted",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chicken Nuggets (8 Pieces)",
+        "ar": "قطع دجاج ناجتس (8 قطع)"
+      },
+      "description": {
+        "en": "Chicken nuggets served with soft drink, french fries, ketchup, and hot garlic sauce.",
+        "ar": "قطع الدجاج تقدم مع مشروب غازي، بطاطس مقلية، كاتشب، وصلصة ثوم حارة."
+      },
+      "has_variants": false,
+      "base_price": 16,
+      "base_kcal": 800,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-chicken-nuggets-8-pieces",
+          "url": "/assets/images/img-chicken-nuggets-8-pieces.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-broasted-chicken",
+      "slug": "broasted-chicken",
+      "path": "/menu/broasted-chicken/",
+      "category_id": "cat-broasted",
+      "subcategory_id": null,
+      "name": {
+        "en": "Broasted Chicken",
+        "ar": "دجاج بروستد"
+      },
+      "description": {
+        "en": "Blb's broasted chicken meal (4 pcs) four pieces of our crispy, juicy broasted chicken served with golden fries, spicy garlic sauce, ketchup, and kubz.",
+        "ar": "وجبة دجاج بروستد من بي إل بي (4 قطع): أربع قطع من دجاج البروستد المقرمش والعصير تقدم مع بطاطس مقلية ذهبية، وصلصة ثوم حارة، وكاتشب، وكوبز."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 1400,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-broasted-chicken",
+          "url": "/assets/images/img-broasted-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-broasted-chicken-single",
+          "name": {
+            "en": "Standard",
+            "ar": "معيار"
+          },
+          "base_price": 18,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-broasted-chicken-full",
+          "name": {
+            "en": "Combo",
+            "ar": "مجموعة"
+          },
+          "base_price": 21,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-broasted-chicken-wings-combo",
+      "slug": "broasted-chicken-wings-combo",
+      "path": "/menu/broasted-chicken-wings-combo/",
+      "category_id": "cat-broasted",
+      "subcategory_id": null,
+      "name": {
+        "en": "Broasted Chicken Wings Combo",
+        "ar": "وجبة أجنحة دجاج بروستد"
+      },
+      "description": {
+        "en": "Crispy, six broasted chicken wings with soft drink, fries, kubz, kethcup & garlic sauce",
+        "ar": "ستة أجنحة دجاج مقرمشة مشوية مع مشروب غازي، بطاطا مقلية، كوبز، كعك، وصلصة ثوم"
+      },
+      "has_variants": false,
+      "base_price": 18,
+      "base_kcal": 900,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-broasted-chicken-wings-combo",
+          "url": "/assets/images/img-broasted-chicken-wings-combo.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-french-fries",
+      "slug": "french-fries",
+      "path": "/menu/french-fries/",
+      "category_id": "cat-broasted",
+      "subcategory_id": null,
+      "name": {
+        "en": "French Fries",
+        "ar": "بطاطس مقلية"
+      },
+      "description": {
+        "en": "Golden-brown and crispy on the outside, these fries open up to a soft, fluffy center. lightly salted and served hot, they are the ultimate sidekick for any meal.",
+        "ar": "تتميز هذه البطاطس المقلية بلونها الذهبي البني وقشرتها المقرمشة، بينما تخفي في داخلها لباً طرياً وهشاً. تُقدم ساخنة ومملحة قليلاً، لتكون بذلك الإضافة المثالية لأي وجبة."
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 312,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-french-fries",
+          "url": "/assets/images/img-french-fries.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-french-fries-single",
+          "name": {
+            "en": "Single",
+            "ar": "مفردة"
+          },
+          "base_price": 8,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-french-fries-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-coin-mini-parota-6-pieces",
+      "slug": "coin-mini-parota-6-pieces",
+      "path": "/menu/coin-mini-parota-6-pieces/",
+      "category_id": "cat-breads",
+      "subcategory_id": null,
+      "name": {
+        "en": "Coin (Mini) Parota (6 Pieces)",
+        "ar": ""
+      },
+      "description": {
+        "en": "Six pieces of soft, flaky mini parotas cooked to golden perfection. these small bite-sized layered breads are perfect for pairing with any curry.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 4,
+      "base_kcal": 900,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-coin-mini-parota-6-pieces",
+          "url": "/assets/images/img-coin-mini-parota-6-pieces.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-faham-chicken",
+      "slug": "faham-chicken",
+      "path": "/menu/faham-chicken/",
+      "category_id": "cat-arabic-dishes",
+      "subcategory_id": null,
+      "name": {
+        "en": "Faham Chicken",
+        "ar": ""
+      },
+      "description": {
+        "en": "Our faham chicken is marinated in a rich blend of middle eastern spices, fresh garlic, lemon juice, and aromatic herbs, then slow-grilled until perfectly tender and juicy. served with kubz, garlic sauce, and fresh salad.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 190,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-faham-chicken",
+          "url": "/assets/images/img-faham-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-ghee-rice-set",
+      "slug": "ghee-rice-set",
+      "path": "/menu/ghee-rice-set/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Ghee Rice Set",
+        "ar": ""
+      },
+      "description": {
+        "en": "A fragrant ghee rice set served with your choice of tender meat, spiced fish, succulent shrimp, or crab.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 1090,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-ghee-rice-set",
+          "url": "/assets/images/img-ghee-rice-set.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-saffron-yellow-rice-chicken",
+      "slug": "saffron-yellow-rice-chicken",
+      "path": "/menu/saffron-yellow-rice-chicken/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Saffron (Yellow) Rice - Chicken",
+        "ar": ""
+      },
+      "description": {
+        "en": "Our bestselling saffron rice meal, fragrant yellow rice served with a wider variety of flavorful vegetable sides and hearty meat options for a truly complete feast.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 19,
+      "base_kcal": 960,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-saffron-yellow-rice-chicken",
+          "url": "/assets/images/img-saffron-yellow-rice-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-lamprais",
+      "slug": "lamprais",
+      "path": "/menu/lamprais/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Lamprais",
+        "ar": ""
+      },
+      "description": {
+        "en": "A delicious banana leaf-wrapped Ceylon meal, brings together fragrant rice, slow-cooked chicken curry, ash plantain, brinjal avial and a fried boiled egg with a fish cutlet, all infused with aromatic spices. steamed to perfection in the banana leaf, this traditional ceylonese delicacy offers a rich, flavorful experience. a must-try for those who enjoy wholesome, spice-infused meals",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 19,
+      "base_kcal": 1050,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-lamprais",
+          "url": "/assets/images/img-lamprais.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-saffron-yellow-rice-beef",
+      "slug": "saffron-yellow-rice-beef",
+      "path": "/menu/saffron-yellow-rice-beef/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Saffron (Yellow) Rice - Beef",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 21,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-saffron-yellow-rice-beef",
+          "url": "/assets/images/img-saffron-yellow-rice-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-saffron-yellow-rice-fish",
+      "slug": "saffron-yellow-rice-fish",
+      "path": "/menu/saffron-yellow-rice-fish/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Saffron (Yellow) Rice - Fish",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 22,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-saffron-yellow-rice-fish",
+          "url": "/assets/images/img-saffron-yellow-rice-fish.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-executive-lunch-meal-vegetarian",
+      "slug": "executive-lunch-meal-vegetarian",
+      "path": "/menu/executive-lunch-meal-vegetarian/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Executive Lunch Meal Vegetarian",
+        "ar": ""
+      },
+      "description": {
+        "en": "A wholesome North Indian vegetarian set featuring jeera rice, two soft chapatis, dal fry, and mixed vegetable sabji. choose between matar paneer or kadai paneer as your main curry. a balanced, satisfying north indian meal perfect for lunch, full of flavor and nourishment.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 1050,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-executive-lunch-meal-vegetarian",
+          "url": "/assets/images/img-executive-lunch-meal-vegetarian.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-executive-lunch-meal-chicken",
+      "slug": "executive-lunch-meal-chicken",
+      "path": "/menu/executive-lunch-meal-chicken/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Executive Lunch Meal Chicken",
+        "ar": ""
+      },
+      "description": {
+        "en": "A hearty and flavorful North Indian lunch set featuring jeera rice, two soft chapatis, dal fry, and onion raita. choose your main curry: rich, creamy butter chicken or bold and aromatic kadai chicken. a complete north indian meal crafted for comfort and satisfaction.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 1150,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-executive-lunch-meal-chicken",
+          "url": "/assets/images/img-executive-lunch-meal-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-jeera-zeera-rice",
+      "slug": "jeera-zeera-rice",
+      "path": "/menu/jeera-zeera-rice/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Jeera (Zeera) Rice",
+        "ar": ""
+      },
+      "description": {
+        "en": "Fragrant basmati rice gently tempered with cumin seeds and ghee, offering a light, aromatic flavor that pairs perfectly with dals, curries, or grilled dishes. simple, wholesome, and full of subtle spice - a classic north indian side dish.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 930,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-jeera-zeera-rice",
+          "url": "/assets/images/img-jeera-zeera-rice.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-steamed-white-rice",
+      "slug": "steamed-white-rice",
+      "path": "/menu/steamed-white-rice/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Steamed White Rice",
+        "ar": ""
+      },
+      "description": {
+        "en": "Fluffy, steamed white rice fine-grain baarik for a light, delicate texture.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 875,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-steamed-white-rice",
+          "url": "/assets/images/img-steamed-white-rice.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-ghee-rice",
+      "slug": "ghee-rice",
+      "path": "/menu/ghee-rice/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Ghee Rice",
+        "ar": ""
+      },
+      "description": {
+        "en": "Aromatic, fluffy rice cooked gently in pure ghee for a rich, buttery flavor simple, fragrant, and the perfect base to pair with any curry or gravy.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 900,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-ghee-rice",
+          "url": "/assets/images/img-ghee-rice.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-thayir-yoghurt-dipped-medu-vada",
+      "slug": "thayir-yoghurt-dipped-medu-vada",
+      "path": "/menu/thayir-yoghurt-dipped-medu-vada/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Thayir (Yoghurt Dipped) Medu Vada",
+        "ar": ""
+      },
+      "description": {
+        "en": "Thayir vada - soft, fluffy lentil vada (fritters soaked in smooth, chilled yogurt and topped with a tempering of mustard seeds, curry leaves, and a sprinkle of spice. this south indian favorite is cooling, tangy, and absolutely refreshing - perfect as a light snack or side.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 2,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-thayir-yoghurt-dipped-medu-vada",
+          "url": "/assets/images/img-thayir-yoghurt-dipped-medu-vada.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-medu-vadai",
+      "slug": "medu-vadai",
+      "path": "/menu/medu-vadai/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Medu Vadai",
+        "ar": ""
+      },
+      "description": {
+        "en": "Medu vadai - crispy on the outside soft and fluffy on the inside - this delicious snack from south india is made from urad lentil batter marinated with spices and fried until golden brown - served with coconut chutney and sambar",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 1,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-medu-vadai",
+          "url": "/assets/images/img-medu-vadai.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-idiappam-string-hopper",
+      "slug": "idiappam-string-hopper",
+      "path": "/menu/idiappam-string-hopper/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Idiappam (String Hopper)",
+        "ar": ""
+      },
+      "description": {
+        "en": "Idiappam (string hopper) - soft, delicate rice noodles steamed into lacy discs, a traditional south indian and sri lankan favorite. light and fluffy, it pairs beautifully with coconut milk, kurma, or spicy curries - perfect for breakfast, dinner, or a light meal. simple, wholesome, and naturally gluten-free.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 1,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-idiappam-string-hopper",
+          "url": "/assets/images/img-idiappam-string-hopper.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-ghee-dosa-with-sambar-chutney",
+      "slug": "ghee-dosa-with-sambar-chutney",
+      "path": "/menu/ghee-dosa-with-sambar-chutney/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Ghee Dosa With Sambar & Chutney",
+        "ar": ""
+      },
+      "description": {
+        "en": "A crispy south indian dosa cooked to golden perfection and enriched with a generous drizzle of aromatic ghee. light, flavorful, and best enjoyed with sambar and fresh coconut chutney",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-ghee-dosa-with-sambar-chutney",
+          "url": "/assets/images/img-ghee-dosa-with-sambar-chutney.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-thenga-coconut-roti-one-piece-with-onion-chili-sambol",
+      "slug": "thenga-coconut-roti-one-piece-with-onion-chili-sambol",
+      "path": "/menu/thenga-coconut-roti-one-piece-with-onion-chili-sambol/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Thenga (Coconut) Roti (One Piece) With Onion & Chili Sambol",
+        "ar": ""
+      },
+      "description": {
+        "en": "A beloved sri lankan breakfast or snack featuring coconut roti - a flatbread made with freshly grated coconut and flour, pan-toasted for a slightly crisp edge and soft center. served with a fiery relish made from red chili, onion, lime, and maldive fish.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 220,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-thenga-coconut-roti-one-piece-with-onion-chili-sambol",
+          "url": "/assets/images/img-thenga-coconut-roti-one-piece-with-onion-chili-sambol.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-onion-dosa-with-sambar-chutney",
+      "slug": "onion-dosa-with-sambar-chutney",
+      "path": "/menu/onion-dosa-with-sambar-chutney/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Onion Dosa With Sambar & Chutney",
+        "ar": ""
+      },
+      "description": {
+        "en": "A thin, crispy dosa topped with finely chopped onions and green chilies, adding a sweet crunch and mild spice. served hot with sambar and coconut chutney for a flavorful south indian experience.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-onion-dosa-with-sambar-chutney",
+          "url": "/assets/images/img-onion-dosa-with-sambar-chutney.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-idiyappam-set-of-three-pieces",
+      "slug": "idiyappam-set-of-three-pieces",
+      "path": "/menu/idiyappam-set-of-three-pieces/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Idiyappam Set Of Three Pieces",
+        "ar": ""
+      },
+      "description": {
+        "en": "Idiyappam (string hoppers) - soft, delicate rice noodles steamed into lacy discs, a traditional south indian and sri lankan favorite. light and fluffy, idiyappam pairs beautifully with coconut milk, kurma, or spicy curries - perfect for breakfast, dinner, or a light meal. simple, wholesome, and naturally gluten-free.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 200,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-idiyappam-set-of-three-pieces",
+          "url": "/assets/images/img-idiyappam-set-of-three-pieces.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-egg-dosa-with-sambar-chutney",
+      "slug": "egg-dosa-with-sambar-chutney",
+      "path": "/menu/egg-dosa-with-sambar-chutney/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Egg Dosa With Sambar & Chutney",
+        "ar": ""
+      },
+      "description": {
+        "en": "Egg dosa - a delicious twist on the classic dosa. this crispy south indian crepe is topped with a freshly cracked egg, cooked right on the griddle. served with chutney and sambar, its a protein-packed, flavorful choice for any time of day",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 480,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-egg-dosa-with-sambar-chutney",
+          "url": "/assets/images/img-egg-dosa-with-sambar-chutney.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-thenga-coconut-sambol-120ml-cup",
+      "slug": "thenga-coconut-sambol-120ml-cup",
+      "path": "/menu/thenga-coconut-sambol-120ml-cup/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Thenga (Coconut) Sambol 120ml Cup",
+        "ar": ""
+      },
+      "description": {
+        "en": "A fiery and flavorful sri lankan coconut relish made with freshly grated coconut, red chili, onion, lime juice, and a hint of maldive fish. bursting with spice and tang, pol sambol is the perfect sidekick to string hoppers, rice, or curries - a true island favorite.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 480,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-thenga-coconut-sambol-120ml-cup",
+          "url": "/assets/images/img-thenga-coconut-sambol-120ml-cup.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-lemon-rice",
+      "slug": "lemon-rice",
+      "path": "/menu/lemon-rice/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Lemon Rice",
+        "ar": ""
+      },
+      "description": {
+        "en": "A fragrant south indian rice dish tempered with mustard seeds, curry leaves, green chilies, and turmeric, then tossed with fresh lemon juice for a tangy kick. light, vibrant, and full of flavor perfect as a meal on its own or with your favorite side",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 680,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-lemon-rice",
+          "url": "/assets/images/img-lemon-rice.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-brinjal-deep-fried-with-small-onions",
+      "slug": "brinjal-deep-fried-with-small-onions",
+      "path": "/menu/brinjal-deep-fried-with-small-onions/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Brinjal (Deep Fried) With Small Onions",
+        "ar": ""
+      },
+      "description": {
+        "en": "A sweet, tangy, and spicy eggplant pickle. sliced brinjal is deep-fried and then marinated in a blend of vinegar, mustard seeds, onions, green chilies, and subtle spices. this flavorful condiment adds a delicious punch to rice and curry meals - a true island favorite.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 320,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-brinjal-deep-fried-with-small-onions",
+          "url": "/assets/images/img-brinjal-deep-fried-with-small-onions.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-masala-dosa-with-sambar-chutney",
+      "slug": "masala-dosa-with-sambar-chutney",
+      "path": "/menu/masala-dosa-with-sambar-chutney/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Masala Dosa With Sambar & Chutney",
+        "ar": ""
+      },
+      "description": {
+        "en": "Masala dosa - a crispy, golden south indian crepe made from fermented rice and lentil batter, filled with a flavorful spiced potato masala. served with coconut chutney and sambar, this iconic dish is a perfect blend of crunch and comfort in every bite",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-masala-dosa-with-sambar-chutney",
+          "url": "/assets/images/img-masala-dosa-with-sambar-chutney.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-idli-set-3-pieces-with-sambar-chutney",
+      "slug": "idli-set-3-pieces-with-sambar-chutney",
+      "path": "/menu/idli-set-3-pieces-with-sambar-chutney/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Idli Set 3 Pieces With Sambar & Chutney",
+        "ar": ""
+      },
+      "description": {
+        "en": "Idli set - soft, fluffy steamed rice cakes served with coconut chutney and flavorful sambar. this classic south indian breakfast is light, wholesome, and perfect for a comforting start to your day",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 180,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-idli-set-3-pieces-with-sambar-chutney",
+          "url": "/assets/images/img-idli-set-3-pieces-with-sambar-chutney.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-batter-fried-gobi-cauliflower",
+      "slug": "batter-fried-gobi-cauliflower",
+      "path": "/menu/batter-fried-gobi-cauliflower/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Batter Fried Gobi (Cauliflower)",
+        "ar": ""
+      },
+      "description": {
+        "en": "Tender cauliflower florets coated in a seasoned chickpea flour batter, deep-fried lightly spiced.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 650,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-batter-fried-gobi-cauliflower",
+          "url": "/assets/images/img-batter-fried-gobi-cauliflower.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-gobi-65",
+      "slug": "gobi-65",
+      "path": "/menu/gobi-65/",
+      "category_id": "cat-vegetarian",
+      "subcategory_id": null,
+      "name": {
+        "en": "Gobi 65",
+        "ar": ""
+      },
+      "description": {
+        "en": "A popular appetizer featuring crispy, deep-fried cauliflower florets marinated in a spicy, vibrant red batter infused with ginger, garlic, and curry leaves.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 330,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-gobi-65",
+          "url": "/assets/images/img-gobi-65.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-gobi-manchurian",
+      "slug": "gobi-manchurian",
+      "path": "/menu/gobi-manchurian/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Gobi Manchurian",
+        "ar": ""
+      },
+      "description": {
+        "en": "Crispy, batter fried vegetable or paneer tossed in a savory, tangy, and slightly spicy indo chinese sauce.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 15,
+      "base_kcal": 260,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-gobi-manchurian",
+          "url": "/assets/images/img-gobi-manchurian.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-paneer-manchurian",
+      "slug": "paneer-manchurian",
+      "path": "/menu/paneer-manchurian/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Paneer Manchurian",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 21,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-paneer-manchurian",
+          "url": "/assets/images/img-paneer-manchurian.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mushroom-vegetable-manchurian",
+      "slug": "mushroom-vegetable-manchurian",
+      "path": "/menu/mushroom-vegetable-manchurian/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Mushroom & Vegetable Manchurian",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 15,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-mushroom-vegetable-manchurian",
+          "url": "/assets/images/img-mushroom-vegetable-manchurian.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-beef-manchurian",
+      "slug": "beef-manchurian",
+      "path": "/menu/beef-manchurian/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Beef Manchurian",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 24,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-beef-manchurian",
+          "url": "/assets/images/img-beef-manchurian.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fish-manchurian",
+      "slug": "fish-manchurian",
+      "path": "/menu/fish-manchurian/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Fish Manchurian",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 26,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-fish-manchurian",
+          "url": "/assets/images/img-fish-manchurian.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kari-dosa-non-veg-veg",
+      "slug": "kari-dosa-non-veg-veg",
+      "path": "/menu/kari-dosa-non-veg-veg/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": "sub-curries-south-indian",
+      "name": {
+        "en": "Kari Dosa (Non Veg & Veg)",
+        "ar": ""
+      },
+      "description": {
+        "en": "A thin, masala-dosa with a twist - soft and crispy dosa layered with your choice of flavorful filling.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 360,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-kari-dosa-non-veg-veg",
+          "url": "/assets/images/img-kari-dosa-non-veg-veg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mung-dal-curry",
+      "slug": "mung-dal-curry",
+      "path": "/menu/mung-dal-curry/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Mung Dal Curry",
+        "ar": ""
+      },
+      "description": {
+        "en": "A wholesome and protein-rich curry made with split mung beans simmered in a mildly spiced onion-tomato base, tempered with mustard seeds, curry leaves, and fragrant spices. light, nutritious, and perfect with rice or chapati.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-mung-dal-curry",
+          "url": "/assets/images/img-mung-dal-curry.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-paneer-paratha",
+      "slug": "paneer-paratha",
+      "path": "/menu/paneer-paratha/",
+      "category_id": "cat-breads",
+      "subcategory_id": null,
+      "name": {
+        "en": "Paneer Paratha",
+        "ar": ""
+      },
+      "description": {
+        "en": "Paratha stuffed with crumbled paneer, herbs & mild spices. served with yoghurt & achar.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 7.5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-paneer-paratha",
+          "url": "/assets/images/img-paneer-paratha.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kadai-paneer-450ml-cup",
+      "slug": "kadai-paneer-450ml-cup",
+      "path": "/menu/kadai-paneer-450ml-cup/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Kadai Paneer (450ml) Cup",
+        "ar": ""
+      },
+      "description": {
+        "en": "A classic north indian dish featuring soft paneer cubes stir-fried with sweet peppers, onions, and tomatoes in a strong, aromatic masala kadai (wok-style), finished with a touch of cream.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 21,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-kadai-paneer-450ml-cup",
+          "url": "/assets/images/img-kadai-paneer-450ml-cup.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mutton-achari",
+      "slug": "mutton-achari",
+      "path": "/menu/mutton-achari/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Mutton Achari",
+        "ar": ""
+      },
+      "description": {
+        "en": "Tender mutton pieces cooked in a rich, tangy gravy infused with pickling spices. pairs beautifully with roti, naan, or rice.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-mutton-achari",
+          "url": "/assets/images/img-mutton-achari.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-mutton-achari-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 18,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-mutton-achari-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 26,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mutton-korma",
+      "slug": "mutton-korma",
+      "path": "/menu/mutton-korma/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": "sub-curries-north-indian",
+      "name": {
+        "en": "Mutton Korma",
+        "ar": ""
+      },
+      "description": {
+        "en": "A royal mughlai delicacy featuring tender mutton slow-cooked in a luxurious gravy of yogurt, cashew paste, and aromatic spices. rich, mildly spiced, and full of depth, our mutton korma is a hearty and indulgent dish perfect with naan, chapati, or rice",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-mutton-korma",
+          "url": "/assets/images/img-mutton-korma.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-mutton-korma-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 18,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-mutton-korma-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 26,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-scrambled-egg-in-chicken-gravy",
+      "slug": "scrambled-egg-in-chicken-gravy",
+      "path": "/menu/scrambled-egg-in-chicken-gravy/",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": null,
+      "name": {
+        "en": "Scrambled Egg In Chicken Gravy",
+        "ar": ""
+      },
+      "description": {
+        "en": "Egg scrambled and simmered in a rich chicken gravy, cooked with onions, tomatoes, and aromatic spices. a simple yet flavorful curry that combines the softness of eggs with the depth of a homestyle masala.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-scrambled-egg-in-chicken-gravy",
+          "url": "/assets/images/img-scrambled-egg-in-chicken-gravy.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-scrambled-egg-in-chicken-gravy-single",
+          "name": {
+            "en": "Single",
+            "ar": "أعزب"
+          },
+          "base_price": 2.5,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-scrambled-egg-in-chicken-gravy-full",
+          "name": {
+            "en": "Double",
+            "ar": "مزدوج"
+          },
+          "base_price": 5,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-egg-curry-with-one-boiled-egg-small-cup",
+      "slug": "egg-curry-with-one-boiled-egg-small-cup",
+      "path": "/menu/egg-curry-with-one-boiled-egg-small-cup/",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": null,
+      "name": {
+        "en": "Egg Curry With One Boiled Egg Small Cup",
+        "ar": ""
+      },
+      "description": {
+        "en": "Boiled egg in a spiced onion-tomato gravy with garlic, ginger, and traditional indian masalas.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-egg-curry-with-one-boiled-egg-small-cup",
+          "url": "/assets/images/img-egg-curry-with-one-boiled-egg-small-cup.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-egg-onion-roast-with-one-boiled-egg",
+      "slug": "egg-onion-roast-with-one-boiled-egg",
+      "path": "/menu/egg-onion-roast-with-one-boiled-egg/",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": null,
+      "name": {
+        "en": "Egg (Onion) Roast With One Boiled Egg",
+        "ar": ""
+      },
+      "description": {
+        "en": "One hard-boiled egg with onion tomato fry, infused with aromatic spices and curry leaves. this south indian-style dish is bold, hearty, and perfect with appam, dosa, or parotta. a must-try for egg lovers",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 3.5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-egg-onion-roast-with-one-boiled-egg",
+          "url": "/assets/images/img-egg-onion-roast-with-one-boiled-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sunny-side-egg-single-egg",
+      "slug": "sunny-side-egg-single-egg",
+      "path": "/menu/sunny-side-egg-single-egg/",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": null,
+      "name": {
+        "en": "Sunny Side Egg (Single Egg)",
+        "ar": ""
+      },
+      "description": {
+        "en": "A perfectly cooked single egg served sunny-side up, featuring a delicate white and a rich, golden runny yolk.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 2.5,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-sunny-side-egg-single-egg",
+          "url": "/assets/images/img-sunny-side-egg-single-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chicken-lollipop",
+      "slug": "chicken-lollipop",
+      "path": "/menu/chicken-lollipop/",
+      "category_id": "cat-appetizers",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chicken Lollipop",
+        "ar": ""
+      },
+      "description": {
+        "en": "A crispy, spicy indo-chinese favorite. chicken winglets are frenched into lollipop shapes, marinated in a flavorful blend of ginger, garlic, soy sauce, and spices, then deep-fried to golden perfection. served with a tangy schezwan or chili sauce perfect for snacking or starting your meal with a bold kick.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-chicken-lollipop",
+          "url": "/assets/images/img-chicken-lollipop.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-chicken-lollipop-single",
+          "name": {
+            "en": "5 pcs",
+            "ar": "5 قطع"
+          },
+          "base_price": 18,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-chicken-lollipop-full",
+          "name": {
+            "en": "7 pcs",
+            "ar": "7 قطع"
+          },
+          "base_price": 22,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chicken-masala",
+      "slug": "chicken-masala",
+      "path": "/menu/chicken-masala/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chicken Masala",
+        "ar": ""
+      },
+      "description": {
+        "en": "Chicken pieces made with onions, tomatoes, garlic, ginger, and a blend of traditional spices. this classic curry pairs perfectly with rice, chapati, or paratha for a hearty meal.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-chicken-masala",
+          "url": "/assets/images/img-chicken-masala.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-chicken-masala-single",
+          "name": {
+            "en": "Bachelor",
+            "ar": "بكالوريوس"
+          },
+          "base_price": 10,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-chicken-masala-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 14,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-chicken-masala-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chicken-whole-leg",
+      "slug": "chicken-whole-leg",
+      "path": "/menu/chicken-whole-leg/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chicken Whole Leg",
+        "ar": ""
+      },
+      "description": {
+        "en": "Juicy whole chicken leg marinated in a flavorful blend of spices, coated with our signature masala, and deep-fried. tender on the inside with a spicy, crunchy exterior - a satisfying dish full of bold flavor and perfect for any fried chicken lover.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 9,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-chicken-whole-leg",
+          "url": "/assets/images/img-chicken-whole-leg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chicken-65",
+      "slug": "chicken-65",
+      "path": "/menu/chicken-65/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chicken 65",
+        "ar": ""
+      },
+      "description": {
+        "en": "Chicken with bone marinated in a bold mix of spices, deep-fried until crispy, and tossed with curry leaves, green chilies, and a hint of garlic.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-chicken-65",
+          "url": "/assets/images/img-chicken-65.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-chicken-65-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-chicken-65-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-six-pieces-of-chicken-wings-roast-spicy",
+      "slug": "six-pieces-of-chicken-wings-roast-spicy",
+      "path": "/menu/six-pieces-of-chicken-wings-roast-spicy/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Six Pieces Of Chicken Wings Roast Spicy",
+        "ar": ""
+      },
+      "description": {
+        "en": "Juicy chicken wings marinated in bold spices and slow-roasted to perfection. crispy on the outside, tender inside, and finished with a fiery, aromatic kick for true spice lovers.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 15,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-six-pieces-of-chicken-wings-roast-spicy",
+          "url": "/assets/images/img-six-pieces-of-chicken-wings-roast-spicy.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chicken-sukka",
+      "slug": "chicken-sukka",
+      "path": "/menu/chicken-sukka/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chicken Sukka",
+        "ar": ""
+      },
+      "description": {
+        "en": "A dry style chicken delicacy from the coastal regions of south india. tender chicken pieces slow cooked with roasted spices, grated coconut, curry leaves, and aromatic herbs. bursting with bold flavor and minimal oil, its a wholesome, rustic dish perfect with rice or roti.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 18,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-chicken-sukka",
+          "url": "/assets/images/img-chicken-sukka.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-six-chicken-wings-bbq-honey-sesame-coated-with-chapati",
+      "slug": "six-chicken-wings-bbq-honey-sesame-coated-with-chapati",
+      "path": "/menu/six-chicken-wings-bbq-honey-sesame-coated-with-chapati/",
+      "category_id": "cat-appetizers",
+      "subcategory_id": null,
+      "name": {
+        "en": "Six Chicken Wings Bbq Honey Sesame Coated With Chapati",
+        "ar": ""
+      },
+      "description": {
+        "en": "Juicy chicken wings tossed in a sticky bbq honey glaze, finished with toasted sesame seeds.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 18,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-six-chicken-wings-bbq-honey-sesame-coated-with-chapati",
+          "url": "/assets/images/img-six-chicken-wings-bbq-honey-sesame-coated-with-chapati.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chicken-korma",
+      "slug": "chicken-korma",
+      "path": "/menu/chicken-korma/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chicken Korma",
+        "ar": ""
+      },
+      "description": {
+        "en": "Tender chicken simmered in a rich, creamy gravy made with yogurt, cashews, and aromatic spices, creating a mildly spiced, flavorful dish. perfect with naan, paratha, or fragrant rice.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-chicken-korma",
+          "url": "/assets/images/img-chicken-korma.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-chicken-korma-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 21,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-chicken-korma-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 38,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chicken-kadai",
+      "slug": "chicken-kadai",
+      "path": "/menu/chicken-kadai/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chicken Kadai",
+        "ar": ""
+      },
+      "description": {
+        "en": "Juicy chicken pieces cooked with onions, tomatoes, and aromatic spices in a traditional kadai (wok), finished with a blend of freshly ground coriander and dried red chilies for a bold, flavorful taste. served hot with naan, roti, or rice.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-chicken-kadai",
+          "url": "/assets/images/img-chicken-kadai.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-chicken-kadai-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 18,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-chicken-kadai-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 32,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-butter-chicken-masala",
+      "slug": "butter-chicken-masala",
+      "path": "/menu/butter-chicken-masala/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Butter Chicken Masala",
+        "ar": ""
+      },
+      "description": {
+        "en": "A rich and creamy north indian classic made with tender chicken simmered in a velvety tomato butter gravy.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 24,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-butter-chicken-masala",
+          "url": "/assets/images/img-butter-chicken-masala.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-devilled-chicken",
+      "slug": "devilled-chicken",
+      "path": "/menu/devilled-chicken/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Devilled Chicken",
+        "ar": ""
+      },
+      "description": {
+        "en": "Our signature devilled chicken features succulent, crispy fried chicken pieces tossed in a bold, sweet",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 19,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-devilled-chicken",
+          "url": "/assets/images/img-devilled-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-devilled-beef",
+      "slug": "devilled-beef",
+      "path": "/menu/devilled-beef/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Devilled Beef",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 24,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-devilled-beef",
+          "url": "/assets/images/img-devilled-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chili-chicken",
+      "slug": "chili-chicken",
+      "path": "/menu/chili-chicken/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chili Chicken",
+        "ar": ""
+      },
+      "description": {
+        "en": "Juicy, bite-sized chicken pieces are stir-fried to perfection with a fiery blend of chili paste, soy sauce and aromatic spices. crunchy bell peppers, onions and a hint of garlic this dish delivers the perfect balance of heat and savouriness. a must try for those who love bold and vibrant flavors.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 18,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-chili-chicken",
+          "url": "/assets/images/img-chili-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chicken-manchurian",
+      "slug": "chicken-manchurian",
+      "path": "/menu/chicken-manchurian/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chicken Manchurian",
+        "ar": ""
+      },
+      "description": {
+        "en": "Crispy fried chicken pieces tossed in a rich, flavorful manchurian sauce made with garlic, ginger, soy sauce, and a hint of spice. cooked with onions and peppers, this indo-chinese favorite delivers a perfect balance of sweet, savory, and tangy flavors.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 18,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-chicken-manchurian",
+          "url": "/assets/images/img-chicken-manchurian.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-beef-masala",
+      "slug": "beef-masala",
+      "path": "/menu/beef-masala/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Beef Masala",
+        "ar": ""
+      },
+      "description": {
+        "en": "Tender beef chunks simmered in a thick, spicy masala gravy made with onions, tomatoes, garlic, ginger, and a robust blend of indian spices. rich, aromatic, and full of bold flavor - this hearty curry pairs perfectly with chapati, rice, or paratha for a satisfying meal.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-beef-masala",
+          "url": "/assets/images/img-beef-masala.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-beef-masala-single",
+          "name": {
+            "en": "Bachelor",
+            "ar": "بكالوريوس"
+          },
+          "base_price": 10,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-beef-masala-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 12,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-beef-masala-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 22,
+          "base_kcal": 0,
+          "is_active": false,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-beef-thenga-fry",
+      "slug": "beef-thenga-fry",
+      "path": "/menu/beef-thenga-fry/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Beef Thenga Fry",
+        "ar": ""
+      },
+      "description": {
+        "en": "A kerala-style specialty, beef thenga roast features tender beef slow-roasted with aromatic spices, fresh coconut slices (thenga), curry leaves, and crushed black pepper. cooked in coconut oil for deep, earthy flavor and a rich, dry-roast finish. spicy, bold, and full of traditional south indian soul.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-beef-thenga-fry",
+          "url": "/assets/images/img-beef-thenga-fry.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-beef-thenga-fry-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-beef-thenga-fry-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 28,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-beef-fry",
+      "slug": "beef-fry",
+      "path": "/menu/beef-fry/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Beef Fry",
+        "ar": ""
+      },
+      "description": {
+        "en": "Tender beef pieces stir-fried with aromatic spices, onions, curry leaves, and roasted masala. cooked to a rich, flavorful finish with bold south indian style taste and non-oily preparation.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-beef-fry",
+          "url": "/assets/images/img-beef-fry.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-beef-fry-single",
+          "name": {
+            "en": "Bachelor",
+            "ar": "مفردة"
+          },
+          "base_price": 12,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-beef-fry-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 17,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-beef-fry-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 29.5,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kankung-beef",
+      "slug": "kankung-beef",
+      "path": "/menu/kankung-beef/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Kankung Beef",
+        "ar": ""
+      },
+      "description": {
+        "en": "A flavorful stir fry of tender beef (cooked to medium well) with fresh kankung (water spinach), sautéed in a wok with garlic, soy sauce, and a hint of chili. this chinese fusion dish is smoky, savory, and slightly spicy perfect with fried rice or noodles.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 18,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-kankung-beef",
+          "url": "/assets/images/img-kankung-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-dragon-beef",
+      "slug": "dragon-beef",
+      "path": "/menu/dragon-beef/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Dragon Beef",
+        "ar": ""
+      },
+      "description": {
+        "en": "Beef strips marinated and stir fried in chili sauce, dark soya sauce, tomato sauce, and chili flakes, garnished with sesame seeds, tossed with vibrant bell peppers, and fragrant spices.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 26,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-dragon-beef",
+          "url": "/assets/images/img-dragon-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-amma-s-spicy-crab-4-medium-crab-halves",
+      "slug": "amma-s-spicy-crab-4-medium-crab-halves",
+      "path": "/menu/amma-s-spicy-crab-4-medium-crab-halves/",
+      "category_id": "cat-seafood-dishes",
+      "subcategory_id": null,
+      "name": {
+        "en": "Amma's Spicy Crab 4 Medium Crab Halves",
+        "ar": ""
+      },
+      "description": {
+        "en": "Four medium crab halves simmered in a traditional blend of roasted spices, coconut, and tangy tamarind.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-amma-s-spicy-crab-4-medium-crab-halves",
+          "url": "/assets/images/img-amma-s-spicy-crab-4-medium-crab-halves.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-shrimp-red-curry-9-to-10-medium-pieces",
+      "slug": "shrimp-red-curry-9-to-10-medium-pieces",
+      "path": "/menu/shrimp-red-curry-9-to-10-medium-pieces/",
+      "category_id": "cat-seafood-dishes",
+      "subcategory_id": null,
+      "name": {
+        "en": "Shrimp Red Curry - 9 To 10 Medium Pieces",
+        "ar": ""
+      },
+      "description": {
+        "en": "Plump shrimp cooked in a rich, spicy red curry base made with dried red chilies, onions, tomatoes, and aromatic spices, finished with a hint of coconut milk for balance. bold, flavorful, and perfect with steamed rice or roti.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-shrimp-red-curry-9-to-10-medium-pieces",
+          "url": "/assets/images/img-shrimp-red-curry-9-to-10-medium-pieces.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-crab-curry-two-halves-of-crab",
+      "slug": "crab-curry-two-halves-of-crab",
+      "path": "/menu/crab-curry-two-halves-of-crab/",
+      "category_id": "cat-seafood-dishes",
+      "subcategory_id": null,
+      "name": {
+        "en": "Crab Curry Two Halves Of Crab",
+        "ar": ""
+      },
+      "description": {
+        "en": "This rich and flavorful curry features fresh crab cooked in a fragrant blend of spices, coconut milk, and aromatic herbs, creating a perfect balance of heat and depth.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-crab-curry-two-halves-of-crab",
+          "url": "/assets/images/img-crab-curry-two-halves-of-crab.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-devilled-cuttlefish",
+      "slug": "devilled-cuttlefish",
+      "path": "/menu/devilled-cuttlefish/",
+      "category_id": "cat-seafood-dishes",
+      "subcategory_id": null,
+      "name": {
+        "en": "Devilled Cuttlefish",
+        "ar": ""
+      },
+      "description": {
+        "en": "Cuttle fish rings are stir-fried to perfection with a fiery blend of chili paste, soy sauce and spices.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 26,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-devilled-cuttlefish",
+          "url": "/assets/images/img-devilled-cuttlefish.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-devilled-prawns-6-pieces",
+      "slug": "devilled-prawns-6-pieces",
+      "path": "/menu/devilled-prawns-6-pieces/",
+      "category_id": "cat-seafood-dishes",
+      "subcategory_id": null,
+      "name": {
+        "en": "Devilled Prawns (6 Pieces)",
+        "ar": ""
+      },
+      "description": {
+        "en": "Farmed prawns are stir-fried to perfection with a fiery blend of chili paste, soy sauce and aromatic spices",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 32,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-devilled-prawns-6-pieces",
+          "url": "/assets/images/img-devilled-prawns-6-pieces.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-devilled-fish",
+      "slug": "devilled-fish",
+      "path": "/menu/devilled-fish/",
+      "category_id": "cat-seafood-dishes",
+      "subcategory_id": null,
+      "name": {
+        "en": "Devilled Fish",
+        "ar": ""
+      },
+      "description": {
+        "en": "Fish slices are stir-fried to perfection with a fiery blend of chili paste, soy sauce and aromatic spices.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 26,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-devilled-fish",
+          "url": "/assets/images/img-devilled-fish.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-hot-butter-cuttlefish",
+      "slug": "hot-butter-cuttlefish",
+      "path": "/menu/hot-butter-cuttlefish/",
+      "category_id": "cat-seafood-dishes",
+      "subcategory_id": null,
+      "name": {
+        "en": "Hot Butter Cuttlefish",
+        "ar": ""
+      },
+      "description": {
+        "en": "Crispy, golden-fried cuttlefish tossed in a rich, spicy, and buttery garlic sauce with fresh chillies and spring onions. this iconic sri lankan seafood dish offers the perfect fiery kick and satisfying crunch, making it an irresistible appetizer or side.",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-hot-butter-cuttlefish",
+          "url": "/assets/images/img-hot-butter-cuttlefish.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mongolian-fried-rice-egg",
+      "slug": "mongolian-fried-rice-egg",
+      "path": "/menu/mongolian-fried-rice-egg/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": null,
+      "name": {
+        "en": "Mongolian Fried Rice - Egg",
+        "ar": ""
+      },
+      "description": {
+        "en": "A flavorful wok fried rice cooked with oyster sauce, sweet soy, dark soy, and fresh vegetables like bell peppers, carrots, and cabbage.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 14,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-mongolian-fried-rice-egg",
+          "url": "/assets/images/img-mongolian-fried-rice-egg.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mongolian-fried-rice-vegetable",
+      "slug": "mongolian-fried-rice-vegetable",
+      "path": "/menu/mongolian-fried-rice-vegetable/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": null,
+      "name": {
+        "en": "Mongolian Fried Rice - Vegetable",
+        "ar": ""
+      },
+      "description": {
+        "en": "A flavorful wok fried rice cooked with oyster sauce, sweet soy, dark soy, and fresh vegetables like bell peppers, carrots, and cabbage.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 14,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-mongolian-fried-rice-vegetable",
+          "url": "/assets/images/img-mongolian-fried-rice-vegetable.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mongolian-fried-rice-chicken",
+      "slug": "mongolian-fried-rice-chicken",
+      "path": "/menu/mongolian-fried-rice-chicken/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": null,
+      "name": {
+        "en": "Mongolian Fried Rice - Chicken",
+        "ar": ""
+      },
+      "description": {
+        "en": "A flavorful wok fried rice cooked with oyster sauce, sweet soy, dark soy, and fresh vegetables like bell peppers, carrots, and cabbage. available with chicken, beef, seafood, or a combination.",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 19,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-mongolian-fried-rice-chicken",
+          "url": "/assets/images/img-mongolian-fried-rice-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mongolian-fried-rice-beef",
+      "slug": "mongolian-fried-rice-beef",
+      "path": "/menu/mongolian-fried-rice-beef/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": null,
+      "name": {
+        "en": "Mongolian Fried Rice - Beef",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 21,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-mongolian-fried-rice-beef",
+          "url": "/assets/images/img-mongolian-fried-rice-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mongolian-fried-rice-prawns",
+      "slug": "mongolian-fried-rice-prawns",
+      "path": "/menu/mongolian-fried-rice-prawns/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": null,
+      "name": {
+        "en": "Mongolian Fried Rice - Prawns",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 23,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-mongolian-fried-rice-prawns",
+          "url": "/assets/images/img-mongolian-fried-rice-prawns.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mongolian-fried-rice-chicken-beef",
+      "slug": "mongolian-fried-rice-chicken-beef",
+      "path": "/menu/mongolian-fried-rice-chicken-beef/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": null,
+      "name": {
+        "en": "Mongolian Fried Rice - Chicken & Beef",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 25,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-mongolian-fried-rice-chicken-beef",
+          "url": "/assets/images/img-mongolian-fried-rice-chicken-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mongolian-fried-rice-seafood",
+      "slug": "mongolian-fried-rice-seafood",
+      "path": "/menu/mongolian-fried-rice-seafood/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": null,
+      "name": {
+        "en": "Mongolian Fried Rice - Seafood",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 27,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-mongolian-fried-rice-seafood",
+          "url": "/assets/images/img-mongolian-fried-rice-seafood.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-mongolian-fried-rice-mixed",
+      "slug": "mongolian-fried-rice-mixed",
+      "path": "/menu/mongolian-fried-rice-mixed/",
+      "category_id": "cat-rice-noodles-and-kottu",
+      "subcategory_id": null,
+      "name": {
+        "en": "Mongolian Fried Rice - Mixed",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 28,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-mongolian-fried-rice-mixed",
+          "url": "/assets/images/img-mongolian-fried-rice-mixed.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-nool-paratha",
+      "slug": "nool-paratha",
+      "path": "/menu/nool-paratha/",
+      "category_id": "cat-breads",
+      "subcategory_id": null,
+      "name": {
+        "en": "Nool Paratha",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 3,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-nool-paratha",
+          "url": "/assets/images/img-nool-paratha.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kari-dosa-with-cheese",
+      "slug": "kari-dosa-with-cheese",
+      "path": "/menu/kari-dosa-with-cheese/",
+      "category_id": "",
+      "subcategory_id": null,
+      "name": {
+        "en": "Kari Dosa with cheese",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-kari-dosa-with-cheese",
+          "url": "/assets/images/img-kari-dosa-with-cheese.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chili-gobi",
+      "slug": "chili-gobi",
+      "path": "/menu/chili-gobi/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chili Gobi",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 15,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-chili-gobi",
+          "url": "/assets/images/img-chili-gobi.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-chili-mushroom-vegetable",
+      "slug": "chili-mushroom-vegetable",
+      "path": "/menu/chili-mushroom-vegetable/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chili Mushroom & Vegetable",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 21,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-chili-mushroom-vegetable",
+          "url": "/assets/images/img-chili-mushroom-vegetable.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-beef-masala-fry-ularthiyathu",
+      "slug": "beef-masala-fry-ularthiyathu",
+      "path": "/menu/beef-masala-fry-ularthiyathu/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Beef Masala Fry (Ularthiyathu)",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-beef-masala-fry-ularthiyathu",
+          "url": "/assets/images/img-beef-masala-fry-ularthiyathu.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-beef-roast",
+      "slug": "beef-roast",
+      "path": "/menu/beef-roast/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Beef Roast",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-beef-roast",
+          "url": "/assets/images/img-beef-roast.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-beef-roast-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-beef-roast-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 28,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-beef-dry-fry-bdf",
+      "slug": "beef-dry-fry-bdf",
+      "path": "/menu/beef-dry-fry-bdf/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Beef Dry Fry (BDF)",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 24,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-beef-dry-fry-bdf",
+          "url": "/assets/images/img-beef-dry-fry-bdf.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-beef-fry-ularthiyathu",
+      "slug": "beef-fry-ularthiyathu",
+      "path": "/menu/beef-fry-ularthiyathu/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Beef Fry (Ularthiyathu)",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": true,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": false,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-beef-fry-ularthiyathu",
+          "url": "/assets/images/img-beef-fry-ularthiyathu.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [
+        {
+          "id": "v-beef-fry-ularthiyathu-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-beef-fry-ularthiyathu-single",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-beef-fry-ularthiyathu-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 28,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        },
+        {
+          "id": "v-beef-fry-ularthiyathu-full",
+          "name": {
+            "en": "Large",
+            "ar": "كبير"
+          },
+          "base_price": 28,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
+      "option_groups": []
     }
   ],
   "offers": [
     {
-      "id": "offer-chicken-biryani-offer",
+      "id": "offer-0001-chicken-biryani-offer",
       "name": {
         "en": "Chicken Biryani Offer",
         "ar": "عرض برياني دجاج"
@@ -7528,14 +10927,14 @@
       "sort_order": 10
     },
     {
-      "id": "offer-large-family-offer",
+      "id": "offer-0002-large-family-offer",
       "name": {
         "en": "Large Family Offer",
         "ar": "عرض العائلة"
       },
       "target": {
         "type": "variation",
-        "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-single"
+        "id": "v-mixed-kottu-idiappam-chick-beef-masala-shrimp-single"
       },
       "discount": {
         "type": "fixed",

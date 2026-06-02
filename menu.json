@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-02T07:26:04.226Z",
+  "generated_at": "2026-06-02T07:30:48.486Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -712,7 +712,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-beef-masala-dum-biryani-single",
+          "id": "v-beef-dum-biryani-single",
           "name": {
             "en": "Single",
             "ar": "مفردة"
@@ -724,7 +724,7 @@
           "offers": []
         },
         {
-          "id": "v-beef-masala-dum-biryani-full",
+          "id": "v-beef-dum-biryani-full",
           "name": {
             "en": "Full",
             "ar": "كاملة"
@@ -1412,7 +1412,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-tamil-nadu-beef-masala-biryani-single",
+          "id": "v-tamil-nadu-beef-biryani-single",
           "name": {
             "en": "Single",
             "ar": "مفردة"
@@ -1424,7 +1424,7 @@
           "offers": []
         },
         {
-          "id": "v-tamil-nadu-beef-masala-biryani-full",
+          "id": "v-tamil-nadu-beef-biryani-full",
           "name": {
             "en": "Full",
             "ar": "كاملة"
@@ -2227,7 +2227,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-kottu-roti-beef-masala-single",
+          "id": "v-kottu-roti-beef-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2239,7 +2239,7 @@
           "offers": []
         },
         {
-          "id": "v-kottu-roti-beef-masala-full",
+          "id": "v-kottu-roti-beef-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -2288,7 +2288,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-kottu-roti-chicken-beef-masala-single",
+          "id": "v-kottu-roti-chicken-beef-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2300,7 +2300,7 @@
           "offers": []
         },
         {
-          "id": "v-kottu-roti-chicken-beef-masala-full",
+          "id": "v-kottu-roti-chicken-beef-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -2349,7 +2349,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-mixed-kottu-chick-beef-masala-shrimp-single",
+          "id": "v-mixed-kottu-chick-beef-shrimp-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2361,7 +2361,7 @@
           "offers": []
         },
         {
-          "id": "v-mixed-kottu-chick-beef-masala-shrimp-full",
+          "id": "v-mixed-kottu-chick-beef-shrimp-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -2593,7 +2593,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-kottu-idiappam-beef-masala-single",
+          "id": "v-kottu-idiappam-beef-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2605,7 +2605,7 @@
           "offers": []
         },
         {
-          "id": "v-kottu-idiappam-beef-masala-full",
+          "id": "v-kottu-idiappam-beef-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -2654,7 +2654,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-kottu-idiappam-chicken-beef-masala-single",
+          "id": "v-kottu-idiappam-chicken-beef-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2666,7 +2666,7 @@
           "offers": []
         },
         {
-          "id": "v-kottu-idiappam-chicken-beef-masala-full",
+          "id": "v-kottu-idiappam-chicken-beef-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -2715,7 +2715,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-mixed-kottu-idiappam-chick-beef-masala-shrimp-single",
+          "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2724,34 +2724,10 @@
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 10,
-          "offers": [
-            {
-              "id": "offer-0002-large-family-offer",
-              "name": {
-                "en": "Large Family Offer",
-                "ar": "عرض العائلة"
-              },
-              "target": {
-                "type": "variation",
-                "id": "v-mixed-kottu-idiappam-chick-beef-masala-shrimp-single"
-              },
-              "discount": {
-                "type": "fixed",
-                "value": 5
-              },
-              "conditions": {
-                "min_quantity": 1,
-                "max_quantity": 1
-              },
-              "starts_at": null,
-              "ends_at": null,
-              "is_active": true,
-              "sort_order": 20
-            }
-          ]
+          "offers": []
         },
         {
-          "id": "v-mixed-kottu-idiappam-chick-beef-masala-shrimp-full",
+          "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -2885,7 +2861,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-sri-lanka-beef-masala-biryani-single",
+          "id": "v-sri-lanka-beef-biryani-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -2897,7 +2873,7 @@
           "offers": []
         },
         {
-          "id": "v-sri-lanka-beef-masala-biryani-full",
+          "id": "v-sri-lanka-beef-biryani-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -3190,7 +3166,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-sri-lanka-idiappam-biryani-beef-masala-single",
+          "id": "v-sri-lanka-idiappam-biryani-beef-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -3202,7 +3178,7 @@
           "offers": []
         },
         {
-          "id": "v-sri-lanka-idiappam-biryani-beef-masala-full",
+          "id": "v-sri-lanka-idiappam-biryani-beef-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -3617,7 +3593,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-puttu-kottu-beef-masala-single",
+          "id": "v-puttu-kottu-beef-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -3629,7 +3605,7 @@
           "offers": []
         },
         {
-          "id": "v-puttu-kottu-beef-masala-full",
+          "id": "v-puttu-kottu-beef-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -3678,7 +3654,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-puttu-kottu-chicken-beef-masala-single",
+          "id": "v-puttu-kottu-chicken-beef-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -3690,7 +3666,7 @@
           "offers": []
         },
         {
-          "id": "v-puttu-kottu-chicken-beef-masala-full",
+          "id": "v-puttu-kottu-chicken-beef-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -3739,7 +3715,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-mixed-puttu-kottu-chick-beef-masala-shrimp-single",
+          "id": "v-mixed-puttu-kottu-chick-beef-shrimp-single",
           "name": {
             "en": "Single",
             "ar": "وجبة فردية"
@@ -3751,7 +3727,7 @@
           "offers": []
         },
         {
-          "id": "v-mixed-puttu-kottu-chick-beef-masala-shrimp-full",
+          "id": "v-mixed-puttu-kottu-chick-beef-shrimp-full",
           "name": {
             "en": "Full",
             "ar": "وجبة كاملة"
@@ -4878,7 +4854,7 @@
       },
       "has_variants": false,
       "base_price": 5,
-      "base_kcal": 0,
+      "base_kcal": 680,
       "tags": null,
       "is_active": true,
       "sort_order": null,
@@ -5656,7 +5632,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-stuffed-roti-cheese-or-mushroom",
+          "id": "v-stuffed-roti-mushroom",
           "name": {
             "en": "Mushroom",
             "ar": "الجبن أو الفطر"
@@ -5680,7 +5656,7 @@
           "offers": []
         },
         {
-          "id": "v-stuffed-roti-cheese-or-mushroom",
+          "id": "v-stuffed-roti-cheese",
           "name": {
             "en": "Cheese",
             "ar": "الجبن أو الفطر"
@@ -5704,7 +5680,7 @@
           "offers": []
         },
         {
-          "id": "v-stuffed-roti-beef-masala",
+          "id": "v-stuffed-roti-beef",
           "name": {
             "en": "Beef",
             "ar": "لحم"
@@ -6540,7 +6516,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-rice-beef-masala-regular",
+          "id": "v-fried-rice-beef-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -6552,7 +6528,7 @@
           "offers": []
         },
         {
-          "id": "v-fried-rice-beef-masala-large",
+          "id": "v-fried-rice-beef-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -6662,7 +6638,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-rice-chicken-beef-masala-regular",
+          "id": "v-fried-rice-chicken-beef-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -6674,7 +6650,7 @@
           "offers": []
         },
         {
-          "id": "v-fried-rice-chicken-beef-masala-large",
+          "id": "v-fried-rice-chicken-beef-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -6784,7 +6760,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-rice-mixed-chicken-beef-masala-shrimp-regular",
+          "id": "v-fried-rice-mixed-chicken-beef-shrimp-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -6796,7 +6772,7 @@
           "offers": []
         },
         {
-          "id": "v-fried-rice-mixed-chicken-beef-masala-shrimp-large",
+          "id": "v-fried-rice-mixed-chicken-beef-shrimp-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -6906,7 +6882,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-rice-veg-mushroom-no-egg-regular",
+          "id": "v-fried-noodles-veg-mushroom-no-egg-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -6918,7 +6894,7 @@
           "offers": []
         },
         {
-          "id": "v-fried-rice-veg-mushroom-no-egg-large",
+          "id": "v-fried-noodles-veg-mushroom-no-egg-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -7028,7 +7004,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-noodles-beef-masala-regular",
+          "id": "v-fried-noodles-beef-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -7040,7 +7016,7 @@
           "offers": []
         },
         {
-          "id": "v-fried-noodles-beef-masala-large",
+          "id": "v-fried-noodles-beef-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -7150,7 +7126,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-noodles-chicken-beef-masala-regular",
+          "id": "v-fried-noodles-chicken-beef-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -7162,7 +7138,7 @@
           "offers": []
         },
         {
-          "id": "v-fried-noodles-chicken-beef-masala-large",
+          "id": "v-fried-noodles-chicken-beef-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -7272,7 +7248,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-fried-noodles-mixed-chicken-beef-masala-shrimp-regular",
+          "id": "v-fried-noodles-mixed-chicken-beef-shrimp-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -7284,7 +7260,7 @@
           "offers": []
         },
         {
-          "id": "v-fried-noodles-mixed-chicken-beef-masala-shrimp-large",
+          "id": "v-fried-noodles-mixed-chicken-beef-shrimp-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -7369,7 +7345,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-broasted-chicken-single",
+          "id": "v-broasted-chicken-standard",
           "name": {
             "en": "Standard",
             "ar": "معيار"
@@ -7381,7 +7357,7 @@
           "offers": []
         },
         {
-          "id": "v-broasted-chicken-full",
+          "id": "v-broasted-chicken-combo",
           "name": {
             "en": "Combo",
             "ar": "مجموعة"
@@ -7478,7 +7454,7 @@
           "offers": []
         },
         {
-          "id": "v-french-fries-full",
+          "id": "v-french-fries-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -8823,7 +8799,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-mutton-achari-single",
+          "id": "v-mutton-achari-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -8835,7 +8811,7 @@
           "offers": []
         },
         {
-          "id": "v-mutton-achari-full",
+          "id": "v-mutton-achari-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -8884,7 +8860,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-mutton-korma-single",
+          "id": "v-mutton-korma-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -8896,7 +8872,7 @@
           "offers": []
         },
         {
-          "id": "v-mutton-korma-full",
+          "id": "v-mutton-korma-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -8957,7 +8933,7 @@
           "offers": []
         },
         {
-          "id": "v-scrambled-egg-in-chicken-gravy-full",
+          "id": "v-scrambled-egg-in-chicken-gravy-double",
           "name": {
             "en": "Double",
             "ar": "مزدوج"
@@ -9114,7 +9090,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-chicken-lollipop-single",
+          "id": "v-chicken-lollipop-5-pcs",
           "name": {
             "en": "5 pcs",
             "ar": "5 قطع"
@@ -9126,7 +9102,7 @@
           "offers": []
         },
         {
-          "id": "v-chicken-lollipop-full",
+          "id": "v-chicken-lollipop-7-pcs",
           "name": {
             "en": "7 pcs",
             "ar": "7 قطع"
@@ -9175,7 +9151,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-chicken-masala-single",
+          "id": "v-chicken-masala-bachelor",
           "name": {
             "en": "Bachelor",
             "ar": "بكالوريوس"
@@ -9187,7 +9163,7 @@
           "offers": []
         },
         {
-          "id": "v-chicken-masala-single",
+          "id": "v-chicken-masala-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -9199,7 +9175,7 @@
           "offers": []
         },
         {
-          "id": "v-chicken-masala-full",
+          "id": "v-chicken-masala-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -9284,7 +9260,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-chicken-65-single",
+          "id": "v-chicken-65-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -9296,7 +9272,7 @@
           "offers": []
         },
         {
-          "id": "v-chicken-65-full",
+          "id": "v-chicken-65-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -9453,7 +9429,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-chicken-korma-single",
+          "id": "v-chicken-korma-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -9465,7 +9441,7 @@
           "offers": []
         },
         {
-          "id": "v-chicken-korma-full",
+          "id": "v-chicken-korma-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -9514,7 +9490,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-chicken-kadai-single",
+          "id": "v-chicken-kadai-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -9526,7 +9502,7 @@
           "offers": []
         },
         {
-          "id": "v-chicken-kadai-full",
+          "id": "v-chicken-kadai-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -9755,7 +9731,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-beef-masala-single",
+          "id": "v-beef-masala-bachelor",
           "name": {
             "en": "Bachelor",
             "ar": "بكالوريوس"
@@ -9767,7 +9743,7 @@
           "offers": []
         },
         {
-          "id": "v-beef-masala-single",
+          "id": "v-beef-masala-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -9779,7 +9755,7 @@
           "offers": []
         },
         {
-          "id": "v-beef-masala-full",
+          "id": "v-beef-masala-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -9828,7 +9804,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-beef-thenga-fry-single",
+          "id": "v-beef-thenga-fry-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -9840,7 +9816,7 @@
           "offers": []
         },
         {
-          "id": "v-beef-thenga-fry-full",
+          "id": "v-beef-thenga-fry-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -9889,7 +9865,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-beef-fry-single",
+          "id": "v-beef-fry-bachelor",
           "name": {
             "en": "Bachelor",
             "ar": "مفردة"
@@ -9901,7 +9877,7 @@
           "offers": []
         },
         {
-          "id": "v-beef-fry-single",
+          "id": "v-beef-fry-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -9913,7 +9889,7 @@
           "offers": []
         },
         {
-          "id": "v-beef-fry-full",
+          "id": "v-beef-fry-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -10754,7 +10730,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-beef-roast-single",
+          "id": "v-beef-roast-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -10766,7 +10742,7 @@
           "offers": []
         },
         {
-          "id": "v-beef-roast-full",
+          "id": "v-beef-roast-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -10851,7 +10827,7 @@
       "offers": [],
       "variations": [
         {
-          "id": "v-beef-fry-ularthiyathu-single",
+          "id": "v-beef-fry-ularthiyathu-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -10863,7 +10839,7 @@
           "offers": []
         },
         {
-          "id": "v-beef-fry-ularthiyathu-single",
+          "id": "v-beef-fry-ularthiyathu-regular",
           "name": {
             "en": "Regular",
             "ar": "عادي"
@@ -10875,7 +10851,7 @@
           "offers": []
         },
         {
-          "id": "v-beef-fry-ularthiyathu-full",
+          "id": "v-beef-fry-ularthiyathu-large",
           "name": {
             "en": "Large",
             "ar": "كبير"
@@ -10887,7 +10863,7 @@
           "offers": []
         },
         {
-          "id": "v-beef-fry-ularthiyathu-full",
+          "id": "v-beef-fry-ularthiyathu-large",
           "name": {
             "en": "Large",
             "ar": "كبير"

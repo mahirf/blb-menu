@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-11T14:03:48.381Z",
+  "generated_at": "2026-06-11T14:06:58.003Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -209,6 +209,30 @@
             "ar": "المنغولي"
           },
           "sort_order": 130,
+          "is_active": true
+        },
+        {
+          "id": "sub-rice-noodles-and-kottu-puttu-kottu",
+          "category_id": "cat-rice-noodles-and-kottu",
+          "slug": "puttu-kottu",
+          "path": "/menu/rice-noodles-and-kottu/puttu-kottu/",
+          "name": {
+            "en": "Puttu Kottu",
+            "ar": "بوتو كوتو"
+          },
+          "sort_order": 140,
+          "is_active": true
+        },
+        {
+          "id": "sub-rice-noodles-and-kottu-kottu-idiappam",
+          "category_id": "cat-rice-noodles-and-kottu",
+          "slug": "kottu-idiappam",
+          "path": "/menu/rice-noodles-and-kottu/kottu-idiappam/",
+          "name": {
+            "en": "Kottu Idiappam",
+            "ar": "كوتو إيديابام"
+          },
+          "sort_order": 150,
           "is_active": true
         }
       ]
@@ -2358,7 +2382,7 @@
       "slug": "kottu-idiappam-egg",
       "path": "/menu/kottu-idiappam-egg/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu-idiappam",
       "name": {
         "en": "Kottu Idiappam Egg",
         "ar": "كوتو إديايام بالبيض"
@@ -2419,7 +2443,7 @@
       "slug": "kottu-idiappam-veg-mushroom",
       "path": "/menu/kottu-idiappam-veg-mushroom/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu-idiappam",
       "name": {
         "en": "Kottu Idiappam Veg & Mushroom",
         "ar": "كوتو إديايام بالخضار والمشروم"
@@ -2480,7 +2504,7 @@
       "slug": "kottu-idiappam-chicken",
       "path": "/menu/kottu-idiappam-chicken/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu-idiappam",
       "name": {
         "en": "Kottu Idiappam Chicken",
         "ar": "كوتو إديايام بالدجاج"
@@ -2541,7 +2565,7 @@
       "slug": "kottu-idiappam-beef",
       "path": "/menu/kottu-idiappam-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu-idiappam",
       "name": {
         "en": "Kottu Idiappam Beef",
         "ar": "كوتو إديايام باللحم البقري"
@@ -2602,7 +2626,7 @@
       "slug": "kottu-idiappam-chicken-beef",
       "path": "/menu/kottu-idiappam-chicken-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu-idiappam",
       "name": {
         "en": "Kottu Idiappam Chicken & Beef",
         "ar": "كوتو إديايام بالدجاج واللحم"
@@ -2663,7 +2687,7 @@
       "slug": "mixed-kottu-idiappam-chick-beef-shrimp",
       "path": "/menu/mixed-kottu-idiappam-chick-beef-shrimp/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-rice-noodles-and-kottu-kottu",
+      "subcategory_id": "sub-rice-noodles-and-kottu-kottu-idiappam",
       "name": {
         "en": "Mixed Kottu Idiappam (Chick, Beef, Shrimp)",
         "ar": "كوتو إديايام مشكل (دجاج، لحم، روبيان)"
@@ -3358,7 +3382,7 @@
       "slug": "puttu-kottu-egg",
       "path": "/menu/puttu-kottu-egg/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "subcategory_id": "sub-rice-noodles-and-kottu-puttu-kottu",
       "name": {
         "en": "Puttu Kottu Egg",
         "ar": "كوتو بوتو بالبيض"
@@ -3419,7 +3443,7 @@
       "slug": "puttu-kottu-veg-mushroom",
       "path": "/menu/puttu-kottu-veg-mushroom/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "subcategory_id": "sub-rice-noodles-and-kottu-puttu-kottu",
       "name": {
         "en": "Puttu Kottu Veg & Mushroom",
         "ar": "كوتو بوتو بالخضار والمشروم"
@@ -3480,7 +3504,7 @@
       "slug": "puttu-kottu-chicken",
       "path": "/menu/puttu-kottu-chicken/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "subcategory_id": "sub-rice-noodles-and-kottu-puttu-kottu",
       "name": {
         "en": "Puttu Kottu Chicken",
         "ar": "كوتو بوتو بالدجاج"
@@ -3541,7 +3565,7 @@
       "slug": "puttu-kottu-beef",
       "path": "/menu/puttu-kottu-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "subcategory_id": "sub-rice-noodles-and-kottu-puttu-kottu",
       "name": {
         "en": "Puttu Kottu Beef",
         "ar": "كوتو بوتو باللحم البقري"
@@ -3602,7 +3626,7 @@
       "slug": "puttu-kottu-chicken-beef",
       "path": "/menu/puttu-kottu-chicken-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "subcategory_id": "sub-rice-noodles-and-kottu-puttu-kottu",
       "name": {
         "en": "Puttu Kottu Chicken & Beef",
         "ar": "كوتو بوتو بالدجاج واللحم"
@@ -3663,7 +3687,7 @@
       "slug": "mixed-puttu-kottu-chick-beef-shrimp",
       "path": "/menu/mixed-puttu-kottu-chick-beef-shrimp/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-rice-noodles-and-kottu-fried-rice",
+      "subcategory_id": "sub-rice-noodles-and-kottu-puttu-kottu",
       "name": {
         "en": "Mixed Puttu Kottu (Chick, Beef, Shrimp)",
         "ar": "كوتو بوتو مشكل (دجاج، لحم، روبيان)"

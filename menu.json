@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-11T13:10:28.351Z",
+  "generated_at": "2026-06-11T13:49:40.432Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -297,7 +297,68 @@
       "sort_order": 7,
       "is_active": true,
       "is_hidden": false,
-      "subcategories": []
+      "subcategories": [
+        {
+          "id": "sub-gravies-asian-sides-curries",
+          "category_id": "cat-gravies-asian-sides",
+          "slug": "curries",
+          "path": "/menu/gravies-and-asian-sides/curries/",
+          "name": {
+            "en": "Curries",
+            "ar": "الكاري"
+          },
+          "sort_order": 60,
+          "is_active": true
+        },
+        {
+          "id": "sub-gravies-asian-sides-south-indian",
+          "category_id": "cat-gravies-asian-sides",
+          "slug": "south-indian",
+          "path": "/menu/gravies-and-asian-sides/south-indian/",
+          "name": {
+            "en": "South Indian",
+            "ar": "جنوب الهند"
+          },
+          "sort_order": 90,
+          "is_active": true
+        },
+        {
+          "id": "sub-gravies-asian-sides-north-indian",
+          "category_id": "cat-gravies-asian-sides",
+          "slug": "north-indian",
+          "path": "/menu/gravies-and-asian-sides/north-indian/",
+          "name": {
+            "en": "North Indian",
+            "ar": "شمال الهند"
+          },
+          "sort_order": 100,
+          "is_active": true
+        },
+        {
+          "id": "sub-gravies-asian-sides-chinese",
+          "category_id": "cat-gravies-asian-sides",
+          "slug": "chinese",
+          "path": "/menu/gravies-and-asian-sides/chinese/",
+          "name": {
+            "en": "Chinese",
+            "ar": "الصينية"
+          },
+          "sort_order": 120,
+          "is_active": true
+        },
+        {
+          "id": "sub-gravies-asian-sides-mongolian",
+          "category_id": "cat-gravies-asian-sides",
+          "slug": "mongolian",
+          "path": "/menu/gravies-and-asian-sides/mongolian/",
+          "name": {
+            "en": "Mongolian",
+            "ar": "المنغولي"
+          },
+          "sort_order": 130,
+          "is_active": true
+        }
+      ]
     },
     {
       "id": "cat-soups",
@@ -2314,13 +2375,13 @@
       "sort_order": 190,
       "images": [
         {
-          "id": "img-prod-kottu-idiappam-egg",
-          "url": "/assets/images/img-kottu-idiappam-egg",
+          "id": "img-prod-kottu-idiappam-egg-alternate",
+          "url": "/assets/images/img-kottu-idiappam-chicken",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -2375,13 +2436,13 @@
       "sort_order": 200,
       "images": [
         {
-          "id": "img-prod-kottu-idiappam-veg-mushroom",
-          "url": "/assets/images/img-kottu-idiappam-veg-mushroom",
+          "id": "img-prod-kottu-idiappam-veg-mushroom-alternate",
+          "url": "/assets/images/img-kottu-idiappam-chicken",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -2497,13 +2558,13 @@
       "sort_order": 220,
       "images": [
         {
-          "id": "img-prod-kottu-idiappam-beef",
-          "url": "/assets/images/img-kottu-idiappam-beef",
+          "id": "img-prod-kottu-idiappam-beef-alternate",
+          "url": "/assets/images/img-kottu-idiappam-chicken",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -2558,13 +2619,13 @@
       "sort_order": 230,
       "images": [
         {
-          "id": "img-prod-kottu-idiappam-chicken-beef",
-          "url": "/assets/images/img-kottu-idiappam-chicken-beef",
+          "id": "img-prod-kottu-idiappam-chicken-beef-alternate",
+          "url": "/assets/images/img-kottu-idiappam-chicken",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -2619,13 +2680,13 @@
       "sort_order": 240,
       "images": [
         {
-          "id": "img-prod-mixed-kottu-idiappam-chick-beef-shrimp",
-          "url": "/assets/images/img-mixed-kottu-idiappam-chick-beef-shrimp",
+          "id": "img-prod-mixed-kottu-idiappam-chick-beef-shrimp-alternate",
+          "url": "/assets/images/img-kottu-idiappam-chicken",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -6237,13 +6298,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-rice-double-egg",
-          "url": "/assets/images/img-fried-rice-double-egg.webp",
+          "id": "img-prod-fried-rice-double-egg-alternate",
+          "url": "/assets/images/img-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -6359,13 +6420,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-rice-chicken",
+          "id": "img-prod-fried-rice-chicken-alternate",
           "url": "/assets/images/img-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -6420,13 +6481,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-rice-beef",
-          "url": "/assets/images/img-fried-rice-beef.webp",
+          "id": "img-prod-fried-rice-beef-alternate",
+          "url": "/assets/images/img-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -6481,13 +6542,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-rice-shrimp",
-          "url": "/assets/images/img-fried-rice-shrimp.webp",
+          "id": "img-prod-fried-rice-shrimp-alternate",
+          "url": "/assets/images/img-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -6542,13 +6603,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-rice-chicken-beef",
-          "url": "/assets/images/img-fried-rice-chicken-beef.webp",
+          "id": "img-prod-fried-rice-chicken-beef-alternate",
+          "url": "/assets/images/img-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -6603,13 +6664,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-rice-seafood",
-          "url": "/assets/images/img-fried-rice-seafood.webp",
+          "id": "img-prod-fried-rice-seafood-alternate",
+          "url": "/assets/images/img-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -6725,13 +6786,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-noodles-double-egg",
-          "url": "/assets/images/img-fried-noodles-double-egg.webp",
+          "id": "img-prod-fried-noodles-double-egg-alternate",
+          "url": "/assets/images/img-fried-noodles-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -6786,13 +6847,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-noodles-veg-mushroom-no-egg",
-          "url": "/assets/images/img-fried-noodles-veg-mushroom-no-egg.webp",
+          "id": "img-prod-fried-noodles-veg-mushroom-no-egg-alternate",
+          "url": "/assets/images/img-fried-noodles-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -6908,13 +6969,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-noodles-beef",
-          "url": "/assets/images/img-fried-noodles-beef.webp",
+          "id": "img-prod-fried-noodles-beef-alternate",
+          "url": "/assets/images/img-fried-noodles-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -6969,13 +7030,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-noodles-shrimp",
-          "url": "/assets/images/img-fried-noodles-shrimp.webp",
+          "id": "img-prod-fried-noodles-shrimp-alternate",
+          "url": "/assets/images/img-fried-noodles-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -7030,13 +7091,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-noodles-chicken-beef",
-          "url": "/assets/images/img-fried-noodles-chicken-beef.webp",
+          "id": "img-prod-fried-noodles-chicken-beef-alternate",
+          "url": "/assets/images/img-fried-noodles-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -7091,13 +7152,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-noodles-seafood",
-          "url": "/assets/images/img-fried-noodles-seafood.webp",
+          "id": "img-prod-fried-noodles-seafood-alternate",
+          "url": "/assets/images/img-fried-noodles-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -7152,13 +7213,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-noodles-mixed-chicken-beef-shrimp",
-          "url": "/assets/images/img-fried-noodles-mixed-chicken-beef-shrimp.webp",
+          "id": "img-prod-fried-noodles-mixed-chicken-beef-shrimp-alternate",
+          "url": "/assets/images/img-fried-noodles-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -10113,7 +10174,7 @@
       "slug": "mongolian-fried-rice-egg",
       "path": "/menu/mongolian-fried-rice-egg/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": null,
+      "subcategory_id": "sub-gravies-asian-sides-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Egg",
         "ar": ""
@@ -10130,13 +10191,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-mongolian-fried-rice-egg",
-          "url": "/assets/images/img-mongolian-fried-rice-egg.webp",
+          "id": "img-prod-mongolian-fried-rice-egg-alternate",
+          "url": "/assets/images/img-mongolian-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -10149,7 +10210,7 @@
       "slug": "mongolian-fried-rice-vegetable",
       "path": "/menu/mongolian-fried-rice-vegetable/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": null,
+      "subcategory_id": "sub-gravies-asian-sides-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Vegetable",
         "ar": ""
@@ -10166,13 +10227,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-mongolian-fried-rice-vegetable",
-          "url": "/assets/images/img-mongolian-fried-rice-vegetable.webp",
+          "id": "img-prod-mongolian-fried-rice-vegetable-alternate",
+          "url": "/assets/images/img-mongolian-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -10185,7 +10246,7 @@
       "slug": "mongolian-fried-rice-chicken",
       "path": "/menu/mongolian-fried-rice-chicken/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": null,
+      "subcategory_id": "sub-gravies-asian-sides-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Chicken",
         "ar": ""
@@ -10221,7 +10282,7 @@
       "slug": "mongolian-fried-rice-beef",
       "path": "/menu/mongolian-fried-rice-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": null,
+      "subcategory_id": "sub-gravies-asian-sides-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Beef",
         "ar": ""
@@ -10238,13 +10299,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-mongolian-fried-rice-beef",
-          "url": "/assets/images/img-mongolian-fried-rice-beef.webp",
+          "id": "img-prod-mongolian-fried-rice-beef-alternate",
+          "url": "/assets/images/img-mongolian-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -10257,7 +10318,7 @@
       "slug": "mongolian-fried-rice-prawns",
       "path": "/menu/mongolian-fried-rice-prawns/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": null,
+      "subcategory_id": "sub-gravies-asian-sides-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Prawns",
         "ar": ""
@@ -10274,13 +10335,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-mongolian-fried-rice-prawns",
-          "url": "/assets/images/img-mongolian-fried-rice-prawns.webp",
+          "id": "img-prod-mongolian-fried-rice-prawns-alternate",
+          "url": "/assets/images/img-mongolian-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -10293,7 +10354,7 @@
       "slug": "mongolian-fried-rice-chicken-beef",
       "path": "/menu/mongolian-fried-rice-chicken-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": null,
+      "subcategory_id": "sub-gravies-asian-sides-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Chicken & Beef",
         "ar": ""
@@ -10310,13 +10371,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-mongolian-fried-rice-chicken-beef",
-          "url": "/assets/images/img-mongolian-fried-rice-chicken-beef.webp",
+          "id": "img-prod-mongolian-fried-rice-chicken-beef-alternate",
+          "url": "/assets/images/img-mongolian-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -10329,7 +10390,7 @@
       "slug": "mongolian-fried-rice-seafood",
       "path": "/menu/mongolian-fried-rice-seafood/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": null,
+      "subcategory_id": "sub-gravies-asian-sides-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Seafood",
         "ar": ""
@@ -10346,13 +10407,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-mongolian-fried-rice-seafood",
-          "url": "/assets/images/img-mongolian-fried-rice-seafood.webp",
+          "id": "img-prod-mongolian-fried-rice-seafood-alternate",
+          "url": "/assets/images/img-mongolian-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -10365,7 +10426,7 @@
       "slug": "mongolian-fried-rice-mixed",
       "path": "/menu/mongolian-fried-rice-mixed/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": null,
+      "subcategory_id": "sub-gravies-asian-sides-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Mixed",
         "ar": ""
@@ -10382,13 +10443,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-mongolian-fried-rice-mixed",
-          "url": "/assets/images/img-mongolian-fried-rice-mixed.webp",
+          "id": "img-prod-mongolian-fried-rice-mixed-alternate",
+          "url": "/assets/images/img-mongolian-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-11T13:53:56.230Z",
+  "generated_at": "2026-06-11T14:03:48.381Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -3760,7 +3760,7 @@
       "slug": "dal-chana-or-kala-chana-without-bread",
       "path": "/menu/dal-chana-or-kala-chana-without-bread/",
       "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-curries-north-indian",
+      "subcategory_id": "sub-gravies-asian-sides-north-indian",
       "name": {
         "en": "Dal Chana Or Kala Chana Without Bread",
         "ar": "دال تشانا أو كالا تشانا بدون خبز"
@@ -6065,7 +6065,7 @@
       "slug": "paneer-65",
       "path": "/menu/paneer-65/",
       "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-curries-north-indian",
+      "subcategory_id": "sub-gravies-asian-sides-north-indian",
       "name": {
         "en": "Paneer 65",
         "ar": "بانير 65"
@@ -6101,7 +6101,7 @@
       "slug": "dal-tadka",
       "path": "/menu/dal-tadka/",
       "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-curries-north-indian",
+      "subcategory_id": "sub-gravies-asian-sides-north-indian",
       "name": {
         "en": "Dal Tadka",
         "ar": "دال تادكا"
@@ -6137,7 +6137,7 @@
       "slug": "bhindi-masala",
       "path": "/menu/bhindi-masala/",
       "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-curries-north-indian",
+      "subcategory_id": "sub-gravies-asian-sides-north-indian",
       "name": {
         "en": "Bhindi Masala",
         "ar": "بهندي ماسالا"
@@ -6173,7 +6173,7 @@
       "slug": "bhindi-fry",
       "path": "/menu/bhindi-fry/",
       "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-curries-north-indian",
+      "subcategory_id": "sub-gravies-asian-sides-north-indian",
       "name": {
         "en": "Bhindi Fry",
         "ar": "بهندي مقلي"
@@ -6209,7 +6209,7 @@
       "slug": "matar-green-peas-paneer",
       "path": "/menu/matar-green-peas-paneer/",
       "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-curries-north-indian",
+      "subcategory_id": "sub-gravies-asian-sides-north-indian",
       "name": {
         "en": "Matar (Green Peas) Paneer",
         "ar": "ماتر بانير"
@@ -6245,7 +6245,7 @@
       "slug": "butter-paneer-masala",
       "path": "/menu/butter-paneer-masala/",
       "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-curries-north-indian",
+      "subcategory_id": "sub-gravies-asian-sides-north-indian",
       "name": {
         "en": "Butter Paneer Masala",
         "ar": "بانير بالزبدة ماسالا"
@@ -8567,7 +8567,7 @@
       "slug": "kari-dosa-non-veg-veg",
       "path": "/menu/kari-dosa-non-veg-veg/",
       "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-curries-south-indian",
+      "subcategory_id": "sub-gravies-asian-sides-curries",
       "name": {
         "en": "Kari Dosa (Non Veg & Veg)",
         "ar": ""
@@ -8603,7 +8603,7 @@
       "slug": "mung-dal-curry",
       "path": "/menu/mung-dal-curry/",
       "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-curries-north-indian",
+      "subcategory_id": "sub-gravies-asian-sides-curries",
       "name": {
         "en": "Mung Dal Curry",
         "ar": ""
@@ -8675,7 +8675,7 @@
       "slug": "kadai-paneer-450ml-cup",
       "path": "/menu/kadai-paneer-450ml-cup/",
       "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-curries-north-indian",
+      "subcategory_id": "sub-gravies-asian-sides-curries",
       "name": {
         "en": "Kadai Paneer (450ml) Cup",
         "ar": ""
@@ -8711,7 +8711,7 @@
       "slug": "mutton-achari",
       "path": "/menu/mutton-achari/",
       "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-curries-north-indian",
+      "subcategory_id": "sub-gravies-asian-sides-curries",
       "name": {
         "en": "Mutton Achari",
         "ar": ""
@@ -8772,7 +8772,7 @@
       "slug": "mutton-korma",
       "path": "/menu/mutton-korma/",
       "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-curries-north-indian",
+      "subcategory_id": "sub-gravies-asian-sides-curries",
       "name": {
         "en": "Mutton Korma",
         "ar": ""
@@ -10174,7 +10174,7 @@
       "slug": "mongolian-fried-rice-egg",
       "path": "/menu/mongolian-fried-rice-egg/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-gravies-asian-sides-mongolian",
+      "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Egg",
         "ar": ""
@@ -10210,7 +10210,7 @@
       "slug": "mongolian-fried-rice-vegetable",
       "path": "/menu/mongolian-fried-rice-vegetable/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-gravies-asian-sides-mongolian",
+      "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Vegetable",
         "ar": ""
@@ -10246,7 +10246,7 @@
       "slug": "mongolian-fried-rice-chicken",
       "path": "/menu/mongolian-fried-rice-chicken/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-gravies-asian-sides-mongolian",
+      "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Chicken",
         "ar": ""
@@ -10282,7 +10282,7 @@
       "slug": "mongolian-fried-rice-beef",
       "path": "/menu/mongolian-fried-rice-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-gravies-asian-sides-mongolian",
+      "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Beef",
         "ar": ""
@@ -10318,7 +10318,7 @@
       "slug": "mongolian-fried-rice-prawns",
       "path": "/menu/mongolian-fried-rice-prawns/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-gravies-asian-sides-mongolian",
+      "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Prawns",
         "ar": ""
@@ -10354,7 +10354,7 @@
       "slug": "mongolian-fried-rice-chicken-beef",
       "path": "/menu/mongolian-fried-rice-chicken-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-gravies-asian-sides-mongolian",
+      "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Chicken & Beef",
         "ar": ""
@@ -10390,7 +10390,7 @@
       "slug": "mongolian-fried-rice-seafood",
       "path": "/menu/mongolian-fried-rice-seafood/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-gravies-asian-sides-mongolian",
+      "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Seafood",
         "ar": ""
@@ -10426,7 +10426,7 @@
       "slug": "mongolian-fried-rice-mixed",
       "path": "/menu/mongolian-fried-rice-mixed/",
       "category_id": "cat-rice-noodles-and-kottu",
-      "subcategory_id": "sub-gravies-asian-sides-mongolian",
+      "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Mixed",
         "ar": ""

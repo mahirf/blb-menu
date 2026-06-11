@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-11T13:49:40.432Z",
+  "generated_at": "2026-06-11T13:53:56.230Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -198,6 +198,18 @@
           },
           "sort_order": 110,
           "is_active": true
+        },
+        {
+          "id": "sub-rice-noodles-and-kottu-mongolian",
+          "category_id": "cat-rice-noodles-and-kottu",
+          "slug": "mongolian",
+          "path": "/menu/rice-noodles-and-kottu/mongolian/",
+          "name": {
+            "en": "Mongolian",
+            "ar": "المنغولي"
+          },
+          "sort_order": 130,
+          "is_active": true
         }
       ]
     },
@@ -344,18 +356,6 @@
             "ar": "الصينية"
           },
           "sort_order": 120,
-          "is_active": true
-        },
-        {
-          "id": "sub-gravies-asian-sides-mongolian",
-          "category_id": "cat-gravies-asian-sides",
-          "slug": "mongolian",
-          "path": "/menu/gravies-and-asian-sides/mongolian/",
-          "name": {
-            "en": "Mongolian",
-            "ar": "المنغولي"
-          },
-          "sort_order": 130,
           "is_active": true
         }
       ]
@@ -6359,13 +6359,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-rice-veg-mushroom-no-egg",
-          "url": "/assets/images/img-fried-rice-veg-mushroom-no-egg.webp",
+          "id": "img-prod-fried-rice-veg-mushroom-no-egg-alternate",
+          "url": "/assets/images/img-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -6420,13 +6420,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-fried-rice-chicken-alternate",
+          "id": "img-prod-fried-rice-chicken",
           "url": "/assets/images/img-fried-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 1,
+          "sort_order": 10,
           "is_primary": true
         }
       ],

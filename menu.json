@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-11T16:46:33.196Z",
+  "generated_at": "2026-06-11T19:35:15.492Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -6372,7 +6372,7 @@
         "ar": "أرز مقلي - خضار وفطر (بدون بيض)"
       },
       "description": {
-        "en": "Enjoy this wok-tossed dish featuring a blend of vegetables and mushrooms, prepared without egg to ensure a simple and light meal for you to enjoy.",
+        "en": "Wok-tossed dish featuring a blend of vegetables and mushrooms, prepared without egg to ensure a simple and light meal for you to enjoy.",
         "ar": "استمتع بهذا الطبق المقلي في مقلاة الووك مع مزيج من الخضار والفطر، مُحضّر بدون بيض ليكون وجبة بسيطة وخفيفة."
       },
       "has_variants": true,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-11T14:06:58.003Z",
+  "generated_at": "2026-06-11T16:46:33.196Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -513,7 +513,7 @@
       },
       "description": {
         "en": "Special offers and discounts",
-        "ar": null
+        "ar": "عروض وخصومات خاصة"
       },
       "sort_order": 15,
       "is_active": true,
@@ -550,8 +550,8 @@
         "ar": "برياني الدجاج"
       },
       "description": {
-        "en": "Long-grain basmati rice is slow-cooked to perfection with tender marinated meat choice of meat layered with fragrant spices caramelized onions and fresh herbs sealed and cooked in the traditional dum style served with salad raita and a side of spicy salan for the ultimate biryani experience",
-        "ar": "يُطهى أرز بسمتي طويل الحبة على نار هادئة حتى ينضج تمامًا، مع لحم طري متبل، أو لحم من اختيارك، مُغطى بطبقات من التوابل العطرية والبصل المكرمل والأعشاب الطازجة، ويُطهى على طريقة الدَم التقليدية. يُقدم مع سلطة الرايتا وطبق جانبي من صلصة السالان الحارة لتجربة برياني لا تُنسى."
+        "en": "Long-grain basmati rice slow-cooked dum-style with tender marinated chicken, fragrant spices and caramelized onions. Served with raita and achar.",
+        "ar": "أرز بسمتي طويل الحبة مطهو ببطء على طريقة الدوم مع دجاج متبل طري وتوابل عطرية وبصل مكرمل. يقدم مع الرايتا والأتشار."
       },
       "has_variants": true,
       "base_price": 0,
@@ -690,8 +690,8 @@
         "ar": "برياني لحم بقري"
       },
       "description": {
-        "en": "Long-grain basmati rice is slow-cooked to perfection with tender marinated meat choice of meat layered with fragrant spices caramelized onions and fresh herbs sealed and cooked in the traditional dum style served with salad raita and a side of spicy salan for the ultimate biryani experience",
-        "ar": "يُطهى أرز بسمتي طويل الحبة على نار هادئة حتى ينضج تمامًا، مع لحم طري متبل، أو لحم من اختيارك، مُغطى بطبقات من التوابل العطرية والبصل المكرمل والأعشاب الطازجة، ويُطهى على طريقة الدَم التقليدية. يُقدم مع سلطة الرايتا وطبق جانبي من صلصة السالان الحارة لتجربة برياني لا تُنسى."
+        "en": "Long-grain basmati rice slow-cooked dum-style with tender marinated beef, fragrant spices and caramelized onions. Served with raita and achar.",
+        "ar": "أرز بسمتي طويل الحبة مطهو ببطء على طريقة الدوم مع لحم بقري متبل طري وتوابل عطرية وبصل مكرمل. يقدم مع الرايتا والأتشار."
       },
       "has_variants": true,
       "base_price": 0,
@@ -830,8 +830,8 @@
         "ar": "برياني السمك"
       },
       "description": {
-        "en": "Long-grain basmati rice is slow-cooked to perfection with tender marinated meat choice of meat layered with fragrant spices caramelized onions and fresh herbs sealed and cooked in the traditional dum style served with salad raita and a side of spicy salan for the ultimate biryani experience",
-        "ar": "يُطهى أرز بسمتي طويل الحبة على نار هادئة حتى ينضج تمامًا، مع لحم طري متبل، أو لحم من اختيارك، مُغطى بطبقات من التوابل العطرية والبصل المكرمل والأعشاب الطازجة، ويُطهى على طريقة الدَم التقليدية. يُقدم مع سلطة الرايتا وطبق جانبي من صلصة السالان الحارة لتجربة برياني لا تُنسى."
+        "en": "Long-grain basmati rice slow-cooked dum-style with tender marinated fish, fragrant spices and caramelized onions. Served with raita and achar.",
+        "ar": "أرز بسمتي طويل الحبة مطهو ببطء على طريقة الدوم مع سمك متبل طري وتوابل عطرية وبصل مكرمل. يقدم مع الرايتا والأتشار."
       },
       "has_variants": true,
       "base_price": 0,
@@ -970,8 +970,8 @@
         "ar": "برياني لحم الضأن"
       },
       "description": {
-        "en": "Long-grain basmati rice is slow-cooked to perfection with tender marinated meat choice of meat layered with fragrant spices caramelized onions and fresh herbs sealed and cooked in the traditional dum style served with salad raita and a side of spicy salan for the ultimate biryani experience",
-        "ar": "يُطهى أرز بسمتي طويل الحبة على نار هادئة حتى ينضج تمامًا، مع لحم طري متبل، أو لحم من اختيارك، مُغطى بطبقات من التوابل العطرية والبصل المكرمل والأعشاب الطازجة، ويُطهى على طريقة الدَم التقليدية. يُقدم مع سلطة الرايتا وطبق جانبي من صلصة السالان الحارة لتجربة برياني لا تُنسى."
+        "en": "Long-grain basmati rice slow-cooked dum-style with tender marinated mutton, fragrant spices and caramelized onions. Served with raita and achar.",
+        "ar": "أرز بسمتي طويل الحبة مطهو ببطء على طريقة الدوم مع لحم ضأن متبل طري وتوابل عطرية وبصل مكرمل. يقدم مع الرايتا والأتشار."
       },
       "has_variants": true,
       "base_price": 0,
@@ -1110,8 +1110,8 @@
         "ar": "برياني الروبيان"
       },
       "description": {
-        "en": "Long-grain basmati rice is slow-cooked to perfection with tender marinated meat choice of meat layered with fragrant spices caramelized onions and fresh herbs sealed and cooked in the traditional dum style served with salad raita and a side of spicy salan for the ultimate biryani experience",
-        "ar": "يُطهى أرز بسمتي طويل الحبة على نار هادئة حتى ينضج تمامًا، مع لحم طري متبل، أو لحم من اختيارك، مُغطى بطبقات من التوابل العطرية والبصل المكرمل والأعشاب الطازجة، ويُطهى على طريقة الدَم التقليدية. يُقدم مع سلطة الرايتا وطبق جانبي من صلصة السالان الحارة لتجربة برياني لا تُنسى."
+        "en": "Long-grain basmati rice slow-cooked dum-style with tender marinated shrimp, fragrant spices and caramelized onions. Served with raita and achar.",
+        "ar": "أرز بسمتي طويل الحبة مطهو ببطء على طريقة الدوم مع روبيان متبل طري وتوابل عطرية وبصل مكرمل. يقدم مع الرايتا والأتشار."
       },
       "has_variants": true,
       "base_price": 0,
@@ -1950,8 +1950,8 @@
         "ar": "لحم كانكونج مع أرز مقلي"
       },
       "description": {
-        "en": "A wholesome meal featuring fried rice served with our signature Kankung Beef—tender beef (cooked medium well) stir-fried with fresh kankung (water spinach), garlic, soy sauce, and a touch of chili for that perfect balance of flavor. A satisfying Chinese style combo for a hearty lunch.",
-        "ar": "وجبة متكاملة تضم أرزًا مقليًا مع طبق لحم الكانكونغ المميز لدينا - لحم بقري طري (مطبوخ جيدًا) مقلي مع الكانكونغ الطازج (سبانخ الماء)، والثوم، وصلصة الصويا، ولمسة من الفلفل الحار لتحقيق توازن مثالي في النكهة. مزيج صيني شهي لوجبة غداء دسمة."
+        "en": "Stir-fried tender beef with kankung (water spinach), garlic and soy sauce, served with fried rice.",
+        "ar": "لحم بقري طري مقلي مع الكانكونغ (سبانخ الماء) والثوم وصلصة الصويا، يقدم مع أرز مقلي."
       },
       "has_variants": false,
       "base_price": 29,
@@ -1986,8 +1986,8 @@
         "ar": "لحم كانكونج مع أرز أبيض"
       },
       "description": {
-        "en": "A wholesome meal featuring freshly steamed plain rice served with our signature Kankung Beef—tender beef (cooked medium well) stir-fried with fresh kankung (water spinach), garlic, soy sauce, and a touch of chili for that perfect balance of flavor. A satisfying Chinese style combo for a hearty lunch.",
-        "ar": "وجبة متكاملة تتكون من أرز أبيض مطهو على البخار يُقدم مع طبق لحم كانكونغ المميز لدينا - لحم بقري طري (مطهو جيداً) مقلي مع كانكونغ طازج (سبانخ الماء)، ثوم، صلصة الصويا، ولمسة من الفلفل الحار لتحقيق توازن مثالي في النكهة. مزيج صيني شهي يُرضي جميع الأذواق، مثالي لغداء دسم."
+        "en": "Stir-fried tender beef with kankung (water spinach), garlic and soy sauce, served with steamed white rice.",
+        "ar": "لحم بقري طري مقلي مع الكانكونغ (سبانخ الماء) والثوم وصلصة الصويا، يقدم مع أرز أبيض مطهو على البخار."
       },
       "has_variants": false,
       "base_price": 21,
@@ -2084,7 +2084,7 @@
       },
       "description": {
         "en": "A vegetarian delight of shredded flatbread mixed with mushrooms and garden vegetables.",
-        "ar": "مزيج نباتي من الخبز المقطع مع المشروم وخضروات الطازجة."
+        "ar": "مزيج نباتي من الخبز المقطع مع المشروم والخضروات الطازجة."
       },
       "has_variants": true,
       "base_price": 0,
@@ -2450,7 +2450,7 @@
       },
       "description": {
         "en": "Delicate string hoppers stir-fried with fresh garden vegetables and mushrooms.",
-        "ar": "إديايام طرية مقلية مع خضروات الطازجة والمشروم."
+        "ar": "إديايام طرية مقلية مع الخضروات الطازجة والمشروم."
       },
       "has_variants": true,
       "base_price": 0,
@@ -3450,7 +3450,7 @@
       },
       "description": {
         "en": "Crumbled Puttu stir-fried with fresh garden vegetables and savory mushrooms.",
-        "ar": "بوتو مقطع ومقلي مع خضروات الطازجة والمشروم اللذيذ."
+        "ar": "بوتو مقطع ومقلي مع الخضروات الطازجة والمشروم اللذيذ."
       },
       "has_variants": true,
       "base_price": 0,
@@ -3754,8 +3754,8 @@
         "ar": "ألو باراثا"
       },
       "description": {
-        "en": "A beloved north indian classic. our aloo paratha is a soft, pan-toasted flatbread stuffed with a flavorful mix of spiced mashed potatoes, herbs, and onions. served hot with yogurt, pickle, or butter, its a comforting, hearty meal any time of day.",
-        "ar": ""
+        "en": "Soft pan-toasted flatbread stuffed with spiced mashed potatoes, herbs and onions. Served hot with yogurt, pickle or butter.",
+        "ar": "خبز مسطح طري محمص على المقلاة محشو بالبطاطس المهروسة المتبلة والأعشاب والبصل. يقدم ساخنًا مع الزبادي أو المخلل أو الزبدة."
       },
       "has_variants": false,
       "base_price": 5,
@@ -3790,8 +3790,8 @@
         "ar": "دال تشانا أو كالا تشانا بدون خبز"
       },
       "description": {
-        "en": "Hearty, rustic north indian classics featuring whole white or black chickpeas simmered in a robust, tangy gravy of tomatoes, ginger, and aromatic spices. known for their earthy flavor and slightly chewy texture, these nutrient-dense legumes are a protein powerhouse.",
-        "ar": ""
+        "en": "Whole white or black chickpeas simmered in a tangy tomato-ginger gravy with aromatic spices.",
+        "ar": "حمص أبيض أو أسود كامل مطهو على نار هادئة في مرق الطماطم والزنجبيل اللاذع مع التوابل العطرية."
       },
       "has_variants": false,
       "base_price": 4,
@@ -3826,8 +3826,8 @@
         "ar": "كالا تشانا"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Whole black chickpeas simmered in a tangy onion-tomato gravy with aromatic spices. Hearty, earthy and protein-rich.",
+        "ar": "حمص أسود كامل مطهو على نار هادئة في مرق البصل والطماطم اللاذع مع التوابل العطرية. طبق دسم وغني بالبروتين."
       },
       "has_variants": false,
       "base_price": 4,
@@ -3862,8 +3862,8 @@
         "ar": "شوربة الدجاج والفطر الكريمية"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A velvety soup of tender chicken and mushrooms finished with cream.",
+        "ar": "شوربة مخملية من الدجاج الطري والفطر، مضاف إليها لمسة من الكريمة."
       },
       "has_variants": false,
       "base_price": 24,
@@ -3898,8 +3898,8 @@
         "ar": "شوربة الطماطم المتبلة مع الأورزو"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A warming tomato soup simmered with orzo pasta and gentle spices.",
+        "ar": "شوربة طماطم دافئة مطهوة مع معكرونة الأورزو وتوابل خفيفة."
       },
       "has_variants": false,
       "base_price": 18,
@@ -3931,11 +3931,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Mushroom Soup",
-        "ar": ""
+        "ar": "شوربة الفطر"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A smooth, creamy soup made with fresh mushrooms and a hint of herbs.",
+        "ar": "شوربة كريمية ناعمة محضرة من الفطر الطازج مع لمسة من الأعشاب."
       },
       "has_variants": false,
       "base_price": 12,
@@ -3970,8 +3970,8 @@
         "ar": "شوربة العدس"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Classic lentil soup slow-cooked with mild spices - light, comforting and wholesome.",
+        "ar": "شوربة عدس كلاسيكية مطهوة ببطء مع توابل خفيفة - خفيفة ومريحة وصحية."
       },
       "has_variants": false,
       "base_price": 18,
@@ -4006,8 +4006,8 @@
         "ar": "حساء توم يام (بالروبيان)"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A bold Thai soup with shrimp, lemongrass, kaffir lime and chili - spicy, tangy and aromatic.",
+        "ar": "شوربة تايلاندية جريئة بالروبيان وعشبة الليمون وأوراق الليمون الكافيري والفلفل الحار - حارة ولاذعة وعطرية."
       },
       "has_variants": false,
       "base_price": 24,
@@ -4039,11 +4039,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Seafood Soup (Shrimp/Cuttlefish/Fish)",
-        "ar": ""
+        "ar": "شوربة المأكولات البحرية (روبيان/حبار/سمك)"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A light clear soup brimming with shrimp, cuttlefish and fish, gently spiced.",
+        "ar": "شوربة صافية خفيفة غنية بالروبيان والحبار والسمك، متبلة برفق."
       },
       "has_variants": false,
       "base_price": 29,
@@ -4075,11 +4075,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Hot & Sour Vegetable",
-        "ar": ""
+        "ar": "شوربة حارة وحامضة بالخضار"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A classic Chinese-style soup of crisp vegetables in a spicy, tangy broth.",
+        "ar": "شوربة على الطريقة الصينية من الخضار المقرمشة في مرق حار ولاذع."
       },
       "has_variants": false,
       "base_price": 11,
@@ -4111,11 +4111,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Hot & Sour Chicken",
-        "ar": ""
+        "ar": "شوربة حارة وحامضة بالدجاج"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A classic Chinese-style soup of tender chicken in a spicy, tangy broth.",
+        "ar": "شوربة على الطريقة الصينية من الدجاج الطري في مرق حار ولاذع."
       },
       "has_variants": false,
       "base_price": 14,
@@ -4150,8 +4150,8 @@
         "ar": "مضغوط دجاج"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Traditional Arabic madghout rice pressure-cooked with chicken and whole spices.",
+        "ar": "أرز مضغوط عربي تقليدي مطهو بقدر الضغط مع الدجاج والبهارات الكاملة."
       },
       "has_variants": true,
       "base_price": 0,
@@ -4211,8 +4211,8 @@
         "ar": "مندي دجاج"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Fragrant mandi rice steamed with tender chicken, served with mandi sauce and salad.",
+        "ar": "أرز مندي عطري مطهو على البخار مع دجاج طري، يقدم مع صلصة المندي والسلطة."
       },
       "has_variants": true,
       "base_price": 0,
@@ -4272,8 +4272,8 @@
         "ar": "أرز بالقرفة"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Aromatic rice gently spiced with cinnamon - a fragrant companion to any main dish.",
+        "ar": "أرز عطري متبل برفق بالقرفة - رفيق مثالي لأي طبق رئيسي."
       },
       "has_variants": true,
       "base_price": 0,
@@ -4333,8 +4333,8 @@
         "ar": "كبسة دجاج"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Classic Saudi kabsa - spiced rice cooked with tender chicken and served with salad.",
+        "ar": "كبسة سعودية كلاسيكية - أرز متبل مطبوخ مع دجاج طري ويقدم مع السلطة."
       },
       "has_variants": true,
       "base_price": 0,
@@ -4394,8 +4394,8 @@
         "ar": "كنافة"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A golden, buttery kunafa with a melting cheese center, soaked in sugar syrup.",
+        "ar": "كنافة ذهبية بالزبدة محشوة بالجبن الذائب ومسقية بالقطر."
       },
       "has_variants": false,
       "base_price": 9,
@@ -4430,8 +4430,8 @@
         "ar": "‎مهلبية بالزعفران والهيل"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Silky milk pudding infused with saffron and cardamom.",
+        "ar": "مهلبية حريرية منكهة بالزعفران والهيل."
       },
       "has_variants": false,
       "base_price": 12,
@@ -4466,8 +4466,8 @@
         "ar": "فتوش بالباذنجان المدخن"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Crisp fattoush salad tossed with smoky grilled eggplant and crunchy bread.",
+        "ar": "سلطة فتوش منعشة مع باذنجان مشوي مدخن وخبز مقرمش."
       },
       "has_variants": false,
       "base_price": 15,
@@ -4502,8 +4502,8 @@
         "ar": "تبولة بالحمص والبهارات"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Fresh tabbouleh with a twist - parsley and bulgur tossed with masala-spiced chickpeas.",
+        "ar": "تبولة طازجة بلمسة مميزة - بقدونس وبرغل مع حمص متبل بالماسالا."
       },
       "has_variants": false,
       "base_price": 18,
@@ -4538,8 +4538,8 @@
         "ar": "شمندر محمص بالكمون مع اللبنة"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Cumin-roasted beetroot served over creamy labneh with olive oil.",
+        "ar": "شمندر محمص بالكمون يقدم فوق لبنة كريمية مع زيت الزيتون."
       },
       "has_variants": false,
       "base_price": 25,
@@ -4575,7 +4575,7 @@
       },
       "description": {
         "en": "A fresh and zesty small cup of traditional tabouleh made with finely chopped parsley, tomatoes, onions, and cracked bulgur, mixed with fresh lemon juice and premium olive oil.",
-        "ar": ""
+        "ar": "كوب صغير ومنعش من التبولة التقليدية المحضرة من البقدونس المفروم ناعمًا، الطماطم، البصل، والبرغل، ممزوجة بعصير الليمون الطازج وزيت الزيتون الفاخر."
       },
       "has_variants": false,
       "base_price": 8,
@@ -4611,7 +4611,7 @@
       },
       "description": {
         "en": "A creamy and smooth blend of mashed chickpeas mixed with tahini and fresh lemon, topped with a rich swirl of premium olive oil and a single olive.",
-        "ar": ""
+        "ar": "مزيج كريمي وناعم من الحمص المهروس الممزوج بالطحينة والليمون الطازج، مغطى بدوامة غنية من زيت الزيتون الفاخر وحبة زيتون واحدة."
       },
       "has_variants": false,
       "base_price": 8,
@@ -4647,7 +4647,7 @@
       },
       "description": {
         "en": "A fresh and vibrant cup of mixed salad made with cucumber, carrots, baby corn with black & green olives, topped with a generous portion of creamy hummus & olive oil.",
-        "ar": ""
+        "ar": "كوب طازج ومنعش من السلطة المشكلة مكوّن من الخيار، الجزر، الذرة الصغيرة (بيبي كورن)، مع زيتون أسود وأخضر، ومغطى بكمية سخية من الحمص الكريمي وزيت الزيتون."
       },
       "has_variants": false,
       "base_price": 0,
@@ -4743,8 +4743,8 @@
         "ar": "كيما لحم غنم"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Minced mutton cooked with onions, tomatoes and aromatic spices - perfect with bread or rice.",
+        "ar": "لحم ضأن مفروم مطبوخ مع البصل والطماطم والتوابل العطرية - مثالي مع الخبز أو الأرز."
       },
       "has_variants": false,
       "base_price": 18,
@@ -4779,8 +4779,8 @@
         "ar": "كيما لحم بقري"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Minced beef cooked with onions, tomatoes and aromatic spices - perfect with bread or rice.",
+        "ar": "لحم بقري مفروم مطبوخ مع البصل والطماطم والتوابل العطرية - مثالي مع الخبز أو الأرز."
       },
       "has_variants": false,
       "base_price": 10,
@@ -4815,8 +4815,8 @@
         "ar": "كبدة مقلية جافة"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Tender liver dry-roasted with onions, black pepper and curry leaves.",
+        "ar": "كبدة طرية محمصة على الطريقة الجافة مع البصل والفلفل الأسود وأوراق الكاري."
       },
       "has_variants": false,
       "base_price": 15,
@@ -4851,8 +4851,8 @@
         "ar": "أرز بالليمون"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "South Indian rice tossed with lemon, mustard seeds, curry leaves and turmeric.",
+        "ar": "أرز جنوب هندي ممزوج بالليمون وبذور الخردل وأوراق الكاري والكركم."
       },
       "has_variants": false,
       "base_price": 5,
@@ -4887,8 +4887,8 @@
         "ar": "أرز بالطماطم"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Fragrant rice cooked in a spiced tomato masala - tangy and comforting.",
+        "ar": "أرز عطري مطبوخ في ماسالا الطماطم المتبلة - لاذع وشهي."
       },
       "has_variants": false,
       "base_price": 5,
@@ -4923,8 +4923,8 @@
         "ar": "بوتو (كعكة أرز مطهوة بالبخار) مع صالونة الحمص"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Steamed rice cake (puttu) served with spicy black chickpea (kadala) curry.",
+        "ar": "كعكة أرز مطهوة على البخار (بوتو) تقدم مع كاري الحمص الأسود (كادالا) الحار."
       },
       "has_variants": false,
       "base_price": 4,
@@ -4959,8 +4959,8 @@
         "ar": "إديابام (نودلز رفيعة من دقيق الأرز مطهوة بالبخار) - 3 قطع"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Soft steamed rice noodles (string hoppers), perfect with curry or coconut milk.",
+        "ar": "نودلز أرز طرية مطهوة على البخار (إيديابام)، مثالية مع الكاري أو حليب جوز الهند."
       },
       "has_variants": false,
       "base_price": 3,
@@ -4995,8 +4995,8 @@
         "ar": "ثينغا روتي (روتي بجوز الهند) - قطعة واحدة"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Pan-toasted coconut roti with a crisp edge and soft center.",
+        "ar": "روتي جوز الهند محمص على المقلاة بحواف مقرمشة ووسط طري."
       },
       "has_variants": false,
       "base_price": 2.5,
@@ -5031,8 +5031,8 @@
         "ar": "ثينغا سامبال (سامبال جوز الهند)"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A fiery fresh coconut relish with chili, onion and lime.",
+        "ar": "صلصة جوز الهند الطازجة الحارة مع الفلفل الحار والبصل والليمون."
       },
       "has_variants": false,
       "base_price": 4,
@@ -5064,11 +5064,11 @@
       "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Egg Kalaki with Chicken Curry - 1 Egg",
-        "ar": "شكشوكة مع صالونة الدجاج - بيضة واحدة"
+        "ar": "بيض كالاكي (مخفوق) مع صالونة الدجاج - بيضة واحدة"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Soft Tamil-style egg kalaki served with homestyle chicken curry.",
+        "ar": "بيض كالاكي طري على الطريقة التاميلية يقدم مع كاري دجاج منزلي."
       },
       "has_variants": false,
       "base_price": 2.5,
@@ -5103,8 +5103,8 @@
         "ar": "كورما البيض"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Boiled eggs simmered in a mild, creamy korma gravy.",
+        "ar": "بيض مسلوق مطهو في مرق كورما كريمي معتدل التوابل."
       },
       "has_variants": false,
       "base_price": 7,
@@ -5139,8 +5139,8 @@
         "ar": "صالونة البيض"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Boiled eggs simmered in a spiced onion-tomato gravy.",
+        "ar": "بيض مسلوق مطهو في مرق البصل والطماطم المتبل."
       },
       "has_variants": false,
       "base_price": 6,
@@ -5176,7 +5176,7 @@
       },
       "description": {
         "en": "Single egg omelet - a light and fluffy omelet made from one fresh egg, gently seasoned and cooked to perfection. simple, wholesome, and satisfying.",
-        "ar": ""
+        "ar": "عجة بيضة واحدة - عجة خفيفة ورقيقة مصنوعة من بيضة طازجة واحدة، متبلة بلطف ومطهوة حتى الكمال. بسيطة، صحية، ومرضية."
       },
       "has_variants": false,
       "base_price": 2.5,
@@ -5211,8 +5211,8 @@
         "ar": "بيض مقلي جاف"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Boiled eggs tossed in a bold onion-tomato roast with curry leaves.",
+        "ar": "بيض مسلوق ممزوج بمزيج البصل والطماطم المحمص مع أوراق الكاري."
       },
       "has_variants": false,
       "base_price": 3.5,
@@ -5247,8 +5247,8 @@
         "ar": "بيض مسلوق"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A simple, protein-packed boiled egg.",
+        "ar": "بيضة مسلوقة بسيطة وغنية بالبروتين."
       },
       "has_variants": false,
       "base_price": 1.5,
@@ -5280,11 +5280,11 @@
       "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Scrambled Egg - 1 Egg",
-        "ar": "شكشوكة - بيضة واحدة"
+        "ar": "بيض مخفوق - بيضة واحدة"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Soft, gently seasoned scrambled egg made fresh to order.",
+        "ar": "بيض مخفوق طري متبل برفق، يحضر طازجًا عند الطلب."
       },
       "has_variants": false,
       "base_price": 2.5,
@@ -5316,11 +5316,11 @@
       "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Scrambled Egg with Cheese - 1 Egg",
-        "ar": "شكشوكة بالجبن - بيضة واحدة"
+        "ar": "بيض مخفوق بالجبن - بيضة واحدة"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Creamy scrambled egg folded with melted cheese.",
+        "ar": "بيض مخفوق كريمي ممزوج بالجبن الذائب."
       },
       "has_variants": false,
       "base_price": 6,
@@ -5352,11 +5352,11 @@
       "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Upma",
-        "ar": "أبما"
+        "ar": "أوبما"
       },
       "description": {
         "en": "A warm and hearty south indian breakfast made with roasted semolina (rava), gently cooked with mustard seeds, curry leaves, green chilies, ginger, and vegetables. light, fluffy, and flavorful perfect for a wholesome start to your day",
-        "ar": ""
+        "ar": "فطور جنوب هندي دافئ وشهي، مصنوع من السميد المحمص (رافا)، مطبوخ برفق مع بذور الخردل وأوراق الكاري والفلفل الأخضر الحار والزنجبيل والخضراوات. خفيف وهش ولذيذ - مثالي لبداية يوم صحية."
       },
       "has_variants": false,
       "base_price": 5,
@@ -5391,8 +5391,8 @@
         "ar": "باروتا"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Flaky, layered South Indian flatbread - soft inside and crisp outside.",
+        "ar": "خبز جنوب هندي مسطح متعدد الطبقات وهش - طري من الداخل ومقرمش من الخارج."
       },
       "has_variants": true,
       "base_price": 0,
@@ -5452,8 +5452,8 @@
         "ar": "تشباتي"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Soft whole-wheat flatbread, the perfect partner for any curry.",
+        "ar": "خبز شاباتي طري من القمح الكامل، الرفيق المثالي لأي كاري."
       },
       "has_variants": true,
       "base_price": 0,
@@ -5513,8 +5513,8 @@
         "ar": "باروتا بالقمح"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Layered parotta made with whole-wheat (atta) flour for a wholesome twist.",
+        "ar": "باروتا طبقية محضرة من دقيق القمح الكامل (أتا) لخيار صحي."
       },
       "has_variants": true,
       "base_price": 0,
@@ -5574,8 +5574,8 @@
         "ar": "روتي بالبيض"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Griddle-cooked flatbread stuffed with seasoned egg.",
+        "ar": "خبز مسطح مطهو على الصاج محشو بالبيض المتبل."
       },
       "has_variants": false,
       "base_price": 2.5,
@@ -5610,8 +5610,8 @@
         "ar": "روتي محشي"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Soft roti stuffed with your choice of savory filling.",
+        "ar": "روتي طري محشو بحشوة شهية من اختيارك."
       },
       "has_variants": true,
       "base_price": 0,
@@ -5707,8 +5707,8 @@
         "ar": "فادا"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Crispy South Indian lentil fritter - golden outside and fluffy inside.",
+        "ar": "فطيرة عدس جنوب هندية مقرمشة - ذهبية من الخارج وهشة من الداخل."
       },
       "has_variants": true,
       "base_price": 0,
@@ -5768,8 +5768,8 @@
         "ar": "إدلي"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Soft, fluffy steamed rice cake - light and wholesome.",
+        "ar": "كعكة أرز مطهوة على البخار طرية وهشة - خفيفة وصحية."
       },
       "has_variants": true,
       "base_price": 0,
@@ -5830,7 +5830,7 @@
       },
       "description": {
         "en": "A classic and comforting indian flat bread served with mildly spicy bahji and coconut chutney.",
-        "ar": ""
+        "ar": "خبز هندي مسطح كلاسيكي وشهي، يُقدم مع بهاجي متبل قليلاً وتشاتني جوز الهند."
       },
       "has_variants": true,
       "base_price": 0,
@@ -5891,7 +5891,7 @@
       },
       "description": {
         "en": "A north indian classic. fluffy, deep-fried bhature served with spicy, tangy chickpea curry (chole) cooked with aromatic spices.",
-        "ar": ""
+        "ar": "طبق كلاسيكي من شمال الهند. باتورا مقلية وهشة تُقدم مع كاري الحمص (تشولي) الحار واللاذع المطبوخ بتوابل عطرية."
       },
       "has_variants": true,
       "base_price": 0,
@@ -5951,8 +5951,8 @@
         "ar": "دوسا ورقية"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "An extra-thin, extra-crispy golden dosa served with sambar and chutney.",
+        "ar": "دوسا ذهبية رقيقة جدًا ومقرمشة للغاية تقدم مع السامبار والتشاتني."
       },
       "has_variants": false,
       "base_price": 5,
@@ -5987,8 +5987,8 @@
         "ar": "أوتابام بالبصل"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A fluffy rice-lentil pancake topped with onions and green chilies.",
+        "ar": "فطيرة أرز وعدس هشة مغطاة بالبصل والفلفل الأخضر الحار."
       },
       "has_variants": false,
       "base_price": 6,
@@ -6023,8 +6023,8 @@
         "ar": "دوسا سادة"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A classic plain dosa, crisp and golden, served with sambar and chutney.",
+        "ar": "دوسا سادة كلاسيكية مقرمشة وذهبية، تقدم مع السامبار والتشاتني."
       },
       "has_variants": false,
       "base_price": 3,
@@ -6060,7 +6060,7 @@
       },
       "description": {
         "en": "Kallu dosa - soft, thick, and fluffy south indian style dosa made from a fermented rice and urad dal batter.",
-        "ar": ""
+        "ar": "كالو دوسا - دوسا ناعمة وسميكة وهشة على الطريقة الهندية الجنوبية، مصنوعة من عجينة الأرز المخمر ودال أوراد."
       },
       "has_variants": false,
       "base_price": 4,
@@ -6095,8 +6095,8 @@
         "ar": "بانير 65"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Crispy fried paneer cubes tossed with curry leaves, chilies and bold 65-style spices.",
+        "ar": "مكعبات بانير مقلية مقرمشة ممزوجة بأوراق الكاري والفلفل الحار وتوابل 65 الجريئة."
       },
       "has_variants": false,
       "base_price": 23,
@@ -6131,8 +6131,8 @@
         "ar": "دال تادكا"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Yellow lentils tempered with ghee, cumin, garlic and dried chilies.",
+        "ar": "عدس أصفر مضاف إليه السمن والكمون والثوم والفلفل المجفف."
       },
       "has_variants": false,
       "base_price": 5,
@@ -6167,8 +6167,8 @@
         "ar": "بهندي ماسالا"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Okra stir-fried in a spiced onion-tomato masala.",
+        "ar": "بامية مقلية في ماسالا البصل والطماطم المتبلة."
       },
       "has_variants": false,
       "base_price": 8,
@@ -6203,8 +6203,8 @@
         "ar": "بهندي مقلي"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Crisp-fried okra tossed with mild spices.",
+        "ar": "بامية مقلية مقرمشة ممزوجة بتوابل خفيفة."
       },
       "has_variants": false,
       "base_price": 11,
@@ -6240,7 +6240,7 @@
       },
       "description": {
         "en": "A comforting north indian curry made with tender green peas and soft paneer cubes simmered in a mildly spiced tomato-onion gravy. rich, hearty, and full of flavor, this vegetarian favorite pairs perfectly with roti, naan, or steamed rice.",
-        "ar": ""
+        "ar": "كاري شمال هندي شهي مصنوع من البازلاء الخضراء الطرية ومكعبات البانير الناعمة المطهوة على نار هادئة في مرق طماطم وبصل متبل قليلاً. غني وشهي وغني بالنكهة، هذا الطبق النباتي المفضل يتناسب تمامًا مع الروتي أو النان أو الأرز المطهو على البخار."
       },
       "has_variants": false,
       "base_price": 12,
@@ -6276,7 +6276,7 @@
       },
       "description": {
         "en": "A creamy and mildly sweet north indian curry featuring soft paneer cubes simmered in a rich, velvety tomato and butter-based gravy infused with aromatic spices",
-        "ar": ""
+        "ar": "كاري شمال هندي كريمي وحلو قليلاً، يتكون من مكعبات بانير طرية مطهوة على نار هادئة في مرق غني ومخملي من الطماطم والزبدة، منكّه بالتوابل العطرية."
       },
       "has_variants": false,
       "base_price": 21,
@@ -6311,8 +6311,8 @@
         "ar": "أرز مقلي - بيض دبل"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Wok-fried rice tossed with savory seasonings and a double portion of scrambled eggs for a satisfying and protein-rich meal. This classic comfort dish offers a simple yet flavorful taste that pairs perfectly with any side.",
+        "ar": "أرز مقلي في مقلاة الووك مع التتبيلات الشهية وحصة مضاعفة من البيض المخفوق لوجبة مشبعة وغنية بالبروتين. يقدم هذا الطبق الكلاسيكي مذاقًا بسيطًا ولذيذًا يتناسب مع أي طبق جانبي."
       },
       "has_variants": true,
       "base_price": 0,
@@ -6372,8 +6372,8 @@
         "ar": "أرز مقلي - خضار وفطر (بدون بيض)"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Enjoy this wok-tossed dish featuring a blend of vegetables and mushrooms, prepared without egg to ensure a simple and light meal for you to enjoy.",
+        "ar": "استمتع بهذا الطبق المقلي في مقلاة الووك مع مزيج من الخضار والفطر، مُحضّر بدون بيض ليكون وجبة بسيطة وخفيفة."
       },
       "has_variants": true,
       "base_price": 0,
@@ -6433,8 +6433,8 @@
         "ar": "أرز مقلي - دجاج"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Wok-tossed rice prepared with tender pieces of chicken. This classic dish is cooked using traditional methods to combine the protein and rice into a simple, satisfying meal suitable for any time of the day.",
+        "ar": "أرز مقلي في مقلاة الووك مع قطع دجاج طرية. يُطهى هذا الطبق الكلاسيكي بالطرق التقليدية ليجمع البروتين والأرز في وجبة بسيطة ومشبعة تناسب أي وقت من اليوم."
       },
       "has_variants": true,
       "base_price": 0,
@@ -6494,8 +6494,8 @@
         "ar": "أرز مقلي - لحم بقري"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Wok-tossed long-grain rice prepared with tender marinated beef and a fragrant blend of spices. This traditional dish is cooked to ensure a balanced texture and serves as a hearty meal featuring savory flavors and seasoned proteins.",
+        "ar": "أرز طويل الحبة مقلي في مقلاة الووك مع لحم بقري متبل طري ومزيج عطري من التوابل. يُطهى هذا الطبق التقليدي لضمان قوام متوازن، ويُعد وجبة دسمة بنكهات شهية وبروتينات متبلة."
       },
       "has_variants": true,
       "base_price": 0,
@@ -6555,8 +6555,8 @@
         "ar": "أرز مقلي - روبيان"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Wok-tossed jasmine rice prepared with tender shrimp, scrambled eggs, and fresh scallions. This classic dish is seasoned with soy sauce and a hint of turmeric, then finished with a drizzle of toasted sesame oil for a nutty aroma.",
+        "ar": "أرز ياسمين مقلي في مقلاة الووك مع روبيان طري وبيض مخفوق وبصل أخضر طازج. يُتبل هذا الطبق الكلاسيكي بصلصة الصويا ولمسة من الكركم، ثم يُزين برشة من زيت السمسم المحمص لرائحة عطرية تشبه المكسرات."
       },
       "has_variants": true,
       "base_price": 0,
@@ -6616,8 +6616,8 @@
         "ar": "أرز مقلي - دجاج ولحم بقري"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Wok-tossed rice prepared with a combination of tender chicken and beef. This hearty meal is part of our rice, noodles, and kottu selection, offering a satisfying blend of proteins and grains cooked in a traditional style.",
+        "ar": "أرز مقلي في مقلاة الووك مع مزيج من الدجاج واللحم البقري الطري. هذه الوجبة الدسمة جزء من تشكيلة الأرز والنودلز والكوتو لدينا، وتقدم مزيجًا مشبعًا من البروتينات والحبوب المطهوة على الطريقة التقليدية."
       },
       "has_variants": true,
       "base_price": 0,
@@ -6677,8 +6677,8 @@
         "ar": "أرز مقلي - مأكولات بحرية"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Wok-tossed rice combined with a variety of seafood for a classic and simple meal. This traditional dish provides a balanced blend of ingredients prepared over high heat to achieve a light and smoky finish.",
+        "ar": "أرز مقلي في مقلاة الووك مع تشكيلة من المأكولات البحرية لوجبة كلاسيكية وبسيطة. يقدم هذا الطبق التقليدي مزيجًا متوازنًا من المكونات المطهوة على نار عالية للحصول على نكهة خفيفة ومدخنة."
       },
       "has_variants": true,
       "base_price": 0,
@@ -6738,8 +6738,8 @@
         "ar": "أرز مقلي - مشكل (دجاج، لحم بقري وروبيان)"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Wok-tossed rice combined with a mix of chicken, beef, and shrimp. This hearty portion is prepared using traditional methods to ensure each ingredient is perfectly incorporated for a balanced and filling meal.",
+        "ar": "أرز مقلي في مقلاة الووك مع مزيج من الدجاج واللحم البقري والروبيان. تُحضّر هذه الحصة الدسمة بالطرق التقليدية لضمان اندماج كل المكونات بشكل مثالي لوجبة متوازنة ومشبعة."
       },
       "has_variants": true,
       "base_price": 0,
@@ -6800,7 +6800,7 @@
       },
       "description": {
         "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with egg or vegetable without egg.",
-        "ar": ""
+        "ar": "طبق نودلز كلاسيكي مقلي في مقلاة الووك، مُحضّر بصلصة الصويا وخضراوات مقرمشة وبصل أخضر. متوفر مع البيض أو بالخضار بدون بيض."
       },
       "has_variants": true,
       "base_price": 0,
@@ -6861,7 +6861,7 @@
       },
       "description": {
         "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with egg or vegetable without egg.",
-        "ar": ""
+        "ar": "طبق نودلز كلاسيكي مقلي في مقلاة الووك، مُحضّر بصلصة الصويا وخضراوات مقرمشة وبصل أخضر. متوفر مع البيض أو بالخضار بدون بيض."
       },
       "has_variants": true,
       "base_price": 0,
@@ -6922,7 +6922,7 @@
       },
       "description": {
         "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with your choice of chicken, beef, seafood, or combination.",
-        "ar": ""
+        "ar": "طبق نودلز كلاسيكي مقلي في مقلاة الووك، مُحضّر بصلصة الصويا وخضراوات مقرمشة وبصل أخضر. متوفر مع اختيارك من الدجاج أو اللحم البقري أو المأكولات البحرية أو مزيج منها."
       },
       "has_variants": true,
       "base_price": 0,
@@ -6983,7 +6983,7 @@
       },
       "description": {
         "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with your choice of chicken, beef, seafood, or combination.",
-        "ar": ""
+        "ar": "طبق نودلز كلاسيكي مقلي في مقلاة الووك، مُحضّر بصلصة الصويا وخضراوات مقرمشة وبصل أخضر. متوفر مع اختيارك من الدجاج أو اللحم البقري أو المأكولات البحرية أو مزيج منها."
       },
       "has_variants": true,
       "base_price": 0,
@@ -7044,7 +7044,7 @@
       },
       "description": {
         "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with your choice of chicken, beef, seafood, or combination.",
-        "ar": ""
+        "ar": "طبق نودلز كلاسيكي مقلي في مقلاة الووك، مُحضّر بصلصة الصويا وخضراوات مقرمشة وبصل أخضر. متوفر مع اختيارك من الدجاج أو اللحم البقري أو المأكولات البحرية أو مزيج منها."
       },
       "has_variants": true,
       "base_price": 0,
@@ -7105,7 +7105,7 @@
       },
       "description": {
         "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with your choice of chicken, beef, seafood, or combination.",
-        "ar": ""
+        "ar": "طبق نودلز كلاسيكي مقلي في مقلاة الووك، مُحضّر بصلصة الصويا وخضراوات مقرمشة وبصل أخضر. متوفر مع اختيارك من الدجاج أو اللحم البقري أو المأكولات البحرية أو مزيج منها."
       },
       "has_variants": true,
       "base_price": 0,
@@ -7166,7 +7166,7 @@
       },
       "description": {
         "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with your choice of chicken, beef, seafood, or combination.",
-        "ar": ""
+        "ar": "طبق نودلز كلاسيكي مقلي في مقلاة الووك، مُحضّر بصلصة الصويا وخضراوات مقرمشة وبصل أخضر. متوفر مع اختيارك من الدجاج أو اللحم البقري أو المأكولات البحرية أو مزيج منها."
       },
       "has_variants": true,
       "base_price": 0,
@@ -7227,7 +7227,7 @@
       },
       "description": {
         "en": "A classic wok tossed noodles dish prepared with soy sauce, crisp vegetables, and spring onions. available with your choice of chicken, beef, seafood, or combination.",
-        "ar": ""
+        "ar": "طبق نودلز كلاسيكي مقلي في مقلاة الووك، مُحضّر بصلصة الصويا وخضراوات مقرمشة وبصل أخضر. متوفر مع اختيارك من الدجاج أو اللحم البقري أو المأكولات البحرية أو مزيج منها."
       },
       "has_variants": true,
       "base_price": 0,
@@ -7324,7 +7324,7 @@
       },
       "description": {
         "en": "Blb's broasted chicken meal (4 pcs) four pieces of our crispy, juicy broasted chicken served with golden fries, spicy garlic sauce, ketchup, and kubz.",
-        "ar": "وجبة دجاج بروستد من بي إل بي (4 قطع): أربع قطع من دجاج البروستد المقرمش والعصير تقدم مع بطاطس مقلية ذهبية، وصلصة ثوم حارة، وكاتشب، وكوبز."
+        "ar": "وجبة دجاج بروستد من بي إل بي (4 قطع): أربع قطع من دجاج البروستد المقرمش والطري تقدم مع بطاطس مقلية ذهبية، وصلصة ثوم حارة، وكاتشب، وكوبز."
       },
       "has_variants": true,
       "base_price": 0,
@@ -7385,7 +7385,7 @@
       },
       "description": {
         "en": "Crispy, six broasted chicken wings with soft drink, fries, kubz, kethcup & garlic sauce",
-        "ar": "ستة أجنحة دجاج مقرمشة مشوية مع مشروب غازي، بطاطا مقلية، كوبز، كعك، وصلصة ثوم"
+        "ar": "ستة أجنحة دجاج بروستد مقرمشة مع مشروب غازي، بطاطس مقلية، خبز كوبز، كاتشب، وصلصة ثوم"
       },
       "has_variants": false,
       "base_price": 18,
@@ -7478,11 +7478,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Coin (Mini) Parota (6 Pieces)",
-        "ar": ""
+        "ar": "باروتا صغيرة (كوين) - 6 قطع"
       },
       "description": {
         "en": "Six pieces of soft, flaky mini parotas cooked to golden perfection. these small bite-sized layered breads are perfect for pairing with any curry.",
-        "ar": ""
+        "ar": "ست قطع من الباروتا الصغيرة الطرية والهشة مطهوة حتى تكتسب لونًا ذهبيًا مثاليًا. هذه الخبزات الطبقية صغيرة الحجم مثالية للتقديم مع أي كاري."
       },
       "has_variants": false,
       "base_price": 4,
@@ -7514,11 +7514,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Faham Chicken",
-        "ar": ""
+        "ar": "دجاج الفحم"
       },
       "description": {
         "en": "Our faham chicken is marinated in a rich blend of middle eastern spices, fresh garlic, lemon juice, and aromatic herbs, then slow-grilled until perfectly tender and juicy. served with kubz, garlic sauce, and fresh salad.",
-        "ar": ""
+        "ar": "يُتبّل دجاجنا بمزيج غني من التوابل الشرق أوسطية، والثوم الطازج، وعصير الليمون، والأعشاب العطرية، ثم يُشوى ببطء حتى ينضج تمامًا ويصبح طريًا. يُقدّم مع الخبز، وصلصة الثوم، وسلطة طازجة."
       },
       "has_variants": true,
       "base_price": 0,
@@ -7550,11 +7550,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Ghee Rice Set",
-        "ar": ""
+        "ar": "طقم أرز بالسمن"
       },
       "description": {
         "en": "A fragrant ghee rice set served with your choice of tender meat, spiced fish, succulent shrimp, or crab.",
-        "ar": ""
+        "ar": "طبق أرز بالسمن العطري يقدم مع اختيارك من اللحم الطري، أو السمك المتبل، أو الروبيان الشهي، أو السلطعون."
       },
       "has_variants": false,
       "base_price": 0,
@@ -7586,11 +7586,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Saffron (Yellow) Rice - Chicken",
-        "ar": ""
+        "ar": "أرز الزعفران (الأصفر) - دجاج"
       },
       "description": {
         "en": "Our bestselling saffron rice meal, fragrant yellow rice served with a wider variety of flavorful vegetable sides and hearty meat options for a truly complete feast.",
-        "ar": ""
+        "ar": "وجبة أرز الزعفران الأكثر مبيعًا لدينا - أرز أصفر عطري يُقدم مع تشكيلة واسعة من الأطباق الجانبية النباتية اللذيذة وخيارات اللحوم الشهية لوليمة متكاملة حقًا."
       },
       "has_variants": false,
       "base_price": 19,
@@ -7622,11 +7622,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Lamprais",
-        "ar": ""
+        "ar": "لامبريس"
       },
       "description": {
         "en": "A delicious banana leaf-wrapped Ceylon meal, brings together fragrant rice, slow-cooked chicken curry, ash plantain, brinjal avial and a fried boiled egg with a fish cutlet, all infused with aromatic spices. steamed to perfection in the banana leaf, this traditional ceylonese delicacy offers a rich, flavorful experience. a must-try for those who enjoy wholesome, spice-infused meals",
-        "ar": ""
+        "ar": "وجبة سيلان لذيذة ملفوفة بأوراق الموز، تجمع بين الأرز العطري وكاري الدجاج المطبوخ ببطء والموز الهندي والباذنجان والبيض المسلوق المقلي مع شريحة السمك، وكلها غنية بالتوابل العطرية. مطهوة على البخار بإتقان داخل ورقة الموز، تقدم هذه الأكلة السيلانية التقليدية تجربة غنية بالنكهات."
       },
       "has_variants": false,
       "base_price": 19,
@@ -7658,11 +7658,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Saffron (Yellow) Rice - Beef",
-        "ar": ""
+        "ar": "أرز الزعفران (الأصفر) - لحم بقري"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Our bestselling saffron rice served with beef and flavorful vegetable sides.",
+        "ar": "أرز الزعفران الأكثر مبيعًا لدينا يقدم مع اللحم البقري وأطباق جانبية نباتية لذيذة."
       },
       "has_variants": false,
       "base_price": 21,
@@ -7694,11 +7694,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Saffron (Yellow) Rice - Fish",
-        "ar": ""
+        "ar": "أرز الزعفران (الأصفر) - سمك"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Our bestselling saffron rice served with fish and flavorful vegetable sides.",
+        "ar": "أرز الزعفران الأكثر مبيعًا لدينا يقدم مع السمك وأطباق جانبية نباتية لذيذة."
       },
       "has_variants": false,
       "base_price": 22,
@@ -7730,11 +7730,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Executive Lunch Meal Vegetarian",
-        "ar": ""
+        "ar": "وجبة غداء تنفيذية - نباتية"
       },
       "description": {
-        "en": "A wholesome North Indian vegetarian set featuring jeera rice, two soft chapatis, dal fry, and mixed vegetable sabji. choose between matar paneer or kadai paneer as your main curry. a balanced, satisfying north indian meal perfect for lunch, full of flavor and nourishment.",
-        "ar": ""
+        "en": "A vegetarian set of jeera rice, two chapatis, dal fry and mixed vegetable sabji. Choose matar paneer or kadai paneer as your main curry.",
+        "ar": "وجبة نباتية من أرز جيرا وخبزتي شباتي ودال مقلي وسابجي خضار مشكلة. اختر ماتار بانير أو كاداي بانير كطبق الكاري الرئيسي."
       },
       "has_variants": false,
       "base_price": 0,
@@ -7766,11 +7766,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Executive Lunch Meal Chicken",
-        "ar": ""
+        "ar": "وجبة غداء تنفيذية - دجاج"
       },
       "description": {
-        "en": "A hearty and flavorful North Indian lunch set featuring jeera rice, two soft chapatis, dal fry, and onion raita. choose your main curry: rich, creamy butter chicken or bold and aromatic kadai chicken. a complete north indian meal crafted for comfort and satisfaction.",
-        "ar": ""
+        "en": "A hearty set of jeera rice, two chapatis, dal fry and onion raita. Choose butter chicken or kadai chicken as your main curry.",
+        "ar": "وجبة شهية من أرز جيرا وخبزتي شباتي ودال مقلي ورايتا البصل. اختر دجاج بالزبدة أو دجاج كاداي كطبق الكاري الرئيسي."
       },
       "has_variants": false,
       "base_price": 0,
@@ -7802,11 +7802,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Jeera (Zeera) Rice",
-        "ar": ""
+        "ar": "أرز جيرا (زيرا)"
       },
       "description": {
         "en": "Fragrant basmati rice gently tempered with cumin seeds and ghee, offering a light, aromatic flavor that pairs perfectly with dals, curries, or grilled dishes. simple, wholesome, and full of subtle spice - a classic north indian side dish.",
-        "ar": ""
+        "ar": "أرز بسمتي عطري ممزوج ببذور الكمون والسمن، ليمنح نكهة خفيفة وعطرية تناسب تمامًا العدس والكاري والأطباق المشوية. بسيط وصحي وغني بالتوابل الخفيفة - طبق جانبي كلاسيكي من شمال الهند."
       },
       "has_variants": false,
       "base_price": 0,
@@ -7838,11 +7838,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Steamed White Rice",
-        "ar": ""
+        "ar": "أرز أبيض مطهو على البخار"
       },
       "description": {
         "en": "Fluffy, steamed white rice fine-grain baarik for a light, delicate texture.",
-        "ar": ""
+        "ar": "أرز أبيض هش مطهو على البخار من أرز الباريك ناعم الحبة لقوام خفيف ورقيق."
       },
       "has_variants": false,
       "base_price": 0,
@@ -7874,11 +7874,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Ghee Rice",
-        "ar": ""
+        "ar": "أرز بالسمن"
       },
       "description": {
         "en": "Aromatic, fluffy rice cooked gently in pure ghee for a rich, buttery flavor simple, fragrant, and the perfect base to pair with any curry or gravy.",
-        "ar": ""
+        "ar": "أرز عطر هش يُطهى بلطف مع السمن النقي ليمنح نكهة زبدية غنية. بسيط ولذيذ ويُعد الأساس المثالي مع أي كاري أو مرق."
       },
       "has_variants": false,
       "base_price": 0,
@@ -7910,11 +7910,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Thayir (Yoghurt Dipped) Medu Vada",
-        "ar": ""
+        "ar": "ثاير ميدو فادا (مغموسة بالزبادي)"
       },
       "description": {
         "en": "Thayir vada - soft, fluffy lentil vada (fritters soaked in smooth, chilled yogurt and topped with a tempering of mustard seeds, curry leaves, and a sprinkle of spice. this south indian favorite is cooling, tangy, and absolutely refreshing - perfect as a light snack or side.",
-        "ar": ""
+        "ar": "ثاير فادا - فطائر عدس طرية وهشة، منقوعة في زبادي ناعم بارد، ومغطاة بمزيج من بذور الخردل وأوراق الكاري ورشة من التوابل. هذا الطبق المفضل في جنوب الهند بارد وحامض ومنعش للغاية - مثالي كوجبة خفيفة أو طبق جانبي."
       },
       "has_variants": false,
       "base_price": 2,
@@ -7946,11 +7946,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Medu Vadai",
-        "ar": ""
+        "ar": "ميدو فاداي"
       },
       "description": {
         "en": "Medu vadai - crispy on the outside soft and fluffy on the inside - this delicious snack from south india is made from urad lentil batter marinated with spices and fried until golden brown - served with coconut chutney and sambar",
-        "ar": ""
+        "ar": "ميدو فاداي - مقرمش من الخارج وناعم من الداخل - هذه الوجبة الخفيفة اللذيذة من جنوب الهند مصنوعة من عجينة عدس الأوراد المتبلة بالتوابل والمقلية حتى يصبح لونها بنيًا ذهبيًا - تقدم مع تشاتني جوز الهند والسامبار."
       },
       "has_variants": false,
       "base_price": 1,
@@ -7982,11 +7982,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Idiappam (String Hopper)",
-        "ar": ""
+        "ar": "إيديابام (نودلز الأرز الخيطية)"
       },
       "description": {
-        "en": "Idiappam (string hopper) - soft, delicate rice noodles steamed into lacy discs, a traditional south indian and sri lankan favorite. light and fluffy, it pairs beautifully with coconut milk, kurma, or spicy curries - perfect for breakfast, dinner, or a light meal. simple, wholesome, and naturally gluten-free.",
-        "ar": ""
+        "en": "Soft, delicate steamed rice noodles (string hoppers). Light, fluffy and perfect with coconut milk, kurma or curry.",
+        "ar": "نودلز أرز طرية ورقيقة مطهوة على البخار (إيديابام). خفيفة وهشة ومثالية مع حليب جوز الهند أو الكورما أو الكاري."
       },
       "has_variants": false,
       "base_price": 1,
@@ -8018,11 +8018,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Ghee Dosa With Sambar & Chutney",
-        "ar": ""
+        "ar": "دوسا بالسمن مع السامبار والتشاتني"
       },
       "description": {
         "en": "A crispy south indian dosa cooked to golden perfection and enriched with a generous drizzle of aromatic ghee. light, flavorful, and best enjoyed with sambar and fresh coconut chutney",
-        "ar": ""
+        "ar": "دوسا جنوب هندية مقرمشة، مطبوخة حتى تكتسب لونًا ذهبيًا مثاليًا، ومضاف إليها كمية وفيرة من السمن العطري. خفيفة ولذيذة، ويفضل تناولها مع السامبار وتشاتني جوز الهند الطازجة."
       },
       "has_variants": false,
       "base_price": 0,
@@ -8054,11 +8054,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Thenga (Coconut) Roti (One Piece) With Onion & Chili Sambol",
-        "ar": ""
+        "ar": "ثينغا روتي (روتي جوز الهند) (قطعة واحدة) مع سامبول البصل والفلفل الحار"
       },
       "description": {
         "en": "A beloved sri lankan breakfast or snack featuring coconut roti - a flatbread made with freshly grated coconut and flour, pan-toasted for a slightly crisp edge and soft center. served with a fiery relish made from red chili, onion, lime, and maldive fish.",
-        "ar": ""
+        "ar": "وجبة فطور أو وجبة خفيفة سريلانكية محبوبة تتكون من روتي جوز الهند - خبز مسطح مصنوع من جوز الهند المبشور الطازج والدقيق، محمص في المقلاة للحصول على حواف مقرمشة قليلاً ووسط طري. يُقدم مع صلصة حارة مصنوعة من الفلفل الأحمر الحار والبصل والليمون وسمك المالديف."
       },
       "has_variants": false,
       "base_price": 0,
@@ -8090,11 +8090,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Onion Dosa With Sambar & Chutney",
-        "ar": ""
+        "ar": "دوسا بالبصل مع السامبار والتشاتني"
       },
       "description": {
         "en": "A thin, crispy dosa topped with finely chopped onions and green chilies, adding a sweet crunch and mild spice. served hot with sambar and coconut chutney for a flavorful south indian experience.",
-        "ar": ""
+        "ar": "دوسا رقيقة مقرمشة، مغطاة بالبصل المفروم ناعمًا والفلفل الأخضر الحار، مما يضفي عليها قرمشة حلوة وتوابل خفيفة. تُقدم ساخنة مع السامبار وتشاتني جوز الهند لتجربة جنوب هندية غنية بالنكهة."
       },
       "has_variants": false,
       "base_price": 0,
@@ -8126,11 +8126,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Idiyappam Set Of Three Pieces",
-        "ar": ""
+        "ar": "طقم إيديابام من ثلاث قطع"
       },
       "description": {
-        "en": "Idiyappam (string hoppers) - soft, delicate rice noodles steamed into lacy discs, a traditional south indian and sri lankan favorite. light and fluffy, idiyappam pairs beautifully with coconut milk, kurma, or spicy curries - perfect for breakfast, dinner, or a light meal. simple, wholesome, and naturally gluten-free.",
-        "ar": ""
+        "en": "Soft, delicate steamed rice noodles (string hoppers). Light, fluffy and perfect with coconut milk, kurma or curry.",
+        "ar": "نودلز أرز طرية ورقيقة مطهوة على البخار (إيديابام). خفيفة وهشة ومثالية مع حليب جوز الهند أو الكورما أو الكاري."
       },
       "has_variants": false,
       "base_price": 0,
@@ -8162,11 +8162,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Egg Dosa With Sambar & Chutney",
-        "ar": ""
+        "ar": "دوسا بالبيض مع السامبار والتشاتني"
       },
       "description": {
-        "en": "Egg dosa - a delicious twist on the classic dosa. this crispy south indian crepe is topped with a freshly cracked egg, cooked right on the griddle. served with chutney and sambar, its a protein-packed, flavorful choice for any time of day",
-        "ar": ""
+        "en": "A crispy dosa topped with a freshly cracked egg cooked on the griddle. Served with chutney and sambar.",
+        "ar": "دوسا مقرمشة تُكسر فوقها بيضة طازجة وتطهى على الصاج. تقدم مع التشاتني والسامبار."
       },
       "has_variants": false,
       "base_price": 0,
@@ -8198,11 +8198,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Thenga (Coconut) Sambol 120ml Cup",
-        "ar": ""
+        "ar": "سامبول ثينغا (جوز الهند) كوب 120 مل"
       },
       "description": {
         "en": "A fiery and flavorful sri lankan coconut relish made with freshly grated coconut, red chili, onion, lime juice, and a hint of maldive fish. bursting with spice and tang, pol sambol is the perfect sidekick to string hoppers, rice, or curries - a true island favorite.",
-        "ar": ""
+        "ar": "صلصة جوز الهند السريلانكية الحارة واللذيذة، مصنوعة من جوز الهند المبشور الطازج والفلفل الأحمر الحار والبصل وعصير الليمون ولمسة من سمك المالديف. بول سامبول، الغني بالتوابل والنكهة اللاذعة، هو الرفيق المثالي للإيديابام (نودلز الأرز) أو الأرز أو الكاري."
       },
       "has_variants": false,
       "base_price": 0,
@@ -8234,11 +8234,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Brinjal (Deep Fried) With Small Onions",
-        "ar": ""
+        "ar": "باذنجان مقلي مع بصل صغير"
       },
       "description": {
-        "en": "A sweet, tangy, and spicy eggplant pickle. sliced brinjal is deep-fried and then marinated in a blend of vinegar, mustard seeds, onions, green chilies, and subtle spices. this flavorful condiment adds a delicious punch to rice and curry meals - a true island favorite.",
-        "ar": ""
+        "en": "A sweet, tangy and spicy fried eggplant pickle with vinegar, mustard and chilies.",
+        "ar": "مخلل باذنجان مقلي حلو ولاذع وحار مع الخل والخردل والفلفل الحار."
       },
       "has_variants": false,
       "base_price": 0,
@@ -8270,11 +8270,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Masala Dosa With Sambar & Chutney",
-        "ar": ""
+        "ar": "ماسالا دوسا مع السامبار والتشاتني"
       },
       "description": {
         "en": "Masala dosa - a crispy, golden south indian crepe made from fermented rice and lentil batter, filled with a flavorful spiced potato masala. served with coconut chutney and sambar, this iconic dish is a perfect blend of crunch and comfort in every bite",
-        "ar": ""
+        "ar": "ماسالا دوسا - كريب جنوب هندي مقرمش ذهبي اللون، مصنوع من الأرز المخمر وعجينة العدس، محشو بماسالا البطاطس المتبلة الشهية. تُقدم مع تشاتني جوز الهند والسامبار - هذا الطبق المميز مزيج مثالي من القرمشة والراحة في كل قضمة."
       },
       "has_variants": false,
       "base_price": 0,
@@ -8306,11 +8306,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Idli Set 3 Pieces With Sambar & Chutney",
-        "ar": ""
+        "ar": "طقم إدلي 3 قطع مع السامبار والتشاتني"
       },
       "description": {
         "en": "Idli set - soft, fluffy steamed rice cakes served with coconut chutney and flavorful sambar. this classic south indian breakfast is light, wholesome, and perfect for a comforting start to your day",
-        "ar": ""
+        "ar": "طقم إدلي - كعكات أرز مطهوة على البخار طرية وهشة، تُقدم مع تشاتني جوز الهند وسامبار شهي. هذا الفطور الكلاسيكي من جنوب الهند خفيف ومغذٍ ومثالي لبداية يوم مريحة."
       },
       "has_variants": false,
       "base_price": 0,
@@ -8342,11 +8342,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Batter Fried Gobi (Cauliflower)",
-        "ar": ""
+        "ar": "قرنبيط (غوبي) مقلي بالعجين"
       },
       "description": {
         "en": "Tender cauliflower florets coated in a seasoned chickpea flour batter, deep-fried lightly spiced.",
-        "ar": ""
+        "ar": "زهرات قرنبيط طرية مغلفة بعجينة دقيق الحمص المتبلة، مقلية ومتبلة قليلاً."
       },
       "has_variants": false,
       "base_price": 0,
@@ -8378,11 +8378,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Gobi 65",
-        "ar": ""
+        "ar": "غوبي 65"
       },
       "description": {
         "en": "A popular appetizer featuring crispy, deep-fried cauliflower florets marinated in a spicy, vibrant red batter infused with ginger, garlic, and curry leaves.",
-        "ar": ""
+        "ar": "مقبلات شهيرة تتكون من زهرات قرنبيط مقرمشة مقلية، متبلة في عجينة حمراء حارة نابضة بالنكهة ممزوجة بالزنجبيل والثوم وأوراق الكاري."
       },
       "has_variants": false,
       "base_price": 0,
@@ -8414,11 +8414,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Gobi Manchurian",
-        "ar": ""
+        "ar": "غوبي مانشوريان"
       },
       "description": {
         "en": "Crispy, batter fried vegetable or paneer tossed in a savory, tangy, and slightly spicy indo chinese sauce.",
-        "ar": ""
+        "ar": "خضار أو بانير مقلي بالعجين المقرمش، ممزوج بصلصة هندية صينية شهية لاذعة وحارة قليلاً."
       },
       "has_variants": false,
       "base_price": 15,
@@ -8450,11 +8450,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Paneer Manchurian",
-        "ar": ""
+        "ar": "بانير مانشوريان"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Crispy battered paneer tossed in a tangy, garlicky Indo-Chinese Manchurian sauce.",
+        "ar": "بانير مقلي مقرمش ممزوج بصلصة مانشوريان الهندية الصينية اللاذعة بالثوم."
       },
       "has_variants": false,
       "base_price": 21,
@@ -8486,11 +8486,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Mushroom & Vegetable Manchurian",
-        "ar": ""
+        "ar": "مانشوريان الفطر والخضار"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Crispy mushrooms and vegetables tossed in a tangy Manchurian sauce.",
+        "ar": "فطر وخضار مقرمشة ممزوجة بصلصة مانشوريان اللاذعة."
       },
       "has_variants": false,
       "base_price": 15,
@@ -8522,11 +8522,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Beef Manchurian",
-        "ar": ""
+        "ar": "لحم بقري مانشوريان"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Crispy beef strips tossed in a rich, tangy Manchurian sauce.",
+        "ar": "شرائح لحم بقري مقرمشة ممزوجة بصلصة مانشوريان الغنية واللاذعة."
       },
       "has_variants": false,
       "base_price": 24,
@@ -8558,11 +8558,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Fish Manchurian",
-        "ar": ""
+        "ar": "سمك مانشوريان"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Crispy fried fish tossed in a tangy, garlicky Manchurian sauce.",
+        "ar": "سمك مقلي مقرمش ممزوج بصلصة مانشوريان اللاذعة بالثوم."
       },
       "has_variants": false,
       "base_price": 26,
@@ -8594,11 +8594,11 @@
       "subcategory_id": "sub-gravies-asian-sides-curries",
       "name": {
         "en": "Kari Dosa (Non Veg & Veg)",
-        "ar": ""
+        "ar": "دوسا بالكاري (خيارات نباتية وغير نباتية)"
       },
       "description": {
         "en": "A thin, masala-dosa with a twist - soft and crispy dosa layered with your choice of flavorful filling.",
-        "ar": ""
+        "ar": "دوسا ماسالا رقيقة بلمسة مميزة - دوسا ناعمة ومقرمشة محشوة بحشوة لذيذة من اختيارك."
       },
       "has_variants": false,
       "base_price": 0,
@@ -8630,11 +8630,11 @@
       "subcategory_id": "sub-gravies-asian-sides-curries",
       "name": {
         "en": "Mung Dal Curry",
-        "ar": ""
+        "ar": "كاري مونج دال"
       },
       "description": {
         "en": "A wholesome and protein-rich curry made with split mung beans simmered in a mildly spiced onion-tomato base, tempered with mustard seeds, curry leaves, and fragrant spices. light, nutritious, and perfect with rice or chapati.",
-        "ar": ""
+        "ar": "كاري صحي وغني بالبروتين، مصنوع من حبوب المونج المقسمة، مطهوة على نار هادئة في قاعدة من البصل والطماطم المتبلة قليلاً، مع بذور الخردل وأوراق الكاري والتوابل العطرية. خفيف ومغذٍ ومثالي مع الأرز أو خبز الشباتي."
       },
       "has_variants": false,
       "base_price": 5,
@@ -8666,11 +8666,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Paneer Paratha",
-        "ar": ""
+        "ar": "بانير باراتا"
       },
       "description": {
         "en": "Paratha stuffed with crumbled paneer, herbs & mild spices. served with yoghurt & achar.",
-        "ar": ""
+        "ar": "باراتا محشوة بجبنة البانير المفتتة والأعشاب والتوابل الخفيفة. تُقدم مع الزبادي والأتشار."
       },
       "has_variants": false,
       "base_price": 7.5,
@@ -8702,11 +8702,11 @@
       "subcategory_id": "sub-gravies-asian-sides-curries",
       "name": {
         "en": "Kadai Paneer (450ml) Cup",
-        "ar": ""
+        "ar": "كاداي بانير - كوب (450 مل)"
       },
       "description": {
         "en": "A classic north indian dish featuring soft paneer cubes stir-fried with sweet peppers, onions, and tomatoes in a strong, aromatic masala kadai (wok-style), finished with a touch of cream.",
-        "ar": ""
+        "ar": "طبق كلاسيكي من شمال الهند يتكون من مكعبات بانير طرية مقلية مع الفلفل الحلو والبصل والطماطم في ماسالا كاداي عطرية قوية (على طريقة الووك)، مع لمسة من الكريمة."
       },
       "has_variants": false,
       "base_price": 21,
@@ -8738,11 +8738,11 @@
       "subcategory_id": "sub-gravies-asian-sides-curries",
       "name": {
         "en": "Mutton Achari",
-        "ar": ""
+        "ar": "لحم ضأن أتشاري"
       },
       "description": {
         "en": "Tender mutton pieces cooked in a rich, tangy gravy infused with pickling spices. pairs beautifully with roti, naan, or rice.",
-        "ar": ""
+        "ar": "قطع لحم ضأن طرية مطبوخة في مرق غني ولاذع ممزوج بتوابل التخليل. تتناغم بشكل رائع مع الروتي أو النان أو الأرز."
       },
       "has_variants": true,
       "base_price": 0,
@@ -8799,11 +8799,11 @@
       "subcategory_id": "sub-gravies-asian-sides-curries",
       "name": {
         "en": "Mutton Korma",
-        "ar": ""
+        "ar": "لحم ضأن كورما"
       },
       "description": {
         "en": "A royal mughlai delicacy featuring tender mutton slow-cooked in a luxurious gravy of yogurt, cashew paste, and aromatic spices. rich, mildly spiced, and full of depth, our mutton korma is a hearty and indulgent dish perfect with naan, chapati, or rice",
-        "ar": ""
+        "ar": "طبق مغولي ملكي شهي، يتميز بلحم ضأن طري مطهو ببطء في مرق فاخر من الزبادي ومعجون الكاجو والتوابل العطرية. كورما لحم الضأن لدينا غنية ومتبلة باعتدال وعميقة النكهة - طبق دسم وشهي مثالي مع النان أو الشباتي أو الأرز."
       },
       "has_variants": true,
       "base_price": 0,
@@ -8860,11 +8860,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Scrambled Egg In Chicken Gravy",
-        "ar": ""
+        "ar": "بيض مخفوق في مرق الدجاج"
       },
       "description": {
         "en": "Egg scrambled and simmered in a rich chicken gravy, cooked with onions, tomatoes, and aromatic spices. a simple yet flavorful curry that combines the softness of eggs with the depth of a homestyle masala.",
-        "ar": ""
+        "ar": "بيض مخفوق ومطهو في مرق دجاج غني، مطبوخ مع البصل والطماطم والتوابل العطرية. كاري بسيط ولكنه غني بالنكهة، يجمع بين نعومة البيض وعمق الماسالا المنزلية."
       },
       "has_variants": true,
       "base_price": 0,
@@ -8921,11 +8921,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Egg Curry With One Boiled Egg Small Cup",
-        "ar": ""
+        "ar": "كاري البيض مع بيضة مسلوقة واحدة - كوب صغير"
       },
       "description": {
         "en": "Boiled egg in a spiced onion-tomato gravy with garlic, ginger, and traditional indian masalas.",
-        "ar": ""
+        "ar": "بيضة مسلوقة في مرق بصل وطماطم متبل مع الثوم والزنجبيل والماسالا الهندية التقليدية."
       },
       "has_variants": false,
       "base_price": 5,
@@ -8957,11 +8957,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Egg (Onion) Roast With One Boiled Egg",
-        "ar": ""
+        "ar": "بيض (بصل) مشوي مع بيضة مسلوقة واحدة"
       },
       "description": {
-        "en": "One hard-boiled egg with onion tomato fry, infused with aromatic spices and curry leaves. this south indian-style dish is bold, hearty, and perfect with appam, dosa, or parotta. a must-try for egg lovers",
-        "ar": ""
+        "en": "One hard-boiled egg in a bold onion-tomato roast with aromatic spices and curry leaves. Perfect with appam, dosa or parotta.",
+        "ar": "بيضة مسلوقة في مزيج البصل والطماطم المحمص مع التوابل العطرية وأوراق الكاري. مثالية مع الأبام أو الدوسا أو الباروتا."
       },
       "has_variants": false,
       "base_price": 3.5,
@@ -8993,11 +8993,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Sunny Side Egg (Single Egg)",
-        "ar": ""
+        "ar": "بيضة عين الثور (بيضة واحدة)"
       },
       "description": {
         "en": "A perfectly cooked single egg served sunny-side up, featuring a delicate white and a rich, golden runny yolk.",
-        "ar": ""
+        "ar": "بيضة واحدة مطهوة بإتقان تُقدم على طريقة عين الثور، ببياض رقيق وصفار ذهبي سائل غني."
       },
       "has_variants": false,
       "base_price": 2.5,
@@ -9029,11 +9029,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Chicken Lollipop",
-        "ar": ""
+        "ar": "دجاج لولي بوب"
       },
       "description": {
-        "en": "A crispy, spicy indo-chinese favorite. chicken winglets are frenched into lollipop shapes, marinated in a flavorful blend of ginger, garlic, soy sauce, and spices, then deep-fried to golden perfection. served with a tangy schezwan or chili sauce perfect for snacking or starting your meal with a bold kick.",
-        "ar": ""
+        "en": "Crispy chicken winglets shaped like lollipops, marinated in ginger, garlic and soy. Served with tangy schezwan or chili sauce.",
+        "ar": "أجنحة دجاج مقرمشة على شكل مصاصات، متبلة بالزنجبيل والثوم والصويا. تقدم مع صلصة شيزوان أو صلصة الفلفل الحار اللاذعة."
       },
       "has_variants": true,
       "base_price": 0,
@@ -9090,11 +9090,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Chicken Masala",
-        "ar": ""
+        "ar": "دجاج ماسالا"
       },
       "description": {
         "en": "Chicken pieces made with onions, tomatoes, garlic, ginger, and a blend of traditional spices. this classic curry pairs perfectly with rice, chapati, or paratha for a hearty meal.",
-        "ar": ""
+        "ar": "قطع دجاج مطبوخة مع البصل والطماطم والثوم والزنجبيل ومزيج من التوابل التقليدية. يتناسب هذا الكاري الكلاسيكي تمامًا مع الأرز أو الشباتي أو الباراتا لوجبة دسمة."
       },
       "has_variants": true,
       "base_price": 0,
@@ -9163,11 +9163,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Chicken Whole Leg",
-        "ar": ""
+        "ar": "فخذ دجاج كامل"
       },
       "description": {
         "en": "Juicy whole chicken leg marinated in a flavorful blend of spices, coated with our signature masala, and deep-fried. tender on the inside with a spicy, crunchy exterior - a satisfying dish full of bold flavor and perfect for any fried chicken lover.",
-        "ar": ""
+        "ar": "فخذ دجاج كامل طري متبل بمزيج غني من التوابل، مغلف بالماسالا الخاصة بنا، ومقلي. طري من الداخل، مقرمش وحار من الخارج - طبق شهي غني بالنكهة الجريئة ومثالي لعشاق الدجاج المقلي."
       },
       "has_variants": false,
       "base_price": 9,
@@ -9199,11 +9199,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Chicken 65",
-        "ar": ""
+        "ar": "دجاج 65"
       },
       "description": {
         "en": "Chicken with bone marinated in a bold mix of spices, deep-fried until crispy, and tossed with curry leaves, green chilies, and a hint of garlic.",
-        "ar": ""
+        "ar": "دجاج بالعظم متبل بمزيج جريء من التوابل، مقلي حتى يصبح مقرمشًا، وممزوج بأوراق الكاري والفلفل الأخضر الحار ولمسة من الثوم."
       },
       "has_variants": true,
       "base_price": 0,
@@ -9260,11 +9260,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Six Pieces Of Chicken Wings Roast Spicy",
-        "ar": ""
+        "ar": "ست قطع من أجنحة الدجاج المشوية الحارة"
       },
       "description": {
         "en": "Juicy chicken wings marinated in bold spices and slow-roasted to perfection. crispy on the outside, tender inside, and finished with a fiery, aromatic kick for true spice lovers.",
-        "ar": ""
+        "ar": "أجنحة دجاج طرية متبلة بتوابل قوية ومشوية ببطء حتى الكمال. مقرمشة من الخارج، طرية من الداخل، مع لمسة حارة وعطرية لعشاق التوابل الحقيقيين."
       },
       "has_variants": false,
       "base_price": 15,
@@ -9296,11 +9296,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Chicken Sukka",
-        "ar": ""
+        "ar": "دجاج سوكا"
       },
       "description": {
-        "en": "A dry style chicken delicacy from the coastal regions of south india. tender chicken pieces slow cooked with roasted spices, grated coconut, curry leaves, and aromatic herbs. bursting with bold flavor and minimal oil, its a wholesome, rustic dish perfect with rice or roti.",
-        "ar": ""
+        "en": "A coastal South Indian dry chicken dish slow-cooked with roasted spices, grated coconut and curry leaves.",
+        "ar": "طبق دجاج جاف من سواحل جنوب الهند مطهو ببطء مع التوابل المحمصة وجوز الهند المبشور وأوراق الكاري."
       },
       "has_variants": false,
       "base_price": 18,
@@ -9332,11 +9332,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Six Chicken Wings Bbq Honey Sesame Coated With Chapati",
-        "ar": ""
+        "ar": "ست أجنحة دجاج باربيكيو بالعسل والسمسم مع خبز الشاباتي"
       },
       "description": {
         "en": "Juicy chicken wings tossed in a sticky bbq honey glaze, finished with toasted sesame seeds.",
-        "ar": ""
+        "ar": "أجنحة دجاج طرية مغموسة في صلصة الباربيكيو بالعسل اللزجة، مزينة ببذور السمسم المحمصة."
       },
       "has_variants": false,
       "base_price": 18,
@@ -9368,11 +9368,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Chicken Korma",
-        "ar": ""
+        "ar": "دجاج كورما"
       },
       "description": {
         "en": "Tender chicken simmered in a rich, creamy gravy made with yogurt, cashews, and aromatic spices, creating a mildly spiced, flavorful dish. perfect with naan, paratha, or fragrant rice.",
-        "ar": ""
+        "ar": "دجاج طري مطهو على نار هادئة في مرق كريمي غني مصنوع من الزبادي والكاجو والتوابل العطرية - طبق متبل باعتدال وغني بالنكهة. مثالي مع النان أو الباراتا أو الأرز العطري."
       },
       "has_variants": true,
       "base_price": 0,
@@ -9429,11 +9429,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Chicken Kadai",
-        "ar": ""
+        "ar": "دجاج كاداي"
       },
       "description": {
         "en": "Juicy chicken pieces cooked with onions, tomatoes, and aromatic spices in a traditional kadai (wok), finished with a blend of freshly ground coriander and dried red chilies for a bold, flavorful taste. served hot with naan, roti, or rice.",
-        "ar": ""
+        "ar": "قطع دجاج شهية مطبوخة مع البصل والطماطم والتوابل العطرية في كاداي تقليدية (ووك)، ومزينة بمزيج من الكزبرة المطحونة الطازجة والفلفل الأحمر المجفف لنكهة قوية وغنية. تُقدم ساخنة مع النان أو الروتي أو الأرز."
       },
       "has_variants": true,
       "base_price": 0,
@@ -9490,11 +9490,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Butter Chicken Masala",
-        "ar": ""
+        "ar": "دجاج بالزبدة ماسالا"
       },
       "description": {
         "en": "A rich and creamy north indian classic made with tender chicken simmered in a velvety tomato butter gravy.",
-        "ar": ""
+        "ar": "طبق كلاسيكي غني وكريمي من شمال الهند، مصنوع من دجاج طري مطهو على نار هادئة في مرق طماطم وزبدة مخملي."
       },
       "has_variants": false,
       "base_price": 24,
@@ -9526,11 +9526,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Devilled Chicken",
-        "ar": ""
+        "ar": "دجاج ديفلد (متبل حار)"
       },
       "description": {
-        "en": "Our signature devilled chicken features succulent, crispy fried chicken pieces tossed in a bold, sweet",
-        "ar": ""
+        "en": "Crispy fried chicken tossed in a bold, sweet and spicy devilled sauce with peppers and onions.",
+        "ar": "دجاج مقلي مقرمش ممزوج بصلصة ديفلد الجريئة الحلوة والحارة مع الفلفل والبصل."
       },
       "has_variants": false,
       "base_price": 19,
@@ -9562,11 +9562,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Devilled Beef",
-        "ar": ""
+        "ar": "لحم بقري ديفلد (متبل حار)"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Crispy beef tossed in a bold, sweet and spicy devilled sauce with peppers and onions.",
+        "ar": "لحم بقري مقرمش ممزوج بصلصة ديفلد الجريئة الحلوة والحارة مع الفلفل والبصل."
       },
       "has_variants": false,
       "base_price": 24,
@@ -9598,11 +9598,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Chili Chicken",
-        "ar": ""
+        "ar": "دجاج بالفلفل الحار (تشيلي تشيكن)"
       },
       "description": {
-        "en": "Juicy, bite-sized chicken pieces are stir-fried to perfection with a fiery blend of chili paste, soy sauce and aromatic spices. crunchy bell peppers, onions and a hint of garlic this dish delivers the perfect balance of heat and savouriness. a must try for those who love bold and vibrant flavors.",
-        "ar": ""
+        "en": "Bite-sized chicken stir-fried in a fiery chili-soy sauce with crunchy peppers, onions and garlic.",
+        "ar": "قطع دجاج صغيرة مقلية في صلصة الفلفل الحار والصويا مع الفلفل الرومي المقرمش والبصل والثوم."
       },
       "has_variants": false,
       "base_price": 18,
@@ -9634,11 +9634,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Chicken Manchurian",
-        "ar": ""
+        "ar": "دجاج مانشوريان"
       },
       "description": {
         "en": "Crispy fried chicken pieces tossed in a rich, flavorful manchurian sauce made with garlic, ginger, soy sauce, and a hint of spice. cooked with onions and peppers, this indo-chinese favorite delivers a perfect balance of sweet, savory, and tangy flavors.",
-        "ar": ""
+        "ar": "قطع دجاج مقلية مقرمشة ممزوجة بصلصة مانشوريان غنية وشهية مصنوعة من الثوم والزنجبيل وصلصة الصويا ولمسة من التوابل. مطبوخة مع البصل والفلفل، يقدم هذا الطبق الهندي الصيني المفضل توازنًا مثاليًا بين النكهات الحلوة والمالحة واللاذعة."
       },
       "has_variants": false,
       "base_price": 18,
@@ -9670,11 +9670,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Beef Masala",
-        "ar": ""
+        "ar": "لحم بقري ماسالا"
       },
       "description": {
         "en": "Tender beef chunks simmered in a thick, spicy masala gravy made with onions, tomatoes, garlic, ginger, and a robust blend of indian spices. rich, aromatic, and full of bold flavor - this hearty curry pairs perfectly with chapati, rice, or paratha for a satisfying meal.",
-        "ar": ""
+        "ar": "قطع لحم بقري طرية مطهوة على نار هادئة في مرق ماسالا كثيف وحار، مصنوع من البصل والطماطم والثوم والزنجبيل ومزيج قوي من التوابل الهندية. كاري غني وعطري وغني بالنكهة القوية - يتناسب تمامًا مع الشباتي أو الأرز أو الباراتا لوجبة شهية."
       },
       "has_variants": true,
       "base_price": 0,
@@ -9743,11 +9743,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Beef Thenga Fry",
-        "ar": ""
+        "ar": "لحم بقري ثينجا مقلي"
       },
       "description": {
-        "en": "A kerala-style specialty, beef thenga roast features tender beef slow-roasted with aromatic spices, fresh coconut slices (thenga), curry leaves, and crushed black pepper. cooked in coconut oil for deep, earthy flavor and a rich, dry-roast finish. spicy, bold, and full of traditional south indian soul.",
-        "ar": ""
+        "en": "Kerala-style beef slow-roasted in coconut oil with fresh coconut slices, black pepper and curry leaves.",
+        "ar": "لحم بقري على طريقة كيرالا محمص ببطء بزيت جوز الهند مع شرائح جوز الهند الطازجة والفلفل الأسود وأوراق الكاري."
       },
       "has_variants": true,
       "base_price": 0,
@@ -9804,11 +9804,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Beef Fry",
-        "ar": ""
+        "ar": "لحم بقري مقلي"
       },
       "description": {
         "en": "Tender beef pieces stir-fried with aromatic spices, onions, curry leaves, and roasted masala. cooked to a rich, flavorful finish with bold south indian style taste and non-oily preparation.",
-        "ar": ""
+        "ar": "قطع لحم بقري طرية تُقلى مع توابل عطرية وبصل وأوراق الكاري وماسالا محمصة. مطهوة بطريقة غنية بالنكهة على الطريقة الجنوب الهندية مع تحضير خفيف وغير دهني."
       },
       "has_variants": true,
       "base_price": 0,
@@ -9877,11 +9877,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Kankung Beef",
-        "ar": ""
+        "ar": "لحم بقري بالكانكونغ"
       },
       "description": {
         "en": "A flavorful stir fry of tender beef (cooked to medium well) with fresh kankung (water spinach), sautéed in a wok with garlic, soy sauce, and a hint of chili. this chinese fusion dish is smoky, savory, and slightly spicy perfect with fried rice or noodles.",
-        "ar": ""
+        "ar": "قلي شهي من اللحم البقري الطري مع الكانكونغ الطازج (سبانخ الماء)، مقلي في مقلاة الووك مع الثوم وصلصة الصويا ولمسة من الفلفل الحار. هذا الطبق الصيني الفيوجن مدخن وشهي وحار قليلاً - مثالي مع الأرز المقلي أو النودلز."
       },
       "has_variants": false,
       "base_price": 18,
@@ -9913,11 +9913,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Dragon Beef",
-        "ar": ""
+        "ar": "دراغون بيف (لحم بقري حار)"
       },
       "description": {
         "en": "Beef strips marinated and stir fried in chili sauce, dark soya sauce, tomato sauce, and chili flakes, garnished with sesame seeds, tossed with vibrant bell peppers, and fragrant spices.",
-        "ar": ""
+        "ar": "شرائح لحم بقري متبلة ومقلية في صلصة الفلفل الحار وصلصة الصويا الداكنة وصلصة الطماطم ورقائق الفلفل الحار، مزينة ببذور السمسم وممزوجة بالفلفل الرومي الملون والتوابل العطرية."
       },
       "has_variants": false,
       "base_price": 26,
@@ -9949,11 +9949,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Amma's Spicy Crab 4 Medium Crab Halves",
-        "ar": ""
+        "ar": "كاري السلطعون الحار من أما - أربعة أنصاف سلطعون متوسطة الحجم"
       },
       "description": {
         "en": "Four medium crab halves simmered in a traditional blend of roasted spices, coconut, and tangy tamarind.",
-        "ar": ""
+        "ar": "أربعة أنصاف سلطعون متوسطة الحجم مطهوة على نار هادئة في مزيج تقليدي من التوابل المحمصة وجوز الهند والتمر الهندي اللاذع."
       },
       "has_variants": false,
       "base_price": 0,
@@ -9985,11 +9985,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Shrimp Red Curry - 9 To 10 Medium Pieces",
-        "ar": ""
+        "ar": "روبيان بالكاري الأحمر - 9 إلى 10 قطع متوسطة"
       },
       "description": {
         "en": "Plump shrimp cooked in a rich, spicy red curry base made with dried red chilies, onions, tomatoes, and aromatic spices, finished with a hint of coconut milk for balance. bold, flavorful, and perfect with steamed rice or roti.",
-        "ar": ""
+        "ar": "روبيان ممتلئ مطبوخ بقاعدة كاري أحمر غنية وحارة، مصنوعة من الفلفل الأحمر المجفف والبصل والطماطم والتوابل العطرية، مع لمسة من حليب جوز الهند لنكهة متوازنة. جريء وغني بالنكهة ومثالي مع الأرز المطهو على البخار أو الروتي."
       },
       "has_variants": false,
       "base_price": 0,
@@ -10021,11 +10021,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Crab Curry Two Halves Of Crab",
-        "ar": ""
+        "ar": "كاري السلطعون - نصفان من السلطعون"
       },
       "description": {
         "en": "This rich and flavorful curry features fresh crab cooked in a fragrant blend of spices, coconut milk, and aromatic herbs, creating a perfect balance of heat and depth.",
-        "ar": ""
+        "ar": "يتميز هذا الكاري الغني واللذيذ بالسلطعون الطازج المطبوخ في مزيج عطري من التوابل وحليب جوز الهند والأعشاب العطرية، مما يخلق توازنًا مثاليًا بين الحرارة والعمق."
       },
       "has_variants": false,
       "base_price": 0,
@@ -10057,11 +10057,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Devilled Cuttlefish",
-        "ar": ""
+        "ar": "حبار ديفلد (متبل حار)"
       },
       "description": {
         "en": "Cuttle fish rings are stir-fried to perfection with a fiery blend of chili paste, soy sauce and spices.",
-        "ar": ""
+        "ar": "حلقات حبار مقلية بإتقان مع مزيج حار من معجون الفلفل وصلصة الصويا والتوابل."
       },
       "has_variants": false,
       "base_price": 26,
@@ -10093,11 +10093,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Devilled Prawns (6 Pieces)",
-        "ar": ""
+        "ar": "روبيان ديفلد (متبل حار) - 6 قطع"
       },
       "description": {
         "en": "Farmed prawns are stir-fried to perfection with a fiery blend of chili paste, soy sauce and aromatic spices",
-        "ar": ""
+        "ar": "روبيان مستزرع مقلي بإتقان مع مزيج حار من معجون الفلفل وصلصة الصويا والتوابل العطرية."
       },
       "has_variants": false,
       "base_price": 32,
@@ -10129,11 +10129,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Devilled Fish",
-        "ar": ""
+        "ar": "سمك ديفلد (متبل حار)"
       },
       "description": {
         "en": "Fish slices are stir-fried to perfection with a fiery blend of chili paste, soy sauce and aromatic spices.",
-        "ar": ""
+        "ar": "شرائح سمك مقلية بإتقان مع مزيج حار من معجون الفلفل وصلصة الصويا والتوابل العطرية."
       },
       "has_variants": false,
       "base_price": 26,
@@ -10165,11 +10165,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Hot Butter Cuttlefish",
-        "ar": ""
+        "ar": "حبار بالزبدة الحارة"
       },
       "description": {
         "en": "Crispy, golden-fried cuttlefish tossed in a rich, spicy, and buttery garlic sauce with fresh chillies and spring onions. this iconic sri lankan seafood dish offers the perfect fiery kick and satisfying crunch, making it an irresistible appetizer or side.",
-        "ar": ""
+        "ar": "حبار مقرمش مقلي ذهبي اللون، ممزوج بصلصة ثوم غنية وحارة بالزبدة مع الفلفل الحار الطازج والبصل الأخضر. يقدم هذا الطبق السريلانكي الشهير من المأكولات البحرية لمسة حارة مثالية وقرمشة مرضية، مما يجعله مقبلات أو طبقًا جانبيًا لا يقاوم."
       },
       "has_variants": false,
       "base_price": 0,
@@ -10201,11 +10201,11 @@
       "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Egg",
-        "ar": ""
+        "ar": "أرز مقلي منغولي - بيض"
       },
       "description": {
         "en": "A flavorful wok fried rice cooked with oyster sauce, sweet soy, dark soy, and fresh vegetables like bell peppers, carrots, and cabbage.",
-        "ar": ""
+        "ar": "أرز مقلي شهي في مقلاة الووك، مطبوخ بصلصة المحار وصلصة الصويا الحلوة والداكنة وخضراوات طازجة مثل الفلفل الرومي والجزر والملفوف."
       },
       "has_variants": true,
       "base_price": 14,
@@ -10237,11 +10237,11 @@
       "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Vegetable",
-        "ar": ""
+        "ar": "أرز مقلي منغولي - خضار"
       },
       "description": {
         "en": "A flavorful wok fried rice cooked with oyster sauce, sweet soy, dark soy, and fresh vegetables like bell peppers, carrots, and cabbage.",
-        "ar": ""
+        "ar": "أرز مقلي شهي في مقلاة الووك، مطبوخ بصلصة المحار وصلصة الصويا الحلوة والداكنة وخضراوات طازجة مثل الفلفل الرومي والجزر والملفوف."
       },
       "has_variants": true,
       "base_price": 14,
@@ -10273,11 +10273,11 @@
       "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Chicken",
-        "ar": ""
+        "ar": "أرز مقلي منغولي - دجاج"
       },
       "description": {
         "en": "A flavorful wok fried rice cooked with oyster sauce, sweet soy, dark soy, and fresh vegetables like bell peppers, carrots, and cabbage. available with chicken, beef, seafood, or a combination.",
-        "ar": ""
+        "ar": "أرز مقلي شهي في مقلاة الووك، مطبوخ بصلصة المحار وصلصة الصويا الحلوة والداكنة وخضراوات طازجة مثل الفلفل الرومي والجزر والملفوف. متوفر مع الدجاج أو اللحم البقري أو المأكولات البحرية أو مزيج منها."
       },
       "has_variants": true,
       "base_price": 19,
@@ -10309,11 +10309,11 @@
       "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Beef",
-        "ar": ""
+        "ar": "أرز مقلي منغولي - لحم بقري"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Wok-fried Mongolian rice with tender beef, oyster sauce, sweet soy and fresh vegetables.",
+        "ar": "أرز منغولي مقلي في الووك مع لحم بقري طري وصلصة المحار والصويا الحلوة وخضراوات طازجة."
       },
       "has_variants": true,
       "base_price": 21,
@@ -10345,11 +10345,11 @@
       "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Prawns",
-        "ar": ""
+        "ar": "أرز مقلي منغولي - روبيان"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Wok-fried Mongolian rice with prawns, oyster sauce, sweet soy and fresh vegetables.",
+        "ar": "أرز منغولي مقلي في الووك مع الروبيان وصلصة المحار والصويا الحلوة وخضراوات طازجة."
       },
       "has_variants": true,
       "base_price": 23,
@@ -10381,11 +10381,11 @@
       "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Chicken & Beef",
-        "ar": ""
+        "ar": "أرز مقلي منغولي - دجاج ولحم بقري"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Wok-fried Mongolian rice with chicken and beef, oyster sauce, sweet soy and fresh vegetables.",
+        "ar": "أرز منغولي مقلي في الووك مع الدجاج واللحم البقري وصلصة المحار والصويا الحلوة وخضراوات طازجة."
       },
       "has_variants": true,
       "base_price": 25,
@@ -10417,11 +10417,11 @@
       "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Seafood",
-        "ar": ""
+        "ar": "أرز مقلي منغولي - مأكولات بحرية"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Wok-fried Mongolian rice with mixed seafood, oyster sauce, sweet soy and fresh vegetables.",
+        "ar": "أرز منغولي مقلي في الووك مع تشكيلة من المأكولات البحرية وصلصة المحار والصويا الحلوة وخضراوات طازجة."
       },
       "has_variants": true,
       "base_price": 27,
@@ -10453,11 +10453,11 @@
       "subcategory_id": "sub-rice-noodles-and-kottu-mongolian",
       "name": {
         "en": "Mongolian Fried Rice - Mixed",
-        "ar": ""
+        "ar": "أرز مقلي منغولي - مشكل"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Wok-fried Mongolian rice with a mix of chicken, beef and shrimp, oyster sauce, sweet soy and fresh vegetables.",
+        "ar": "أرز منغولي مقلي في الووك مع مزيج من الدجاج واللحم البقري والروبيان وصلصة المحار والصويا الحلوة وخضراوات طازجة."
       },
       "has_variants": true,
       "base_price": 28,
@@ -10489,11 +10489,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Nool Paratha",
-        "ar": ""
+        "ar": "نول باراتا"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A flaky paratha stretched into fine noodle-like strands - soft inside and crisp outside.",
+        "ar": "باراتا هشة ممدودة على شكل خيوط رفيعة تشبه النودلز - طرية من الداخل ومقرمشة من الخارج."
       },
       "has_variants": false,
       "base_price": 3,
@@ -10525,11 +10525,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Kari Dosa with cheese",
-        "ar": ""
+        "ar": "دوسا بالكاري مع الجبن"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Crispy kari dosa layered with savory curry filling and melted cheese.",
+        "ar": "دوسا كاري مقرمشة محشوة بحشوة كاري شهية وجبن ذائب."
       },
       "has_variants": false,
       "base_price": 0,
@@ -10561,11 +10561,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Chili Gobi",
-        "ar": ""
+        "ar": "غوبي بالفلفل الحار"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Crispy cauliflower tossed in a spicy Indo-Chinese chili sauce with peppers and onions.",
+        "ar": "قرنبيط مقرمش ممزوج بصلصة الفلفل الحار الهندية الصينية مع الفلفل الرومي والبصل."
       },
       "has_variants": false,
       "base_price": 15,
@@ -10597,11 +10597,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Chili Mushroom & Vegetable",
-        "ar": ""
+        "ar": "فطر وخضار بالفلفل الحار"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Crispy mushrooms and vegetables tossed in a spicy chili sauce.",
+        "ar": "فطر وخضار مقرمشة ممزوجة بصلصة الفلفل الحار."
       },
       "has_variants": false,
       "base_price": 21,
@@ -10633,11 +10633,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Beef Masala Fry (Ularthiyathu)",
-        "ar": ""
+        "ar": "لحم بقري ماسالا مقلي (أولارثياتو)"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Kerala-style beef slow-roasted with onions, coconut, black pepper and curry leaves.",
+        "ar": "لحم بقري على طريقة كيرالا محمص ببطء مع البصل وجوز الهند والفلفل الأسود وأوراق الكاري."
       },
       "has_variants": true,
       "base_price": 0,
@@ -10669,11 +10669,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Beef Roast",
-        "ar": ""
+        "ar": "لحم بقري مشوي"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "A rich, spicy dry beef roast with caramelized onions, black pepper and curry leaves.",
+        "ar": "لحم بقري مشوي جاف غني وحار مع البصل المكرمل والفلفل الأسود وأوراق الكاري."
       },
       "has_variants": true,
       "base_price": 0,
@@ -10730,11 +10730,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Beef Dry Fry (BDF)",
-        "ar": ""
+        "ar": "لحم بقري مقلي جاف (BDF)"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Our signature beef dry fry - tender beef wok-tossed with roasted masala and curry leaves.",
+        "ar": "طبقنا المميز من اللحم البقري المقلي الجاف - لحم طري مقلي في الووك مع الماسالا المحمصة وأوراق الكاري."
       },
       "has_variants": false,
       "base_price": 24,
@@ -10766,11 +10766,11 @@
       "subcategory_id": null,
       "name": {
         "en": "Beef Fry (Ularthiyathu)",
-        "ar": ""
+        "ar": "لحم بقري مقلي (أولارثياتو)"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Tender beef stir-fried with spices, onions and curry leaves in a non-oily Kerala style.",
+        "ar": "لحم بقري طري مقلي مع التوابل والبصل وأوراق الكاري على طريقة كيرالا غير الدهنية."
       },
       "has_variants": true,
       "base_price": 0,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-11T19:35:15.492Z",
+  "generated_at": "2026-06-12T11:36:20.250Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -7522,7 +7522,7 @@
       },
       "has_variants": true,
       "base_price": 0,
-      "base_kcal": 190,
+      "base_kcal": 0,
       "tags": null,
       "is_active": true,
       "sort_order": null,
@@ -7539,7 +7539,44 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-faham-chicken-quarter",
+          "name": {
+            "en": "Quarter",
+            "ar": "ربع"
+          },
+          "base_price": 11,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-faham-chicken-single",
+          "name": {
+            "en": "Half",
+            "ar": "نصف"
+          },
+          "base_price": 22,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        },
+        {
+          "id": "v-faham-chicken-full",
+          "name": {
+            "en": "Full",
+            "ar": "كاملة"
+          },
+          "base_price": 40,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 30,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -9956,7 +9993,7 @@
         "ar": "أربعة أنصاف سلطعون متوسطة الحجم مطهوة على نار هادئة في مزيج تقليدي من التوابل المحمصة وجوز الهند والتمر الهندي اللاذع."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 32,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -9992,7 +10029,7 @@
         "ar": "روبيان ممتلئ مطبوخ بقاعدة كاري أحمر غنية وحارة، مصنوعة من الفلفل الأحمر المجفف والبصل والطماطم والتوابل العطرية، مع لمسة من حليب جوز الهند لنكهة متوازنة. جريء وغني بالنكهة ومثالي مع الأرز المطهو على البخار أو الروتي."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 38,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -10028,7 +10065,7 @@
         "ar": "يتميز هذا الكاري الغني واللذيذ بالسلطعون الطازج المطبوخ في مزيج عطري من التوابل وحليب جوز الهند والأعشاب العطرية، مما يخلق توازنًا مثاليًا بين الحرارة والعمق."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 18,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -10100,7 +10137,7 @@
         "ar": "روبيان مستزرع مقلي بإتقان مع مزيج حار من معجون الفلفل وصلصة الصويا والتوابل العطرية."
       },
       "has_variants": false,
-      "base_price": 32,
+      "base_price": 23,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -10172,7 +10209,7 @@
         "ar": "حبار مقرمش مقلي ذهبي اللون، ممزوج بصلصة ثوم غنية وحارة بالزبدة مع الفلفل الحار الطازج والبصل الأخضر. يقدم هذا الطبق السريلانكي الشهير من المأكولات البحرية لمسة حارة مثالية وقرمشة مرضية، مما يجعله مقبلات أو طبقًا جانبيًا لا يقاوم."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 26,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,

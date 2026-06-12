@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-12T11:36:20.250Z",
+  "generated_at": "2026-06-12T12:03:33.687Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -577,7 +577,7 @@
           "id": "v-chicken-dum-biryani-single",
           "name": {
             "en": "Single",
-            "ar": "مفردة"
+            "ar": "وجبة فردية"
           },
           "base_price": 13,
           "base_kcal": 0,
@@ -589,7 +589,7 @@
           "id": "v-chicken-dum-biryani-full",
           "name": {
             "en": "Full",
-            "ar": "كاملة"
+            "ar": "وجبة كاملة"
           },
           "base_price": 22,
           "base_kcal": 0,
@@ -717,7 +717,7 @@
           "id": "v-beef-dum-biryani-single",
           "name": {
             "en": "Single",
-            "ar": "مفردة"
+            "ar": "وجبة فردية"
           },
           "base_price": 15,
           "base_kcal": 0,
@@ -729,7 +729,7 @@
           "id": "v-beef-dum-biryani-full",
           "name": {
             "en": "Full",
-            "ar": "كاملة"
+            "ar": "وجبة كاملة"
           },
           "base_price": 24,
           "base_kcal": 0,
@@ -857,7 +857,7 @@
           "id": "v-fish-dum-biryani-single",
           "name": {
             "en": "Single",
-            "ar": "مفردة"
+            "ar": "وجبة فردية"
           },
           "base_price": 15,
           "base_kcal": 0,
@@ -869,7 +869,7 @@
           "id": "v-fish-dum-biryani-full",
           "name": {
             "en": "Full",
-            "ar": "كاملة"
+            "ar": "وجبة كاملة"
           },
           "base_price": 24,
           "base_kcal": 0,
@@ -997,7 +997,7 @@
           "id": "v-mutton-dum-biryani-single",
           "name": {
             "en": "Single",
-            "ar": "مفردة"
+            "ar": "وجبة فردية"
           },
           "base_price": 17,
           "base_kcal": 0,
@@ -1009,7 +1009,7 @@
           "id": "v-mutton-dum-biryani-full",
           "name": {
             "en": "Full",
-            "ar": "كاملة"
+            "ar": "وجبة كاملة"
           },
           "base_price": 26,
           "base_kcal": 0,
@@ -1137,7 +1137,7 @@
           "id": "v-shrimp-dum-biryani-single",
           "name": {
             "en": "Single",
-            "ar": "مفردة"
+            "ar": "وجبة فردية"
           },
           "base_price": 19,
           "base_kcal": 0,
@@ -1149,7 +1149,7 @@
           "id": "v-shrimp-dum-biryani-full",
           "name": {
             "en": "Full",
-            "ar": "كاملة"
+            "ar": "وجبة كاملة"
           },
           "base_price": 28,
           "base_kcal": 0,
@@ -1277,7 +1277,7 @@
           "id": "v-tamil-nadu-chicken-biryani-single",
           "name": {
             "en": "Single",
-            "ar": "مفردة"
+            "ar": "وجبة فردية"
           },
           "base_price": 15,
           "base_kcal": 0,
@@ -1289,7 +1289,7 @@
           "id": "v-tamil-nadu-chicken-biryani-full",
           "name": {
             "en": "Full",
-            "ar": "كاملة"
+            "ar": "وجبة كاملة"
           },
           "base_price": 24,
           "base_kcal": 0,
@@ -1417,7 +1417,7 @@
           "id": "v-tamil-nadu-beef-biryani-single",
           "name": {
             "en": "Single",
-            "ar": "مفردة"
+            "ar": "وجبة فردية"
           },
           "base_price": 17,
           "base_kcal": 0,
@@ -1429,7 +1429,7 @@
           "id": "v-tamil-nadu-beef-biryani-full",
           "name": {
             "en": "Full",
-            "ar": "كاملة"
+            "ar": "وجبة كاملة"
           },
           "base_price": 26,
           "base_kcal": 0,
@@ -1557,7 +1557,7 @@
           "id": "v-tamil-nadu-fish-biryani-single",
           "name": {
             "en": "Single",
-            "ar": "مفردة"
+            "ar": "وجبة فردية"
           },
           "base_price": 17,
           "base_kcal": 0,
@@ -1569,7 +1569,7 @@
           "id": "v-tamil-nadu-fish-biryani-full",
           "name": {
             "en": "Full",
-            "ar": "كاملة"
+            "ar": "وجبة كاملة"
           },
           "base_price": 26,
           "base_kcal": 0,
@@ -1697,7 +1697,7 @@
           "id": "v-tamil-nadu-mutton-biryani-single",
           "name": {
             "en": "Single",
-            "ar": "مفردة"
+            "ar": "وجبة فردية"
           },
           "base_price": 19,
           "base_kcal": 0,
@@ -1709,7 +1709,7 @@
           "id": "v-tamil-nadu-mutton-biryani-full",
           "name": {
             "en": "Full",
-            "ar": "كاملة"
+            "ar": "وجبة كاملة"
           },
           "base_price": 28,
           "base_kcal": 0,
@@ -1837,7 +1837,7 @@
           "id": "v-tamil-nadu-shrimp-biryani-single",
           "name": {
             "en": "Single",
-            "ar": "مفردة"
+            "ar": "وجبة فردية"
           },
           "base_price": 21,
           "base_kcal": 0,
@@ -1849,7 +1849,7 @@
           "id": "v-tamil-nadu-shrimp-biryani-full",
           "name": {
             "en": "Full",
-            "ar": "كاملة"
+            "ar": "وجبة كاملة"
           },
           "base_price": 30,
           "base_kcal": 0,
@@ -4177,7 +4177,7 @@
           "id": "v-madghout-chicken-quarter",
           "name": {
             "en": "Quarter",
-            "ar": "وجبة كاملة"
+            "ar": "ربع"
           },
           "base_price": 13,
           "base_kcal": 0,
@@ -4189,7 +4189,7 @@
           "id": "v-madghout-chicken-half",
           "name": {
             "en": "Half",
-            "ar": "وجبة كاملة"
+            "ar": "نصف"
           },
           "base_price": 24,
           "base_kcal": 0,
@@ -4238,7 +4238,7 @@
           "id": "v-chicken-mandi-quarter",
           "name": {
             "en": "Quarter",
-            "ar": "وجبة كاملة"
+            "ar": "ربع"
           },
           "base_price": 13,
           "base_kcal": 0,
@@ -4250,7 +4250,7 @@
           "id": "v-chicken-mandi-half",
           "name": {
             "en": "Half",
-            "ar": "وجبة كاملة"
+            "ar": "نصف"
           },
           "base_price": 22,
           "base_kcal": 0,
@@ -4299,7 +4299,7 @@
           "id": "v-cinnamon-rice-quarter",
           "name": {
             "en": "Quarter",
-            "ar": "وجبة كاملة"
+            "ar": "ربع"
           },
           "base_price": 13,
           "base_kcal": 0,
@@ -4311,7 +4311,7 @@
           "id": "v-cinnamon-rice-half",
           "name": {
             "en": "Half",
-            "ar": "وجبة كاملة"
+            "ar": "نصف"
           },
           "base_price": 24,
           "base_kcal": 0,
@@ -4360,7 +4360,7 @@
           "id": "v-chicken-kabsa-single",
           "name": {
             "en": "Single",
-            "ar": "مفردة"
+            "ar": "وجبة فردية"
           },
           "base_price": 13,
           "base_kcal": 0,
@@ -4369,10 +4369,10 @@
           "offers": []
         },
         {
-          "id": "v-chicken-kabsa-full",
+          "id": "v-chicken-kabsa-half",
           "name": {
-            "en": "Full",
-            "ar": "كاملة"
+            "en": "Half",
+            "ar": "نصف"
           },
           "base_price": 24,
           "base_kcal": 0,
@@ -5430,7 +5430,7 @@
           "id": "v-parotta-single",
           "name": {
             "en": "Single",
-            "ar": "أعزب"
+            "ar": "وجبة فردية"
           },
           "base_price": 1,
           "base_kcal": 0,
@@ -5491,7 +5491,7 @@
           "id": "v-chapati-single",
           "name": {
             "en": "Single",
-            "ar": "أعزب"
+            "ar": "وجبة فردية"
           },
           "base_price": 1,
           "base_kcal": 0,
@@ -5552,7 +5552,7 @@
           "id": "v-atta-parotta-single",
           "name": {
             "en": "Single",
-            "ar": "أعزب"
+            "ar": "وجبة فردية"
           },
           "base_price": 1.5,
           "base_kcal": 0,
@@ -5637,7 +5637,7 @@
           "id": "v-stuffed-roti-mushroom",
           "name": {
             "en": "Mushroom",
-            "ar": "الجبن أو الفطر"
+            "ar": "فطر"
           },
           "base_price": 10,
           "base_kcal": 0,
@@ -5661,7 +5661,7 @@
           "id": "v-stuffed-roti-cheese",
           "name": {
             "en": "Cheese",
-            "ar": "الجبن أو الفطر"
+            "ar": "الجبن"
           },
           "base_price": 8,
           "base_kcal": 0,
@@ -5746,7 +5746,7 @@
           "id": "v-vada-set-of-three",
           "name": {
             "en": "Set of Three",
-            "ar": "مجموعة من ثلاثة"
+            "ar": "مجموعة من ثلاث قطع"
           },
           "base_price": 3,
           "base_kcal": 0,
@@ -5807,7 +5807,7 @@
           "id": "v-idli-single",
           "name": {
             "en": "Single",
-            "ar": "أعزب"
+            "ar": "وجبة فردية"
           },
           "base_price": 1,
           "base_kcal": 0,
@@ -5856,7 +5856,7 @@
           "id": "v-poori-bhaji-set-of-three-pieces-set-of-three",
           "name": {
             "en": "Set of Three",
-            "ar": "مجموعة من ثلاثة"
+            "ar": "مجموعة من ثلاث قطع"
           },
           "base_price": 5,
           "base_kcal": 0,
@@ -5868,7 +5868,7 @@
           "id": "v-poori-bhaji-set-of-three-pieces-single",
           "name": {
             "en": "Single",
-            "ar": "أعزب"
+            "ar": "وجبة فردية"
           },
           "base_price": 1,
           "base_kcal": 0,
@@ -5929,7 +5929,7 @@
           "id": "v-chole-bhature-single-extra",
           "name": {
             "en": "Single (Extra)",
-            "ar": "فردي (إضافي)"
+            "ar": "وجبة فردية إضافية"
           },
           "base_price": 2,
           "base_kcal": 0,
@@ -7350,7 +7350,7 @@
           "id": "v-broasted-chicken-standard",
           "name": {
             "en": "Standard",
-            "ar": "معيار"
+            "ar": "عادي"
           },
           "base_price": 18,
           "base_kcal": 0,
@@ -7362,7 +7362,7 @@
           "id": "v-broasted-chicken-combo",
           "name": {
             "en": "Combo",
-            "ar": "مجموعة"
+            "ar": "كومبو"
           },
           "base_price": 21,
           "base_kcal": 0,
@@ -7447,7 +7447,7 @@
           "id": "v-french-fries-single",
           "name": {
             "en": "Single",
-            "ar": "مفردة"
+            "ar": "وجبة فردية"
           },
           "base_price": 8,
           "base_kcal": 0,
@@ -7568,7 +7568,7 @@
           "id": "v-faham-chicken-full",
           "name": {
             "en": "Full",
-            "ar": "كاملة"
+            "ar": "وجبة كاملة"
           },
           "base_price": 40,
           "base_kcal": 0,
@@ -8927,7 +8927,7 @@
           "id": "v-scrambled-egg-in-chicken-gravy-single",
           "name": {
             "en": "Single",
-            "ar": "أعزب"
+            "ar": "وجبة فردية"
           },
           "base_price": 2.5,
           "base_kcal": 0,
@@ -8939,7 +8939,7 @@
           "id": "v-scrambled-egg-in-chicken-gravy-double",
           "name": {
             "en": "Double",
-            "ar": "مزدوج"
+            "ar": "دبل"
           },
           "base_price": 5,
           "base_kcal": 0,
@@ -9157,7 +9157,7 @@
           "id": "v-chicken-masala-bachelor",
           "name": {
             "en": "Bachelor",
-            "ar": "بكالوريوس"
+            "ar": "وجبة صغيرة"
           },
           "base_price": 10,
           "base_kcal": 0,
@@ -9737,7 +9737,7 @@
           "id": "v-beef-masala-bachelor",
           "name": {
             "en": "Bachelor",
-            "ar": "بكالوريوس"
+            "ar": "وجبة صغيرة"
           },
           "base_price": 10,
           "base_kcal": 0,
@@ -9871,7 +9871,7 @@
           "id": "v-beef-fry-bachelor",
           "name": {
             "en": "Bachelor",
-            "ar": "مفردة"
+            "ar": "وجبة صغيرة"
           },
           "base_price": 12,
           "base_kcal": 0,

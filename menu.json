@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-12T12:03:33.687Z",
+  "generated_at": "2026-06-14T15:41:14.354Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -3780,13 +3780,13 @@
       "option_groups": []
     },
     {
-      "id": "prod-dal-chana-or-kala-chana-without-bread",
-      "slug": "dal-chana-or-kala-chana-without-bread",
-      "path": "/menu/dal-chana-or-kala-chana-without-bread/",
-      "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-gravies-asian-sides-north-indian",
+      "id": "prod-dal-chana-or-kala-chana",
+      "slug": "dal-chana-or-kala-chana",
+      "path": "/menu/dal-chana-or-kala-chana/",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": null,
       "name": {
-        "en": "Dal Chana Or Kala Chana Without Bread",
+        "en": "Dal Chana Or Kala Chana",
         "ar": "دال تشانا أو كالا تشانا بدون خبز"
       },
       "description": {
@@ -3801,8 +3801,8 @@
       "sort_order": 420,
       "images": [
         {
-          "id": "img-prod-dal-chana-or-kala-chana-without-bread",
-          "url": "/assets/images/img-dal-chana-or-kala-chana-without-bread",
+          "id": "img-prod-dal-chana-or-kala-chana",
+          "url": "/assets/images/img-dal-chana-or-kala-chana.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3819,7 +3819,7 @@
       "id": "prod-kala-chana",
       "slug": "kala-chana",
       "path": "/menu/kala-chana/",
-      "category_id": "cat-gravies-asian-sides",
+      "category_id": "cat-all-day-breakfast",
       "subcategory_id": null,
       "name": {
         "en": "Kala Chana",
@@ -3838,7 +3838,7 @@
       "images": [
         {
           "id": "img-prod-kala-chana",
-          "url": "/assets/images/img-kala-chana",
+          "url": "/assets/images/img-kala-chana.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -5129,13 +5129,13 @@
       "option_groups": []
     },
     {
-      "id": "prod-egg-curry",
-      "slug": "egg-curry",
-      "path": "/menu/egg-curry/",
+      "id": "prod-egg-curry-1-egg",
+      "slug": "egg-curry-1-egg",
+      "path": "/menu/egg-curry-1-egg/",
       "category_id": "cat-all-day-breakfast",
       "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
-        "en": "Egg Curry",
+        "en": "Egg Curry - 1 egg",
         "ar": "صالونة البيض"
       },
       "description": {
@@ -5150,8 +5150,8 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-egg-curry",
-          "url": "/assets/images/img-egg-curry.webp",
+          "id": "img-prod-egg-curry-1-egg",
+          "url": "/assets/images/img-egg-curry-1-egg.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -5171,7 +5171,7 @@
       "category_id": "cat-all-day-breakfast",
       "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
-        "en": "Omelette - 1 Egg",
+        "en": "Omelette - 1 egg",
         "ar": "أومليت - بيضة واحدة"
       },
       "description": {
@@ -5201,13 +5201,13 @@
       "option_groups": []
     },
     {
-      "id": "prod-egg-roast",
-      "slug": "egg-roast",
-      "path": "/menu/egg-roast/",
+      "id": "prod-egg-roast-1-egg",
+      "slug": "egg-roast-1-egg",
+      "path": "/menu/egg-roast-1-egg/",
       "category_id": "cat-all-day-breakfast",
       "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
-        "en": "Egg Roast",
+        "en": "Egg Roast - 1 egg",
         "ar": "بيض مقلي جاف"
       },
       "description": {
@@ -5222,8 +5222,8 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-egg-roast",
-          "url": "/assets/images/img-egg-roast.webp",
+          "id": "img-prod-egg-roast-1-egg",
+          "url": "/assets/images/img-egg-roast-1-egg.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -7652,13 +7652,13 @@
       "option_groups": []
     },
     {
-      "id": "prod-lamprais",
-      "slug": "lamprais",
-      "path": "/menu/lamprais/",
+      "id": "prod-lamprais-chicken",
+      "slug": "lamprais-chicken",
+      "path": "/menu/lamprais-chicken/",
       "category_id": "cat-set-meals",
       "subcategory_id": null,
       "name": {
-        "en": "Lamprais",
+        "en": "Lamprais (Chicken)",
         "ar": "لامبريس"
       },
       "description": {
@@ -7673,8 +7673,8 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-lamprais",
-          "url": "/assets/images/img-lamprais.webp",
+          "id": "img-prod-lamprais-chicken",
+          "url": "/assets/images/img-lamprais-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -7774,7 +7774,7 @@
         "ar": "وجبة نباتية من أرز جيرا وخبزتي شباتي ودال مقلي وسابجي خضار مشكلة. اختر ماتار بانير أو كاداي بانير كطبق الكاري الرئيسي."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 21,
       "base_kcal": 1050,
       "tags": null,
       "is_active": true,
@@ -7810,7 +7810,7 @@
         "ar": "وجبة شهية من أرز جيرا وخبزتي شباتي ودال مقلي ورايتا البصل. اختر دجاج بالزبدة أو دجاج كاداي كطبق الكاري الرئيسي."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 21,
       "base_kcal": 1150,
       "tags": null,
       "is_active": true,
@@ -7846,7 +7846,7 @@
         "ar": "أرز بسمتي عطري ممزوج ببذور الكمون والسمن، ليمنح نكهة خفيفة وعطرية تناسب تمامًا العدس والكاري والأطباق المشوية. بسيط وصحي وغني بالتوابل الخفيفة - طبق جانبي كلاسيكي من شمال الهند."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 8,
       "base_kcal": 930,
       "tags": null,
       "is_active": true,
@@ -7882,7 +7882,7 @@
         "ar": "أرز أبيض هش مطهو على البخار من أرز الباريك ناعم الحبة لقوام خفيف ورقيق."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 7,
       "base_kcal": 875,
       "tags": null,
       "is_active": true,
@@ -7918,7 +7918,7 @@
         "ar": "أرز عطر هش يُطهى بلطف مع السمن النقي ليمنح نكهة زبدية غنية. بسيط ولذيذ ويُعد الأساس المثالي مع أي كاري أو مرق."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 9,
       "base_kcal": 900,
       "tags": null,
       "is_active": true,
@@ -8448,7 +8448,7 @@
       "slug": "gobi-manchurian",
       "path": "/menu/gobi-manchurian/",
       "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": null,
+      "subcategory_id": "sub-gravies-asian-sides-north-indian",
       "name": {
         "en": "Gobi Manchurian",
         "ar": "غوبي مانشوريان"
@@ -8627,8 +8627,8 @@
       "id": "prod-kari-dosa-non-veg-veg",
       "slug": "kari-dosa-non-veg-veg",
       "path": "/menu/kari-dosa-non-veg-veg/",
-      "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": "sub-gravies-asian-sides-curries",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": null,
       "name": {
         "en": "Kari Dosa (Non Veg & Veg)",
         "ar": "دوسا بالكاري (خيارات نباتية وغير نباتية)"
@@ -8732,13 +8732,13 @@
       "option_groups": []
     },
     {
-      "id": "prod-kadai-paneer-450ml-cup",
-      "slug": "kadai-paneer-450ml-cup",
-      "path": "/menu/kadai-paneer-450ml-cup/",
+      "id": "prod-kadai-paneer",
+      "slug": "kadai-paneer",
+      "path": "/menu/kadai-paneer/",
       "category_id": "cat-gravies-asian-sides",
       "subcategory_id": "sub-gravies-asian-sides-curries",
       "name": {
-        "en": "Kadai Paneer (450ml) Cup",
+        "en": "Kadai Paneer",
         "ar": "كاداي بانير - كوب (450 مل)"
       },
       "description": {
@@ -8753,8 +8753,8 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-kadai-paneer-450ml-cup",
-          "url": "/assets/images/img-kadai-paneer-450ml-cup.webp",
+          "id": "img-prod-kadai-paneer",
+          "url": "/assets/images/img-kadai-paneer.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -8785,7 +8785,7 @@
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8846,7 +8846,7 @@
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": null,
       "images": [
         {
@@ -8887,139 +8887,6 @@
           "offers": []
         }
       ],
-      "option_groups": []
-    },
-    {
-      "id": "prod-scrambled-egg-in-chicken-gravy",
-      "slug": "scrambled-egg-in-chicken-gravy",
-      "path": "/menu/scrambled-egg-in-chicken-gravy/",
-      "category_id": "cat-all-day-breakfast",
-      "subcategory_id": null,
-      "name": {
-        "en": "Scrambled Egg In Chicken Gravy",
-        "ar": "بيض مخفوق في مرق الدجاج"
-      },
-      "description": {
-        "en": "Egg scrambled and simmered in a rich chicken gravy, cooked with onions, tomatoes, and aromatic spices. a simple yet flavorful curry that combines the softness of eggs with the depth of a homestyle masala.",
-        "ar": "بيض مخفوق ومطهو في مرق دجاج غني، مطبوخ مع البصل والطماطم والتوابل العطرية. كاري بسيط ولكنه غني بالنكهة، يجمع بين نعومة البيض وعمق الماسالا المنزلية."
-      },
-      "has_variants": true,
-      "base_price": 0,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": null,
-      "images": [
-        {
-          "id": "img-prod-scrambled-egg-in-chicken-gravy",
-          "url": "/assets/images/img-scrambled-egg-in-chicken-gravy.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [
-        {
-          "id": "v-scrambled-egg-in-chicken-gravy-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 2.5,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-scrambled-egg-in-chicken-gravy-double",
-          "name": {
-            "en": "Double",
-            "ar": "دبل"
-          },
-          "base_price": 5,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20,
-          "offers": []
-        }
-      ],
-      "option_groups": []
-    },
-    {
-      "id": "prod-egg-curry-with-one-boiled-egg-small-cup",
-      "slug": "egg-curry-with-one-boiled-egg-small-cup",
-      "path": "/menu/egg-curry-with-one-boiled-egg-small-cup/",
-      "category_id": "cat-all-day-breakfast",
-      "subcategory_id": null,
-      "name": {
-        "en": "Egg Curry With One Boiled Egg Small Cup",
-        "ar": "كاري البيض مع بيضة مسلوقة واحدة - كوب صغير"
-      },
-      "description": {
-        "en": "Boiled egg in a spiced onion-tomato gravy with garlic, ginger, and traditional indian masalas.",
-        "ar": "بيضة مسلوقة في مرق بصل وطماطم متبل مع الثوم والزنجبيل والماسالا الهندية التقليدية."
-      },
-      "has_variants": false,
-      "base_price": 5,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": null,
-      "images": [
-        {
-          "id": "img-prod-egg-curry-with-one-boiled-egg-small-cup",
-          "url": "/assets/images/img-egg-curry-with-one-boiled-egg-small-cup.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
-      "id": "prod-egg-onion-roast-with-one-boiled-egg",
-      "slug": "egg-onion-roast-with-one-boiled-egg",
-      "path": "/menu/egg-onion-roast-with-one-boiled-egg/",
-      "category_id": "cat-all-day-breakfast",
-      "subcategory_id": null,
-      "name": {
-        "en": "Egg (Onion) Roast With One Boiled Egg",
-        "ar": "بيض (بصل) مشوي مع بيضة مسلوقة واحدة"
-      },
-      "description": {
-        "en": "One hard-boiled egg in a bold onion-tomato roast with aromatic spices and curry leaves. Perfect with appam, dosa or parotta.",
-        "ar": "بيضة مسلوقة في مزيج البصل والطماطم المحمص مع التوابل العطرية وأوراق الكاري. مثالية مع الأبام أو الدوسا أو الباروتا."
-      },
-      "has_variants": false,
-      "base_price": 3.5,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": null,
-      "images": [
-        {
-          "id": "img-prod-egg-onion-roast-with-one-boiled-egg",
-          "url": "/assets/images/img-egg-onion-roast-with-one-boiled-egg.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
       "option_groups": []
     },
     {
@@ -10854,6 +10721,258 @@
           "offers": []
         }
       ],
+      "option_groups": []
+    },
+    {
+      "id": "prod-ghee-rice-chicken",
+      "slug": "ghee-rice-chicken",
+      "path": "/menu/ghee-rice-chicken/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Ghee Rice - Chicken",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 13,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-ghee-rice-chicken",
+          "url": "/assets/images/img-ghee-rice-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-ghee-rice-beef",
+      "slug": "ghee-rice-beef",
+      "path": "/menu/ghee-rice-beef/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Ghee Rice - Beef",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 13,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-ghee-rice-beef",
+          "url": "/assets/images/img-ghee-rice-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-ghee-rice-fish",
+      "slug": "ghee-rice-fish",
+      "path": "/menu/ghee-rice-fish/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Ghee Rice - Fish",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-ghee-rice-fish",
+          "url": "/assets/images/img-ghee-rice-fish.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-ghee-rice-mutton",
+      "slug": "ghee-rice-mutton",
+      "path": "/menu/ghee-rice-mutton/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Ghee Rice - Mutton",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-ghee-rice-mutton",
+          "url": "/assets/images/img-ghee-rice-mutton.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-ghee-rice-crab",
+      "slug": "ghee-rice-crab",
+      "path": "/menu/ghee-rice-crab/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Ghee Rice - Crab",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-ghee-rice-crab",
+          "url": "/assets/images/img-ghee-rice-crab.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-ghee-rice-shrimp",
+      "slug": "ghee-rice-shrimp",
+      "path": "/menu/ghee-rice-shrimp/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Ghee Rice - Shrimp",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-ghee-rice-shrimp",
+          "url": "/assets/images/img-ghee-rice-shrimp.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-ghee-rice-cuttlefish",
+      "slug": "ghee-rice-cuttlefish",
+      "path": "/menu/ghee-rice-cuttlefish/",
+      "category_id": "cat-set-meals",
+      "subcategory_id": null,
+      "name": {
+        "en": "Ghee Rice - Cuttlefish",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-ghee-rice-cuttlefish",
+          "url": "/assets/images/img-ghee-rice-cuttlefish.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
       "option_groups": []
     }
   ],

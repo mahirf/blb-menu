@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-14T15:41:14.354Z",
+  "generated_at": "2026-06-14T15:50:50.101Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -3803,42 +3803,6 @@
         {
           "id": "img-prod-dal-chana-or-kala-chana",
           "url": "/assets/images/img-dal-chana-or-kala-chana.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
-      "id": "prod-kala-chana",
-      "slug": "kala-chana",
-      "path": "/menu/kala-chana/",
-      "category_id": "cat-all-day-breakfast",
-      "subcategory_id": null,
-      "name": {
-        "en": "Kala Chana",
-        "ar": "كالا تشانا"
-      },
-      "description": {
-        "en": "Whole black chickpeas simmered in a tangy onion-tomato gravy with aromatic spices. Hearty, earthy and protein-rich.",
-        "ar": "حمص أسود كامل مطهو على نار هادئة في مرق البصل والطماطم اللاذع مع التوابل العطرية. طبق دسم وغني بالبروتين."
-      },
-      "has_variants": false,
-      "base_price": 4,
-      "base_kcal": 280,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 430,
-      "images": [
-        {
-          "id": "img-prod-kala-chana",
-          "url": "/assets/images/img-kala-chana.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -10425,7 +10389,7 @@
       "id": "prod-kari-dosa-with-cheese",
       "slug": "kari-dosa-with-cheese",
       "path": "/menu/kari-dosa-with-cheese/",
-      "category_id": "",
+      "category_id": "cat-all-day-breakfast",
       "subcategory_id": null,
       "name": {
         "en": "Kari Dosa with cheese",

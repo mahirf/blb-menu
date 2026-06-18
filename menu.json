@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-14T15:50:50.101Z",
+  "generated_at": "2026-06-18T13:18:07.807Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -571,7 +571,31 @@
           "is_primary": true
         }
       ],
-      "offers": [],
+      "offers": [
+        {
+          "id": "offer-0012-chicken-dum-biryani-full",
+          "name": {
+            "en": "Chicken Dum Biryani Full Portion",
+            "ar": "برياني دجاج دم - وجبة كاملة"
+          },
+          "target": {
+            "type": "product",
+            "id": "prod-chicken-dum-biryani"
+          },
+          "discount": {
+            "type": "percentage",
+            "value": 0
+          },
+          "conditions": {
+            "min_quantity": 1,
+            "max_quantity": null
+          },
+          "starts_at": null,
+          "ends_at": null,
+          "is_active": true,
+          "sort_order": 120
+        }
+      ],
       "variations": [
         {
           "id": "v-chicken-dum-biryani-single",
@@ -851,7 +875,31 @@
           "is_primary": true
         }
       ],
-      "offers": [],
+      "offers": [
+        {
+          "id": "offer-0010-fish-biryani-regular",
+          "name": {
+            "en": "Fish Biryani Regular Portion",
+            "ar": "برياني سمك - وجبة عادية"
+          },
+          "target": {
+            "type": "product",
+            "id": "prod-fish-dum-biryani"
+          },
+          "discount": {
+            "type": "percentage",
+            "value": 0
+          },
+          "conditions": {
+            "min_quantity": 1,
+            "max_quantity": null
+          },
+          "starts_at": null,
+          "ends_at": null,
+          "is_active": true,
+          "sort_order": 100
+        }
+      ],
       "variations": [
         {
           "id": "v-fish-dum-biryani-single",
@@ -991,7 +1039,31 @@
           "is_primary": true
         }
       ],
-      "offers": [],
+      "offers": [
+        {
+          "id": "offer-0007-mutton-dum-biryani-single",
+          "name": {
+            "en": "Mutton Dum Biryani Single Portion",
+            "ar": "برياني لحم ضأن دم - وجبة فردية"
+          },
+          "target": {
+            "type": "product",
+            "id": "prod-mutton-dum-biryani"
+          },
+          "discount": {
+            "type": "percentage",
+            "value": 0
+          },
+          "conditions": {
+            "min_quantity": 1,
+            "max_quantity": null
+          },
+          "starts_at": null,
+          "ends_at": null,
+          "is_active": true,
+          "sort_order": 70
+        }
+      ],
       "variations": [
         {
           "id": "v-mutton-dum-biryani-single",
@@ -2796,7 +2868,7 @@
           },
           "starts_at": null,
           "ends_at": null,
-          "is_active": true,
+          "is_active": false,
           "sort_order": 10
         }
       ],
@@ -5875,7 +5947,31 @@
           "is_primary": true
         }
       ],
-      "offers": [],
+      "offers": [
+        {
+          "id": "offer-0005-chole-bhature",
+          "name": {
+            "en": "Chole Bhature",
+            "ar": "تشولي بهاتوري"
+          },
+          "target": {
+            "type": "product",
+            "id": "prod-chole-bhature"
+          },
+          "discount": {
+            "type": "percentage",
+            "value": 0
+          },
+          "conditions": {
+            "min_quantity": 1,
+            "max_quantity": null
+          },
+          "starts_at": null,
+          "ends_at": null,
+          "is_active": true,
+          "sort_order": 50
+        }
+      ],
       "variations": [
         {
           "id": "v-chole-bhature-set-of-two",
@@ -6723,7 +6819,31 @@
           "is_primary": true
         }
       ],
-      "offers": [],
+      "offers": [
+        {
+          "id": "offer-0013-fried-rice-combo",
+          "name": {
+            "en": "Fried Rice - Chicken, Beef, Shrimp Or Combo",
+            "ar": "أرز مقلي - دجاج أو لحم أو روبيان أو مشكل"
+          },
+          "target": {
+            "type": "product",
+            "id": "prod-fried-rice-mixed-chicken-beef-shrimp"
+          },
+          "discount": {
+            "type": "percentage",
+            "value": 0
+          },
+          "conditions": {
+            "min_quantity": 1,
+            "max_quantity": null
+          },
+          "starts_at": null,
+          "ends_at": null,
+          "is_active": true,
+          "sort_order": 130
+        }
+      ],
       "variations": [
         {
           "id": "v-fried-rice-mixed-chicken-beef-shrimp-regular",
@@ -7611,7 +7731,31 @@
           "is_primary": true
         }
       ],
-      "offers": [],
+      "offers": [
+        {
+          "id": "offer-0008-saffron-yellow-rice-meal-banana-leaf",
+          "name": {
+            "en": "Saffron Yellow Rice Meal Set Packed In Banana Leaf",
+            "ar": "وجبة أرز أصفر مع الكاري في ورق الموز"
+          },
+          "target": {
+            "type": "product",
+            "id": "prod-saffron-yellow-rice-chicken"
+          },
+          "discount": {
+            "type": "percentage",
+            "value": 0
+          },
+          "conditions": {
+            "min_quantity": 1,
+            "max_quantity": null
+          },
+          "starts_at": null,
+          "ends_at": null,
+          "is_active": true,
+          "sort_order": 80
+        }
+      ],
       "variations": [],
       "option_groups": []
     },
@@ -8295,7 +8439,31 @@
           "is_primary": true
         }
       ],
-      "offers": [],
+      "offers": [
+        {
+          "id": "offer-0009-masala-dosa",
+          "name": {
+            "en": "Masala Dosa With Sambar & Chutney",
+            "ar": "ماسالا دوسا مع سامبار وتشاتني"
+          },
+          "target": {
+            "type": "product",
+            "id": "prod-masala-dosa-with-sambar-chutney"
+          },
+          "discount": {
+            "type": "percentage",
+            "value": 0
+          },
+          "conditions": {
+            "min_quantity": 1,
+            "max_quantity": null
+          },
+          "starts_at": null,
+          "ends_at": null,
+          "is_active": true,
+          "sort_order": 90
+        }
+      ],
       "variations": [],
       "option_groups": []
     },
@@ -10938,6 +11106,66 @@
       "offers": [],
       "variations": [],
       "option_groups": []
+    },
+    {
+      "id": "prod-mandi-rice-with-al-faham-chicken-combo",
+      "slug": "mandi-rice-with-al-faham-chicken-combo",
+      "path": "/menu/mandi-rice-with-al-faham-chicken-combo/",
+      "category_id": "cat-offers",
+      "subcategory_id": null,
+      "name": {
+        "en": "Mandi Rice With Al Faham Chicken Combo",
+        "ar": "وجبة أرز مندي مع دجاج الفحم"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 29,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-mandi-rice-with-al-faham-chicken-combo",
+          "url": "/assets/images/img-mandi-rice-with-al-faham-chicken-combo.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [
+        {
+          "id": "offer-0002-mandi-rice-al-faham-chicken-combo",
+          "name": {
+            "en": "Mandi Rice With Al Faham Chicken Combo",
+            "ar": "وجبة أرز مندي مع دجاج الفحم"
+          },
+          "target": {
+            "type": "product",
+            "id": "prod-mandi-rice-with-al-faham-chicken-combo"
+          },
+          "discount": {
+            "type": "percentage",
+            "value": 0
+          },
+          "conditions": {
+            "min_quantity": 1,
+            "max_quantity": null
+          },
+          "starts_at": null,
+          "ends_at": null,
+          "is_active": true,
+          "sort_order": 20
+        }
+      ],
+      "variations": [],
+      "option_groups": []
     }
   ],
   "offers": [
@@ -10961,31 +11189,284 @@
       },
       "starts_at": null,
       "ends_at": null,
-      "is_active": true,
+      "is_active": false,
       "sort_order": 10
     },
     {
-      "id": "offer-0002-large-family-offer",
+      "id": "offer-0002-mandi-rice-al-faham-chicken-combo",
       "name": {
-        "en": "Large Family Offer",
-        "ar": "عرض العائلة"
+        "en": "Mandi Rice With Al Faham Chicken Combo",
+        "ar": "وجبة أرز مندي مع دجاج الفحم"
       },
       "target": {
-        "type": "variation",
-        "id": "v-mixed-kottu-idiappam-chick-beef-masala-shrimp-single"
+        "type": "product",
+        "id": "prod-mandi-rice-with-al-faham-chicken-combo"
       },
       "discount": {
-        "type": "fixed",
-        "value": 5
+        "type": "percentage",
+        "value": 0
       },
       "conditions": {
         "min_quantity": 1,
-        "max_quantity": 1
+        "max_quantity": null
       },
       "starts_at": null,
       "ends_at": null,
       "is_active": true,
       "sort_order": 20
+    },
+    {
+      "id": "offer-0003-chicken-lal-pari-combo",
+      "name": {
+        "en": "Chicken Lal Pari With Veg Pulao Or Mandi Rice Combo",
+        "ar": "وجبة دجاج لال باري مع أرز خضار أو مندي"
+      },
+      "target": {
+        "type": "product",
+        "id": ""
+      },
+      "discount": {
+        "type": "percentage",
+        "value": 0
+      },
+      "conditions": {
+        "min_quantity": 1,
+        "max_quantity": null
+      },
+      "starts_at": null,
+      "ends_at": null,
+      "is_active": false,
+      "sort_order": 30
+    },
+    {
+      "id": "offer-0004-mathi-meen-fish-fry",
+      "name": {
+        "en": "Mathi Meen Fish Fry",
+        "ar": "سمك ماثي مقلي"
+      },
+      "target": {
+        "type": "product",
+        "id": ""
+      },
+      "discount": {
+        "type": "percentage",
+        "value": 0
+      },
+      "conditions": {
+        "min_quantity": 1,
+        "max_quantity": null
+      },
+      "starts_at": null,
+      "ends_at": null,
+      "is_active": false,
+      "sort_order": 40
+    },
+    {
+      "id": "offer-0005-chole-bhature",
+      "name": {
+        "en": "Chole Bhature",
+        "ar": "تشولي بهاتوري"
+      },
+      "target": {
+        "type": "product",
+        "id": "prod-chole-bhature"
+      },
+      "discount": {
+        "type": "percentage",
+        "value": 0
+      },
+      "conditions": {
+        "min_quantity": 1,
+        "max_quantity": null
+      },
+      "starts_at": null,
+      "ends_at": null,
+      "is_active": true,
+      "sort_order": 50
+    },
+    {
+      "id": "offer-0006-paya-attukal-soup-with-two-chapati",
+      "name": {
+        "en": "Paya Attukal Soup With Two Chapati",
+        "ar": "شوربة بايا أتوكال مع قطعتين شباتي"
+      },
+      "target": {
+        "type": "product",
+        "id": ""
+      },
+      "discount": {
+        "type": "percentage",
+        "value": 0
+      },
+      "conditions": {
+        "min_quantity": 1,
+        "max_quantity": null
+      },
+      "starts_at": null,
+      "ends_at": null,
+      "is_active": false,
+      "sort_order": 60
+    },
+    {
+      "id": "offer-0007-mutton-dum-biryani-single",
+      "name": {
+        "en": "Mutton Dum Biryani Single Portion",
+        "ar": "برياني لحم ضأن دم - وجبة فردية"
+      },
+      "target": {
+        "type": "product",
+        "id": "prod-mutton-dum-biryani"
+      },
+      "discount": {
+        "type": "percentage",
+        "value": 0
+      },
+      "conditions": {
+        "min_quantity": 1,
+        "max_quantity": null
+      },
+      "starts_at": null,
+      "ends_at": null,
+      "is_active": true,
+      "sort_order": 70
+    },
+    {
+      "id": "offer-0008-saffron-yellow-rice-meal-banana-leaf",
+      "name": {
+        "en": "Saffron Yellow Rice Meal Set Packed In Banana Leaf",
+        "ar": "وجبة أرز أصفر مع الكاري في ورق الموز"
+      },
+      "target": {
+        "type": "product",
+        "id": "prod-saffron-yellow-rice-chicken"
+      },
+      "discount": {
+        "type": "percentage",
+        "value": 0
+      },
+      "conditions": {
+        "min_quantity": 1,
+        "max_quantity": null
+      },
+      "starts_at": null,
+      "ends_at": null,
+      "is_active": true,
+      "sort_order": 80
+    },
+    {
+      "id": "offer-0009-masala-dosa",
+      "name": {
+        "en": "Masala Dosa With Sambar & Chutney",
+        "ar": "ماسالا دوسا مع سامبار وتشاتني"
+      },
+      "target": {
+        "type": "product",
+        "id": "prod-masala-dosa-with-sambar-chutney"
+      },
+      "discount": {
+        "type": "percentage",
+        "value": 0
+      },
+      "conditions": {
+        "min_quantity": 1,
+        "max_quantity": null
+      },
+      "starts_at": null,
+      "ends_at": null,
+      "is_active": true,
+      "sort_order": 90
+    },
+    {
+      "id": "offer-0010-fish-biryani-regular",
+      "name": {
+        "en": "Fish Biryani Regular Portion",
+        "ar": "برياني سمك - وجبة عادية"
+      },
+      "target": {
+        "type": "product",
+        "id": "prod-fish-dum-biryani"
+      },
+      "discount": {
+        "type": "percentage",
+        "value": 0
+      },
+      "conditions": {
+        "min_quantity": 1,
+        "max_quantity": null
+      },
+      "starts_at": null,
+      "ends_at": null,
+      "is_active": true,
+      "sort_order": 100
+    },
+    {
+      "id": "offer-0011-broasted-chicken-combo",
+      "name": {
+        "en": "Broasted Chicken Combo",
+        "ar": "وجبة دجاج بروستد"
+      },
+      "target": {
+        "type": "product",
+        "id": "v-broasted-chicken-combo"
+      },
+      "discount": {
+        "type": "percentage",
+        "value": 0
+      },
+      "conditions": {
+        "min_quantity": 1,
+        "max_quantity": null
+      },
+      "starts_at": null,
+      "ends_at": null,
+      "is_active": true,
+      "sort_order": 110
+    },
+    {
+      "id": "offer-0012-chicken-dum-biryani-full",
+      "name": {
+        "en": "Chicken Dum Biryani Full Portion",
+        "ar": "برياني دجاج دم - وجبة كاملة"
+      },
+      "target": {
+        "type": "product",
+        "id": "prod-chicken-dum-biryani"
+      },
+      "discount": {
+        "type": "percentage",
+        "value": 0
+      },
+      "conditions": {
+        "min_quantity": 1,
+        "max_quantity": null
+      },
+      "starts_at": null,
+      "ends_at": null,
+      "is_active": true,
+      "sort_order": 120
+    },
+    {
+      "id": "offer-0013-fried-rice-combo",
+      "name": {
+        "en": "Fried Rice - Chicken, Beef, Shrimp Or Combo",
+        "ar": "أرز مقلي - دجاج أو لحم أو روبيان أو مشكل"
+      },
+      "target": {
+        "type": "product",
+        "id": "prod-fried-rice-mixed-chicken-beef-shrimp"
+      },
+      "discount": {
+        "type": "percentage",
+        "value": 0
+      },
+      "conditions": {
+        "min_quantity": 1,
+        "max_quantity": null
+      },
+      "starts_at": null,
+      "ends_at": null,
+      "is_active": true,
+      "sort_order": 130
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-26T23:00:42.631Z",
+  "generated_at": "2026-06-26T23:05:21.108Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -7817,13 +7817,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-saffron-yellow-rice-beef",
-          "url": "/assets/images/img-saffron-yellow-rice-beef.webp",
+          "id": "img-prod-saffron-yellow-rice-beef-alternate",
+          "url": "/assets/images/img-saffron-yellow-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -7853,13 +7853,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-saffron-yellow-rice-fish",
-          "url": "/assets/images/img-saffron-yellow-rice-fish.webp",
+          "id": "img-prod-saffron-yellow-rice-fish-alternate",
+          "url": "/assets/images/img-saffron-yellow-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -10913,13 +10913,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-ghee-rice-beef",
-          "url": "/assets/images/img-ghee-rice-beef.webp",
+          "id": "img-prod-ghee-rice-beef-alternate",
+          "url": "/assets/images/img-ghee-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -10949,13 +10949,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-ghee-rice-fish",
-          "url": "/assets/images/img-ghee-rice-fish.webp",
+          "id": "img-prod-ghee-rice-fish-alternate",
+          "url": "/assets/images/img-ghee-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -10985,13 +10985,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-ghee-rice-mutton",
-          "url": "/assets/images/img-ghee-rice-mutton.webp",
+          "id": "img-prod-ghee-rice-mutton-alternate",
+          "url": "/assets/images/img-ghee-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -11021,13 +11021,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-ghee-rice-crab",
-          "url": "/assets/images/img-ghee-rice-crab.webp",
+          "id": "img-prod-ghee-rice-crab-alternate",
+          "url": "/assets/images/img-ghee-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -11057,13 +11057,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-ghee-rice-shrimp",
-          "url": "/assets/images/img-ghee-rice-shrimp.webp",
+          "id": "img-prod-ghee-rice-shrimp-alternate",
+          "url": "/assets/images/img-ghee-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -11093,13 +11093,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-ghee-rice-cuttlefish",
-          "url": "/assets/images/img-ghee-rice-cuttlefish.webp",
+          "id": "img-prod-ghee-rice-cuttlefish-alternate",
+          "url": "/assets/images/img-ghee-rice-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],

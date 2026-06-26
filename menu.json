@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-18T13:18:07.807Z",
+  "generated_at": "2026-06-26T23:00:42.631Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -5968,7 +5968,7 @@
           },
           "starts_at": null,
           "ends_at": null,
-          "is_active": true,
+          "is_active": false,
           "sort_order": 50
         }
       ],
@@ -8422,7 +8422,7 @@
         "ar": "ماسالا دوسا - كريب جنوب هندي مقرمش ذهبي اللون، مصنوع من الأرز المخمر وعجينة العدس، محشو بماسالا البطاطس المتبلة الشهية. تُقدم مع تشاتني جوز الهند والسامبار - هذا الطبق المميز مزيج مثالي من القرمشة والراحة في كل قضمة."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 5,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -8460,7 +8460,7 @@
           },
           "starts_at": null,
           "ends_at": null,
-          "is_active": true,
+          "is_active": false,
           "sort_order": 90
         }
       ],
@@ -11166,6 +11166,66 @@
       ],
       "variations": [],
       "option_groups": []
+    },
+    {
+      "id": "prod-chicken-lal-pari-with-veg-pulao-or-mandi-rice-combo",
+      "slug": "chicken-lal-pari-with-veg-pulao-or-mandi-rice-combo",
+      "path": "/menu/chicken-lal-pari-with-veg-pulao-or-mandi-rice-combo/",
+      "category_id": "cat-offers",
+      "subcategory_id": null,
+      "name": {
+        "en": "Chicken Lal Pari With Veg Pulao Or Mandi Rice Combo",
+        "ar": "وجبة دجاج لال باري مع أرز خضار أو مندي"
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 29,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-chicken-lal-pari-with-veg-pulao-or-mandi-rice-combo",
+          "url": "/assets/images/img-chicken-lal-pari-with-veg-pulao-or-mandi-rice-combo.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [
+        {
+          "id": "offer-0003-chicken-lal-pari-combo",
+          "name": {
+            "en": "Chicken Lal Pari With Veg Pulao Or Mandi Rice Combo",
+            "ar": "وجبة دجاج لال باري مع أرز خضار أو مندي"
+          },
+          "target": {
+            "type": "product",
+            "id": "prod-chicken-lal-pari-with-veg-pulao-or-mandi-rice-combo"
+          },
+          "discount": {
+            "type": "percentage",
+            "value": 0
+          },
+          "conditions": {
+            "min_quantity": 1,
+            "max_quantity": null
+          },
+          "starts_at": null,
+          "ends_at": null,
+          "is_active": true,
+          "sort_order": 30
+        }
+      ],
+      "variations": [],
+      "option_groups": []
     }
   ],
   "offers": [
@@ -11223,7 +11283,7 @@
       },
       "target": {
         "type": "product",
-        "id": ""
+        "id": "prod-chicken-lal-pari-with-veg-pulao-or-mandi-rice-combo"
       },
       "discount": {
         "type": "percentage",
@@ -11235,7 +11295,7 @@
       },
       "starts_at": null,
       "ends_at": null,
-      "is_active": false,
+      "is_active": true,
       "sort_order": 30
     },
     {
@@ -11281,7 +11341,7 @@
       },
       "starts_at": null,
       "ends_at": null,
-      "is_active": true,
+      "is_active": false,
       "sort_order": 50
     },
     {
@@ -11373,7 +11433,7 @@
       },
       "starts_at": null,
       "ends_at": null,
-      "is_active": true,
+      "is_active": false,
       "sort_order": 90
     },
     {

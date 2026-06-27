@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-27T13:34:45.518Z",
+  "generated_at": "2026-06-27T14:18:38.375Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -8251,42 +8251,6 @@
         {
           "id": "img-prod-onion-dosa-with-sambar-chutney",
           "url": "/assets/images/img-onion-dosa-with-sambar-chutney.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
-      "id": "prod-idiyappam-set-of-three-pieces",
-      "slug": "idiyappam-set-of-three-pieces",
-      "path": "/menu/idiyappam-set-of-three-pieces/",
-      "category_id": "cat-vegetarian",
-      "subcategory_id": null,
-      "name": {
-        "en": "Idiyappam Set Of Three Pieces",
-        "ar": "طقم إيديابام من ثلاث قطع"
-      },
-      "description": {
-        "en": "Soft, delicate steamed rice noodles (string hoppers). Light, fluffy and perfect with coconut milk, kurma or curry.",
-        "ar": "نودلز أرز طرية ورقيقة مطهوة على البخار (إيديابام). خفيفة وهشة ومثالية مع حليب جوز الهند أو الكورما أو الكاري."
-      },
-      "has_variants": false,
-      "base_price": 0,
-      "base_kcal": 200,
-      "tags": null,
-      "is_active": true,
-      "sort_order": null,
-      "images": [
-        {
-          "id": "img-prod-idiyappam-set-of-three-pieces",
-          "url": "/assets/images/img-idiyappam-set-of-three-pieces.webp",
           "alt_text": {
             "en": null,
             "ar": null

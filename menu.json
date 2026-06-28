@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-27T14:18:38.375Z",
+  "generated_at": "2026-06-28T15:23:33.399Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -1334,7 +1334,7 @@
       "images": [
         {
           "id": "img-prod-tamil-nadu-chicken-biryani",
-          "url": "/assets/images/img-tamil-nadu-chicken-biryani",
+          "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2034,7 +2034,7 @@
       "images": [
         {
           "id": "img-prod-kankung-beef-with-fried-rice",
-          "url": "/assets/images/img-kankung-beef-with-fried-rice",
+          "url": "/assets/images/img-kankung-beef-with-fried-rice.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2070,7 +2070,7 @@
       "images": [
         {
           "id": "img-prod-kankung-beef-with-white-rice",
-          "url": "/assets/images/img-kankung-beef-with-white-rice",
+          "url": "/assets/images/img-kankung-beef-with-white-rice.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2106,7 +2106,7 @@
       "images": [
         {
           "id": "img-prod-kottu-roti-egg",
-          "url": "/assets/images/img-kottu-roti-egg",
+          "url": "/assets/images/img-kottu-roti-egg.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2289,7 +2289,7 @@
       "images": [
         {
           "id": "img-prod-kottu-roti-beef",
-          "url": "/assets/images/img-kottu-roti-beef",
+          "url": "/assets/images/img-kottu-roti-beef.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2472,7 +2472,7 @@
       "images": [
         {
           "id": "img-prod-kottu-idiappam-egg-alternate",
-          "url": "/assets/images/img-kottu-idiappam-chicken",
+          "url": "/assets/images/img-kottu-idiappam-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2533,7 +2533,7 @@
       "images": [
         {
           "id": "img-prod-kottu-idiappam-veg-mushroom-alternate",
-          "url": "/assets/images/img-kottu-idiappam-chicken",
+          "url": "/assets/images/img-kottu-idiappam-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2594,7 +2594,7 @@
       "images": [
         {
           "id": "img-prod-kottu-idiappam-chicken",
-          "url": "/assets/images/img-kottu-idiappam-chicken",
+          "url": "/assets/images/img-kottu-idiappam-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2655,7 +2655,7 @@
       "images": [
         {
           "id": "img-prod-kottu-idiappam-beef-alternate",
-          "url": "/assets/images/img-kottu-idiappam-chicken",
+          "url": "/assets/images/img-kottu-idiappam-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2716,7 +2716,7 @@
       "images": [
         {
           "id": "img-prod-kottu-idiappam-chicken-beef-alternate",
-          "url": "/assets/images/img-kottu-idiappam-chicken",
+          "url": "/assets/images/img-kottu-idiappam-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2777,7 +2777,7 @@
       "images": [
         {
           "id": "img-prod-mixed-kottu-idiappam-chick-beef-shrimp-alternate",
-          "url": "/assets/images/img-kottu-idiappam-chicken",
+          "url": "/assets/images/img-kottu-idiappam-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2838,7 +2838,7 @@
       "images": [
         {
           "id": "img-prod-sri-lanka-chicken-biryani",
-          "url": "/assets/images/img-sri-lanka-chicken-biryani",
+          "url": "/assets/images/img-sri-lanka-chicken-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3167,7 +3167,7 @@
       "images": [
         {
           "id": "img-prod-sri-lanka-idiappam-biryani-chicken",
-          "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken",
+          "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3472,7 +3472,7 @@
       "images": [
         {
           "id": "img-prod-puttu-kottu-egg",
-          "url": "/assets/images/img-puttu-kottu-egg",
+          "url": "/assets/images/img-puttu-kottu-egg.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3838,7 +3838,7 @@
       "images": [
         {
           "id": "img-prod-aloo-paratha",
-          "url": "/assets/images/img-aloo-paratha",
+          "url": "/assets/images/img-aloo-paratha.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3910,7 +3910,7 @@
       "images": [
         {
           "id": "img-prod-creamy-chicken-mushroom-soup",
-          "url": "/assets/images/img-creamy-chicken-mushroom-soup",
+          "url": "/assets/images/img-creamy-chicken-mushroom-soup.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3946,7 +3946,7 @@
       "images": [
         {
           "id": "img-prod-spiced-tomato-orzo-soup",
-          "url": "/assets/images/img-spiced-tomato-orzo-soup",
+          "url": "/assets/images/img-spiced-tomato-orzo-soup.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3982,7 +3982,7 @@
       "images": [
         {
           "id": "img-prod-mushroom-soup",
-          "url": "/assets/images/img-mushroom-soup",
+          "url": "/assets/images/img-mushroom-soup.webp",
           "alt_text": {
             "en": null,
             "ar": null

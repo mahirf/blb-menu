@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-28T15:23:33.399Z",
+  "generated_at": "2026-06-29T16:51:24.918Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -4125,13 +4125,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-hot-sour-vegetable",
-          "url": "/assets/images/img-hot-sour-vegetable.webp",
+          "id": "img-prod-hot-sour-vegetable-alternate",
+          "url": "/assets/images/img-hot-sour-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -4685,7 +4685,7 @@
         "en": "A fresh and vibrant cup of mixed salad made with cucumber, carrots, baby corn with black & green olives, topped with a generous portion of creamy hummus & olive oil.",
         "ar": "كوب طازج ومنعش من السلطة المشكلة مكوّن من الخيار، الجزر، الذرة الصغيرة (بيبي كورن)، مع زيتون أسود وأخضر، ومغطى بكمية سخية من الحمص الكريمي وزيت الزيتون."
       },
-      "has_variants": false,
+      "has_variants": true,
       "base_price": 0,
       "base_kcal": 0,
       "tags": null,
@@ -5808,7 +5808,7 @@
         "ar": "كعكة أرز مطهوة على البخار طرية وهشة - خفيفة وصحية."
       },
       "has_variants": true,
-      "base_price": 0,
+      "base_price": 1,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -5869,7 +5869,7 @@
         "ar": "خبز هندي مسطح كلاسيكي وشهي، يُقدم مع بهاجي متبل قليلاً وتشاتني جوز الهند."
       },
       "has_variants": true,
-      "base_price": 0,
+      "base_price": 5,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -5930,7 +5930,7 @@
         "ar": "طبق كلاسيكي من شمال الهند. باتورا مقلية وهشة تُقدم مع كاري الحمص (تشولي) الحار واللاذع المطبوخ بتوابل عطرية."
       },
       "has_variants": true,
-      "base_price": 0,
+      "base_price": 5,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -7664,42 +7664,6 @@
       "option_groups": []
     },
     {
-      "id": "prod-ghee-rice-set",
-      "slug": "ghee-rice-set",
-      "path": "/menu/ghee-rice-set/",
-      "category_id": "cat-set-meals",
-      "subcategory_id": null,
-      "name": {
-        "en": "Ghee Rice Set",
-        "ar": "طقم أرز بالسمن"
-      },
-      "description": {
-        "en": "A fragrant ghee rice set served with your choice of tender meat, spiced fish, succulent shrimp, or crab.",
-        "ar": "طبق أرز بالسمن العطري يقدم مع اختيارك من اللحم الطري، أو السمك المتبل، أو الروبيان الشهي، أو السلطعون."
-      },
-      "has_variants": false,
-      "base_price": 0,
-      "base_kcal": 1090,
-      "tags": null,
-      "is_active": false,
-      "sort_order": null,
-      "images": [
-        {
-          "id": "img-prod-ghee-rice-set",
-          "url": "/assets/images/img-ghee-rice-set.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
       "id": "prod-saffron-yellow-rice-chicken",
       "slug": "saffron-yellow-rice-chicken",
       "path": "/menu/saffron-yellow-rice-chicken/",
@@ -8170,7 +8134,7 @@
         "ar": "دوسا جنوب هندية مقرمشة، مطبوخة حتى تكتسب لونًا ذهبيًا مثاليًا، ومضاف إليها كمية وفيرة من السمن العطري. خفيفة ولذيذة، ويفضل تناولها مع السامبار وتشاتني جوز الهند الطازجة."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 7,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -8206,7 +8170,7 @@
         "ar": "وجبة فطور أو وجبة خفيفة سريلانكية محبوبة تتكون من روتي جوز الهند - خبز مسطح مصنوع من جوز الهند المبشور الطازج والدقيق، محمص في المقلاة للحصول على حواف مقرمشة قليلاً ووسط طري. يُقدم مع صلصة حارة مصنوعة من الفلفل الأحمر الحار والبصل والليمون وسمك المالديف."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 2,
       "base_kcal": 220,
       "tags": null,
       "is_active": true,
@@ -8242,7 +8206,7 @@
         "ar": "دوسا رقيقة مقرمشة، مغطاة بالبصل المفروم ناعمًا والفلفل الأخضر الحار، مما يضفي عليها قرمشة حلوة وتوابل خفيفة. تُقدم ساخنة مع السامبار وتشاتني جوز الهند لتجربة جنوب هندية غنية بالنكهة."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 7,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -8278,7 +8242,7 @@
         "ar": "دوسا مقرمشة تُكسر فوقها بيضة طازجة وتطهى على الصاج. تقدم مع التشاتني والسامبار."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 8,
       "base_kcal": 480,
       "tags": null,
       "is_active": true,
@@ -8314,7 +8278,7 @@
         "ar": "صلصة جوز الهند السريلانكية الحارة واللذيذة، مصنوعة من جوز الهند المبشور الطازج والفلفل الأحمر الحار والبصل وعصير الليمون ولمسة من سمك المالديف. بول سامبول، الغني بالتوابل والنكهة اللاذعة، هو الرفيق المثالي للإيديابام (نودلز الأرز) أو الأرز أو الكاري."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 5,
       "base_kcal": 480,
       "tags": null,
       "is_active": true,
@@ -8350,7 +8314,7 @@
         "ar": "مخلل باذنجان مقلي حلو ولاذع وحار مع الخل والخردل والفلفل الحار."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 13,
       "base_kcal": 320,
       "tags": null,
       "is_active": true,
@@ -8386,7 +8350,7 @@
         "ar": "ماسالا دوسا - كريب جنوب هندي مقرمش ذهبي اللون، مصنوع من الأرز المخمر وعجينة العدس، محشو بماسالا البطاطس المتبلة الشهية. تُقدم مع تشاتني جوز الهند والسامبار - هذا الطبق المميز مزيج مثالي من القرمشة والراحة في كل قضمة."
       },
       "has_variants": false,
-      "base_price": 5,
+      "base_price": 7,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -8446,7 +8410,7 @@
         "ar": "طقم إدلي - كعكات أرز مطهوة على البخار طرية وهشة، تُقدم مع تشاتني جوز الهند وسامبار شهي. هذا الفطور الكلاسيكي من جنوب الهند خفيف ومغذٍ ومثالي لبداية يوم مريحة."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 4,
       "base_kcal": 180,
       "tags": null,
       "is_active": true,
@@ -8482,7 +8446,7 @@
         "ar": "زهرات قرنبيط طرية مغلفة بعجينة دقيق الحمص المتبلة، مقلية ومتبلة قليلاً."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 13,
       "base_kcal": 650,
       "tags": null,
       "is_active": true,
@@ -8518,7 +8482,7 @@
         "ar": "مقبلات شهيرة تتكون من زهرات قرنبيط مقرمشة مقلية، متبلة في عجينة حمراء حارة نابضة بالنكهة ممزوجة بالزنجبيل والثوم وأوراق الكاري."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 13,
       "base_kcal": 330,
       "tags": null,
       "is_active": true,
@@ -8707,42 +8671,6 @@
         {
           "id": "img-prod-fish-manchurian",
           "url": "/assets/images/img-fish-manchurian.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
-      "id": "prod-kari-dosa-non-veg-veg",
-      "slug": "kari-dosa-non-veg-veg",
-      "path": "/menu/kari-dosa-non-veg-veg/",
-      "category_id": "cat-all-day-breakfast",
-      "subcategory_id": null,
-      "name": {
-        "en": "Kari Dosa (Non Veg & Veg)",
-        "ar": "دوسا بالكاري (خيارات نباتية وغير نباتية)"
-      },
-      "description": {
-        "en": "A thin, masala-dosa with a twist - soft and crispy dosa layered with your choice of flavorful filling.",
-        "ar": "دوسا ماسالا رقيقة بلمسة مميزة - دوسا ناعمة ومقرمشة محشوة بحشوة لذيذة من اختيارك."
-      },
-      "has_variants": false,
-      "base_price": 0,
-      "base_kcal": 360,
-      "tags": null,
-      "is_active": true,
-      "sort_order": null,
-      "images": [
-        {
-          "id": "img-prod-kari-dosa-non-veg-veg",
-          "url": "/assets/images/img-kari-dosa-non-veg-veg.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -10532,7 +10460,7 @@
         "ar": "دوسا كاري مقرمشة محشوة بحشوة كاري شهية وجبن ذائب."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 8,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -10906,7 +10834,7 @@
         "ar": "طبق أرز بالسمن العطري يقدم مع اختيارك من اللحم الطري، أو السمك المتبل، أو الروبيان الشهي، أو السلطعون."
       },
       "has_variants": false,
-      "base_price": 13,
+      "base_price": 15,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -10942,7 +10870,7 @@
         "ar": "طبق أرز بالسمن العطري يقدم مع اختيارك من اللحم الطري، أو السمك المتبل، أو الروبيان الشهي، أو السلطعون."
       },
       "has_variants": false,
-      "base_price": 15,
+      "base_price": 17,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -10978,7 +10906,7 @@
         "ar": "طبق أرز بالسمن العطري يقدم مع اختيارك من اللحم الطري، أو السمك المتبل، أو الروبيان الشهي، أو السلطعون."
       },
       "has_variants": false,
-      "base_price": 15,
+      "base_price": 19,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -11000,28 +10928,28 @@
       "option_groups": []
     },
     {
-      "id": "prod-ghee-rice-shrimp",
-      "slug": "ghee-rice-shrimp",
-      "path": "/menu/ghee-rice-shrimp/",
+      "id": "prod-ghee-rice-prawns",
+      "slug": "ghee-rice-prawns",
+      "path": "/menu/ghee-rice-prawns/",
       "category_id": "cat-set-meals",
       "subcategory_id": null,
       "name": {
-        "en": "Ghee Rice - Shrimp",
+        "en": "Ghee Rice - Prawns",
         "ar": "طقم أرز بالسمن"
       },
       "description": {
-        "en": "A fragrant ghee rice set served with your choice of tender meat, spiced fish, succulent shrimp, or crab.",
+        "en": "A fragrant ghee rice set served with your choice of tender meat, spiced fish, prawns, or crab.",
         "ar": "طبق أرز بالسمن العطري يقدم مع اختيارك من اللحم الطري، أو السمك المتبل، أو الروبيان الشهي، أو السلطعون."
       },
       "has_variants": false,
-      "base_price": 15,
+      "base_price": 22,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-ghee-rice-shrimp-alternate",
+          "id": "img-prod-ghee-rice-prawns-alternate",
           "url": "/assets/images/img-ghee-rice-chicken.webp",
           "alt_text": {
             "en": null,
@@ -11050,7 +10978,7 @@
         "ar": "طبق أرز بالسمن العطري يقدم مع اختيارك من اللحم الطري، أو السمك المتبل، أو الروبيان الشهي، أو السلطعون."
       },
       "has_variants": false,
-      "base_price": 15,
+      "base_price": 21,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -11082,8 +11010,8 @@
         "ar": "وجبة أرز مندي مع دجاج الفحم"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Our faham chicken is marinated in a rich blend of middle eastern spices, fresh garlic, lemon juice, and aromatic herbs, then slow-grilled until perfectly tender and juicy. served with kubz, garlic sauce, and fresh salad.",
+        "ar": "دجاج الفحم لدينا متبل بمزيج غني من توابل الشرق الأوسط، الثوم الطازج، عصير الليمون، والأعشاب العطرية، ثم يُشوى ببطء حتى يصبح طريًا وعصاريًا تمامًا. يُقدم مع خبز، صلصة الثوم، وسلطة طازجة."
       },
       "has_variants": false,
       "base_price": 29,
@@ -11142,8 +11070,8 @@
         "ar": "وجبة دجاج لال باري مع أرز خضار أو مندي"
       },
       "description": {
-        "en": "",
-        "ar": ""
+        "en": "Vegetable puloa or mandi rice with stunning deep red chicken cooked in a rich aromatic blend of spices and herbs. a modern indian dish with your choice of soft drink and salad.",
+        "ar": "أرز بولو بالخضار أو أرز ماندي مع دجاج أحمر عميق مذهل مطبوخ في مزيج عطري غني من التوابل والأعشاب. طبق هندي حديث مع اختيارك من المشروبات الغازية والسلطة."
       },
       "has_variants": false,
       "base_price": 29,
@@ -11188,6 +11116,510 @@
           "sort_order": 30
         }
       ],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kari-dosa-with-sardine",
+      "slug": "kari-dosa-with-sardine",
+      "path": "/menu/kari-dosa-with-sardine/",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": null,
+      "name": {
+        "en": "Kari Dosa with sardine",
+        "ar": "دوسا بالكاري (خيارات نباتية وغير نباتية)"
+      },
+      "description": {
+        "en": "A thin, masala-dosa with a twist - soft and crispy dosa layered with your choice of flavorful filling.",
+        "ar": "دوسا ماسالا رقيقة بلمسة مميزة - دوسا ناعمة ومقرمشة محشوة بحشوة لذيذة من اختيارك."
+      },
+      "has_variants": false,
+      "base_price": 8,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-kari-dosa-with-sardine",
+          "url": "/assets/images/img-kari-dosa-with-sardine.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kari-dosa-with-canned-squid",
+      "slug": "kari-dosa-with-canned-squid",
+      "path": "/menu/kari-dosa-with-canned-squid/",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": null,
+      "name": {
+        "en": "Kari Dosa with canned squid",
+        "ar": "دوسا بالكاري (خيارات نباتية وغير نباتية)"
+      },
+      "description": {
+        "en": "A thin, masala-dosa with a twist - soft and crispy dosa layered with your choice of flavorful filling.",
+        "ar": "دوسا ماسالا رقيقة بلمسة مميزة - دوسا ناعمة ومقرمشة محشوة بحشوة لذيذة من اختيارك."
+      },
+      "has_variants": false,
+      "base_price": 10,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-kari-dosa-with-canned-squid",
+          "url": "/assets/images/img-kari-dosa-with-canned-squid.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kari-dosa-with-mushroom",
+      "slug": "kari-dosa-with-mushroom",
+      "path": "/menu/kari-dosa-with-mushroom/",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": null,
+      "name": {
+        "en": "Kari Dosa with mushroom",
+        "ar": "دوسا بالكاري (خيارات نباتية وغير نباتية)"
+      },
+      "description": {
+        "en": "A thin, masala-dosa with a twist - soft and crispy dosa layered with your choice of flavorful filling.",
+        "ar": "دوسا ماسالا رقيقة بلمسة مميزة - دوسا ناعمة ومقرمشة محشوة بحشوة لذيذة من اختيارك."
+      },
+      "has_variants": false,
+      "base_price": 10,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-kari-dosa-with-mushroom",
+          "url": "/assets/images/img-kari-dosa-with-mushroom.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kari-dosa-with-chicken",
+      "slug": "kari-dosa-with-chicken",
+      "path": "/menu/kari-dosa-with-chicken/",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": null,
+      "name": {
+        "en": "Kari Dosa with chicken",
+        "ar": "دوسا بالكاري (خيارات نباتية وغير نباتية)"
+      },
+      "description": {
+        "en": "A thin, masala-dosa with a twist - soft and crispy dosa layered with your choice of flavorful filling.",
+        "ar": "دوسا ماسالا رقيقة بلمسة مميزة - دوسا ناعمة ومقرمشة محشوة بحشوة لذيذة من اختيارك."
+      },
+      "has_variants": false,
+      "base_price": 12,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-kari-dosa-with-chicken",
+          "url": "/assets/images/img-kari-dosa-with-chicken.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kari-dosa-with-beef",
+      "slug": "kari-dosa-with-beef",
+      "path": "/menu/kari-dosa-with-beef/",
+      "category_id": "cat-all-day-breakfast",
+      "subcategory_id": null,
+      "name": {
+        "en": "Kari Dosa with beef",
+        "ar": "دوسا بالكاري (خيارات نباتية وغير نباتية)"
+      },
+      "description": {
+        "en": "A thin, masala-dosa with a twist - soft and crispy dosa layered with your choice of flavorful filling.",
+        "ar": "دوسا ماسالا رقيقة بلمسة مميزة - دوسا ناعمة ومقرمشة محشوة بحشوة لذيذة من اختيارك."
+      },
+      "has_variants": false,
+      "base_price": 15,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": null,
+      "images": [
+        {
+          "id": "img-prod-kari-dosa-with-beef",
+          "url": "/assets/images/img-kari-dosa-with-beef.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-water",
+      "slug": "water",
+      "path": "/menu/water/",
+      "category_id": "cat-drinks",
+      "subcategory_id": null,
+      "name": {
+        "en": "Water",
+        "ar": "ماء"
+      },
+      "description": {
+        "en": "Chilled pure water that quenches thirst",
+        "ar": "ماء بارد ونقي يروي العطش"
+      },
+      "has_variants": false,
+      "base_price": 1,
+      "base_kcal": 0,
+      "tags": "drinks, beverage, water",
+      "is_active": true,
+      "sort_order": 10,
+      "images": [
+        {
+          "id": "img-prod-water",
+          "url": "/assets/images/img-water.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-coca-cola-light-can",
+      "slug": "coca-cola-light-can",
+      "path": "/menu/coca-cola-light-can/",
+      "category_id": "cat-drinks",
+      "subcategory_id": null,
+      "name": {
+        "en": "Coca Cola Light Can",
+        "ar": "علبة كوكاكولا لايت"
+      },
+      "description": {
+        "en": "Refreshing Coca Cola Light with fewer calories",
+        "ar": "كوكاكولا لايت منعشة بسعرات حرارية أقل"
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "drinks, beverage, soft drink, cola",
+      "is_active": true,
+      "sort_order": 20,
+      "images": [
+        {
+          "id": "img-prod-coca-cola-light-can",
+          "url": "/assets/images/img-coca-cola-light-can.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-coca-cola-zero-can",
+      "slug": "coca-cola-zero-can",
+      "path": "/menu/coca-cola-zero-can/",
+      "category_id": "cat-drinks",
+      "subcategory_id": null,
+      "name": {
+        "en": "Coca Cola Zero Can",
+        "ar": "علبة كوكاكولا زيرو"
+      },
+      "description": {
+        "en": "Refreshing Coca Cola Zero with no sugar",
+        "ar": "كوكاكولا زيرو منعشة بدون سكر"
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "drinks, beverage, soft drink, cola",
+      "is_active": true,
+      "sort_order": 30,
+      "images": [
+        {
+          "id": "img-prod-coca-cola-zero-can",
+          "url": "/assets/images/img-coca-cola-zero-can.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-coca-cola",
+      "slug": "coca-cola",
+      "path": "/menu/coca-cola/",
+      "category_id": "cat-drinks",
+      "subcategory_id": null,
+      "name": {
+        "en": "Coca Cola",
+        "ar": "كوكاكولا"
+      },
+      "description": {
+        "en": "Coca Cola classic",
+        "ar": "كوكاكولا كلاسيك"
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "drinks, beverage, soft drink, cola",
+      "is_active": true,
+      "sort_order": 40,
+      "images": [
+        {
+          "id": "img-prod-coca-cola",
+          "url": "/assets/images/img-coca-cola.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fanta",
+      "slug": "fanta",
+      "path": "/menu/fanta/",
+      "category_id": "cat-drinks",
+      "subcategory_id": null,
+      "name": {
+        "en": "Fanta",
+        "ar": "فانتا"
+      },
+      "description": {
+        "en": "A soft drink with a unique and refreshing flavor",
+        "ar": "مشروب غازي بطعم مميز ومنعش"
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "drinks, beverage, soft drink",
+      "is_active": true,
+      "sort_order": 50,
+      "images": [
+        {
+          "id": "img-prod-fanta",
+          "url": "/assets/images/img-fanta.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fanta-citrus",
+      "slug": "fanta-citrus",
+      "path": "/menu/fanta-citrus/",
+      "category_id": "cat-drinks",
+      "subcategory_id": null,
+      "name": {
+        "en": "Fanta Citrus",
+        "ar": "فانتا حمضيات"
+      },
+      "description": {
+        "en": "A soft drink with a unique and refreshing flavor",
+        "ar": "مشروب غازي بطعم مميز ومنعش"
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "drinks, beverage, soft drink, citrus",
+      "is_active": true,
+      "sort_order": 60,
+      "images": [
+        {
+          "id": "img-prod-fanta-citrus",
+          "url": "/assets/images/img-fanta-citrus.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sprite",
+      "slug": "sprite",
+      "path": "/menu/sprite/",
+      "category_id": "cat-drinks",
+      "subcategory_id": null,
+      "name": {
+        "en": "Sprite",
+        "ar": "سبرايت"
+      },
+      "description": {
+        "en": "The soft drink with a unique and refreshing flavour",
+        "ar": "مشروب غازي بطعم مميز ومنعش"
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "drinks, beverage, soft drink",
+      "is_active": true,
+      "sort_order": 70,
+      "images": [
+        {
+          "id": "img-prod-sprite",
+          "url": "/assets/images/img-sprite.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-sprite-citrus-mint",
+      "slug": "sprite-citrus-and-mint",
+      "path": "/menu/sprite-citrus-and-mint/",
+      "category_id": "cat-drinks",
+      "subcategory_id": null,
+      "name": {
+        "en": "Sprite Citrus & Mint",
+        "ar": "سبرايت حمضيات ونعناع"
+      },
+      "description": {
+        "en": "The soft drink with a unique and refreshing flavour",
+        "ar": "مشروب غازي بطعم مميز ومنعش بنكهة الحمضيات والنعناع"
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "drinks, beverage, soft drink, citrus, mint",
+      "is_active": true,
+      "sort_order": 80,
+      "images": [
+        {
+          "id": "img-prod-sprite-citrus-mint",
+          "url": "/assets/images/img-sprite-citrus-and-mint.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-kinza",
+      "slug": "kinza",
+      "path": "/menu/kinza/",
+      "category_id": "cat-drinks",
+      "subcategory_id": null,
+      "name": {
+        "en": "Kinza",
+        "ar": "كينزا"
+      },
+      "description": {
+        "en": "The soft drink with a unique and refreshing flavour",
+        "ar": "مشروب غازي بطعم مميز ومنعش"
+      },
+      "has_variants": false,
+      "base_price": 0,
+      "base_kcal": 0,
+      "tags": "drinks, beverage, soft drink",
+      "is_active": true,
+      "sort_order": 90,
+      "images": [
+        {
+          "id": "img-prod-kinza",
+          "url": "/assets/images/img-kinza.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
       "variations": [],
       "option_groups": []
     }

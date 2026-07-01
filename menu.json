@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-07-01T13:21:15.630Z",
+  "generated_at": "2026-07-01T17:12:44.490Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -539,6 +539,42 @@
     }
   ],
   "products": [
+    {
+      "id": "prod-hot-butter-prawns",
+      "slug": "kinza",
+      "path": "/menu/kinza/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Hot Butter Prawns",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 28,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 0,
+      "images": [
+        {
+          "id": "img-prod-hot-butter-prawns",
+          "url": "/assets/images/img-hot-butter-prawns.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
     {
       "id": "prod-chicken-dum-biryani",
       "slug": "chicken-dum-biryani",
@@ -6303,7 +6339,7 @@
         "ar": "كاري شمال هندي شهي مصنوع من البازلاء الخضراء الطرية ومكعبات البانير الناعمة المطهوة على نار هادئة في مرق طماطم وبصل متبل قليلاً. غني وشهي وغني بالنكهة، هذا الطبق النباتي المفضل يتناسب تمامًا مع الروتي أو النان أو الأرز المطهو على البخار."
       },
       "has_variants": false,
-      "base_price": 12,
+      "base_price": 18,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -10798,7 +10834,7 @@
         "ar": "طبق أرز بالسمن العطري يقدم مع اختيارك من اللحم الطري، أو السمك المتبل، أو الروبيان الشهي، أو السلطعون."
       },
       "has_variants": false,
-      "base_price": 13,
+      "base_price": 15,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -11285,13 +11321,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-kari-dosa-with-beef",
-          "url": "/assets/images/img-kari-dosa-with-beef.webp",
+          "id": "img-prod-kari-dosa-with-beef-alternate",
+          "url": "/assets/images/img-kari-dosa-with-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -11574,7 +11610,7 @@
       "images": [
         {
           "id": "img-prod-sprite-citrus-mint",
-          "url": "/assets/images/img-sprite-citrus-and-mint.webp",
+          "url": "/assets/images/img-sprite-citrus-mint.webp",
           "alt_text": {
             "en": null,
             "ar": null

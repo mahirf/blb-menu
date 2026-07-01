@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-07-01T17:12:44.490Z",
+  "generated_at": "2026-07-01T17:18:06.576Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -541,7 +541,7 @@
   "products": [
     {
       "id": "prod-hot-butter-prawns",
-      "slug": "kinza",
+      "slug": "hot-butter-prawns",
       "path": "/menu/kinza/",
       "category_id": "cat-gravies-asian-sides",
       "subcategory_id": null,
@@ -5377,7 +5377,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-scrambled-egg-1-egg-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 2.5,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-scrambled-egg-1-egg-double",
+          "name": {
+            "en": "Double",
+            "ar": "دبل"
+          },
+          "base_price": 5,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -8928,7 +8953,7 @@
             "en": "Regular",
             "ar": "عادي"
           },
-          "base_price": 18,
+          "base_price": 21,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 10,
@@ -8940,7 +8965,7 @@
             "en": "Large",
             "ar": "كبير"
           },
-          "base_price": 26,
+          "base_price": 38,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 20,
@@ -9364,7 +9389,7 @@
             "en": "Regular",
             "ar": "عادي"
           },
-          "base_price": 21,
+          "base_price": 15,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 10,
@@ -9376,7 +9401,7 @@
             "en": "Large",
             "ar": "كبير"
           },
-          "base_price": 38,
+          "base_price": 28,
           "base_kcal": 0,
           "is_active": true,
           "sort_order": 20,
@@ -10622,7 +10647,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-beef-masala-fry-ularthiyathu-single",
+          "name": {
+            "en": "Small",
+            "ar": "صغير"
+          },
+          "base_price": 16,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-beef-masala-fry-ularthiyathu-full",
+          "name": {
+            "en": "Regular",
+            "ar": "عادي"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -11213,13 +11263,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-kari-dosa-with-canned-squid",
-          "url": "/assets/images/img-kari-dosa-with-canned-squid.webp",
+          "id": "img-prod-kari-dosa-with-canned-squid-alternate",
+          "url": "/assets/images/img-kari-dosa-with-mushroom.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -11328,6 +11378,42 @@
             "ar": null
           },
           "sort_order": 1,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-fish-korma",
+      "slug": "fish-korma",
+      "path": "/menu/kinza/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Fish Korma",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ar": ""
+      },
+      "has_variants": false,
+      "base_price": 22,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 0,
+      "images": [
+        {
+          "id": "img-prod-fish-korma",
+          "url": "/assets/images/img-fish-korma.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
           "is_primary": true
         }
       ],
@@ -11589,7 +11675,7 @@
     },
     {
       "id": "prod-sprite-citrus-mint",
-      "slug": "sprite-citrus-and-mint",
+      "slug": "sprite-citrus-mint",
       "path": "/menu/sprite-citrus-and-mint/",
       "category_id": "cat-drinks",
       "subcategory_id": null,

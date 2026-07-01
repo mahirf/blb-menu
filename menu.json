@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-06-29T16:56:57.586Z",
+  "generated_at": "2026-07-01T13:21:15.630Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -1333,13 +1333,13 @@
       "sort_order": 60,
       "images": [
         {
-          "id": "img-prod-tamil-nadu-chicken-biryani",
-          "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
+          "id": "img-prod-tamil-nadu-chicken-biryani-alternate",
+          "url": "/assets/images/img-tamil-nadu-mutton-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -1474,7 +1474,7 @@
       "images": [
         {
           "id": "img-prod-tamil-nadu-beef-biryani-alternate",
-          "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
+          "url": "/assets/images/img-tamil-nadu-mutton-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -1614,7 +1614,7 @@
       "images": [
         {
           "id": "img-prod-tamil-nadu-fish-biryani-alternate",
-          "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
+          "url": "/assets/images/img-tamil-nadu-mutton-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -1753,13 +1753,13 @@
       "sort_order": 90,
       "images": [
         {
-          "id": "img-prod-tamil-nadu-mutton-biryani-alternate",
-          "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
+          "id": "img-prod-tamil-nadu-mutton-biryani",
+          "url": "/assets/images/img-tamil-nadu-mutton-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 1,
+          "sort_order": 10,
           "is_primary": true
         }
       ],
@@ -1894,7 +1894,7 @@
       "images": [
         {
           "id": "img-prod-tamil-nadu-shrimp-biryani-alternate",
-          "url": "/assets/images/img-tamil-nadu-chicken-biryani.webp",
+          "url": "/assets/images/img-tamil-nadu-mutton-biryani.webp",
           "alt_text": {
             "en": null,
             "ar": null

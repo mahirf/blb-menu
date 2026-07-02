@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-07-02T15:03:33.483Z",
+  "generated_at": "2026-07-02T15:46:30.744Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -539,42 +539,6 @@
     }
   ],
   "products": [
-    {
-      "id": "prod-hot-butter-prawns",
-      "slug": "hot-butter-prawns",
-      "path": "/menu/kinza/",
-      "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": null,
-      "name": {
-        "en": "Hot Butter Prawns",
-        "ar": ""
-      },
-      "description": {
-        "en": "",
-        "ar": ""
-      },
-      "has_variants": false,
-      "base_price": 28,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": 0,
-      "images": [
-        {
-          "id": "img-prod-hot-butter-prawns",
-          "url": "/assets/images/img-hot-butter-prawns.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
     {
       "id": "prod-chicken-dum-biryani",
       "slug": "chicken-dum-biryani",
@@ -5808,7 +5772,7 @@
         "ar": "كعكة أرز مطهوة على البخار طرية وهشة - خفيفة وصحية."
       },
       "has_variants": true,
-      "base_price": 1,
+      "base_price": 0,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -5869,7 +5833,7 @@
         "ar": "خبز هندي مسطح كلاسيكي وشهي، يُقدم مع بهاجي متبل قليلاً وتشاتني جوز الهند."
       },
       "has_variants": true,
-      "base_price": 5,
+      "base_price": 0,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -5930,7 +5894,7 @@
         "ar": "طبق كلاسيكي من شمال الهند. باتورا مقلية وهشة تُقدم مع كاري الحمص (تشولي) الحار واللاذع المطبوخ بتوابل عطرية."
       },
       "has_variants": true,
-      "base_price": 5,
+      "base_price": 0,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -10028,7 +9992,7 @@
         "ar": "روبيان مستزرع مقلي بإتقان مع مزيج حار من معجون الفلفل وصلصة الصويا والتوابل العطرية."
       },
       "has_variants": false,
-      "base_price": 23,
+      "base_price": 32,
       "base_kcal": 0,
       "tags": null,
       "is_active": true,
@@ -10135,7 +10099,7 @@
         "en": "A flavorful wok fried rice cooked with oyster sauce, sweet soy, dark soy, and fresh vegetables like bell peppers, carrots, and cabbage.",
         "ar": "أرز مقلي شهي في مقلاة الووك، مطبوخ بصلصة المحار وصلصة الصويا الحلوة والداكنة وخضراوات طازجة مثل الفلفل الرومي والجزر والملفوف."
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 14,
       "base_kcal": 0,
       "tags": null,
@@ -10171,7 +10135,7 @@
         "en": "A flavorful wok fried rice cooked with oyster sauce, sweet soy, dark soy, and fresh vegetables like bell peppers, carrots, and cabbage.",
         "ar": "أرز مقلي شهي في مقلاة الووك، مطبوخ بصلصة المحار وصلصة الصويا الحلوة والداكنة وخضراوات طازجة مثل الفلفل الرومي والجزر والملفوف."
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 14,
       "base_kcal": 0,
       "tags": null,
@@ -10207,7 +10171,7 @@
         "en": "A flavorful wok fried rice cooked with oyster sauce, sweet soy, dark soy, and fresh vegetables like bell peppers, carrots, and cabbage. available with chicken, beef, seafood, or a combination.",
         "ar": "أرز مقلي شهي في مقلاة الووك، مطبوخ بصلصة المحار وصلصة الصويا الحلوة والداكنة وخضراوات طازجة مثل الفلفل الرومي والجزر والملفوف. متوفر مع الدجاج أو اللحم البقري أو المأكولات البحرية أو مزيج منها."
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 19,
       "base_kcal": 0,
       "tags": null,
@@ -10243,7 +10207,7 @@
         "en": "Wok-fried Mongolian rice with tender beef, oyster sauce, sweet soy and fresh vegetables.",
         "ar": "أرز منغولي مقلي في الووك مع لحم بقري طري وصلصة المحار والصويا الحلوة وخضراوات طازجة."
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 21,
       "base_kcal": 0,
       "tags": null,
@@ -10279,7 +10243,7 @@
         "en": "Wok-fried Mongolian rice with prawns, oyster sauce, sweet soy and fresh vegetables.",
         "ar": "أرز منغولي مقلي في الووك مع الروبيان وصلصة المحار والصويا الحلوة وخضراوات طازجة."
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 23,
       "base_kcal": 0,
       "tags": null,
@@ -10315,7 +10279,7 @@
         "en": "Wok-fried Mongolian rice with chicken and beef, oyster sauce, sweet soy and fresh vegetables.",
         "ar": "أرز منغولي مقلي في الووك مع الدجاج واللحم البقري وصلصة المحار والصويا الحلوة وخضراوات طازجة."
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 25,
       "base_kcal": 0,
       "tags": null,
@@ -10351,7 +10315,7 @@
         "en": "Wok-fried Mongolian rice with mixed seafood, oyster sauce, sweet soy and fresh vegetables.",
         "ar": "أرز منغولي مقلي في الووك مع تشكيلة من المأكولات البحرية وصلصة المحار والصويا الحلوة وخضراوات طازجة."
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 27,
       "base_kcal": 0,
       "tags": null,
@@ -10387,7 +10351,7 @@
         "en": "Wok-fried Mongolian rice with a mix of chicken, beef and shrimp, oyster sauce, sweet soy and fresh vegetables.",
         "ar": "أرز منغولي مقلي في الووك مع مزيج من الدجاج واللحم البقري والروبيان وصلصة المحار والصويا الحلوة وخضراوات طازجة."
       },
-      "has_variants": true,
+      "has_variants": false,
       "base_price": 28,
       "base_kcal": 0,
       "tags": null,
@@ -11325,9 +11289,45 @@
       "option_groups": []
     },
     {
+      "id": "prod-hot-butter-prawns",
+      "slug": "hot-butter-prawns",
+      "path": "/menu/hot-butter-prawns/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Hot Butter Prawns",
+        "ar": "ربيان حار بالزبدة"
+      },
+      "description": {
+        "en": "Crispy, succulent prawns stir-fried in a rich, velvety butter sauce loaded with aromatic curry leaves and fiery chili flakes.",
+        "ar": "حبات ربيان طرية ومقرمشة مقلية في صلصة زبدة غنية ومخملية مليئة بأوراق الكاري العطرية ورقائق الفلفل الحار."
+      },
+      "has_variants": false,
+      "base_price": 28,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 0,
+      "images": [
+        {
+          "id": "img-prod-hot-butter-prawns",
+          "url": "/assets/images/img-hot-butter-prawns.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
       "id": "prod-fish-korma",
       "slug": "fish-korma",
-      "path": "/menu/kinza/",
+      "path": "/menu/fish-korma/",
       "category_id": "cat-gravies-asian-sides",
       "subcategory_id": null,
       "name": {
@@ -11348,6 +11348,42 @@
         {
           "id": "img-prod-fish-korma",
           "url": "/assets/images/img-fish-korma.webp",
+          "alt_text": {
+            "en": null,
+            "ar": null
+          },
+          "sort_order": 10,
+          "is_primary": true
+        }
+      ],
+      "offers": [],
+      "variations": [],
+      "option_groups": []
+    },
+    {
+      "id": "prod-prawn-manchurian",
+      "slug": "prawn-manchurian",
+      "path": "/menu/prawn-manchurian/",
+      "category_id": "cat-gravies-asian-sides",
+      "subcategory_id": null,
+      "name": {
+        "en": "Prawn Manchurian",
+        "ar": "ربيان مانشوريان"
+      },
+      "description": {
+        "en": "Golden-fried prawns tossed in a savory, tangy, and slightly sweet Indo-Chinese sauce infused with garlic, ginger, and green chilies.",
+        "ar": "حبات ربيان مقلية ومقرمشة مغموسة في صلصة هندو-صينية حاذقة وحلوة قليلاً غنية بالثوم والزنجبيل والفلفل الأخضر الحار."
+      },
+      "has_variants": false,
+      "base_price": 29,
+      "base_kcal": 0,
+      "tags": null,
+      "is_active": true,
+      "sort_order": 0,
+      "images": [
+        {
+          "id": "img-prod-prawn-manchurian",
+          "url": "/assets/images/img-prawn-manchurian.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -11615,7 +11651,7 @@
     {
       "id": "prod-sprite-citrus-mint",
       "slug": "sprite-citrus-mint",
-      "path": "/menu/sprite-citrus-and-mint/",
+      "path": "/menu/sprite-citrus-mint/",
       "category_id": "cat-drinks",
       "subcategory_id": null,
       "name": {
@@ -11688,7 +11724,7 @@
       "id": "prod-crispy-chicken-wings",
       "slug": "crispy-chicken-wings",
       "path": "/menu/crispy-chicken-wings/",
-      "category_id": "",
+      "category_id": "cat-broasted",
       "subcategory_id": null,
       "name": {
         "en": "Crispy Chicken Wings",
@@ -11698,7 +11734,7 @@
         "en": "Perfectly seasoned chicken wings fried to a golden, crunchy perfection while remaining juicy and tender on the inside.",
         "ar": "أجنحة دجاج متبلة ومقلية بشكل مثالي حتى تصبح ذهبية ومقرمشة، مع الحفاظ على طراوتها وعصارتها من الداخل."
       },
-      "has_variants": false,
+      "has_variants": true,
       "base_price": 0,
       "base_kcal": 0,
       "tags": "chicken, wings, crispy, fried",
@@ -11717,7 +11753,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-crispy-chicken-wings-single",
+          "name": {
+            "en": "5 pcs",
+            "ar": "5 قطع"
+          },
+          "base_price": 10,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-crispy-chicken-wings-full",
+          "name": {
+            "en": "7 pcs",
+            "ar": "7 قطع"
+          },
+          "base_price": 15,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -11735,7 +11796,7 @@
         "ar": "شرائح دجاج مقلية ومقرمشة ومغمورة في صلصة حمراء حارة وحلوة وحامضة مع الكاجو المقرمش والفلفل البارد الملون."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 19,
       "base_kcal": 0,
       "tags": "chicken, dragon, spicy, fried, chinese",
       "is_active": true,
@@ -11771,7 +11832,7 @@
         "ar": "شرائح لحم بقر طرية ومحمرة مغطاة بصلصة غنية وحارة مع البصل ومزينة ببذور السمسم المحمصة."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 26,
       "base_kcal": 0,
       "tags": "beef, dragon, spicy, chinese",
       "is_active": true,
@@ -11807,7 +11868,7 @@
         "ar": "حلقات حبار مقلية بلون ذهبي ومغمورة في صلصة الفلفل الحار مع البصل الأخضر والثوم لتوازن مثالي بين النكهة والحرارة."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 26,
       "base_kcal": 0,
       "tags": "seafood, squid, dragon, spicy, chinese",
       "is_active": true,
@@ -11843,7 +11904,7 @@
         "ar": "روبيان طري ومطهو في صلصة دراغون غنية وحارة ولامعة، ومزين بسخاء ببذور السمسم المحمصة والبصل الأخضر الطازج."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 29,
       "base_kcal": 0,
       "tags": "seafood, prawn, shrimp, dragon, spicy, chinese",
       "is_active": true,
@@ -11879,7 +11940,7 @@
         "ar": "شرائح لحم بقري طرية ومقلية مع الفلفل الرومي الملون والبصل في صلصة الصويا الداكنة الحارة والغنية بالنكهة."
       },
       "has_variants": false,
-      "base_price": 0,
+      "base_price": 18,
       "base_kcal": 0,
       "tags": "beef, chinese, chili, spicy, stir fry",
       "is_active": true,

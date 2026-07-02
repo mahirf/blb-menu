@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-07-02T15:46:30.744Z",
+  "generated_at": "2026-07-02T16:51:26.027Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -269,7 +269,20 @@
       "sort_order": 4,
       "is_active": true,
       "is_hidden": false,
-      "subcategories": []
+      "subcategories": [
+        {
+          "id": "sub-set-meals-rice-only",
+          "category_id": "cat-set-meals",
+          "slug": "rice-only",
+          "path": "/menu/set-meals/rice-only/",
+          "name": {
+            "en": "Rice only",
+            "ar": "أرز فقط"
+          },
+          "sort_order": 160,
+          "is_active": true
+        }
+      ]
     },
     {
       "id": "cat-all-day-breakfast",
@@ -4985,13 +4998,13 @@
       "option_groups": []
     },
     {
-      "id": "prod-idiyappam-string-hoppers-3-pieces",
-      "slug": "idiyappam-string-hoppers-3-pieces",
-      "path": "/menu/idiyappam-string-hoppers-3-pieces/",
+      "id": "prod-idiappam-string-hoppers-3-pieces",
+      "slug": "idiappam-string-hoppers-3-pieces",
+      "path": "/menu/idiappam-string-hoppers-3-pieces/",
       "category_id": "cat-all-day-breakfast",
       "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
-        "en": "Idiyappam (String Hoppers) - 3 Pieces",
+        "en": "Idiappam (String Hoppers) - 3 Pieces",
         "ar": "إديابام (نودلز رفيعة من دقيق الأرز مطهوة بالبخار) - 3 قطع"
       },
       "description": {
@@ -5006,8 +5019,8 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-idiyappam-string-hoppers-3-pieces",
-          "url": "/assets/images/img-idiyappam-string-hoppers-3-pieces.webp",
+          "id": "img-prod-idiappam-string-hoppers-3-pieces",
+          "url": "/assets/images/img-idiappam-string-hoppers-3-pieces.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -7745,13 +7758,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-saffron-yellow-rice-beef-alternate",
-          "url": "/assets/images/img-saffron-yellow-rice-chicken.webp",
+          "id": "img-prod-saffron-yellow-rice-beef",
+          "url": "/assets/images/img-saffron-yellow-rice-beef.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 1,
+          "sort_order": 10,
           "is_primary": true
         }
       ],
@@ -7781,13 +7794,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-saffron-yellow-rice-fish-alternate",
-          "url": "/assets/images/img-saffron-yellow-rice-chicken.webp",
+          "id": "img-prod-saffron-yellow-rice-fish",
+          "url": "/assets/images/img-saffron-yellow-rice-fish.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 1,
+          "sort_order": 10,
           "is_primary": true
         }
       ],
@@ -8051,7 +8064,7 @@
       "id": "prod-idiappam-string-hopper",
       "slug": "idiappam-string-hopper",
       "path": "/menu/idiappam-string-hopper/",
-      "category_id": "cat-vegetarian",
+      "category_id": "cat-all-day-breakfast",
       "subcategory_id": null,
       "name": {
         "en": "Idiappam (String Hopper)",

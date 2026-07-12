@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-07-12T13:17:09.500Z",
+  "generated_at": "2026-07-12T13:22:30.345Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -8189,7 +8189,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-medu-vadai-single-piece",
+          "name": {
+            "en": "Single Piece",
+            "ar": "قطعة واحدة"
+          },
+          "base_price": 1,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-medu-vadai-set-of-three",
+          "name": {
+            "en": "Set of Three",
+            "ar": "مجموعة من ثلاث قطع"
+          },
+          "base_price": 3,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -9983,45 +10008,8 @@
       "option_groups": []
     },
     {
-      "id": "prod-dragon-beef",
-      "item_no": 173,
-      "slug": "dragon-beef",
-      "path": "/menu/dragon-beef/",
-      "category_id": "cat-gravies-asian-sides",
-      "subcategory_id": null,
-      "name": {
-        "en": "Dragon Beef",
-        "ar": "دراغون بيف (لحم بقري حار)"
-      },
-      "description": {
-        "en": "Beef strips marinated and stir fried in chili sauce, dark soya sauce, tomato sauce, and chili flakes, garnished with sesame seeds, tossed with vibrant bell peppers, and fragrant spices.",
-        "ar": "شرائح لحم بقري متبلة ومقلية في صلصة الفلفل الحار وصلصة الصويا الداكنة وصلصة الطماطم ورقائق الفلفل الحار، مزينة ببذور السمسم وممزوجة بالفلفل الرومي الملون والتوابل العطرية."
-      },
-      "has_variants": false,
-      "base_price": 26,
-      "base_kcal": 0,
-      "tags": null,
-      "is_active": true,
-      "sort_order": null,
-      "images": [
-        {
-          "id": "img-prod-dragon-beef",
-          "url": "/assets/images/img-dragon-beef.webp",
-          "alt_text": {
-            "en": null,
-            "ar": null
-          },
-          "sort_order": 10,
-          "is_primary": true
-        }
-      ],
-      "offers": [],
-      "variations": [],
-      "option_groups": []
-    },
-    {
       "id": "prod-amma-s-spicy-crab-4-medium-crab-halves",
-      "item_no": 174,
+      "item_no": 173,
       "slug": "amma-s-spicy-crab-4-medium-crab-halves",
       "path": "/menu/amma-s-spicy-crab-4-medium-crab-halves/",
       "category_id": "cat-seafood-dishes",
@@ -10058,7 +10046,7 @@
     },
     {
       "id": "prod-shrimp-red-curry-9-to-10-medium-pieces",
-      "item_no": 175,
+      "item_no": 174,
       "slug": "shrimp-red-curry-9-to-10-medium-pieces",
       "path": "/menu/shrimp-red-curry-9-to-10-medium-pieces/",
       "category_id": "cat-seafood-dishes",
@@ -10095,7 +10083,7 @@
     },
     {
       "id": "prod-crab-curry-two-halves-of-crab",
-      "item_no": 176,
+      "item_no": 175,
       "slug": "crab-curry-two-halves-of-crab",
       "path": "/menu/crab-curry-two-halves-of-crab/",
       "category_id": "cat-seafood-dishes",
@@ -10132,7 +10120,7 @@
     },
     {
       "id": "prod-devilled-cuttlefish",
-      "item_no": 177,
+      "item_no": 176,
       "slug": "devilled-cuttlefish",
       "path": "/menu/devilled-cuttlefish/",
       "category_id": "cat-seafood-dishes",
@@ -10169,7 +10157,7 @@
     },
     {
       "id": "prod-devilled-prawns-6-pieces",
-      "item_no": 178,
+      "item_no": 177,
       "slug": "devilled-prawns-6-pieces",
       "path": "/menu/devilled-prawns-6-pieces/",
       "category_id": "cat-seafood-dishes",
@@ -10206,7 +10194,7 @@
     },
     {
       "id": "prod-devilled-fish",
-      "item_no": 179,
+      "item_no": 178,
       "slug": "devilled-fish",
       "path": "/menu/devilled-fish/",
       "category_id": "cat-seafood-dishes",
@@ -10243,7 +10231,7 @@
     },
     {
       "id": "prod-hot-butter-cuttlefish",
-      "item_no": 180,
+      "item_no": 179,
       "slug": "hot-butter-cuttlefish",
       "path": "/menu/hot-butter-cuttlefish/",
       "category_id": "cat-seafood-dishes",
@@ -10280,7 +10268,7 @@
     },
     {
       "id": "prod-mongolian-fried-rice-egg",
-      "item_no": 181,
+      "item_no": 180,
       "slug": "mongolian-fried-rice-egg",
       "path": "/menu/mongolian-fried-rice-egg/",
       "category_id": "cat-rice-noodles-and-kottu",
@@ -10317,7 +10305,7 @@
     },
     {
       "id": "prod-mongolian-fried-rice-vegetable",
-      "item_no": 182,
+      "item_no": 181,
       "slug": "mongolian-fried-rice-vegetable",
       "path": "/menu/mongolian-fried-rice-vegetable/",
       "category_id": "cat-rice-noodles-and-kottu",
@@ -10354,7 +10342,7 @@
     },
     {
       "id": "prod-mongolian-fried-rice-chicken",
-      "item_no": 183,
+      "item_no": 182,
       "slug": "mongolian-fried-rice-chicken",
       "path": "/menu/mongolian-fried-rice-chicken/",
       "category_id": "cat-rice-noodles-and-kottu",
@@ -10391,7 +10379,7 @@
     },
     {
       "id": "prod-mongolian-fried-rice-beef",
-      "item_no": 184,
+      "item_no": 183,
       "slug": "mongolian-fried-rice-beef",
       "path": "/menu/mongolian-fried-rice-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
@@ -10428,7 +10416,7 @@
     },
     {
       "id": "prod-mongolian-fried-rice-prawns",
-      "item_no": 185,
+      "item_no": 184,
       "slug": "mongolian-fried-rice-prawns",
       "path": "/menu/mongolian-fried-rice-prawns/",
       "category_id": "cat-rice-noodles-and-kottu",
@@ -10465,7 +10453,7 @@
     },
     {
       "id": "prod-mongolian-fried-rice-chicken-beef",
-      "item_no": 186,
+      "item_no": 185,
       "slug": "mongolian-fried-rice-chicken-beef",
       "path": "/menu/mongolian-fried-rice-chicken-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
@@ -10502,7 +10490,7 @@
     },
     {
       "id": "prod-mongolian-fried-rice-seafood",
-      "item_no": 187,
+      "item_no": 186,
       "slug": "mongolian-fried-rice-seafood",
       "path": "/menu/mongolian-fried-rice-seafood/",
       "category_id": "cat-rice-noodles-and-kottu",
@@ -10539,7 +10527,7 @@
     },
     {
       "id": "prod-mongolian-fried-rice-mixed",
-      "item_no": 188,
+      "item_no": 187,
       "slug": "mongolian-fried-rice-mixed",
       "path": "/menu/mongolian-fried-rice-mixed/",
       "category_id": "cat-rice-noodles-and-kottu",
@@ -10576,7 +10564,7 @@
     },
     {
       "id": "prod-nool-paratha",
-      "item_no": 189,
+      "item_no": 188,
       "slug": "nool-paratha",
       "path": "/menu/nool-paratha/",
       "category_id": "cat-breads",
@@ -10613,7 +10601,7 @@
     },
     {
       "id": "prod-kari-dosa-with-cheese",
-      "item_no": 190,
+      "item_no": 189,
       "slug": "kari-dosa-with-cheese",
       "path": "/menu/kari-dosa-with-cheese/",
       "category_id": "cat-all-day-breakfast",
@@ -10650,7 +10638,7 @@
     },
     {
       "id": "prod-chili-gobi",
-      "item_no": 191,
+      "item_no": 190,
       "slug": "chili-gobi",
       "path": "/menu/chili-gobi/",
       "category_id": "cat-gravies-asian-sides",
@@ -10687,7 +10675,7 @@
     },
     {
       "id": "prod-chili-mushroom-vegetable",
-      "item_no": 192,
+      "item_no": 191,
       "slug": "chili-mushroom-vegetable",
       "path": "/menu/chili-mushroom-vegetable/",
       "category_id": "cat-gravies-asian-sides",
@@ -10724,7 +10712,7 @@
     },
     {
       "id": "prod-beef-masala-fry-ularthiyathu",
-      "item_no": 193,
+      "item_no": 192,
       "slug": "beef-masala-fry-ularthiyathu",
       "path": "/menu/beef-masala-fry-ularthiyathu/",
       "category_id": "cat-gravies-asian-sides",
@@ -10786,7 +10774,7 @@
     },
     {
       "id": "prod-beef-roast",
-      "item_no": 194,
+      "item_no": 193,
       "slug": "beef-roast",
       "path": "/menu/beef-roast/",
       "category_id": "cat-gravies-asian-sides",
@@ -10848,7 +10836,7 @@
     },
     {
       "id": "prod-beef-dry-fry-bdf",
-      "item_no": 195,
+      "item_no": 194,
       "slug": "beef-dry-fry-bdf",
       "path": "/menu/beef-dry-fry-bdf/",
       "category_id": "cat-gravies-asian-sides",
@@ -10885,7 +10873,7 @@
     },
     {
       "id": "prod-beef-fry-ularthiyathu",
-      "item_no": 196,
+      "item_no": 195,
       "slug": "beef-fry-ularthiyathu",
       "path": "/menu/beef-fry-ularthiyathu/",
       "category_id": "cat-gravies-asian-sides",
@@ -10947,7 +10935,7 @@
     },
     {
       "id": "prod-ghee-rice-chicken",
-      "item_no": 197,
+      "item_no": 196,
       "slug": "ghee-rice-chicken",
       "path": "/menu/ghee-rice-chicken/",
       "category_id": "cat-set-meals",
@@ -10984,7 +10972,7 @@
     },
     {
       "id": "prod-ghee-rice-beef",
-      "item_no": 198,
+      "item_no": 197,
       "slug": "ghee-rice-beef",
       "path": "/menu/ghee-rice-beef/",
       "category_id": "cat-set-meals",
@@ -11021,7 +11009,7 @@
     },
     {
       "id": "prod-ghee-rice-fish",
-      "item_no": 199,
+      "item_no": 198,
       "slug": "ghee-rice-fish",
       "path": "/menu/ghee-rice-fish/",
       "category_id": "cat-set-meals",
@@ -11058,7 +11046,7 @@
     },
     {
       "id": "prod-ghee-rice-mutton",
-      "item_no": 200,
+      "item_no": 199,
       "slug": "ghee-rice-mutton",
       "path": "/menu/ghee-rice-mutton/",
       "category_id": "cat-set-meals",
@@ -11095,7 +11083,7 @@
     },
     {
       "id": "prod-ghee-rice-crab",
-      "item_no": 201,
+      "item_no": 200,
       "slug": "ghee-rice-crab",
       "path": "/menu/ghee-rice-crab/",
       "category_id": "cat-set-meals",
@@ -11132,7 +11120,7 @@
     },
     {
       "id": "prod-ghee-rice-prawns",
-      "item_no": 202,
+      "item_no": 201,
       "slug": "ghee-rice-prawns",
       "path": "/menu/ghee-rice-prawns/",
       "category_id": "cat-set-meals",
@@ -11169,7 +11157,7 @@
     },
     {
       "id": "prod-ghee-rice-cuttlefish",
-      "item_no": 203,
+      "item_no": 202,
       "slug": "ghee-rice-cuttlefish",
       "path": "/menu/ghee-rice-cuttlefish/",
       "category_id": "cat-set-meals",
@@ -11206,7 +11194,7 @@
     },
     {
       "id": "prod-mandi-rice-with-al-faham-chicken-combo",
-      "item_no": 204,
+      "item_no": 203,
       "slug": "mandi-rice-with-al-faham-chicken-combo",
       "path": "/menu/mandi-rice-with-al-faham-chicken-combo/",
       "category_id": "cat-offers",
@@ -11267,7 +11255,7 @@
     },
     {
       "id": "prod-chicken-lal-pari-with-veg-pulao-or-mandi-rice-combo",
-      "item_no": 205,
+      "item_no": 204,
       "slug": "chicken-lal-pari-with-veg-pulao-or-mandi-rice-combo",
       "path": "/menu/chicken-lal-pari-with-veg-pulao-or-mandi-rice-combo/",
       "category_id": "cat-offers",
@@ -11328,7 +11316,7 @@
     },
     {
       "id": "prod-kari-dosa-with-sardine",
-      "item_no": 206,
+      "item_no": 205,
       "slug": "kari-dosa-with-sardine",
       "path": "/menu/kari-dosa-with-sardine/",
       "category_id": "cat-all-day-breakfast",
@@ -11365,7 +11353,7 @@
     },
     {
       "id": "prod-kari-dosa-with-canned-squid",
-      "item_no": 207,
+      "item_no": 206,
       "slug": "kari-dosa-with-canned-squid",
       "path": "/menu/kari-dosa-with-canned-squid/",
       "category_id": "cat-all-day-breakfast",
@@ -11402,7 +11390,7 @@
     },
     {
       "id": "prod-kari-dosa-with-mushroom",
-      "item_no": 208,
+      "item_no": 207,
       "slug": "kari-dosa-with-mushroom",
       "path": "/menu/kari-dosa-with-mushroom/",
       "category_id": "cat-all-day-breakfast",
@@ -11439,7 +11427,7 @@
     },
     {
       "id": "prod-kari-dosa-with-chicken",
-      "item_no": 209,
+      "item_no": 208,
       "slug": "kari-dosa-with-chicken",
       "path": "/menu/kari-dosa-with-chicken/",
       "category_id": "cat-all-day-breakfast",
@@ -11476,7 +11464,7 @@
     },
     {
       "id": "prod-kari-dosa-with-beef",
-      "item_no": 210,
+      "item_no": 209,
       "slug": "kari-dosa-with-beef",
       "path": "/menu/kari-dosa-with-beef/",
       "category_id": "cat-all-day-breakfast",
@@ -11513,7 +11501,7 @@
     },
     {
       "id": "prod-hot-butter-prawns",
-      "item_no": 220,
+      "item_no": 219,
       "slug": "hot-butter-prawns",
       "path": "/menu/hot-butter-prawns/",
       "category_id": "cat-gravies-asian-sides",
@@ -11550,7 +11538,7 @@
     },
     {
       "id": "prod-fish-korma",
-      "item_no": 221,
+      "item_no": 220,
       "slug": "fish-korma",
       "path": "/menu/fish-korma/",
       "category_id": "cat-gravies-asian-sides",
@@ -11587,7 +11575,7 @@
     },
     {
       "id": "prod-prawn-manchurian",
-      "item_no": 228,
+      "item_no": 227,
       "slug": "prawn-manchurian",
       "path": "/menu/prawn-manchurian/",
       "category_id": "cat-gravies-asian-sides",
@@ -11624,7 +11612,7 @@
     },
     {
       "id": "prod-water",
-      "item_no": 211,
+      "item_no": 210,
       "slug": "water",
       "path": "/menu/water/",
       "category_id": "cat-drinks",
@@ -11661,7 +11649,7 @@
     },
     {
       "id": "prod-coca-cola-light-can",
-      "item_no": 212,
+      "item_no": 211,
       "slug": "coca-cola-light-can",
       "path": "/menu/coca-cola-light-can/",
       "category_id": "cat-drinks",
@@ -11698,7 +11686,7 @@
     },
     {
       "id": "prod-coca-cola-zero-can",
-      "item_no": 213,
+      "item_no": 212,
       "slug": "coca-cola-zero-can",
       "path": "/menu/coca-cola-zero-can/",
       "category_id": "cat-drinks",
@@ -11735,7 +11723,7 @@
     },
     {
       "id": "prod-coca-cola",
-      "item_no": 214,
+      "item_no": 213,
       "slug": "coca-cola",
       "path": "/menu/coca-cola/",
       "category_id": "cat-drinks",
@@ -11772,7 +11760,7 @@
     },
     {
       "id": "prod-fanta",
-      "item_no": 215,
+      "item_no": 214,
       "slug": "fanta",
       "path": "/menu/fanta/",
       "category_id": "cat-drinks",
@@ -11809,7 +11797,7 @@
     },
     {
       "id": "prod-fanta-citrus",
-      "item_no": 216,
+      "item_no": 215,
       "slug": "fanta-citrus",
       "path": "/menu/fanta-citrus/",
       "category_id": "cat-drinks",
@@ -11846,7 +11834,7 @@
     },
     {
       "id": "prod-sprite",
-      "item_no": 217,
+      "item_no": 216,
       "slug": "sprite",
       "path": "/menu/sprite/",
       "category_id": "cat-drinks",
@@ -11883,7 +11871,7 @@
     },
     {
       "id": "prod-sprite-citrus-mint",
-      "item_no": 218,
+      "item_no": 217,
       "slug": "sprite-citrus-mint",
       "path": "/menu/sprite-citrus-mint/",
       "category_id": "cat-drinks",
@@ -11920,7 +11908,7 @@
     },
     {
       "id": "prod-kinza",
-      "item_no": 219,
+      "item_no": 218,
       "slug": "kinza",
       "path": "/menu/kinza/",
       "category_id": "cat-drinks",
@@ -11957,7 +11945,7 @@
     },
     {
       "id": "prod-crispy-chicken-wings",
-      "item_no": 222,
+      "item_no": 221,
       "slug": "crispy-chicken-wings",
       "path": "/menu/crispy-chicken-wings/",
       "category_id": "cat-broasted",
@@ -12019,7 +12007,7 @@
     },
     {
       "id": "prod-dragon-chicken",
-      "item_no": 223,
+      "item_no": 222,
       "slug": "dragon-chicken",
       "path": "/menu/dragon-chicken/",
       "category_id": "cat-gravies-asian-sides",
@@ -12056,7 +12044,7 @@
     },
     {
       "id": "prod-dragon-beef",
-      "item_no": 224,
+      "item_no": 223,
       "slug": "dragon-beef",
       "path": "/menu/dragon-beef/",
       "category_id": "cat-gravies-asian-sides",
@@ -12093,7 +12081,7 @@
     },
     {
       "id": "prod-dragon-squid",
-      "item_no": 225,
+      "item_no": 224,
       "slug": "dragon-squid",
       "path": "/menu/dragon-squid/",
       "category_id": "cat-seafood-dishes",
@@ -12130,7 +12118,7 @@
     },
     {
       "id": "prod-dragon-prawn",
-      "item_no": 226,
+      "item_no": 225,
       "slug": "dragon-prawn",
       "path": "/menu/dragon-prawn/",
       "category_id": "cat-seafood-dishes",
@@ -12167,7 +12155,7 @@
     },
     {
       "id": "prod-chinese-chili-beef",
-      "item_no": 227,
+      "item_no": 226,
       "slug": "chinese-chili-beef",
       "path": "/menu/chinese-chili-beef/",
       "category_id": "cat-gravies-asian-sides",

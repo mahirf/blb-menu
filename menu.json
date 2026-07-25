@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-07-25T18:33:57.146Z",
+  "generated_at": "2026-07-25T18:42:46.120Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -2628,7 +2628,7 @@
       "images": [
         {
           "id": "img-prod-kottu-idiyappam-chicken",
-          "url": "/assets/images/img-kottu-idiyappam-chicken.webp",
+          "url": "/assets/images/img-kottu-idiappam-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3210,7 +3210,7 @@
       "images": [
         {
           "id": "img-prod-sri-lanka-idiyappam-biryani-chicken",
-          "url": "/assets/images/img-sri-lanka-idiyappam-biryani-chicken.webp",
+          "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -8241,7 +8241,7 @@
       "images": [
         {
           "id": "img-prod-idiyappam-string-hopper",
-          "url": "/assets/images/img-idiyappam-string-hopper.webp",
+          "url": "/assets/images/img-idiappam-string-hopper.webp",
           "alt_text": {
             "en": null,
             "ar": null

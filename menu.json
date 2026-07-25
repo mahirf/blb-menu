@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-07-25T18:13:19.669Z",
+  "generated_at": "2026-07-25T18:27:19.630Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -2481,18 +2481,18 @@
       "option_groups": []
     },
     {
-      "id": "prod-kottu-idiappam-egg",
+      "id": "prod-kottu-idiyappam-egg",
       "item_no": 19,
-      "slug": "kottu-idiappam-egg",
-      "path": "/menu/kottu-idiappam-egg/",
+      "slug": "kottu-idiyappam-egg",
+      "path": "/menu/kottu-idiyappam-egg/",
       "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-rice-noodles-and-kottu-kottu-idiappam",
       "name": {
-        "en": "Kottu Idiappam Egg",
+        "en": "Kottu Idiyappam Egg",
         "ar": "كوتو إديايام بالبيض"
       },
       "description": {
-        "en": "Finely shredded string hoppers (Idiappam) stir-fried with eggs, vegetables, and aromatic spices.",
+        "en": "Finely shredded string hoppers (Idiyappam) stir-fried with eggs, vegetables, and aromatic spices.",
         "ar": "إديايام (نودلز الأرز السريلانكية) مقطعة ومقلية مع البيض والخضروات والتوابل العطرية."
       },
       "has_variants": true,
@@ -2503,7 +2503,7 @@
       "sort_order": 190,
       "images": [
         {
-          "id": "img-prod-kottu-idiappam-egg-alternate",
+          "id": "img-prod-kottu-idiyappam-egg-alternate",
           "url": "/assets/images/img-kottu-idiappam-chicken.webp",
           "alt_text": {
             "en": null,
@@ -2514,43 +2514,18 @@
         }
       ],
       "offers": [],
-      "variations": [
-        {
-          "id": "v-kottu-idiappam-egg-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 16,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-kottu-idiappam-egg-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 25,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20,
-          "offers": []
-        }
-      ],
+      "variations": [],
       "option_groups": []
     },
     {
-      "id": "prod-kottu-idiappam-veg-mushroom",
+      "id": "prod-kottu-idiyappam-veg-mushroom",
       "item_no": 20,
-      "slug": "kottu-idiappam-veg-mushroom",
-      "path": "/menu/kottu-idiappam-veg-mushroom/",
+      "slug": "kottu-idiyappam-veg-mushroom",
+      "path": "/menu/kottu-idiyappam-veg-mushroom/",
       "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-rice-noodles-and-kottu-kottu-idiappam",
       "name": {
-        "en": "Kottu Idiappam Veg & Mushroom",
+        "en": "Kottu Idiyappam Veg & Mushroom",
         "ar": "كوتو إديايام بالخضار والمشروم"
       },
       "description": {
@@ -2565,7 +2540,7 @@
       "sort_order": 200,
       "images": [
         {
-          "id": "img-prod-kottu-idiappam-veg-mushroom-alternate",
+          "id": "img-prod-kottu-idiyappam-veg-mushroom-alternate",
           "url": "/assets/images/img-kottu-idiappam-chicken.webp",
           "alt_text": {
             "en": null,
@@ -2576,43 +2551,18 @@
         }
       ],
       "offers": [],
-      "variations": [
-        {
-          "id": "v-kottu-idiappam-veg-mushroom-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 18,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-kottu-idiappam-veg-mushroom-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 27,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20,
-          "offers": []
-        }
-      ],
+      "variations": [],
       "option_groups": []
     },
     {
-      "id": "prod-kottu-idiappam-chicken",
+      "id": "prod-kottu-idiyappam-chicken",
       "item_no": 21,
-      "slug": "kottu-idiappam-chicken",
-      "path": "/menu/kottu-idiappam-chicken/",
+      "slug": "kottu-idiyappam-chicken",
+      "path": "/menu/kottu-idiyappam-chicken/",
       "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-rice-noodles-and-kottu-kottu-idiappam",
       "name": {
-        "en": "Kottu Idiappam Chicken",
+        "en": "Kottu Idiyappam Chicken",
         "ar": "كوتو إديايام بالدجاج"
       },
       "description": {
@@ -2627,8 +2577,8 @@
       "sort_order": 210,
       "images": [
         {
-          "id": "img-prod-kottu-idiappam-chicken",
-          "url": "/assets/images/img-kottu-idiappam-chicken.webp",
+          "id": "img-prod-kottu-idiyappam-chicken",
+          "url": "/assets/images/img-kottu-idiyappam-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -2638,43 +2588,18 @@
         }
       ],
       "offers": [],
-      "variations": [
-        {
-          "id": "v-kottu-idiappam-chicken-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 19,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-kottu-idiappam-chicken-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 29,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20,
-          "offers": []
-        }
-      ],
+      "variations": [],
       "option_groups": []
     },
     {
-      "id": "prod-kottu-idiappam-beef",
+      "id": "prod-kottu-idiyappam-beef",
       "item_no": 22,
-      "slug": "kottu-idiappam-beef",
-      "path": "/menu/kottu-idiappam-beef/",
+      "slug": "kottu-idiyappam-beef",
+      "path": "/menu/kottu-idiyappam-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-rice-noodles-and-kottu-kottu-idiappam",
       "name": {
-        "en": "Kottu Idiappam Beef",
+        "en": "Kottu Idiyappam Beef",
         "ar": "كوتو إديايام باللحم البقري"
       },
       "description": {
@@ -2689,7 +2614,7 @@
       "sort_order": 220,
       "images": [
         {
-          "id": "img-prod-kottu-idiappam-beef-alternate",
+          "id": "img-prod-kottu-idiyappam-beef-alternate",
           "url": "/assets/images/img-kottu-idiappam-chicken.webp",
           "alt_text": {
             "en": null,
@@ -2700,43 +2625,18 @@
         }
       ],
       "offers": [],
-      "variations": [
-        {
-          "id": "v-kottu-idiappam-beef-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 20,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-kottu-idiappam-beef-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 31,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20,
-          "offers": []
-        }
-      ],
+      "variations": [],
       "option_groups": []
     },
     {
-      "id": "prod-kottu-idiappam-chicken-beef",
+      "id": "prod-kottu-idiyappam-chicken-beef",
       "item_no": 23,
-      "slug": "kottu-idiappam-chicken-beef",
-      "path": "/menu/kottu-idiappam-chicken-beef/",
+      "slug": "kottu-idiyappam-chicken-beef",
+      "path": "/menu/kottu-idiyappam-chicken-beef/",
       "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-rice-noodles-and-kottu-kottu-idiappam",
       "name": {
-        "en": "Kottu Idiappam Chicken & Beef",
+        "en": "Kottu Idiyappam Chicken & Beef",
         "ar": "كوتو إديايام بالدجاج واللحم"
       },
       "description": {
@@ -2751,7 +2651,7 @@
       "sort_order": 230,
       "images": [
         {
-          "id": "img-prod-kottu-idiappam-chicken-beef-alternate",
+          "id": "img-prod-kottu-idiyappam-chicken-beef-alternate",
           "url": "/assets/images/img-kottu-idiappam-chicken.webp",
           "alt_text": {
             "en": null,
@@ -2762,43 +2662,18 @@
         }
       ],
       "offers": [],
-      "variations": [
-        {
-          "id": "v-kottu-idiappam-chicken-beef-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 27,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-kottu-idiappam-chicken-beef-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 37,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20,
-          "offers": []
-        }
-      ],
+      "variations": [],
       "option_groups": []
     },
     {
-      "id": "prod-mixed-kottu-idiappam-chick-beef-shrimp",
+      "id": "prod-mixed-kottu-idiyappam-chick-beef-shrimp",
       "item_no": 24,
-      "slug": "mixed-kottu-idiappam-chick-beef-shrimp",
-      "path": "/menu/mixed-kottu-idiappam-chick-beef-shrimp/",
+      "slug": "mixed-kottu-idiyappam-chick-beef-shrimp",
+      "path": "/menu/mixed-kottu-idiyappam-chick-beef-shrimp/",
       "category_id": "cat-rice-noodles-and-kottu",
       "subcategory_id": "sub-rice-noodles-and-kottu-kottu-idiappam",
       "name": {
-        "en": "Mixed Kottu Idiappam (Chick, Beef, Shrimp)",
+        "en": "Mixed Kottu Idiyappam (Chick, Beef, Shrimp)",
         "ar": "كوتو إديايام مشكل (دجاج، لحم، روبيان)"
       },
       "description": {
@@ -2813,7 +2688,7 @@
       "sort_order": 240,
       "images": [
         {
-          "id": "img-prod-mixed-kottu-idiappam-chick-beef-shrimp-alternate",
+          "id": "img-prod-mixed-kottu-idiyappam-chick-beef-shrimp-alternate",
           "url": "/assets/images/img-kottu-idiappam-chicken.webp",
           "alt_text": {
             "en": null,
@@ -2824,32 +2699,7 @@
         }
       ],
       "offers": [],
-      "variations": [
-        {
-          "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 34,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-mixed-kottu-idiappam-chick-beef-shrimp-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 47,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20,
-          "offers": []
-        }
-      ],
+      "variations": [],
       "option_groups": []
     },
     {
@@ -3187,18 +3037,18 @@
       "option_groups": []
     },
     {
-      "id": "prod-sri-lanka-idiappam-biryani-chicken",
+      "id": "prod-sri-lanka-idiyappam-biryani-chicken",
       "item_no": 30,
-      "slug": "sri-lanka-idiappam-biryani-chicken",
-      "path": "/menu/sri-lanka-idiappam-biryani-chicken/",
+      "slug": "sri-lanka-idiyappam-biryani-chicken",
+      "path": "/menu/sri-lanka-idiyappam-biryani-chicken/",
       "category_id": "cat-biryani",
       "subcategory_id": "sub-biryani-idiappam-biryani",
       "name": {
-        "en": "Sri Lanka Idiappam Biryani Chicken",
+        "en": "Sri Lanka Idiyappam Biryani Chicken",
         "ar": "برياني إديايام بالدجاج السريلانكي"
       },
       "description": {
-        "en": "Traditional shredded string hoppers (Idiappam) served with tender chicken, Pineapple Chutney, Green Peas Curry, and Onion Raitha.",
+        "en": "Traditional shredded string hoppers (Idiyappam) served with tender chicken, Pineapple Chutney, Green Peas Curry, and Onion Raitha.",
         "ar": "إديايام (نودلز الأرز) مقطعة وتقدم مع دجاج طري، شتني الأناناس، كاري البازلاء الخضراء، ورايتا البصل."
       },
       "has_variants": true,
@@ -3209,8 +3059,8 @@
       "sort_order": 300,
       "images": [
         {
-          "id": "img-prod-sri-lanka-idiappam-biryani-chicken",
-          "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
+          "id": "img-prod-sri-lanka-idiyappam-biryani-chicken",
+          "url": "/assets/images/img-sri-lanka-idiyappam-biryani-chicken.webp",
           "alt_text": {
             "en": null,
             "ar": null
@@ -3220,43 +3070,18 @@
         }
       ],
       "offers": [],
-      "variations": [
-        {
-          "id": "v-sri-lanka-idiappam-biryani-chicken-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 23,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-sri-lanka-idiappam-biryani-chicken-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 37,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20,
-          "offers": []
-        }
-      ],
+      "variations": [],
       "option_groups": []
     },
     {
-      "id": "prod-sri-lanka-idiappam-biryani-beef",
+      "id": "prod-sri-lanka-idiyappam-biryani-beef",
       "item_no": 31,
-      "slug": "sri-lanka-idiappam-biryani-beef",
-      "path": "/menu/sri-lanka-idiappam-biryani-beef/",
+      "slug": "sri-lanka-idiyappam-biryani-beef",
+      "path": "/menu/sri-lanka-idiyappam-biryani-beef/",
       "category_id": "cat-biryani",
       "subcategory_id": "sub-biryani-idiappam-biryani",
       "name": {
-        "en": "Sri Lanka Idiappam Biryani Beef",
+        "en": "Sri Lanka Idiyappam Biryani Beef",
         "ar": "برياني إديايام باللحم البقري السريلانكي"
       },
       "description": {
@@ -3271,7 +3096,7 @@
       "sort_order": 310,
       "images": [
         {
-          "id": "img-prod-sri-lanka-idiappam-biryani-beef-alternate",
+          "id": "img-prod-sri-lanka-idiyappam-biryani-beef-alternate",
           "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
           "alt_text": {
             "en": null,
@@ -3282,43 +3107,18 @@
         }
       ],
       "offers": [],
-      "variations": [
-        {
-          "id": "v-sri-lanka-idiappam-biryani-beef-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 25,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-sri-lanka-idiappam-biryani-beef-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 39,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20,
-          "offers": []
-        }
-      ],
+      "variations": [],
       "option_groups": []
     },
     {
-      "id": "prod-sri-lanka-idiappam-biryani-fish",
+      "id": "prod-sri-lanka-idiyappam-biryani-fish",
       "item_no": 32,
-      "slug": "sri-lanka-idiappam-biryani-fish",
-      "path": "/menu/sri-lanka-idiappam-biryani-fish/",
+      "slug": "sri-lanka-idiyappam-biryani-fish",
+      "path": "/menu/sri-lanka-idiyappam-biryani-fish/",
       "category_id": "cat-biryani",
       "subcategory_id": "sub-biryani-idiappam-biryani",
       "name": {
-        "en": "Sri Lanka Idiappam Biryani Fish",
+        "en": "Sri Lanka Idiyappam Biryani Fish",
         "ar": "برياني إديايام بالسمك السريلانكي"
       },
       "description": {
@@ -3333,7 +3133,7 @@
       "sort_order": 320,
       "images": [
         {
-          "id": "img-prod-sri-lanka-idiappam-biryani-fish-alternate",
+          "id": "img-prod-sri-lanka-idiyappam-biryani-fish-alternate",
           "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
           "alt_text": {
             "en": null,
@@ -3344,43 +3144,18 @@
         }
       ],
       "offers": [],
-      "variations": [
-        {
-          "id": "v-sri-lanka-idiappam-biryani-fish-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 25,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-sri-lanka-idiappam-biryani-fish-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 39,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20,
-          "offers": []
-        }
-      ],
+      "variations": [],
       "option_groups": []
     },
     {
-      "id": "prod-sri-lanka-idiappam-biryani-mutton",
+      "id": "prod-sri-lanka-idiyappam-biryani-mutton",
       "item_no": 33,
-      "slug": "sri-lanka-idiappam-biryani-mutton",
-      "path": "/menu/sri-lanka-idiappam-biryani-mutton/",
+      "slug": "sri-lanka-idiyappam-biryani-mutton",
+      "path": "/menu/sri-lanka-idiyappam-biryani-mutton/",
       "category_id": "cat-biryani",
       "subcategory_id": "sub-biryani-idiappam-biryani",
       "name": {
-        "en": "Sri Lanka Idiappam Biryani Mutton",
+        "en": "Sri Lanka Idiyappam Biryani Mutton",
         "ar": "برياني إديايام بلحم الضأن السريلانكي"
       },
       "description": {
@@ -3395,7 +3170,7 @@
       "sort_order": 330,
       "images": [
         {
-          "id": "img-prod-sri-lanka-idiappam-biryani-mutton-alternate",
+          "id": "img-prod-sri-lanka-idiyappam-biryani-mutton-alternate",
           "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
           "alt_text": {
             "en": null,
@@ -3406,43 +3181,18 @@
         }
       ],
       "offers": [],
-      "variations": [
-        {
-          "id": "v-sri-lanka-idiappam-biryani-mutton-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 27,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-sri-lanka-idiappam-biryani-mutton-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 41,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20,
-          "offers": []
-        }
-      ],
+      "variations": [],
       "option_groups": []
     },
     {
-      "id": "prod-sri-lanka-idiappam-biryani-shrimp",
+      "id": "prod-sri-lanka-idiyappam-biryani-shrimp",
       "item_no": 34,
-      "slug": "sri-lanka-idiappam-biryani-shrimp",
-      "path": "/menu/sri-lanka-idiappam-biryani-shrimp/",
+      "slug": "sri-lanka-idiyappam-biryani-shrimp",
+      "path": "/menu/sri-lanka-idiyappam-biryani-shrimp/",
       "category_id": "cat-biryani",
       "subcategory_id": "sub-biryani-idiappam-biryani",
       "name": {
-        "en": "Sri Lanka Idiappam Biryani Shrimp",
+        "en": "Sri Lanka Idiyappam Biryani Shrimp",
         "ar": "برياني إديايام بالروبيان السريلانكي"
       },
       "description": {
@@ -3457,7 +3207,7 @@
       "sort_order": 340,
       "images": [
         {
-          "id": "img-prod-sri-lanka-idiappam-biryani-shrimp-alternate",
+          "id": "img-prod-sri-lanka-idiyappam-biryani-shrimp-alternate",
           "url": "/assets/images/img-sri-lanka-idiappam-biryani-chicken.webp",
           "alt_text": {
             "en": null,
@@ -3468,32 +3218,7 @@
         }
       ],
       "offers": [],
-      "variations": [
-        {
-          "id": "v-sri-lanka-idiappam-biryani-shrimp-single",
-          "name": {
-            "en": "Single",
-            "ar": "وجبة فردية"
-          },
-          "base_price": 29,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 10,
-          "offers": []
-        },
-        {
-          "id": "v-sri-lanka-idiappam-biryani-shrimp-full",
-          "name": {
-            "en": "Full",
-            "ar": "وجبة كاملة"
-          },
-          "base_price": 43,
-          "base_kcal": 0,
-          "is_active": true,
-          "sort_order": 20,
-          "offers": []
-        }
-      ],
+      "variations": [],
       "option_groups": []
     },
     {
@@ -5067,14 +4792,14 @@
       "option_groups": []
     },
     {
-      "id": "prod-idiappam-string-hoppers-3-pieces",
+      "id": "prod-idiyappam-string-hoppers-3-pieces",
       "item_no": 70,
-      "slug": "idiappam-string-hoppers-3-pieces",
-      "path": "/menu/idiappam-string-hoppers-3-pieces/",
+      "slug": "idiyappam-string-hoppers-3-pieces",
+      "path": "/menu/idiyappam-string-hoppers-3-pieces/",
       "category_id": "cat-all-day-breakfast",
       "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
-        "en": "Idiappam (String Hoppers) - 3 Pieces",
+        "en": "Idiyappam (String Hoppers) - 3 Pieces",
         "ar": "إديابام (نودلز رفيعة من دقيق الأرز مطهوة بالبخار) - 3 قطع"
       },
       "description": {
@@ -5089,7 +4814,7 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-idiappam-string-hoppers-3-pieces-alternate",
+          "id": "img-prod-idiyappam-string-hoppers-3-pieces-alternate",
           "url": "/assets/images/img-idiappam-string-hopper.webp",
           "alt_text": {
             "en": null,
@@ -8218,14 +7943,14 @@
       "option_groups": []
     },
     {
-      "id": "prod-idiappam-string-hopper",
+      "id": "prod-idiyappam-string-hopper",
       "item_no": 133,
-      "slug": "idiappam-string-hopper",
-      "path": "/menu/idiappam-string-hopper/",
+      "slug": "idiyappam-string-hopper",
+      "path": "/menu/idiyappam-string-hopper/",
       "category_id": "cat-all-day-breakfast",
       "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
-        "en": "Idiappam (String Hopper)",
+        "en": "Idiyappam (String Hopper)",
         "ar": "إيديابام (نودلز الأرز الخيطية)"
       },
       "description": {
@@ -8240,8 +7965,8 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-idiappam-string-hopper",
-          "url": "/assets/images/img-idiappam-string-hopper.webp",
+          "id": "img-prod-idiyappam-string-hopper",
+          "url": "/assets/images/img-idiyappam-string-hopper.webp",
           "alt_text": {
             "en": null,
             "ar": null

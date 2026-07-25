@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-07-25T18:27:19.630Z",
+  "generated_at": "2026-07-25T18:33:57.146Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -2514,7 +2514,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-kottu-idiyappam-egg-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 16,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-kottu-idiyappam-egg-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -2551,7 +2576,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-kottu-idiyappam-veg-mushroom-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 18,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-kottu-idiyappam-veg-mushroom-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -2588,7 +2638,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-kottu-idiyappam-chicken-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 19,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-kottu-idiyappam-chicken-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -2625,7 +2700,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-kottu-idiyappam-beef-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 20,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-kottu-idiyappam-beef-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 31,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -2662,7 +2762,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-kottu-idiyappam-chicken-beef-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-kottu-idiyappam-chicken-beef-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 37,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -2699,7 +2824,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-mixed-kottu-idiyappam-chick-beef-shrimp-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 34,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-mixed-kottu-idiyappam-chick-beef-shrimp-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 47,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -3070,7 +3220,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-sri-lanka-idiyappam-biryani-chicken-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 23,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-sri-lanka-idiyappam-biryani-chicken-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 37,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -3107,7 +3282,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-sri-lanka-idiyappam-biryani-beef-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-sri-lanka-idiyappam-biryani-beef-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 39,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -3144,7 +3344,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-sri-lanka-idiyappam-biryani-fish-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 25,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-sri-lanka-idiyappam-biryani-fish-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 39,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -3181,7 +3406,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-sri-lanka-idiyappam-biryani-mutton-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 27,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-sri-lanka-idiyappam-biryani-mutton-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 41,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {
@@ -3218,7 +3468,32 @@
         }
       ],
       "offers": [],
-      "variations": [],
+      "variations": [
+        {
+          "id": "v-sri-lanka-idiyappam-biryani-shrimp-single",
+          "name": {
+            "en": "Single",
+            "ar": "وجبة فردية"
+          },
+          "base_price": 29,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 10,
+          "offers": []
+        },
+        {
+          "id": "v-sri-lanka-idiyappam-biryani-shrimp-full",
+          "name": {
+            "en": "Full",
+            "ar": "وجبة كاملة"
+          },
+          "base_price": 43,
+          "base_kcal": 0,
+          "is_active": true,
+          "sort_order": 20,
+          "offers": []
+        }
+      ],
       "option_groups": []
     },
     {

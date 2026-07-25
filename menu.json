@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "restaurant_id": "rest-blb-001",
-  "generated_at": "2026-07-12T13:22:30.345Z",
+  "generated_at": "2026-07-25T18:13:19.669Z",
   "option_groups": [
     {
       "id": "og-extras",
@@ -5089,13 +5089,13 @@
       "sort_order": null,
       "images": [
         {
-          "id": "img-prod-idiappam-string-hoppers-3-pieces",
-          "url": "/assets/images/img-idiappam-string-hoppers-3-pieces.webp",
+          "id": "img-prod-idiappam-string-hoppers-3-pieces-alternate",
+          "url": "/assets/images/img-idiappam-string-hopper.webp",
           "alt_text": {
             "en": null,
             "ar": null
           },
-          "sort_order": 10,
+          "sort_order": 1,
           "is_primary": true
         }
       ],
@@ -8223,7 +8223,7 @@
       "slug": "idiappam-string-hopper",
       "path": "/menu/idiappam-string-hopper/",
       "category_id": "cat-all-day-breakfast",
-      "subcategory_id": null,
+      "subcategory_id": "sub-all-day-breakfast-south-indian-breakfast",
       "name": {
         "en": "Idiappam (String Hopper)",
         "ar": "إيديابام (نودلز الأرز الخيطية)"
